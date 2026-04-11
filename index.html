@@ -541,6 +541,92 @@
             border-radius: 8px;
         }
 
+        /* ===== 唐僧仲裁决策 ===== */
+        .tang-seng-section {
+            margin-top: 16px;
+            background: linear-gradient(135deg, rgba(156,39,176,0.12) 0%, rgba(123,31,162,0.08) 100%);
+            border: 1px solid rgba(156,39,176,0.3);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        .ts-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .ts-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ce93d8;
+        }
+        .ts-position {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+            padding: 10px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+        .ts-position-label { color: var(--text-dim); font-size: 14px; }
+        .ts-position-value { font-size: 18px; font-weight: 700; color: #ce93d8; }
+        .ts-action {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--gold);
+            margin-bottom: 12px;
+            padding: 12px;
+            background: rgba(255,215,0,0.1);
+            border-radius: 8px;
+        }
+        .ts-conflicts {
+            margin-bottom: 12px;
+        }
+        .ts-conflict-title {
+            font-size: 14px;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+        .ts-conflict-item {
+            font-size: 14px;
+            color: var(--text);
+            margin-bottom: 6px;
+            padding-left: 16px;
+            position: relative;
+        }
+        .ts-conflict-item:before {
+            content: "⚠️";
+            position: absolute;
+            left: 0;
+            font-size: 12px;
+        }
+        .ts-risk-control {
+            padding: 12px;
+            background: rgba(239,83,80,0.1);
+            border-radius: 8px;
+            border-left: 3px solid #ef5350;
+        }
+        .ts-risk-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ef5350;
+            margin-bottom: 8px;
+        }
+        .ts-risk-item {
+            font-size: 13px;
+            color: var(--text);
+            margin-bottom: 4px;
+            padding-left: 16px;
+            position: relative;
+        }
+        .ts-risk-item:before {
+            content: "🛡️";
+            position: absolute;
+            left: 0;
+            font-size: 11px;
+        }
+
         .emotion-row {
             font-size: 14px;
             margin-bottom: 14px;
@@ -918,7 +1004,7 @@
                         <div class="news-title">${item.emoji} ${item.title}</div>
                         ${item.source ? '<div class="news-source">来源：' + item.source + '</div>' : ''}
                     </div>
-                    <div class="news-row"><span class="label">要点：</span>${item.summary}</div>
+                    <div class="news-row"><span class="label">要点：</span>${item.key_point || item.summary || '暂无要点'}</div>
                     <div class="news-row"><span class="label">影响时长：</span>${item.duration}</div>`;
 
             if (item.etfs && item.etfs.length) {
@@ -1197,6 +1283,40 @@
                     </div>
                     <div class="wd-advice">${wd.综合建议 || ''}</div>
                 </div>`;
+            }
+
+            // ========== 唐僧仲裁决策模块 ==========
+            const ts = data.tang_sanzang;
+            if (ts) {
+                html += `
+                <div class="section tang-seng-section">
+                    <div class="ts-header">
+                        <span style="font-size:24px">🙏</span>
+                        <div class="ts-title">唐僧仲裁决策</div>
+                    </div>
+                    <div class="ts-position">
+                        <span class="ts-position-label">建议仓位:</span>
+                        <span class="ts-position-value">${ts['仓位'] || '未定'}</span>
+                    </div>
+                    <div class="ts-action">🎯 最终行动：${ts['最终行动'] || '观望'}</div>`;
+                if (ts['仲裁矛盾'] && ts['仲裁矛盾'].length) {
+                    html += `
+                    <div class="ts-conflicts">
+                        <div class="ts-conflict-title">⚖️ 跨层矛盾仲裁:</div>
+                        ${ts['仲裁矛盾'].map(c => `<div class="ts-conflict-item">${c}</div>`).join('')}
+                    </div>`;
+                }
+                if (ts['仓位公式']) {
+                    html += `<div class="news-row" style="margin-bottom:12px"><span class="label">仓位公式:</span>${ts['仓位公式']}</div>`;
+                }
+                if (ts['风控触发'] && ts['风控触发'].length) {
+                    html += `
+                    <div class="ts-risk-control">
+                        <div class="ts-risk-title">🛡️ 风控触发条件:</div>
+                        ${ts['风控触发'].map(r => `<div class="ts-risk-item">${r}</div>`).join('')}
+                    </div>`;
+                }
+                html += `</div>`;
             }
 
             // 分隔线
