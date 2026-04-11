@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 悟空财经分析 (wnews)
 
 基于四层交叉分析模型的财经新闻网站。
@@ -41,3 +42,7 @@ https://xttey001.github.io/wnews/
 - `bajie_conclusion`: 八戒融合结论（含沙僧/白龙马信号）
 - `sangsha_module`: 沙僧散户情绪
 - `white_dragon`: 白龙马主力行为
+=======
+# wnews
+用workbuddy做的新闻
+>>>>>>> 326647e70c974264369a49241a511b3b62292c9c
