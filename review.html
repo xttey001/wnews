@@ -184,6 +184,77 @@
 
         /* 核心本质卡片 */
         .essence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 16px; }
+
+        /* ===== 进化效果统计区 ===== */
+        .evo-header {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 14px 20px; border-radius: 12px; margin-bottom: 20px;
+            background: linear-gradient(135deg, rgba(88,166,255,0.08) 0%, rgba(139,92,246,0.08) 100%);
+            border: 1px solid rgba(88,166,255,0.2);
+        }
+        .evo-header-left { display: flex; align-items: center; gap: 12px; }
+        .evo-header-icon { font-size: 24px; }
+        .evo-header-title { font-size: 16px; font-weight: 700; color: var(--blue); }
+        .evo-header-sub { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+        .evo-badge {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600;
+        }
+        .evo-badge.up { background: var(--green-bg); color: var(--green); }
+        .evo-badge.down { background: var(--red-bg); color: var(--red); }
+        .evo-badge.neutral { background: rgba(139,148,158,0.15); color: var(--text-dim); }
+
+        .evo-modules { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 20px; }
+        .evo-module-row {
+            display: grid; grid-template-columns: 44px 1fr 80px 80px 100px;
+            align-items: center; gap: 12px; padding: 14px 16px; border-radius: 10px;
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            transition: all 0.2s;
+        }
+        .evo-module-row:hover { border-color: rgba(88,166,255,0.3); background: rgba(255,255,255,0.06); }
+        .evo-module-icon { font-size: 28px; text-align: center; }
+        .evo-module-info {}
+        .evo-module-name { font-size: 14px; font-weight: 600; }
+        .evo-module-role { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+        .evo-stat { text-align: center; }
+        .evo-stat-value { font-size: 18px; font-weight: 700; }
+        .evo-stat-label { font-size: 10px; color: var(--text-dim); }
+        .evo-stat-value.green { color: var(--green); }
+        .evo-stat-value.red { color: var(--red); }
+        .evo-stat-value.gold { color: var(--gold); }
+        .evo-stat-value.blue { color: var(--blue); }
+
+        .evo-exp-list { margin-top: 8px; }
+        .evo-exp-item {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 8px 12px; border-radius: 8px; margin-bottom: 6px;
+            background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05);
+            font-size: 12px;
+        }
+        .evo-exp-id { font-weight: 600; color: var(--blue); min-width: 70px; }
+        .evo-exp-name { flex: 1; margin: 0 10px; }
+        .evo-exp-stats { display: flex; gap: 12px; }
+        .evo-exp-applied { color: var(--text-dim); }
+        .evo-exp-hitrate { font-weight: 600; }
+        .evo-exp-hitrate.high { color: var(--green); }
+        .evo-exp-hitrate.mid { color: var(--gold); }
+        .evo-exp-hitrate.low { color: var(--red); }
+
+        .evo-recent { margin-top: 16px; }
+        .evo-recent-title { font-size: 13px; font-weight: 600; color: var(--text-dim); margin-bottom: 10px; }
+        .evo-recent-item {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 14px; border-radius: 8px; margin-bottom: 8px;
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            font-size: 13px;
+        }
+        .evo-recent-date { color: var(--text-dim); min-width: 80px; }
+        .evo-recent-pred { flex: 1; }
+        .evo-recent-result {
+            padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600;
+        }
+        .evo-recent-result.correct { background: var(--green-bg); color: var(--green); }
+        .evo-recent-result.wrong { background: var(--red-bg); color: var(--red); }
         .essence-card {
             background: linear-gradient(135deg, rgba(217,153,34,0.06), transparent);
             border: 1px solid rgba(217,153,34,0.2); border-radius: 10px;
@@ -452,7 +523,7 @@ function renderDayRow(ds){
    第三段：🧠 成功范式提纯（成功的核心本质、让成功可复制）
    ============================================================== */
 function renderKnowledgeExperiences(){
-    return renderSuccessExperiences() + renderFailureAnalysis() + renderParadigmPurification();
+    return renderSuccessExperiences() + renderFailureAnalysis() + renderParadigmPurification() + renderEvolutionStats();
 }
 
 /* ===== 第一段：可复刻正确经验 ===== */
@@ -671,6 +742,133 @@ function renderParadigmPurification(){
 </div>
 </div>
 </div>`;
+}
+
+/* ===== 第四段：进化效果统计 ===== */
+function renderEvolutionStats(){
+    // 从 newsData 中提取进化数据（evolution_v4 字段）
+    let totalExperiences = 0, correctDecisions = 0, wrongDecisions = 0;
+    let moduleExperiences = {
+        wukong: {name:'悟空', icon:'🐒', role:'深度分析', exps:[], total:0},
+        sangsha: {name:'沙僧', icon:'🧔', role:'散户情绪', exps:[], total:0},
+        white_dragon: {name:'白龙马', icon:'🐉', role:'主力预判', exps:[], total:0},
+        bajie: {name:'八戒', icon:'🐷', role:'概率融合', exps:[], total:0},
+        tang_seng: {name:'唐僧', icon:'🙏', role:'最终仲裁', exps:[], total:0}
+    };
+
+    // 统计各日期的进化应用情况
+    let recentValidations = [];
+    for(let date of (availableDates || [])){
+        let dayData = newsData[date];
+        if(!dayData) continue;
+        let evo = dayData.evolution_v4;
+        if(!evo) continue;
+
+        let expMap = {
+            wukong: evo.wukong_experiences || [],
+            sangsha: evo.sangsha_experiences || [],
+            white_dragon: evo.white_dragon_experiences || [],
+            bajie: evo.bajie_experiences || [],
+            tang_seng: evo.tang_rules || []
+        };
+        for(let mod in expMap){
+            for(let exp of expMap[mod]){
+                moduleExperiences[mod].exps.push(exp);
+                moduleExperiences[mod].total++;
+                totalExperiences++;
+            }
+        }
+
+        if(evo.validation_result){
+            recentValidations.push({date:date, pred:evo.scene_metadata||{}, result:evo.validation_result});
+            if(evo.validation_result.is_correct) correctDecisions++;
+            else wrongDecisions++;
+        }
+    }
+
+    let moduleRows = '';
+    for(let mod in moduleExperiences){
+        let m = moduleExperiences[mod];
+        let uniqueExps = [...new Set(m.exps)];
+        let expCount = uniqueExps.length;
+        let expListHtml = '';
+        if(expCount > 0){
+            let expItems = uniqueExps.map(expId => {
+                return `<div class='evo-exp-item'>
+                    <span class='evo-exp-id'>${expId}</span>
+                    <span class='evo-exp-name'>${expId}</span>
+                    <span class='evo-exp-stats'>
+                        <span class='evo-exp-applied'>${m.exps.filter(e=>e===expId).length}次</span>
+                    </span>
+                </div>`;
+            }).join('');
+            expListHtml = `<div class='evo-exp-list' id='evo-exps-${mod}' style='display:none'>${expItems}</div>`;
+        }
+        let color = mod==='wukong'?'blue':mod==='sangsha'?'gold':mod==='white_dragon'?'green':mod==='bajie'?'red':'blue';
+        moduleRows += `<div class='evo-module-row' onclick="toggleExpList('evo-exps-${mod}')" style='cursor:pointer'>
+            <div class='evo-module-icon'>${m.icon}</div>
+            <div class='evo-module-info'>
+                <div class='evo-module-name' style='color:var(--${color})'>${m.name}</div>
+                <div class='evo-module-role'>${m.role} · ${expCount}条经验</div>
+            </div>
+            <div class='evo-stat'>
+                <div class='evo-stat-value ${color}'>${m.total}</div>
+                <div class='evo-stat-label'>总触发</div>
+            </div>
+            <div class='evo-stat'>
+                <div class='evo-stat-value'>${expCount}</div>
+                <div class='evo-stat-label'>经验数</div>
+            </div>
+            <div class='evo-stat'>
+                <div class='evo-stat-value blue'>${expCount>0?'▶':'—'}</div>
+                <div class='evo-stat-label'>详情</div>
+            </div>
+        </div>${expListHtml}`;
+    }
+
+    let recentHtml = '';
+    if(recentValidations.length > 0){
+        let items = recentValidations.slice(-5).reverse().map(v => {
+            let cls = v.result.is_correct?'correct':'wrong';
+            let label = v.result.is_correct?'✅ 正确':'❌ 错误';
+            return `<div class='evo-recent-item'>
+                <span class='evo-recent-date'>${v.date}</span>
+                <span class='evo-recent-pred'>${v.result.details||'已验证'}</span>
+                <span class='evo-recent-result ${cls}'>${label}</span>
+            </div>`;
+        }).join('');
+        recentHtml = `<div class='evo-recent'><div class='evo-recent-title'>最近验证结果</div>${items}</div>`;
+    }
+
+    let totalDec = correctDecisions + wrongDecisions;
+    let accRate = totalDec > 0 ? Math.round(correctDecisions/totalDec*100) : 0;
+    let accBadge = accRate>=70?'up':accRate>=50?'neutral':'down';
+
+    return `<div class='kb-section' style='margin-top:36px'>
+<div class='kb-section-header' style='color:var(--blue);border-color:rgba(88,166,255,0.25)'>🧬 进化效果统计</div>
+<div class='kb-section-desc'>五维进化系统的运行数据。每个模块注入经验后，分析准确率是否提升？<strong>数据驱动的进化方向。</strong></div>
+<div class='evo-header'>
+    <div class='evo-header-left'>
+        <div class='evo-header-icon'>🧬</div>
+        <div>
+            <div class='evo-header-title'>五维进化系统</div>
+            <div class='evo-header-sub'>经验注入 ${totalExperiences} 次 · ${totalDec} 次已验证</div>
+        </div>
+    </div>
+    <div style='display:flex;gap:8px'>
+        <div class='evo-badge ${accBadge}'>准确率 ${accRate}%</div>
+        <div class='evo-badge neutral'>${totalExperiences} 经验</div>
+    </div>
+</div>
+<div class='evo-modules'>${moduleRows}</div>
+${recentHtml}
+${totalDec===0?'<div style="text-align:center;padding:24px;color:var(--text-dim);font-size:13px">📊 系统运行中，验证数据将在5个交易日后生成<br>每次决策会自动存入待验证队列，周五自动对比实际走势</div>':''}
+</div>`;
+}
+
+function toggleExpList(id){
+    let el = document.getElementById(id);
+    if(el) el.style.display = el.style.display==='none'?'block':'none';
 }
 
 function renderAllOverview(){
