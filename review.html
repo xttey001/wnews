@@ -263,11 +263,29 @@
 </div>
 
 <!-- 引入新闻数据 -->
-<script src="news-data.js"></script>
+<script src="news-data.js" onerror="handleLoadError('news-data.js 加载失败：文件不存在或网络错误')"></script>
 <script>
 // ============================================================
-//  📊 复盘报告中心 v3 — 知识库经验版
+//  📊 复盘报告中心 v4 — 三段式进化知识库
 // ============================================================
+
+// 错误处理与超时保护
+let loadTimeout = setTimeout(function(){
+    var el = document.getElementById('reportContent');
+    if(el && el.innerHTML.indexOf('加载') !== -1){
+        el.innerHTML = renderFallback();
+    }
+}, 8000);
+
+function handleLoadError(msg){
+    clearTimeout(loadTimeout);
+    document.getElementById('reportContent').innerHTML =
+        '<div class=empty-state><span style=font-size:40px>⚠️</span><p style=color:var(--red);margin-top:12px>'+msg+'</p><p style=font-size:12px;margin-top:8px;color:var(--text-dim)>请确保 news-data.js 文件存在于同目录下</p></div>';
+}
+
+function renderFallback(){
+    return '<div class=empty-state><span style=font-size:40px>🔄</span><p>数据加载超时</p><p style=font-size:12px;margin-top:8px;color:var(--text-dim)>请刷新页面试试，或检查网络连接</p></div>';
+}
 
 function getWeekInfo(dateStr) {
     const d = new Date(dateStr.replace(/-/g, '/'));
@@ -338,8 +356,19 @@ function calcSummary(dates){
 let currentPeriod=null, allPeriods=[], currentMode='weekly';
 
 function initPage(){
+    clearTimeout(loadTimeout);
+    // 安全检查：确保 newsData 和 availableDates 存在
+    if(typeof newsData === 'undefined' || !newsData){
+        document.getElementById('reportContent').innerHTML =
+            '<div class=empty-state><span style=font-size:40px>📦</span><p>数据文件未正确加载</p><p style=font-size:12px;margin-top:8px;color:var(--text-dim)>newsData 变量不存在，请检查 news-data.js 格式</p></div>';
+        return;
+    }
+    if(typeof availableDates === 'undefined' || !availableDates || availableDates.length===0){
+        document.getElementById('reportContent').innerHTML = renderEmpty();
+        document.getElementById('periodSwitcher').innerHTML = '';
+        return;
+    }
     allPeriods=buildReviewPeriods();
-    if(!allPeriods.length){document.getElementById('reportContent').innerHTML=renderEmpty();document.getElementById('periodSwitcher').innerHTML='';return;}
     renderSwitcher();
     const wp=allPeriods.filter(p=>p.type==='weekly');
     wp.length?showPeriod(wp[0].key):switchMode('monthly');
