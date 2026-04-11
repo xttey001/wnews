@@ -80,6 +80,22 @@
             color: var(--text-dim); font-size: 13px;
         }
 
+        /* ===== 模式切换按钮 ===== */
+        .mode-switcher {
+            display: flex; justify-content: center; gap: 12px; margin-bottom: 20px;
+        }
+        .mode-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 10px 22px; border-radius: 10px; font-size: 14px; font-weight: 600;
+            cursor: pointer; transition: all 0.25s ease; border: 1px solid transparent;
+            background: var(--card-bg); color: var(--text-dim); user-select: none;
+        }
+        .mode-btn:hover { background: rgba(255,255,255,0.07); color: var(--text); }
+        .mode-btn.active {
+            background: var(--gold-bg); border-color: rgba(217,153,34,0.4);
+            color: var(--gold); box-shadow: 0 0 16px rgba(217,153,34,0.15);
+        }
+
         /* ===== 时间范围切换器 ===== */
         .period-switcher {
             display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; flex-wrap: wrap;
@@ -275,7 +291,14 @@
         <div class="subtitle">每周复盘 · 月度回顾 · 不盲从主流解读，用逻辑和数据说话</div>
     </div>
 
-    <!-- ===== 时间范围切换器 ===== -->
+    <!-- ===== 模式切换按钮（第一行） ===== -->
+    <div class="mode-switcher" id="modeSwitcher">
+        <div class="mode-btn active" data-mode="weekly" onclick="switchMode('weekly')">📅 按周查看</div>
+        <div class="mode-btn" data-mode="monthly" onclick="switchMode('monthly')">📆 按月查看</div>
+        <div class="mode-btn" data-mode="all" onclick="switchMode('all')">🗓️ 全部报告</div>
+    </div>
+
+    <!-- ===== 时间范围切换器（第二行） ===== -->
     <div class="period-switcher" id="periodSwitcher">
         <!-- JS 动态生成 -->
     </div>
@@ -516,6 +539,7 @@ function emptySummary() {
 
 let currentPeriod = null;
 let allPeriods = [];
+let currentMode = 'weekly'; // 'weekly' | 'monthly' | 'all'
 
 /** 初始化页面 */
 function initPage() {
@@ -526,23 +550,58 @@ function initPage() {
         return;
     }
 
-    // 渲染切换器
+    // 默认按周模式，显示最新的周
     renderSwitcher();
-
-    // 默认显示第一个（最新的一周）
-    showPeriod(allPeriods[0].key);
+    const weeklyPeriods = allPeriods.filter(p => p.type === 'weekly');
+    if (weeklyPeriods.length > 0) {
+        showPeriod(weeklyPeriods[0].key);
+    } else {
+        // 没有周数据就显示月
+        switchMode('monthly');
+    }
 }
 
-/** 渲染时间切换器 */
+/** 切换模式 */
+function switchMode(mode) {
+    currentMode = mode;
+    currentPeriod = null;
+
+    // 更新模式按钮样式
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.mode === mode);
+    });
+
+    if (mode === 'all') {
+        // 全部报告模式
+        document.getElementById('periodSwitcher').innerHTML = '';
+        document.getElementById('reportContent').innerHTML = renderAllOverview();
+        return;
+    }
+
+    // 周或月模式：渲染周期切换器
+    renderSwitcher();
+
+    // 显示该模式下的第一个周期
+    const filtered = allPeriods.filter(p => p.type === (mode === 'weekly' ? 'weekly' : 'monthly'));
+    if (filtered.length > 0) {
+        showPeriod(filtered[0].key);
+    } else {
+        document.getElementById('reportContent').innerHTML = renderEmpty();
+    }
+}
+
+/** 渲染时间切换器（只显示当前模式的周期） */
 function renderSwitcher() {
     const container = document.getElementById('periodSwitcher');
-    // 只显示最近的6个周期
-    const recent = allPeriods.slice(0, 6);
+    // 按当前模式过滤
+    const filtered = allPeriods.filter(p => p.type === (currentMode === 'weekly' ? 'weekly' : 'monthly'));
+    // 最多显示6个周期
+    const recent = filtered.slice(0, 6);
 
     container.innerHTML = recent.map(p => `
         <div class="period-tab${currentPeriod === p.key ? ' active' : ''}"
              data-key="${p.key}" onclick="showPeriod('${p.key}')">
-            ${p.type === 'weekly' ? '📅' : '🗓️'} ${p.label}
+            ${p.label}
             <span class="period-range">${p.range}</span>
         </div>
     `).join('');
@@ -568,8 +627,7 @@ function showPeriod(key) {
 
 /** 显示全部概览 */
 function showAllPeriods() {
-    currentPeriod = '__all__';
-    document.getElementById('reportContent').innerHTML = renderAllOverview();
+    switchMode('all');
 }
 
 /** 渲染单个周期报告 */
