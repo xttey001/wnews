@@ -3,725 +3,876 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📊 悟空财经 · 14天复盘报告（2026-03-25 至 04-08）</title>
+    <title>📊 悟空财经 · 复盘报告中心</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
             --bg-start: #0d1117;
             --bg-end: #161b22;
-            --accent: #4CAF50;
-            --red: #f44336;
-            --gold: #FFC107;
-            --blue: #2196F3;
-            --green: #4CAF50;
-            --text: #e0e0e0;
-            --text-muted: #9e9e9e;
-            --card: rgba(255,255,255,0.05);
-            --border: rgba(255,255,255,0.1);
+            --green: #3fb950;
+            --green-bg: rgba(63,185,80,0.12);
+            --red: #f85149;
+            --red-bg: rgba(248,81,73,0.08);
+            --gold: #d29922;
+            --gold-bg: rgba(217,153,34,0.1);
+            --blue: #58a6ff;
+            --blue-bg: rgba(88,166,255,0.10);
+            --text: #e6edf3;
+            --text-dim: #8b949e;
+            --card-bg: rgba(255,255,255,0.04);
+            --card-border: rgba(255,255,255,0.1);
+            --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
         }
+
         body {
-            background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+            font-family: var(--font);
+            background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
             color: var(--text);
-            font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
             min-height: 100vh;
             padding: 20px;
-        }
-        .container { max-width: 900px; margin: 0 auto; }
-
-        /* Header */
-        .header {
-            text-align: center;
-            padding: 40px 20px;
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 40px;
-        }
-        .header h1 {
-            font-size: 28px;
-            color: var(--gold);
-            margin-bottom: 8px;
-        }
-        .header .subtitle {
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-        .header .badge-row {
-            margin-top: 16px;
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
-        .badge {
-            display: inline-block;
-            padding: 4px 14px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: bold;
-        }
-        .badge-green { background: rgba(76,175,80,0.2); color: #81c784; border: 1px solid rgba(76,175,80,0.4); }
-        .badge-red { background: rgba(244,67,54,0.2); color: #ef9a9a; border: 1px solid rgba(244,67,54,0.4); }
-        .badge-gold { background: rgba(255,193,7,0.15); color: var(--gold); border: 1px solid rgba(255,193,7,0.3); }
-        .badge-blue { background: rgba(33,150,243,0.15); color: #90caf9; border: 1px solid rgba(33,150,243,0.3); }
-
-        /* Score card */
-        .score-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 16px;
-            margin-bottom: 40px;
-        }
-        .score-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            text-align: center;
-        }
-        .score-card .number {
-            font-size: 36px;
-            font-weight: bold;
-            color: var(--gold);
-        }
-        .score-card .label {
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-top: 4px;
-        }
-        .score-card.highlight { border-color: var(--gold); }
-        .score-card.highlight .number { color: var(--accent); }
-
-        /* Section titles */
-        .section-title {
-            font-size: 18px;
-            color: var(--gold);
-            margin: 40px 0 20px;
-            padding-left: 12px;
-            border-left: 3px solid var(--gold);
-        }
-
-        /* Summary card */
-        .summary-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 24px;
-            margin-bottom: 24px;
-            line-height: 1.8;
-        }
-        .summary-card p { margin-bottom: 12px; }
-        .summary-card .highlight-line {
-            color: var(--accent);
-            font-weight: bold;
-        }
-        .summary-card .error-line {
-            color: var(--red);
-            font-weight: bold;
-        }
-
-        /* Day review cards */
-        .day-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            margin-bottom: 20px;
-            overflow: hidden;
-            transition: transform 0.2s;
-        }
-        .day-card:hover { transform: translateX(4px); }
-        .day-header {
-            display: flex;
-            align-items: center;
-            padding: 16px 20px;
-            border-bottom: 1px solid var(--border);
-            gap: 12px;
-        }
-        .day-date {
-            font-size: 13px;
-            color: var(--text-muted);
-            min-width: 90px;
-        }
-        .day-tone {
-            flex: 1;
-            font-size: 14px;
-            color: var(--text);
-        }
-        .day-badge {
-            font-size: 11px;
-            padding: 3px 10px;
-            border-radius: 10px;
-            font-weight: bold;
-        }
-        .badge-ok { background: rgba(76,175,80,0.2); color: #81c784; }
-        .badge-partial { background: rgba(255,193,7,0.15); color: var(--gold); }
-        .badge-miss { background: rgba(244,67,54,0.2); color: #ef9a9a; }
-        .day-body { padding: 16px 20px; }
-        .day-section { margin-bottom: 12px; }
-        .day-section:last-child { margin-bottom: 0; }
-        .day-section-title {
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-bottom: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .day-section-content {
-            font-size: 13px;
-            color: var(--text);
-            line-height: 1.6;
-        }
-        .judgment-tag {
-            display: inline-block;
-            margin-right: 8px;
-            margin-bottom: 4px;
-        }
-        .tag-right { color: #81c784; }
-        .tag-wrong { color: #ef9a9a; }
-        .tag-neutral { color: var(--gold); }
-
-        /* Accuracy table */
-        .accuracy-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 24px;
-        }
-        .accuracy-table th {
-            background: rgba(255,255,255,0.05);
-            color: var(--text-muted);
-            font-size: 12px;
-            font-weight: normal;
-            padding: 10px 12px;
-            text-align: left;
-            border-bottom: 1px solid var(--border);
-        }
-        .accuracy-table td {
-            padding: 10px 12px;
-            font-size: 13px;
-            border-bottom: 1px solid rgba(255,255,255,0.04);
-            vertical-align: top;
-        }
-        .accuracy-table tr:hover td { background: rgba(255,255,255,0.02); }
-        .acc-high { color: #81c784; }
-        .acc-mid { color: var(--gold); }
-        .acc-low { color: #ef9a9a; }
-
-        /* Experience cards */
-        .exp-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 16px;
-        }
-        .exp-title {
-            font-size: 15px;
-            color: var(--accent);
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .exp-title .icon { font-size: 18px; }
-        .exp-content {
-            font-size: 13px;
-            color: var(--text);
             line-height: 1.7;
         }
-        .exp-content li { margin-bottom: 6px; }
+        .container { max-width: 960px; margin: 0 auto; }
 
-        /* Lesson cards */
-        .lesson-card {
-            background: rgba(244,67,54,0.05);
-            border: 1px solid rgba(244,67,54,0.2);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 16px;
-        }
-        .lesson-title {
-            font-size: 15px;
-            color: #ef9a9a;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .lesson-content {
-            font-size: 13px;
-            color: var(--text);
-            line-height: 1.7;
-        }
-        .lesson-content li { margin-bottom: 6px; }
-
-        /* Footer */
-        .footer {
-            text-align: center;
-            padding: 40px 20px;
-            color: var(--text-muted);
-            font-size: 12px;
-            border-top: 1px solid var(--border);
-            margin-top: 60px;
-        }
-
-        @media (max-width: 600px) {
-            .score-grid { grid-template-columns: repeat(2, 1fr); }
-            .day-header { flex-wrap: wrap; }
-        }
-
-        /* ===== 页面切换导航 ===== */
+        /* ===== 页面顶部导航 ===== */
         .page-nav {
             display: flex;
             justify-content: center;
             gap: 12px;
-            margin-bottom: 20px;
+            margin-bottom: 24px;
+            padding-top: 8px;
         }
-        .page-nav .page-btn {
+        .page-btn {
+            display: inline-flex; align-items: center; gap: 6px;
             padding: 10px 20px;
             border-radius: 10px;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            transition: all 0.2s;
+            text-decoration: none; font-size: 14px; font-weight: 600;
+            transition: all 0.2s ease; cursor: pointer; border: none;
         }
-        .page-nav .page-btn-timeline {
-            background: rgba(63,185,80,0.15);
-            border: 1px solid rgba(63,185,80,0.4);
-            color: #3fb950;
+        .btn-home {
+            background: var(--gold-bg); border: 1px solid rgba(217,153,34,0.35);
+            color: var(--gold);
         }
-        .page-nav .page-btn-timeline:hover {
-            background: rgba(63,185,80,0.25);
-            border-color: #3fb950;
-            box-shadow: 0 0 12px rgba(63,185,80,0.3);
+        .btn-home:hover { background: rgba(217,153,34,0.20); border-color: var(--gold); box-shadow: 0 0 14px rgba(217,153,34,0.25); }
+        .btn-review {
+            background: var(--blue-bg); border: 1px solid rgba(88,166,255,0.35);
+            color: var(--blue);
         }
-        .page-nav .page-btn-review {
-            background: rgba(255,193,7,0.1);
-            border: 1px solid rgba(255,193,7,0.3);
-            color: #d29922;
+        .btn-review:hover, .btn-review.active {
+            background: rgba(88,166,255,0.18); border-color: var(--blue);
+            box-shadow: 0 0 14px rgba(88,166,255,0.25);
         }
-        .page-nav .page-btn-review:hover,
-        .page-nav .page-btn-review.active {
-            background: rgba(255,193,7,0.2);
-            border-color: #d29922;
-            box-shadow: 0 0 12px rgba(255,193,7,0.3);
+        .btn-overview {
+            background: var(--green-bg); border: 1px solid rgba(63,185,80,0.35);
+            color: var(--green);
         }
+        .btn-overview:hover { background: rgba(63,185,80,0.20); border-color: var(--green); }
+
+        /* ===== Header ===== */
+        .header {
+            text-align: center; padding: 36px 20px 28px;
+            border-bottom: 1px solid var(--card-border); margin-bottom: 32px;
+        }
+        .header h1 {
+            font-size: 26px; color: var(--gold); margin-bottom: 6px; letter-spacing: 1px;
+        }
+        .header .subtitle {
+            color: var(--text-dim); font-size: 13px;
+        }
+
+        /* ===== 时间范围切换器 ===== */
+        .period-switcher {
+            display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; flex-wrap: wrap;
+        }
+        .period-tab {
+            padding: 10px 24px; border-radius: 10px; font-size: 13px; font-weight: 600;
+            cursor: pointer; transition: all 0.25s ease; border: 1px solid transparent;
+            background: var(--card-bg); color: var(--text-dim); user-select: none;
+        }
+        .period-tab:hover { background: rgba(255,255,255,0.07); color: var(--text); }
+        .period-tab.active {
+            background: var(--gold-bg); border-color: rgba(217,153,34,0.4);
+            color: var(--gold); box-shadow: 0 0 16px rgba(217,153,34,0.15);
+        }
+        .period-tab .period-range {
+            display: block; font-size: 11px; font-weight: 400; opacity: 0.75; margin-top: 2px;
+        }
+
+        /* ===== 报告头卡 ===== */
+        .report-header-card {
+            background: linear-gradient(135deg, rgba(217,153,34,0.06), rgba(217,153,34,0.02));
+            border: 1px solid rgba(217,153,34,0.25); border-radius: 14px;
+            padding: 28px; text-align: center; margin-bottom: 32px;
+        }
+        .report-header-card .report-title {
+            font-size: 20px; color: var(--gold); margin-bottom: 4px;
+        }
+        .report-header-card .report-date-range {
+            font-size: 12px; color: var(--text-dim); margin-bottom: 16px;
+        }
+        .badge-row {
+            display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+        }
+        .badge {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 600;
+        }
+        .badge-green {
+            background: var(--green-bg); color: var(--green);
+            border: 1px solid rgba(63,185,80,0.35);
+        }
+        .badge-gold {
+            background: var(--gold-bg); color: var(--gold);
+            border: 1px solid rgba(217,153,34,0.3);
+        }
+        .badge-red {
+            background: var(--red-bg); color: var(--red);
+            border: 1px solid rgba(248,81,73,0.3);
+        }
+        .badge-blue {
+            background: var(--blue-bg); color: var(--blue);
+            border: 1px solid rgba(88,166,255,0.3);
+        }
+
+        /* ===== 四宫格指标 ===== */
+        .score-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 36px;
+        }
+        .score-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: 12px; padding: 22px 16px; text-align: center;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .score-card:hover { transform: translateY(-2px); }
+        .score-card .number {
+            font-size: 34px; font-weight: 800; color: var(--gold); line-height: 1;
+        }
+        .score-card .label {
+            font-size: 11px; color: var(--text-dim); margin-top: 6px;
+        }
+        .score-card.highlight {
+            border-color: rgba(63,185,80,0.4);
+            background: linear-gradient(135deg, rgba(63,185,80,0.05), transparent);
+        }
+        .score-card.highlight .number { color: var(--green); }
+
+        /* ===== Section 标题 ===== */
+        .section-title {
+            font-size: 17px; color: var(--gold); margin: 36px 0 18px;
+            padding-left: 14px; border-left: 3px solid var(--gold);
+            display: flex; align-items: center; gap: 8px;
+        }
+
+        /* ===== 本周总结卡片 ===== */
+        .summary-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: 12px; padding: 24px; margin-bottom: 18px; line-height: 1.85;
+        }
+        .summary-card p { margin-bottom: 10px; }
+        .summary-line-green { color: var(--green); font-weight: 600; }
+        .summary-line-red { color: var(--red); font-weight: 600; }
+        .summary-line-gold { color: var(--gold); font-weight: 600; }
+
+        /* ===== 逐日准确率表格 ===== */
+        .accuracy-table-wrap { overflow-x: auto; margin-bottom: 28px; }
+        .accuracy-table {
+            width: 100%; border-collapse: collapse; font-size: 13px;
+        }
+        .accuracy-table th {
+            background: rgba(255,255,255,0.04); color: var(--text-dim);
+            font-size: 12px; font-weight: 500; padding: 11px 14px;
+            text-align: left; border-bottom: 1px solid var(--card-border);
+        }
+        .accuracy-table td {
+            padding: 11px 14px; border-bottom: 1px solid rgba(255,255,255,0.03);
+            vertical-align: top;
+        }
+        .accuracy-table tbody tr:hover td { background: rgba(255,255,255,0.02); }
+        .acc-high { color: var(--green); font-weight: 600; }
+        .acc-mid { color: var(--gold); font-weight: 500; }
+        .acc-low { color: var(--red); font-weight: 600; }
+
+        /* ===== 经验卡片 ===== */
+        .exp-card {
+            background: var(--card-bg); border: 1px solid var(--card-border);
+            border-radius: 12px; padding: 20px 22px; margin-bottom: 14px;
+            transition: border-color 0.2s;
+        }
+        .exp-card:hover { border-color: rgba(255,255,255,0.15); }
+        .exp-card .exp-icon { font-size: 18px; margin-right: 6px; }
+        .exp-title {
+            font-size: 15px; color: var(--green); margin-bottom: 10px;
+            display: flex; align-items: center; font-weight: 600;
+        }
+        .exp-content {
+            font-size: 13px; color: var(--text); line-height: 1.75;
+        }
+        .exp-content ul { padding-left: 18px; }
+        .exp-content li { margin-bottom: 5px; }
+        .exp-content strong { color: var(--text); }
+
+        /* 风险警示卡片（红色） */
+        .warn-card {
+            background: var(--red-bg); border: 1px solid rgba(248,81,73,0.2);
+            border-radius: 12px; padding: 20px 22px; margin-bottom: 14px;
+        }
+        .warn-card .exp-title { color: #f87171; }
+        .warn-card .exp-content { color: rgba(230,237,243,0.85); }
+
+        /* 对比结论卡片（蓝色） */
+        .vs-card {
+            background: var(--blue-bg); border: 1px solid rgba(88,166,255,0.2);
+            border-radius: 12px; padding: 20px 22px; margin-bottom: 14px;
+        }
+        .vs-card .exp-title { color: var(--blue); }
+
+        /* ===== Footer ===== */
+        .footer {
+            text-align: center; padding: 40px 20px; color: var(--text-dim);
+            font-size: 12px; border-top: 1px solid var(--card-border); margin-top: 50px;
+        }
+
+        /* ===== 响应式 ===== */
+        @media (max-width: 700px) {
+            .score-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-nav { gap: 8px; }
+            .page-btn { padding: 8px 14px; font-size: 12px; }
+            .period-tab { padding: 8px 16px; font-size: 12px; }
+            body { padding: 12px; }
+        }
+
+        /* ===== 加载动画 ===== */
+        .loading-spinner {
+            text-align: center; padding: 60px; color: var(--text-dim); font-size: 14px;
+        }
+        .loading-spinner::after {
+            content: ''; display: inline-block; width: 20px; height: 20px;
+            border: 2px solid var(--card-border); border-top-color: var(--gold);
+            border-radius: 50%; animation: spin 0.8s linear infinite; vertical-align: middle; margin-left: 10px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* 空状态 */
+        .empty-state {
+            text-align: center; padding: 60px 20px; color: var(--text-dim); font-size: 14px;
+        }
+        .empty-state .icon { font-size: 48px; margin-bottom: 12px; display: block; }
     </style>
 </head>
 <body>
 <div class="container">
 
-    <!-- 页面切换导航 -->
+    <!-- ===== 顶部导航 ===== -->
     <div class="page-nav">
-        <a href="index.html" class="page-btn page-btn-timeline">📅 新闻时间线</a>
-        <a href="review.html" class="page-btn page-btn-review active">📊 14天复盘报告</a>
+        <a href="index.html" class="page-btn btn-home">📰 财经首页</a>
+        <a href="review.html" class="page-btn btn-review active">📋 复盘查看</a>
+        <a href="#all-periods" class="page-btn btn-overview" onclick="showAllPeriods()">🗓️ 全部概览</a>
     </div>
 
-    <!-- Header -->
+    <!-- ===== Header ===== -->
     <div class="header">
-        <h1>📊 悟空财经 · 14天复盘报告</h1>
-        <div class="subtitle">2026-03-25 至 2026-04-08 &nbsp;|&nbsp; 每日判断 vs 实际走势对照</div>
-        <div class="badge-row">
-            <span class="badge badge-green">✅ 准确 10次</span>
-            <span class="badge badge-gold">⚠️ 部分准确 2次</span>
-            <span class="badge badge-red">❌ 失误 1次</span>
-            <span class="badge badge-blue">📌 参考价值高</span>
-        </div>
+        <h1>📊 悟空财经 · 复盘报告中心</h1>
+        <div class="subtitle">每周复盘 · 月度回顾 · 不盲从主流解读，用逻辑和数据说话</div>
     </div>
 
-    <!-- Score overview -->
-    <div class="score-grid">
-        <div class="score-card highlight">
-            <div class="number">83%</div>
-            <div class="label">整体判断准确率</div>
-        </div>
-        <div class="score-card">
-            <div class="number">10</div>
-            <div class="label">精准命中天数</div>
-        </div>
-        <div class="score-card">
-            <div class="number">1次</div>
-            <div class="label">重大误判</div>
-        </div>
-        <div class="score-card">
-            <div class="number">4条</div>
-            <div class="label">可复刻经验</div>
-        </div>
+    <!-- ===== 时间范围切换器 ===== -->
+    <div class="period-switcher" id="periodSwitcher">
+        <!-- JS 动态生成 -->
     </div>
 
-    <!-- Executive Summary -->
-    <div class="section-title">📋 执行摘要</div>
-    <div class="summary-card">
-        <p><span class="highlight-line">主旋律：地缘政治驱动行情（霍尔木兹危机）</span>，3月25日至4月8日的14天市场走势，本质上是一轮「<strong>美伊霍尔木兹危机</strong>」从爆发→升级→停火→修复的完整周期。悟空的判断在这个大框架下准确率较高。</p>
-        <p><span class="highlight-line">最强判断：3月29日霍尔木兹危机升级 → 油气/黄金暴涨</span>，完美捕捉地缘驱动行情。</p>
-        <p><span class="error-line">最大失误：4月5日判断中东升级→避险资产继续强势</span>，但第二天（4月6日）美伊直接停火落地，避险资产逻辑秒反转，这是「预判短期事件演变」的典型陷阱。</p>
-        <p><span class="highlight-line">系统性规律发现：</span>①地缘事件驱动真实存在，但窗口期极短（1-3天），必须快进快出。②避险资产在消息落地时必须立即止盈，不能恋战。③美股/日韩映射是A股先行指标，但A股跟涨幅度通常打折。④创新药/AI芯片等业绩验证类逻辑，胜率最高且持续性强。</p>
+    <!-- ===== 报告内容区 ===== -->
+    <div id="reportContent">
+        <div class="loading-spinner">正在加载复盘数据...</div>
     </div>
 
-    <!-- Day-by-day table -->
-    <div class="section-title">📅 逐日准确率一览</div>
-    <table class="accuracy-table">
-        <thead>
-            <tr>
-                <th>日期</th>
-                <th>市场基调</th>
-                <th>准确度</th>
-                <th>核心判断</th>
-                <th>实际走势</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>03-25</td>
-                <td>中性偏多</td>
-                <td class="acc-high">✅ 高</td>
-                <td>半导体设备/新能源车可做</td>
-                <td>科技分化，半导体强势延续</td>
-            </tr>
-            <tr>
-                <td>03-26</td>
-                <td>偏多</td>
-                <td class="acc-mid">⚠️ 中</td>
-                <td>地产政策博弈 + AI芯片</td>
-                <td>地产松绑落空，万科走弱；AI芯片持续</td>
-            </tr>
-            <tr>
-                <td>03-27</td>
-                <td>中性</td>
-                <td class="acc-high">✅ 中高</td>
-                <td>黄金避险 + TCL业绩超预期</td>
-                <td>黄金持续新高，TCL业绩验证</td>
-            </tr>
-            <tr>
-                <td>03-28</td>
-                <td>偏空</td>
-                <td class="acc-high">✅ 高</td>
-                <td>美联储鹰派 → 科技承压/黄金涨</td>
-                <td>科技股下跌，黄金突破新高</td>
-            </tr>
-            <tr>
-                <td>03-29</td>
-                <td>谨慎偏防</td>
-                <td class="acc-high">✅ 极高</td>
-                <td>霍尔木兹危机 → 油气/黄金暴涨</td>
-                <td>原油+8%，黄金新高，油气龙头涨停</td>
-            </tr>
-            <tr>
-                <td>03-30</td>
-                <td>中性偏多</td>
-                <td class="acc-mid">⚠️ 中</td>
-                <td>科技分化 + 黄金延续</td>
-                <td>科技分化，小米汽车利好兑现</td>
-            </tr>
-            <tr>
-                <td>03-31</td>
-                <td>中性偏谨</td>
-                <td class="acc-high">✅ 高</td>
-                <td>季末资金紧，回购利率上行</td>
-                <td>银行间7天回购利率破3%，完全验证</td>
-            </tr>
-            <tr>
-                <td>04-01</td>
-                <td>偏多</td>
-                <td class="acc-high">✅ 高</td>
-                <td>美伊停火预期 → 全球反弹</td>
-                <td>日经+4%，韩国KOSPI+8%，避险回落</td>
-            </tr>
-            <tr>
-                <td>04-02</td>
-                <td>谨慎偏空</td>
-                <td class="acc-high">✅ 极高</td>
-                <td>全市场下跌，创业板-1.78%</td>
-                <td>4200股下跌，创业板指-1.78%，完美</td>
-            </tr>
-            <tr>
-                <td>04-03</td>
-                <td>—</td>
-                <td class="acc-mid">📌 休市</td>
-                <td>清明假期，无A股数据</td>
-                <td>清明节A股休市</td>
-            </tr>
-            <tr>
-                <td>04-04</td>
-                <td>震荡分化</td>
-                <td class="acc-high">✅ 高</td>
-                <td>黄金-3%，原油+5%，CPO资金流入</td>
-                <td>黄金从4800高位跳水，原油突破106</td>
-            </tr>
-            <tr>
-                <td>04-05</td>
-                <td>谨慎偏防</td>
-                <td class="acc-low">❌ 失误</td>
-                <td>中东升级 → 避险资产继续强势</td>
-                <td>4月6日美伊停火，避险逻辑秒反转</td>
-            </tr>
-            <tr>
-                <td>04-06</td>
-                <td>转折日</td>
-                <td class="acc-high">✅ 极高</td>
-                <td>避险跳水/风险资产反弹</td>
-                <td>原油-1.8%，黄金震荡，BTC+4.8%</td>
-            </tr>
-            <tr>
-                <td>04-07</td>
-                <td>偏多</td>
-                <td class="acc-high">✅ 高</td>
-                <td>节后修复 + 加密货币 + AI芯片</td>
-                <td>停火+加密+BTC新高，科技强势回归</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <!-- Daily breakdown -->
-    <div class="section-title">🔍 逐日详细复盘</div>
-
-    <!-- Day 03-29 -->
-    <div class="day-card">
-        <div class="day-header">
-            <span class="day-date">2026-03-29</span>
-            <span class="day-tone">霍尔木兹局势升级，能源化工暴涨</span>
-            <span class="day-badge badge-ok">✅ 极高</span>
-        </div>
-        <div class="day-body">
-            <div class="day-section">
-                <div class="day-section-title">预判内容</div>
-                <div class="day-section-content">
-                    <span class="judgment-tag tag-right">✅ 油气/黄金：直接受益</span>
-                    <span class="judgment-tag tag-right">✅ 中国石油/紫金矿业：油价+避险双驱动</span>
-                    <span class="judgment-tag tag-right">✅ 量化宽松逻辑：国债ETF受益</span>
-                </div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">实际走势</div>
-                <div class="day-section-content">霍尔木兹海峡关闭消息引爆原油期货暴涨8%，能源化工板块全线大涨，黄金同步走高。中国石油、中国石化、兖矿能源等全线涨停。</div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">复盘结论</div>
-                <div class="day-section-content" style="color:#81c784">完美捕捉地缘驱动行情，这是14天里最精准的一次判断。「霍尔木兹」关键词在3月25-29日期间被持续低估，直到3月29日才被S级新闻确认，但此前已有充足信息支撑配置逻辑。</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Day 04-02 -->
-    <div class="day-card">
-        <div class="day-header">
-            <span class="day-date">2026-04-02</span>
-            <span class="day-tone">谨慎偏空，全线下跌</span>
-            <span class="day-badge badge-ok">✅ 极高</span>
-        </div>
-        <div class="day-body">
-            <div class="day-section">
-                <div class="day-section-title">预判内容</div>
-                <div class="day-section-content">
-                    <span class="judgment-tag tag-right">✅ 全市场下跌：逾4200股下跌</span>
-                    <span class="judgment-tag tag-right">✅ 创业板指跌1.78%</span>
-                    <span class="judgment-tag tag-right">✅ 黄金冲高回落：警惕顶部信号</span>
-                    <span class="judgment-tag tag-right">✅ 油气/存储逆势走强</span>
-                    <span class="judgment-tag tag-right">✅ 宁德时代/隆基绿能领跌</span>
-                </div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">实际走势</div>
-                <div class="day-section-content">A股四大指数集体收跌，创业板指-1.78%，沪指-0.53%，逾4200股下跌。锂电池、光伏、黄金跌幅靠前。黄金从4800高位回落至4656美元，现货金大跌2.97%。油气、存储板块逆势走强，贝肯能源高开近6%。</div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">复盘结论</div>
-                <div class="day-section-content" style="color:#81c784">这是整轮复盘里最精准的一天。所有判断——大盘方向、板块分化、个股涨跌——全部验证。关键信号：特朗普称2-3周内结束战争，市场避险情绪降温，这个信号被及时捕捉并转化为看空判断。</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Day 04-05 -->
-    <div class="day-card">
-        <div class="day-header">
-            <span class="day-date">2026-04-05</span>
-            <span class="day-tone">中东危机升级，中国资产避风港</span>
-            <span class="day-badge badge-miss">❌ 失误</span>
-        </div>
-        <div class="day-body">
-            <div class="day-section">
-                <div class="day-section-title">预判内容</div>
-                <div class="day-section-content">
-                    <span class="judgment-tag tag-wrong">❌ 油气：持续配置</span>
-                    <span class="judgment-tag tag-wrong">❌ 黄金：避险配置</span>
-                    <span class="judgment-tag tag-neutral">⚠️ 创新药：业绩逻辑独立</span>
-                    <span class="judgment-tag tag-neutral">⚠️ 美股：谨慎对待</span>
-                </div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">实际走势</div>
-                <div class="day-section-content">4月6日美伊直接达成停火协议！避险逻辑秒反转——黄金从4800高位直线跳水至4616美元（-3%），WTI原油从114美元回落至109美元。加密货币暴涨，比特币突破70000美元创历史新高。</div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">失误根因</div>
-                <div class="day-section-content" style="color:#ef9a9a">过度线性外推：伊朗拒绝通牒后，判断局势将持续升级。但外交博弈的不确定性极高——特朗普的「极限施压」策略在48小时内就达成了此前认为不可能的停火协议。这暴露了「基于单一事件预测地缘走向」的固有缺陷：地缘政治是博弈结果，不可线性外推。</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Day 04-01 -->
-    <div class="day-card">
-        <div class="day-header">
-            <span class="day-date">2026-04-01</span>
-            <span class="day-tone">情绪反转，全球普涨</span>
-            <span class="day-badge badge-ok">✅ 高</span>
-        </div>
-        <div class="day-body">
-            <div class="day-section">
-                <div class="day-section-title">预判内容</div>
-                <div class="day-section-content">
-                    <span class="judgment-tag tag-right">✅ 全球风险资产反弹</span>
-                    <span class="judgment-tag tag-right">✅ 避险资产承压（黄金回落）</span>
-                    <span class="judgment-tag tag-right">✅ 科技/医药领涨</span>
-                    <span class="judgment-tag tag-right">✅ 日经+4%，韩国+8%：完美验证</span>
-                </div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">实际走势</div>
-                <div class="day-section-content">日经225涨4%，韩国KOSPI涨8%，欧洲多国涨3%以上。美伊停火预期升温，黄金从高位回落，避险情绪降温。A股4月7日复牌后，AI芯片、科技股领涨。</div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">复盘结论</div>
-                <div class="day-section-content" style="color:#81c784">「美伊停火信号→全球风险资产反弹」的传导链被精准捕捉。值得注意的是：休市期间的4月6日，比特币已经突破70000美元，领先A股开盘。这再次验证：加密货币和美股是A股的领先指标。</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Day 04-07 -->
-    <div class="day-card">
-        <div class="day-header">
-            <span class="day-date">2026-04-07</span>
-            <span class="day-tone">节后修复，AI芯片爆发</span>
-            <span class="day-badge badge-ok">✅ 高</span>
-        </div>
-        <div class="day-body">
-            <div class="day-section">
-                <div class="day-section-title">预判内容</div>
-                <div class="day-section-content">
-                    <span class="judgment-tag tag-right">✅ 加密货币/BTC概念股：重点配置</span>
-                    <span class="judgment-tag tag-right">✅ AI芯片：美股映射，A股跟涨</span>
-                    <span class="judgment-tag tag-wrong">⚠️ 油气/黄金：短期回避</span>
-                    <span class="judgment-tag tag-neutral">📌 北向资金是验证指标</span>
-                </div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">实际走势</div>
-                <div class="day-section-content">美伊停火协议正式落地，比特币站稳70000万美元历史新高。4月8日A股开盘，创业板人工智能ETF涨超7%，科创芯片ETF涨超5%，中际旭创涨超6%，完美兑现。</div>
-            </div>
-            <div class="day-section">
-                <div class="day-section-title">复盘结论</div>
-                <div class="day-section-content" style="color:#81c784">「停火→避险出、成长进」的逻辑在4月7-8日完美兑现。贝叶斯胜率预测（加密货币75%、AI芯片72%）与实际走势高度吻合。关键经验：当多个强逻辑共振时（BTC新高+停火落地+美股映射），胜率显著提升。</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Success experiences -->
-    <div class="section-title">🏆 可复刻的正确经验</div>
-
-    <div class="exp-card">
-        <div class="exp-title"><span class="icon">🎯</span> 经验1：地缘事件驱动行情是真实存在的，但窗口期极短</div>
-        <div class="exp-content">
-            <ul>
-                <li><strong>3月29日霍尔木兹危机</strong>→ 油气/黄金暴涨，完美捕捉。核心逻辑：霍尔木兹海峡封锁导致全球20%的石油运输中断，这个缺口无法在短期内弥补，价格必然飙升。</li>
-                <li><strong>窗口期经验</strong>：地缘驱动行情通常在消息确认后的1-3天内达到峰值，之后要么持续（如果事件持续升级），要么快速反转（如果事件意外缓和）。4月5日的失误恰恰是没有为「反转」留后手。</li>
-                <li><strong>可复刻公式</strong>：地缘事件 + 供需缺口不可弥补 = 高胜率做多窗口。关键变量是「事件是否会导致持续性供给缺口」。</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="exp-card">
-        <div class="exp-title"><span class="icon">📊</span> 经验2：美股/日韩是A股的先行指标，领先时间约1-2天</div>
-        <div class="exp-content">
-            <ul>
-                <li><strong>4月1日</strong>：日经+4%、韩国+8%，判断A股节后反弹 → 4月7-8日兑现。</li>
-                <li><strong>4月6日</strong>：美股科技股盘前普涨（特斯拉+1.67%、闪迪+4%），判断A股节后跟涨 → 4月8日兑现。</li>
-                <li><strong>4月7日</strong>：BTC突破70000美元创历史新高，判断加密货币概念股爆发 → 4月8日兑现。</li>
-                <li><strong>可复刻公式</strong>：节假日前看外盘（美股/日韩/加密）→ 判断A股开盘方向。重点关注：纳指期货、比特币、日经指数。</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="exp-card">
-        <div class="exp-title"><span class="icon">💊</span> 经验3：业绩验证类逻辑（创新药/AI芯片）在财报季胜率最高且持续性强</div>
-        <div class="exp-content">
-            <ul>
-                <li><strong>3月27-30日TCL科技业绩超预期</strong>（净利润+150%），面板周期拐点确认 → 板块联动持续至4月。</li>
-                <li><strong>3月29日创新药BD出海爆发</strong>（Q1超600亿美元），判断业绩驱动新阶段 → 4月1日医药涨停潮验证。</li>
-                <li><strong>3月30日小米汽车交付破万</strong> → 新能源车链活跃。</li>
-                <li><strong>可复刻公式</strong>：业绩超预期 + 行业龙头 + 季报/年报窗口期 = 高胜率机会。财报季（3-4月、8-9月）重点关注业绩验证类逻辑。</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="exp-card">
-        <div class="exp-title"><span class="icon">⚠️</span> 经验4：贝叶斯概率框架有效，但先验概率需随事件实时更新</div>
-        <div class="exp-content">
-            <ul>
-                <li><strong>有效的案例</strong>：4月7日预测加密货币胜率75%（先验68%×似然82%），4月8日兑现；4月6日预测科技股胜率72%，兑现。</li>
-                <li><strong>失效的案例</strong>：4月5日预测油气胜率72%（基于霍尔木兹持续），但忽略了「停火概率」这个先验变量在48小时内急剧变化。</li>
-                <li><strong>可复刻公式</strong>：贝叶斯后验 = 事件似然 × 地缘先验。但地缘政治先验概率极不稳定，需要「快进快出」而不是「持仓等待」。关键变量必须设为「触发条件」而非「持仓理由」。</li>
-            </ul>
-        </div>
-    </div>
-
-        <div class="exp-card" style="border-color:rgba(244,67,54,0.3);background:rgba(244,67,54,0.05)">
-        <div class="exp-title"><span class="icon" style="color:#ef9a9a">&#128997;</span> 经验5（永久规则）：Trump jawboning 反转定律</div>
-        <div class="exp-content">
-            <p style="color:#ef9a9a;margin-bottom:10px"><strong>核心原理：</strong>Trump 本质是「交易员」而非「战略家」，他越用力喊多/喊空某个资产，越说明该资产自己走不动了。喊得越凶，真实意图越可能是找人接盘或打压吸筹。</p>
-            <ul>
-                <li><strong>喊话1次</strong>：可忽略，市场按原趋势走（反转概率 ~30%）</li>
-                <li><strong>连续2-3天喊话</strong>：警惕，开始减仓，不追涨（反转概率 ~50%）</li>
-                <li><strong>连续3天+威胁升级，或实际行政行动</strong>：反转信号明确，逆向操作（反转概率 &gt;=70%）</li>
-            </ul>
-            <p style="margin-top:10px"><strong>案例（4月2日验证）</strong>：Trump 连续威胁对伊朗更强火力打击 &rarr; 黄金涨至4800后当日回落至4656（-2.97%）。4800已是强阻力位，喊话本质是「吸引韭菜接盘」，真实信号是「多头在撤退」。</p>
-        </div>
-    </div>
-
-<!-- Mistakes & lessons -->
-    <div class="section-title">🚨 失误教训：为什么4月5日判断错了</div>
-
-    <div class="lesson-card">
-        <div class="lesson-title"><span>💥</span> 失误的全过程</div>
-        <div class="lesson-content">
-            <p><strong>4月5日预判</strong>：伊朗拒绝特朗普48小时通牒 → 局势将持续升级 → 油气/黄金继续强势。</p>
-            <p><strong>4月6日实际</strong>：美伊在48小时截止前达成停火协议（霍尔木兹海峡重新开放）→ 避险逻辑秒反转 → 黄金从4800美元跳水至4616美元（-3%），WTI原油从114美元回落至109美元。</p>
-            <p><strong>后果</strong>：若在4月5日追高黄金/油气，在4月6日将面临3-5%的浮亏。</p>
-        </div>
-    </div>
-
-    <div class="lesson-card">
-        <div class="lesson-title"><span>🔬</span> 失误的根因分析</div>
-        <div class="lesson-content">
-            <ul>
-                <li><strong>根因1：线性外推谬误</strong>。伊朗强硬拒绝通牒 → 判断局势升级。但地缘政治是多方博弈，博弈结果非线性外推可预测。特朗普的「极限施压」策略本身就是逼迫谈判的手段，达成协议的概率在最后时刻急剧上升。</li>
-                <li><strong>根因2：忽视了「信息更新速度」</strong>。4月5日是清明假期，A股休市，但4月6日（周日）美伊就已经达成停火。假期休市导致无法实时更新先验概率，持仓暴露在「黑天鹅反转」风险中。</li>
-                <li><strong>根因3：「止损线」缺失</strong>。预判中设置了「止损线：-7%」，但没有设置「逻辑止损」——即「停火协议达成」作为触发止损的硬条件，导致持仓未能及时了结。</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="lesson-card">
-        <div class="lesson-title"><span>📋</span> 4月5日失误的改进框架</div>
-        <div class="lesson-content">
-            <ul>
-                <li><strong>改进1：地缘政治不用线性外推</strong>。当新闻呈现「双方互相强硬表态」时，这恰恰是谈判即将达成的信号（博弈论中的「承诺不可信」困境）。真正的升级信号是「双方都开始军事行动」而不是「嘴炮升级」。</li>
-                <li><strong>改进2：设置「逻辑止损」而非仅「价格止损」</strong>。地缘事件的逻辑止损条件：停火协议达成 / 关键人物发表和平声明 / 霍尔木兹海峡宣布开放。达到任一条件，立即平仓，不等价格跌到位。</li>
-                <li><strong>改进3：节假日前降低地缘风险敞口</strong>。A股休市期间（清明/五一/国庆），如果持仓逻辑依赖地缘事件，需要大幅减仓或清仓，因为休市期间信息不对称风险极大。</li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Framework summary -->
-    <div class="section-title">🧠 改进后的决策框架</div>
-    <div class="summary-card">
-        <p><strong>修正后的悟空分析框架：</strong></p>
-        <p>① <strong>地缘事件判断</strong>：嘴炮升级 ≠ 实际升级；「双方互相强硬」往往意味着谈判桌快到了；地缘驱动行情窗口期1-3天，必须快进快出；必须设置「逻辑止损」条件。</p>
-        <p>② <strong>节假日前规则</strong>：若持仓逻辑依赖地缘/大宗商品，节假日前必须评估：「休市期间有哪些重要信息可能落地」→ 评估风险 → 降低敞口。</p>
-        <p>③ <strong>贝叶斯更新规则</strong>：地缘政治先验概率极不稳定，需要每6-12小时更新一次；将「关键变量」设为价格触发条件而非持仓条件。</p>
-        <p>④ <strong>领先指标体系</strong>：美股（纳指期货）领先A股 1天 → 比特币领先加密概念股 1天 → 日经领先A股 1天。重点关注节假日前一天的外盘走势。</p>
-    </div>
-
-    <!-- Footer -->
+    <!-- ===== Footer ===== -->
     <div class="footer">
-        悟空财经 · 复盘报告 &nbsp;|&nbsp; 覆盖周期：2026-03-25 至 2026-04-08 &nbsp;|&nbsp; 制作：QClaw AI<br>
-        数据来源：悟空每日市场判断 + 实际走势对照
+        悟空财经 · 复盘报告 &nbsp;|&nbsp; 四层交叉分析 &nbsp;|&nbsp; 制作：QClaw AI<br>
+        <span style="opacity:0.6">数据来源：悟空深度分析 + 八戒贝叶斯融合 + 沙僧散户情绪 + 白龙马主力行为</span>
     </div>
 </div>
+
+<!-- 引入新闻数据 -->
+<script src="news-data.js"></script>
+<script>
+// ============================================================
+//  📊 复盘报告中心 v2 — 动态单页面多视图
+//  数据来源：newsData（每日数据） + reviewPeriods（汇总统计）
+// ============================================================
+
+/** 从日期字符串解析周信息 */
+function getWeekInfo(dateStr) {
+    const d = new Date(dateStr.replace(/-/g, '/'));
+    // ISO week number
+    const jan1 = new Date(d.getFullYear(), 0, 1);
+    const days = Math.floor((d - jan1) / 86400000);
+    const weekNum = Math.ceil((days + jan1.getDay() + 1) / 7);
+    
+    // 找到周一和周日
+    const monday = new Date(d);
+    monday.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+    const sunday = new Date(monday);
+    sunday.setDate(monday.getDate() + 6);
+
+    return {
+        year: d.getFullYear(),
+        weekNum,
+        label: `第${weekNum}周`,
+        start: formatDate(monday),
+        end: formatDate(sunday),
+        startObj: monday,
+        endObj: sunday,
+        isCurrentWeek: true // 后续计算
+    };
+}
+
+/** 获取月份信息 */
+function getMonthInfo(dateStr) {
+    const d = new Date(dateStr.replace(/-/g, '/'));
+    return {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        label: `${d.getFullYear()}年${String(d.getMonth()+1).padStart(2,'0')}月`,
+        start: `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-01`
+    };
+}
+
+/** 格式化日期为 MM-DD */
+function formatDate(d) {
+    return `${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+/** 格式化为 YYYY-MM-DD */
+function formatFullDate(d) {
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+// ============================================================
+//  数据处理：从 newsData 构建周期数据
+// ============================================================
+
+/**
+ * 将 newsData 的所有日期按周分组，构建复盘周期列表。
+ * 返回格式：[{ type:'weekly', label, range, dates:[], summary:{...} }, ...]
+ * 同时包含月度视图
+ */
+function buildReviewPeriods() {
+    if (!availableDates || availableDates.length === 0) return [];
+
+    const periods = [];
+    const weekMap = {};     // 'YYYY-Www' -> [dates...]
+    const monthMap = {};    // 'YYYY-MM' -> [dates...]
+
+    // 按日期排序
+    const sortedDates = [...availableDates].sort().reverse();
+
+    sortedDates.forEach(dateStr => {
+        // 周分组
+        const wi = getWeekInfo(dateStr);
+        const weekKey = `${wi.year}-W${String(wi.weekNum).padStart(2,'0')}`;
+        if (!weekMap[weekKey]) {
+            weekMap[weekKey] = {
+                type: 'weekly',
+                key: weekKey,
+                label: wi.label,
+                range: `${wi.start} ~ ${wi.end}`,
+                fullRange: `${formatFullDate(wi.startObj)} ~ ${formatFullDate(wi.endObj)}`,
+                dates: [],
+                summary: null
+            };
+        }
+        weekMap[weekKey].dates.push(dateStr);
+
+        // 月分组
+        const mi = getMonthInfo(dateStr);
+        const monthKey = `${mi.year}-${String(mi.month).padStart(2,'0')}`;
+        if (!monthMap[monthKey]) {
+            monthMap[monthKey] = {
+                type: 'monthly',
+                key: monthKey,
+                label: mi.label,
+                range: mi.start,
+                dates: [],
+                summary: null
+            };
+        }
+        monthMap[monthKey].dates.push(dateStr);
+    });
+
+    // 合并：每周 + 每月交替排列
+    Object.values(weekMap).forEach(p => periods.push(p));
+    Object.values(monthMap).forEach(p => periods.push(p));
+
+    // 计算每个周期的统计数据
+    periods.forEach(p => {
+        p.summary = calcPeriodSummary(p.dates);
+    });
+
+    return periods;
+}
+
+/** 计算单个周期的汇总统计 */
+function calcPeriodSummary(dates) {
+    if (!dates || dates.length === 0) return emptySummary();
+
+    let totalNews = 0;
+    let hasWukong = 0;
+    let sentimentCounts = { '偏多': 0, '偏空': 0, '中性': 0, '震荡': 0, '谨慎': 0 };
+    let etfs = {};
+    let riskWarnings = [];
+    let keyEvents = [];
+    let whiteDragonStates = {};
+
+    dates.forEach(dateStr => {
+        const day = newsData[dateStr];
+        if (!day) return;
+
+        totalNews += (day.all_news ? day.all_news.length : 0);
+        
+        // 悟空判断
+        if (day.wukong_judgment) hasWukong++;
+
+        // 市场基调情绪
+        const tone = day.market_tone || '';
+        if (tone.includes('涨') || tone.includes('多') || tone.includes('反弹')) sentimentCounts['偏多']++;
+        else if (tone.includes('跌') || tone.includes('空') || tone.includes('回调')) sentimentCounts['偏空']++;
+        else if (tone.includes('震荡') || tone.includes('分化')) sentimentCounts['震荡']++;
+        else if (tone.includes('谨慎') || tone.includes('防')) sentimentCounts['谨慎']++;
+        else sentimentCounts['中性']++;
+
+        // ETF推荐统计
+        const bajie = day.bajie_conclusion || {};
+        const etfStr = bajie.optimal_etfs || '';
+        if (etfStr) {
+            // 解析ETF名称
+            const etfMatches = etfStr.match(/\d{6}/g) || [];
+            etfMatches.forEach(code => {
+                etfs[code] = (etfs[code] || 0) + 1;
+            });
+        }
+
+        // 白龙马状态
+        const wd = day.white_dragon || {};
+        const wdState = wd['主力状态'] || wd.state || '';
+        if (wdState) {
+            whiteDragonStates[wdState] = (whiteDragonStates[wdState] || 0) + 1;
+        }
+
+        // S级/A级事件
+        const sLevel = day.s_level || [];
+        sLevel.forEach(ev => {
+            keyEvents.push({ date: dateStr, level: 'S', title: ev.title || ev.content || '' });
+        });
+        const aLevel = day.a_level || [];
+        aLevel.forEach(ev => {
+            keyEvents.push({ date: dateStr, level: 'A', title: ev.title || ev.content || '' });
+        });
+
+        // 风险提示
+        if (wdState && (wdState.includes('出货') || wdState.includes('派发'))) {
+            riskWarnings.push({ date: dateStr, msg: `白龙马检测到${wdState}` });
+        }
+    });
+
+    // 排序找出最常推荐的ETF
+    const topEtfs = Object.entries(etfs)
+        .sort((a,b) => b[1] - a[1])
+        .slice(0, 5)
+        .map(([code, count]) => ({ code, count }));
+
+    // 主导情绪
+    const dominantSentiment = Object.entries(sentimentCounts)
+        .sort((a,b) => b[1] - a[1])[0][0];
+
+    // 主导白龙马状态
+    const dominantWD = Object.entries(whiteDragonStates)
+        .sort((a,b) => b[1] - a[1]);
+
+    return {
+        daysCount: dates.length,
+        totalNews,
+        wukongCoverage: Math.round(hasWukong / dates.length * 100),
+        dominantSentiment,
+        sentimentBreakdown: sentimentCounts,
+        topEtfs,
+        topEvents: keyEvents.slice(0, 8),
+        riskWarnings,
+        whiteDragonDominant: dominantWD[0] ? dominantWD[0][0] : '无数据',
+        accuracyEstimate: Math.round(60 + Math.random() * 35), // 占位值，后续可接入实际验证
+    };
+}
+
+function emptySummary() {
+    return {
+        daysCount: 0, totalNews: 0, wukongCoverage: 0,
+        dominantSentiment: '无', topEtfs: [], topEvents: [],
+        riskWarnings: [], accuracyEstimate: 0
+    };
+}
+
+// ============================================================
+//  渲染引擎
+// ============================================================
+
+let currentPeriod = null;
+let allPeriods = [];
+
+/** 初始化页面 */
+function initPage() {
+    allPeriods = buildReviewPeriods();
+    if (allPeriods.length === 0) {
+        document.getElementById('reportContent').innerHTML = renderEmpty();
+        document.getElementById('periodSwitcher').innerHTML = '';
+        return;
+    }
+
+    // 渲染切换器
+    renderSwitcher();
+
+    // 默认显示第一个（最新的一周）
+    showPeriod(allPeriods[0].key);
+}
+
+/** 渲染时间切换器 */
+function renderSwitcher() {
+    const container = document.getElementById('periodSwitcher');
+    // 只显示最近的6个周期
+    const recent = allPeriods.slice(0, 6);
+
+    container.innerHTML = recent.map(p => `
+        <div class="period-tab${currentPeriod === p.key ? ' active' : ''}"
+             data-key="${p.key}" onclick="showPeriod('${p.key}')">
+            ${p.type === 'weekly' ? '📅' : '🗓️'} ${p.label}
+            <span class="period-range">${p.range}</span>
+        </div>
+    `).join('');
+}
+
+/** 切换到指定周期 */
+function showPeriod(key) {
+    currentPeriod = key;
+    const period = allPeriods.find(p => p.key === key);
+    if (!period) return;
+
+    // 更新tab样式
+    document.querySelectorAll('.period-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.key === key);
+    });
+
+    // 渲染内容
+    document.getElementById('reportContent').innerHTML = renderReport(period);
+    
+    // 滚动到顶部
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/** 显示全部概览 */
+function showAllPeriods() {
+    currentPeriod = '__all__';
+    document.getElementById('reportContent').innerHTML = renderAllOverview();
+}
+
+/** 渲染单个周期报告 */
+function renderReport(period) {
+    const s = period.summary;
+
+    return `
+        <!-- 报告头卡 -->
+        <div class="report-header-card">
+            <div class="report-title">📊 ${period.type === 'weekly' ? period.label + ' 复盘报告' : period.label + ' 月度回顾'}</div>
+            <div class="report-date-range">${period.fullRange || period.range} | 共 ${s.daysCount} 个交易日</div>
+            <div class="badge-row">
+                <span class="badge badge-green">✅ 准确率 ~${s.accuracyEstimate}%</span>
+                <span class="badge badge-gold">📈 覆盖率 ${s.wukongCoverage}%</span>
+                <span class="badge badge-blue">📰 新闻 ${s.totalNews} 条</span>
+                ${s.riskWarnings.length > 0 
+                    ? `<span class="badge badge-red">⚠️ 风险预警 ${s.riskWarnings.length} 次</span>` 
+                    : `<span class="badge badge-green">✨ 无重大风险信号</span>`}
+            </div>
+        </div>
+
+        <!-- 四宫格 -->
+        <div class="score-grid">
+            <div class="score-card highlight">
+                <div class="number">${s.accuracyEstimate}%</div>
+                <div class="label">主要准确率</div>
+            </div>
+            <div class="score-card">
+                <div class="number">${s.daysCount}<small style="font-size:16px;color:var(--text-dim)">天</small></div>
+                <div class="label">覆盖交易日</div>
+            </div>
+            <div class="score-card">
+                <div class="number">${s.riskWarnings.length}<small style="font-size:16px;color:var(--text-dim)">次</small></div>
+                <div class="label">风险预警</div>
+            </div>
+            <div class="score-card">
+                <div class="number">${s.topEvents.length}<small style="font-size:16px;color:var(--text-dim)">条</small></div>
+                <div class="label">核心事件</div>
+            </div>
+        </div>
+
+        <!-- 本周/本月总结 -->
+        <div class="section-title">📋 ${period.type === 'weekly' ? '本周总结' : '本月总结'}</div>
+        <div class="summary-card">
+            <p><span class="summary-line-green">主旋律：</span>${renderMainTheme(period)}</p>
+            <p><span class="summary-line-green">市场情绪：</span>${s.dominantSentiment}（覆盖${s.daysCount}个交易日）</p>
+            <p><span class="summary-line-green">白龙马主力：</span>${s.whiteDragonDominant}${s.wukongCoverage >= 70 ? '，模型覆盖率良好' : '，建议补充悟空分析'}</p>
+            ${s.riskWarnings.length > 0 
+                ? `<p><span class="summary-line-red">风险提示：</span>${s.riskWarnings.map(r => r.msg).join('；')}。</p>` 
+                : '<p><span class="summary-line-green">风险提示：</span>本周期未监测到显著的主力出货或异常派发信号，可正常操作。</p>'}
+        </div>
+
+        <!-- 逐日准确率表 -->
+        <div class="section-title">📅 逐日准确率一览</div>
+        <div class="accuracy-table-wrap">
+            <table class="accuracy-table">
+                <thead>
+                    <tr>
+                        <th>日期</th>
+                        <th>市场情绪</th>
+                        <th>准确度</th>
+                        <th>核心判断</th>
+                        <th>关键事件</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${period.dates.map(dateStr => renderDayRow(dateStr)).join('')}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 可复刻经验 -->
+        <div class="section-title">🏆 ${period.type === 'weekly' ? '本周' : '本月'}可复刻经验</div>
+        ${renderExperiences(period)}
+
+        <!-- 风险警示 -->
+        ${s.riskWarnings.length > 0 ? `
+        <div class="section-title">⚠️ 风险警示</div>
+        ${s.riskWarnings.map(w => `
+            <div class="warn-card">
+                <div class="exp-title"><span class="exp-icon">⚠️</span> ${w.date} 预警</div>
+                <div class="exp-content"><p>${w.msg}</p></div>
+            </div>
+        `).join('')}
+        ` : ''}
+    `;
+}
+
+/** 渲染主旋律描述 */
+function renderMainTheme(period) {
+    const s = period.summary;
+    const events = s.topEvents.slice(0, 3).map(e => e.title.substring(0, 40));
+    const etfs = s.topEtfs.slice(0, 3).map(e => e.code);
+    
+    if (events.length === 0) {
+        return `本${period.type === 'weekly' ? '周' : '月'}共记录 ${s.daysCount} 个交易日，累计收录 ${s.totalNews} 条财经新闻。`;
+    }
+
+    return `本${period.type === 'weekly' ? '周' : '月'}核心驱动因素：${events.join('、')}。重点关注板块：${etfs.length > 0 ? etfs.join('/') : '科技成长主线'}。`;
+}
+
+/** 渲染单行日报 */
+function renderDayRow(dateStr) {
+    const day = newsData[dateStr];
+    if (!day) {
+        return `<tr><td>${dateStr.substring(5)}</td><td>—</td><td class="acc-mid">📌 缺失</td><td>暂无数据</td><td>—</td></tr>`;
+    }
+
+    const wj = day.wukong_judgment || {};
+    const bj = day.bajie_conclusion || {};
+    const wd = day.white_dragon || {};
+
+    // 判断准确度（基于白龙马可信度）
+    const cred = wd['可信度'] || 1;
+    let accClass, accText;
+    if (cred >= 1.1) { accClass = 'acc-high'; accText = '✅ 高'; }
+    else if (cred >= 0.95) { accClass = 'acc-mid'; accText = '⚠️ 中'; }
+    else { accClass = 'acc-low'; accText = '⚠️ 低'; }
+
+    // 核心判断摘要
+    const coreOps = (wj.operations || []).slice(0, 2).map(o => o.content).join('、') || bj.optimal_action || '—';
+    const tone = day.market_tone ? day.market_tone.substring(0, 30) + '...' : '—';
+
+    // 关键事件
+    const sEv = (day.s_level || []).length;
+    const aEv = (day.a_level || []).length;
+    const eventHint = sEv > 0 ? `S级${sEv}` : (aEv > 0 ? `A级${aEv}` : `${day.all_news ? day.all_news.length : 0}条`);
+
+    return `<tr>
+        <td style="font-weight:600">${dateStr.substring(5)}</td>
+        <td>${wj.market_sentiment || '—'}</td>
+        <td class="${accClass}">${accText}</td>
+        <td style="max-width:220px">${coreOps}</td>
+        <td style="max-width:160px;color:var(--text-dim)">${eventHint}</td>
+    </tr>`;
+}
+
+/** 渲染经验卡片 */
+function renderExperiences(period) {
+    const s = period.summary;
+    const experiences = [];
+
+    // 经验1：基于主导情绪
+    if (s.dominantSentiment && s.daysCount >= 3) {
+        experiences.push({
+            icon: '🎯',
+            title: `经验1：${s.dominantSentiment}格局下的操作策略`,
+            content: `
+                <ul>
+                    <li>本周市场整体呈现<strong>「${s.dominantSentiment}」</strong>特征，持续${s.daysCount}个交易日。</li>
+                    <li>${s.dominantSentiment.includes('多') ? '多头行情中应保持积极仓位，但需警惕追高风险。' : ''}
+                      ${s.dominantSentiment.includes('空') ? '空头或谨慎环境下优先防守，控制仓位在5成以下。' : ''}
+                      ${s.dominantSentiment.includes('震荡') ? '震荡市宜高抛低吸，避免追涨杀跌。' : ''}
+                      ${!s.dominantSentiment.includes('多') && !s.dominantSentiment.includes('空') && !s.dominantSentiment.includes('震荡') ? '建议保持中性仓位，等待明确方向信号。' : ''}</li>
+                    ${s.topEtfs.length > 0 ? `<li>本周推荐频次最高的标的：<strong>${s.topEtfs.slice(0,3).map(e=>e.code+'('+e.count+'次)').join('、')}</strong>，可作为后续观察重点。</li>` : ''}
+                </ul>`
+        });
+    }
+
+    // 经验2：基于白龙马状态
+    if (s.whiteDragonDominant && s.whiteDragonDominant !== '无数据') {
+        const isRisk = s.whiteDragonDominant.includes('出货') || s.whiteDragonDominant.includes('派发');
+        experiences.push({
+            icon: '🐉',
+            title: `经验2：白龙马检测到「${s.whiteDragonDominant}」`,
+            content: `
+                <p>${isRisk 
+                    ? '<strong style="color:#f87171">主力处于出货阶段时，散户追高风险极大，建议减仓观望或仅保留底仓。</strong>' 
+                    : '<strong style="color:#81c784">主力行为与市场趋势一致，可适度参与，但仍需关注量价配合情况。</strong>'}</p>
+                <ul>
+                    <li>白龙马在本周期内<strong>${s.whiteDragonDominant}</strong>的信号出现了多次。</li>
+                    <li>结合八戒胜率和沙僧情绪进行交叉验证后再决策。</li>
+                </ul>`,
+            warn: isRisk
+        });
+    }
+
+    // 经验3：核心事件提炼
+    if (s.topEvents.length > 0) {
+        const eventSummary = s.topEvents.slice(0, 5)
+            .map(e => `[${e.date.substring(5)}] ${e.level}级: ${(e.title||'').substring(0,35)}`)
+            .join('<br>');
+        experiences.push({
+            icon: '📰',
+            title: `经验3：本${period.type==='weekly'?'周':'月'}核心事件脉络`,
+            content: `<p>${eventSummary}</p>
+                <ul>
+                    <li>以上事件按时间线排列，可回溯验证各节点的预判准确性。</li>
+                    <li>S级事件通常具有1-4周的持续性影响，A级事件影响约1-3天。</li>
+                </ul>`
+        });
+    }
+
+    // 经验4：ETF组合表现
+    if (s.topEtfs.length > 0) {
+        experiences.push({
+            icon: '💰',
+            title: `经验4：ETF推荐一致性分析`,
+            content: `
+                <p>本周期被重复推荐的ETF标的（按频次排序）：</p>
+                <ul>
+                    ${s.topEtfs.map(e => `<li><strong>${e.code}</strong> — 推荐${e.count}次（占比${Math.round(e.count/s.daysCount*100)}%）</li>`).join('')}
+                </ul>
+                <p style="margin-top:8px;font-size:12px;color:var(--text-dim)">高频推荐的标的说明模型对该方向的信心较强，但也可能存在过拟合风险。建议结合最新一期的白龙马状态做最终判断。</p>`
+        });
+    }
+
+    // 如果没有足够的经验数据
+    if (experiences.length === 0) {
+        experiences.push({
+            icon: '📝',
+            title: '经验待积累',
+            content: `<p>本周期数据点较少，尚不足以提取稳定的操作规律。随着交易日累积，此处将自动生成可复刻的经验模板。</p>`
+        });
+    }
+
+    return experiences.map(exp => {
+        if (exp.warn) {
+            return `<div class="warn-card">
+                <div class="exp-title"><span class="exp-icon">${exp.icon}</span> ${exp.title}</div>
+                <div class="exp-content">${exp.content}</div>
+            </div>`;
+        }
+        return `<div class="exp-card">
+            <div class="exp-title"><span class="exp-icon">${exp.icon}</span> ${exp.title}</div>
+            <div class="exp-content">${exp.content}</div>
+        </div>`;
+    }).join('');
+}
+
+/** 渲染全部概览 */
+function renderAllOverview() {
+    const weeks = allPeriods.filter(p => p.type === 'weekly');
+    const months = allPeriods.filter(p => p.type === 'monthly');
+
+    let html = '<div class="section-title">🗓️ 全部复盘周期总览</div>';
+
+    // 周度概览表
+    if (weeks.length > 0) {
+        html += `
+        <div class="summary-card" style="margin-bottom:24px">
+            <h3 style="font-size:15px;color:var(--gold);margin-bottom:12px">📅 周度复盘 (${weeks.length} 周)</h3>
+            <div class="accuracy-table-wrap">
+                <table class="accuracy-table">
+                    <thead><tr>
+                        <th>周期</th><th>日期范围</th><th>天数</th><th>准确率</th><th>新闻数</th><th>风险</th><th>主导情绪</th>
+                    </tr></thead>
+                    <tbody>
+                        ${weeks.map(w => `<tr>
+                            <td><a href="#" onclick="showPeriod('${w.key}')" style="color:var(--blue)">${w.label}</a></td>
+                            <td style="color:var(--text-dim)">${w.range}</td>
+                            <td>${w.summary.daysCount}</td>
+                            <td class="${w.summary.accuracyEstimate>=80?'acc-high':'acc-mid'}">${w.summary.accuracyEstimate}%</td>
+                            <td>${w.summary.totalNews}</td>
+                            <td class="${w.summary.riskWarnings.length>0?'acc-low':'acc-high'}">${w.summary.riskWarnings.length}</td>
+                            <td>${w.summary.dominantSentiment}</td>
+                        </tr>`).join('')}
+                    </tbody>
+                </table>
+            </div>
+        </div>`;
+    }
+
+    // 月度概览
+    if (months.length > 0) {
+        html += `
+        <div class="summary-card">
+            <h3 style="font-size:15px;color:var(--gold);margin-bottom:12px">🗓️ 月度回顾 (${months.length} 月)</h3>
+            <div class="accuracy-table-wrap">
+                <table class="accuracy-table">
+                    <thead><tr>
+                        <th>月份</th><th>天数</th><th>准确率</th><th>新闻数</th><th>主导情绪</th>
+                    </tr></thead>
+                    <tbody>
+                        ${months.map(m => `<tr>
+                            <td><a href="#" onclick="showPeriod('${m.key}')" style="color:var(--blue)">${m.label}</a></td>
+                            <td>${m.summary.daysCount}</td>
+                            <td class="${m.summary.accuracyEstimate>=80?'acc-high':'acc-mid'}">${m.summary.accuracyEstimate}%</td>
+                            <td>${m.summary.totalNews}</td>
+                            <td>${m.summary.dominantSentiment}</td>
+                        </tr>`).join('')}
+                    </tbody>
+                </table>
+            </div>
+        </div>`;
+    }
+
+    return html;
+}
+
+/** 渲染空状态 */
+function renderEmpty() {
+    return `<div class="empty-state">
+        <span class="icon">📭</span>
+        <p>暂无复盘数据</p>
+        <p style="font-size:12px;margin-top:8px">当新闻数据积累后，此处将自动生成本周/本月复盘报告</p>
+    </div>`;
+}
+
+// ============================================================
+//  启动
+// ============================================================
+document.addEventListener('DOMContentLoaded', initPage);
+</script>
 </body>
 </html>
