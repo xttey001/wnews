@@ -247,8 +247,8 @@ const newsData = {
         "holding_period": "1-3天（等创业板回踩确认后加仓）",
         "沙僧信号": {
           "情绪": "平稳",
-          "平均买入概率": 19,
-          "平均恐慌概率": 10,
+          "平均买入概率": 5,
+          "平均恐慌概率": 22,
           "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
           "可信度级别": "normal"
         },
@@ -260,7 +260,7 @@ const newsData = {
           "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
         },
         "悟空信号": {
-          "市场情绪": "谨慎偏多：美伊谈判举行地缘缓和预期升温，但俄乌升温+创业板超买+内部分化严重，短期回踩风险上升；AI算力/自动驾驶中期逻辑清晰，等回调再入"
+          "市场情绪": ""
         },
         "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
         "融合说明": [
@@ -355,8 +355,64 @@ const newsData = {
                 "optimal_action": "轻仓观望：40-50%仓位为主，AI算力ETF回调后低吸，电网ETF逢低布局，回避科创芯片/创业板高位",
                 "optimal_etfs": "AI算力ETF(512930) > 电网ETF(159542) > 闪迪映射ETF > 电池ETF(159871)企稳后",
                 "win_rate": "~62%（贝叶斯后验+沙僧白龙马融合）",
+                "max_drawdown": "-8.0%（止损线）",
                 "holding_period": "1-3天（等创业板回踩确认后加仓）",
-                "max_drawdown": "-3%（创业板止损线）"
+                "沙僧信号": {
+                  "情绪": "平稳",
+                  "平均买入概率": 19,
+                  "平均恐慌概率": 10,
+                  "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                  "可信度级别": "normal"
+                },
+                "白龙马信号": {
+                  "主力状态": "拉升",
+                  "是否利用散户": false,
+                  "可信度": 1.0,
+                  "风险等级": "low",
+                  "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                },
+                "悟空信号": {
+                  "市场情绪": "谨慎偏多：美伊谈判举行地缘缓和预期升温，但俄乌升温+创业板超买+内部分化严重，短期回踩风险上升；AI算力/自动驾驶中期逻辑清晰，等回调再入"
+                },
+                "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                "融合说明": [
+                  "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                  "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                ],
+                "original_bajie": {
+                  "optimal_action": "轻仓观望：40-50%仓位为主，AI算力ETF回调后低吸，电网ETF逢低布局，回避科创芯片/创业板高位",
+                  "optimal_etfs": "AI算力ETF(512930) > 电网ETF(159542) > 闪迪映射ETF > 电池ETF(159871)企稳后",
+                  "win_rate": "~62%（贝叶斯后验+沙僧白龙马融合）",
+                  "holding_period": "1-3天（等创业板回踩确认后加仓）",
+                  "max_drawdown": "-3%（创业板止损线）"
+                },
+                "prior_calibration": {
+                  "scene_type": "geopolitical_sudden",
+                  "scene_desc": "地缘突发事件做多",
+                  "original_prior": 62,
+                  "calibrated_prior": 62,
+                  "note": "当前胜率62%已偏离默认值，不替代（方向对但时机难把握）"
+                },
+                "signal_weights": {
+                  "悟空深度分析": 1.0,
+                  "沙僧情绪": 0.8,
+                  "白龙马主力": 1.08,
+                  "外盘先行指标": 1.1
+                },
+                "signal_weight_notes": [],
+                "geo_prior_check": {
+                  "prior_type": "geopolitical",
+                  "hours_since_last_update": 0.0,
+                  "is_expired": false,
+                  "needs_review": false,
+                  "validity_hours": 12,
+                  "review_interval_hours": 6
+                },
+                "_experiences_applied": [
+                  "BJ-001",
+                  "BJ-002",
+                  "BJ-003"
+                ]
               },
               "prior_calibration": {
                 "scene_type": "geopolitical_sudden",
@@ -477,17 +533,13 @@ const newsData = {
       "scene_metadata": {
         "date": "2026-04-12",
         "has_geopolitical": true,
-        "trump_intensity": 2,
-        "has_policy_benefit": true,
-        "has_tech_breakthrough": true,
+        "trump_intensity": 1,
         "is_earnings_season": true,
         "is_near_weekend": true,
         "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-12T10:57:26.903984"
+        "prior_updated_at": "2026-04-12T10:57:35.577567"
       },
-      "wukong_experiences": [
-        "WX-001"
-      ],
+      "wukong_experiences": [],
       "sangsha_experiences": [
         "SS-003"
       ],
@@ -499,7 +551,7 @@ const newsData = {
       ],
       "tang_rules": [],
       "arbitration_notes": [
-        "🙏 唐僧仲裁：悟空看空(谨慎偏多：美伊谈判举行地缘缓和预期升温，但俄乌升温+创业板超买+内部分化严重，短期回踩风险上升；AI算力/自动驾驶中期逻辑清晰，等回调再入) 但 八戒建议买入(轻仓观望：40-50%仓位为主，AI算力ETF回调后低吸，电网ETF逢低布局，回避科创芯片/创业板高位) → 方向矛盾，降置信度20%，建议观望或极轻仓试探"
+        "🙏 唐僧：四层信号无重大矛盾，各司其职"
       ]
     }
   },
