@@ -38,7 +38,13 @@
             display: flex;
             justify-content: center;
             gap: 12px;
-            margin-bottom: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: linear-gradient(135deg, #0d1117, #161b22);
+            padding: 12px 0 8px;
+            backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
         }
         .page-nav .page-btn {
             padding: 10px 20px;
@@ -223,6 +229,17 @@
             font-size: 15px;
             line-height: 1.8;
             color: var(--text);
+        }
+        .tone-item {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: rgba(0,0,0,0.15);
+            border-radius: 6px;
+        }
+        .tone-label {
+            font-weight: 600;
+            color: var(--gold);
+            margin-right: 8px;
         }
 
         /* ===== 悟空判断 ===== */
@@ -483,6 +500,75 @@
             font-size: 11px;
         }
 
+        /* ===== 唐憎最终仲裁 ===== */
+        .tang-sanzang-section {
+            margin-top: 16px;
+            background: linear-gradient(135deg, rgba(255,193,7,0.08) 0%, rgba(255,152,0,0.06) 100%);
+            border: 1px solid rgba(255,193,7,0.3);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        .tang-position-banner {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 14px;
+            align-items: center;
+        }
+        .ts-position {
+            font-size: 15px;
+            font-weight: 700;
+            color: #FFC107;
+            background: rgba(255,193,7,0.15);
+            padding: 4px 10px;
+            border-radius: 8px;
+        }
+        .ts-action {
+            font-size: 15px;
+            font-weight: 600;
+            color: #FFD54F;
+        }
+        .tang-body {
+            font-size: 13px;
+            color: var(--text);
+        }
+        .ts-subtitle {
+            font-weight: 700;
+            color: #FFC107;
+            margin: 8px 0 4px;
+        }
+        .ts-conflict-item {
+            padding: 3px 0 3px 8px;
+            color: #FFC107;
+            font-size: 12px;
+            border-left: 2px solid rgba(255,193,7,0.4);
+            margin-bottom: 3px;
+        }
+        .ts-formula {
+            margin-top: 10px;
+            padding: 8px 10px;
+            background: rgba(255,193,7,0.06);
+            border-radius: 6px;
+            font-size: 12px;
+            color: #FFD54F;
+            font-family: monospace;
+        }
+        .ts-risk-item {
+            padding: 3px 0 3px 8px;
+            color: #f44336;
+            font-size: 12px;
+            border-left: 2px solid rgba(244,67,54,0.5);
+            margin-bottom: 3px;
+        }
+        .ts-conclusion {
+            margin-top: 10px;
+            padding: 8px 10px;
+            background: rgba(76,175,80,0.1);
+            border: 1px solid rgba(76,175,80,0.25);
+            border-radius: 6px;
+            font-size: 13px;
+            color: #81C784;
+        }
+
         /* ===== 白龙马主力行为 ===== */
         .white-dragon-section {
             margin-top: 16px;
@@ -539,94 +625,6 @@
             padding: 12px;
             background: rgba(33,150,243,0.15);
             border-radius: 8px;
-        }
-
-        /* ===== 唐僧仲裁决策（金色主题） ===== */
-        .tang-seng-section {
-            margin-top: 16px;
-            background: linear-gradient(135deg, rgba(255,215,0,0.15) 0%, rgba(218,165,32,0.1) 100%);
-            border: 2px solid rgba(245,166,35,0.5);
-            border-radius: 12px;
-            padding: 16px;
-            box-shadow: 0 2px 8px rgba(218,165,32,0.2);
-        }
-        .ts-header {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 12px;
-        }
-        .ts-title {
-            font-size: 16px;
-            font-weight: 700;
-            color: #B8860B;
-            text-shadow: 0 1px 2px rgba(218,165,32,0.3);
-        }
-        .ts-position {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 12px;
-            padding: 10px;
-            background: rgba(0,0,0,0.2);
-            border-radius: 8px;
-        }
-        .ts-position-label { color: var(--text-dim); font-size: 14px; }
-        .ts-position-value { font-size: 18px; font-weight: 700; color: #DAA520; }
-        .ts-action {
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--gold);
-            margin-bottom: 12px;
-            padding: 12px;
-            background: rgba(255,215,0,0.1);
-            border-radius: 8px;
-        }
-        .ts-conflicts {
-            margin-bottom: 12px;
-        }
-        .ts-conflict-title {
-            font-size: 14px;
-            color: var(--text-dim);
-            margin-bottom: 8px;
-        }
-        .ts-conflict-item {
-            font-size: 14px;
-            color: var(--text);
-            margin-bottom: 6px;
-            padding-left: 16px;
-            position: relative;
-        }
-        .ts-conflict-item:before {
-            content: "⚠️";
-            position: absolute;
-            left: 0;
-            font-size: 12px;
-        }
-        .ts-risk-control {
-            padding: 12px;
-            background: rgba(239,83,80,0.1);
-            border-radius: 8px;
-            border-left: 3px solid #ef5350;
-        }
-        .ts-risk-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: #ef5350;
-            margin-bottom: 8px;
-        }
-        .ts-risk-item {
-            font-size: 13px;
-            color: var(--text);
-            margin-bottom: 4px;
-            padding-left: 16px;
-            position: relative;
-        }
-        .ts-risk-item:before {
-            content: "🛡️";
-            position: absolute;
-            left: 0;
-            font-size: 11px;
         }
 
         .emotion-row {
@@ -1006,7 +1004,7 @@
                         <div class="news-title">${item.emoji} ${item.title}</div>
                         ${item.source ? '<div class="news-source">来源：' + item.source + '</div>' : ''}
                     </div>
-                    <div class="news-row"><span class="label">要点：</span>${item.key_point || item.summary || '暂无要点'}</div>
+                    <div class="news-row"><span class="label">要点：</span>${item.key_point || item.summary || ''}</div>
                     <div class="news-row"><span class="label">影响时长：</span>${item.duration}</div>`;
 
             if (item.etfs && item.etfs.length) {
@@ -1106,9 +1104,22 @@
             if (data.market_tone) {
                 html += `
                     <div class="section tone-section">
-                        <div class="section-title">📊 今日基调</div>
-                        <div class="tone-content">${data.market_tone}</div>
-                    </div>`;
+                        <div class="section-title">📊 今日基调</div>`;
+
+                // 支持早报晚报双基调
+                if (typeof data.market_tone === 'object') {
+                    if (data.market_tone.早报) {
+                        html += `<div class="tone-item"><span class="tone-label">早报：</span>${data.market_tone.早报}</div>`;
+                    }
+                    if (data.market_tone.晚报) {
+                        html += `<div class="tone-item"><span class="tone-label">晚报：</span>${data.market_tone.晚报}</div>`;
+                    }
+                } else {
+                    // 兼容旧格式（字符串）
+                    html += `<div class="tone-content">${data.market_tone}</div>`;
+                }
+
+                html += `</div>`;
             }
 
             // 悟空今日判断
@@ -1118,6 +1129,7 @@
                     <div class="section judgment-section">
                         <div class="section-title">📈 悟空今日判断</div>`;
                 
+                // 兼容两种字段格式
                 const emotion = wj.emotion || wj.market_sentiment || wj.market_view;
                 if (emotion) {
                     html += `
@@ -1127,6 +1139,7 @@
                         </div>`;
                 }
 
+                // 兼容两种字段格式
                 const analysisList = wj.analysis || wj.core_analysis || wj.key_factors;
                 if (analysisList && analysisList.length) {
                     html += '<div class="analysis-list">';
@@ -1136,31 +1149,28 @@
                     html += '</div>';
                 }
 
+                // 兼容操作建议字段（active_patterns）
                 const strategyList = wj.strategy || wj.operations || wj.active_patterns;
                 if (strategyList && strategyList.length) {
                     html += `
                         <div class="strategy-box">
                             <div class="strategy-label">今日操作参考：</div>`;
                     strategyList.forEach(s => {
-                        // 兼容字符串和对象两种格式
-                        if (typeof s === 'string') {
-                            html += `<div class="strategy-item">${s}</div>`;
-                        } else {
-                            const label = s.type ? s.type + ' ' : '';
-                            const text = s.content || s.name + ': ' + (s.action || '') || '';
-                            html += `<div class="strategy-item">${label}${text}</div>`;
-                        }
+                        const label = s.type || s.id ? `${s.type || s.id} ` : '';
+                        const text = s.content || s.action || s.name || s;
+                        html += `<div class="strategy-item">${label}${text}</div>`;
                     });
                     html += '</div>';
                 }
 
-                // 风险提示
-                if (wj.risk_alerts && wj.risk_alerts.length) {
+                // 新增风险提示字段
+                const riskAlerts = wj.risk_alerts;
+                if (riskAlerts && riskAlerts.length) {
                     html += `
-                        <div class="warning-box" style="margin-top:12px">
-                            <div style="font-weight:600;margin-bottom:8px">⚠️ 风险提示：</div>`;
-                    wj.risk_alerts.forEach(r => {
-                        html += `<div style="margin-bottom:4px">• ${r}</div>`;
+                        <div class="warning-box">
+                            <div style="font-weight:600;margin-bottom:6px;">⚠️ 风险提示：</div>`;
+                    riskAlerts.forEach(r => {
+                        html += `<div style="margin-bottom:4px;">• ${r}</div>`;
                     });
                     html += '</div>';
                 }
@@ -1169,9 +1179,10 @@
             }
 
             // 决策矩阵 + 八戒最终结论（汇总部分）
-            const bj = data.bajie_bayesian || buildBajieBayesian(data);
+            const bj = data.bajie_bayesian || buildBajieBayesian(data) || {};
+            const overall = bj.overall || data.bajie_conclusion || {};
 
-            if (bj) {
+            if (bj && (bj.decision_matrix && bj.decision_matrix.length)) {
                 // 决策矩阵表格
                 if (bj.decision_matrix && bj.decision_matrix.length) {
                     html += `
@@ -1208,7 +1219,6 @@
                 }
 
                 // 八戒最终结论
-                const overall = bj.overall || data.bajie_conclusion;
                 if (overall) {
                     const wrStr = overall.win_rate || '';
                     const wrNum = parseInt(wrStr) || 50;
@@ -1217,7 +1227,7 @@
                     <div class="section conclusion-section">
                         <div class="section-title">🧠 八戒最终结论</div>
                         <div class="bajie-conclusion">
-                            <div class="bajie-conclusion-row"><span class="bc-label">最优行动：</span><span>${overall.best_action || overall.optimal_action || ''}</span></div>
+                            <div class="bajie-conclusion-row"><span class="bc-label">最优行动：</span><span>${overall.best_action || overall.optimal_action || overall.action || ''}</span></div>
                             <div class="bajie-conclusion-row"><span class="bc-label">最优ETF组合：</span><span>${overall.best_etfs || overall.optimal_etfs || ''}</span></div>
                             <div class="bajie-conclusion-row"><span class="bc-label">胜率：</span><span class="win-rate ${wrClass}">${wrStr || overall.win_rate || ''}</span></div>
                             <div class="bajie-conclusion-row"><span class="bc-label">最大回撤警戒：</span><span class="win-rate low">${overall.stop_loss || overall.max_drawdown || ''}</span></div>
@@ -1225,6 +1235,45 @@
                     </div>`;
                 }
 
+            }
+
+            // ========== 唐僧最终仲裁模块 ==========
+            const ts = data.tang_sanzang;
+            if (ts) {
+                const tsAction = ts.最终行动 || ts.action || '';
+                const tsPosition = ts.仓位 || '';
+                const tsNote = ts.唐憎结论 || ts.conclusion || '';
+                const conflicts = Array.isArray(ts.仲裁矛盾) ? ts.仲裁矛盾 : [];
+                const riskTriggers = Array.isArray(ts.风控触发) ? ts.风控触发 : [];
+                const formulas = ts.仓位公式 || {};
+
+                html += `
+                <div class="section tang-sanzang-section">
+                    <div class="section-title">🙏 唐僧最终仲裁</div>
+                    <div class="tang-position-banner">
+                        <span class="ts-position">${tsPosition}</span>
+                        <span class="ts-action">${tsAction}</span>
+                    </div>
+                    <div class="tang-body">
+                        <div class="ts-subtitle">仲裁矛盾：</div>`;
+                conflicts.forEach(c => {
+                    const cType = typeof c === 'object' ? (c.类型 || c.type || '') : '';
+                    const cDesc = typeof c === 'object' ? (c.描述 || c.desc || String(c)) : String(c);
+                    const cCoef = typeof c === 'object' ? (c.唐憎系数 || c.coef || '') : '';
+                    html += `<div class="ts-conflict-item">⚠️ ${cType ? cType + '：' : ''}${cDesc}${cCoef ? '（' + cCoef + '）' : ''}</div>`;
+                });
+                html += `
+                        <div class="ts-formula">仓位公式：${formulas.基础仓位 || ''} × ${formulas.唐憎系数 || ''} × ${formulas.风控系数 || '1.0'} = ${formulas.结果 || tsPosition}</div>`;
+                if (riskTriggers.length > 0) {
+                    html += `<div class="ts-subtitle">🚨 风控触发：</div>`;
+                    riskTriggers.forEach(r => {
+                        html += `<div class="ts-risk-item">${typeof r === 'string' ? r : (r.条件 || r.condition || JSON.stringify(r))}</div>`;
+                    });
+                }
+                html += `
+                        <div class="ts-conclusion">✅ 唐憎结论：${tsNote}</div>
+                    </div>
+                </div>`;
             }
 
             // ========== 沙僧韭菜直觉模块（处理全量新闻）==========
@@ -1301,40 +1350,6 @@
                     </div>
                     <div class="wd-advice">${wd.综合建议 || ''}</div>
                 </div>`;
-            }
-
-            // ========== 唐僧仲裁决策模块 ==========
-            const ts = data.tang_sanzang;
-            if (ts) {
-                html += `
-                <div class="section tang-seng-section">
-                    <div class="ts-header">
-                        <span style="font-size:24px">🙏</span>
-                        <div class="ts-title">唐僧仲裁决策</div>
-                    </div>
-                    <div class="ts-position">
-                        <span class="ts-position-label">建议仓位:</span>
-                        <span class="ts-position-value">${ts['仓位'] || '未定'}</span>
-                    </div>
-                    <div class="ts-action">🎯 最终行动：${ts['最终行动'] || '观望'}</div>`;
-                if (ts['仲裁矛盾'] && ts['仲裁矛盾'].length) {
-                    html += `
-                    <div class="ts-conflicts">
-                        <div class="ts-conflict-title">⚖️ 跨层矛盾仲裁:</div>
-                        ${ts['仲裁矛盾'].map(c => `<div class="ts-conflict-item">${c}</div>`).join('')}
-                    </div>`;
-                }
-                if (ts['仓位公式']) {
-                    html += `<div class="news-row" style="margin-bottom:12px"><span class="label">仓位公式:</span>${ts['仓位公式']}</div>`;
-                }
-                if (ts['风控触发'] && ts['风控触发'].length) {
-                    html += `
-                    <div class="ts-risk-control">
-                        <div class="ts-risk-title">🛡️ 风控触发条件:</div>
-                        ${ts['风控触发'].map(r => `<div class="ts-risk-item">${r}</div>`).join('')}
-                    </div>`;
-                }
-                html += `</div>`;
             }
 
             // 分隔线
