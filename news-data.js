@@ -2246,11 +2246,67 @@ const newsData = {
         "【沙僧融合】✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
         "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
       ],
-      "original_bajie": {},
+      "original_bajie": {
+        "optimal_action": "",
+        "optimal_etfs": "",
+        "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+        "max_drawdown": "-8.0%（止损线）",
+        "holding_period": "",
+        "沙僧信号": {
+          "情绪": "积极",
+          "平均买入概率": 50,
+          "平均恐慌概率": 5,
+          "调整结果": "✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
+          "可信度级别": "neutral"
+        },
+        "白龙马信号": {
+          "主力状态": "拉升",
+          "是否利用散户": false,
+          "可信度": 1.0,
+          "风险等级": "low",
+          "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        },
+        "悟空信号": {
+          "市场情绪": ""
+        },
+        "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
+        "融合说明": [
+          "【沙僧融合】✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
+          "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        ],
+        "original_bajie": {},
+        "prior_calibration": {
+          "scene_type": "geopolitical_sudden",
+          "scene_desc": "地缘突发事件做多",
+          "original_prior": 50,
+          "calibrated_prior": 55,
+          "note": "方向对但时机难把握"
+        },
+        "signal_weights": {
+          "悟空深度分析": 1.0,
+          "沙僧情绪": 0.8,
+          "白龙马主力": 1.08,
+          "外盘先行指标": 1.1
+        },
+        "signal_weight_notes": [],
+        "geo_prior_check": {
+          "prior_type": "geopolitical",
+          "hours_since_last_update": 0.0,
+          "is_expired": false,
+          "needs_review": false,
+          "validity_hours": 12,
+          "review_interval_hours": 6
+        },
+        "_experiences_applied": [
+          "BJ-001",
+          "BJ-002",
+          "BJ-003"
+        ]
+      },
       "prior_calibration": {
         "scene_type": "geopolitical_sudden",
         "scene_desc": "地缘突发事件做多",
-        "original_prior": 50,
+        "original_prior": 55,
         "calibrated_prior": 55,
         "note": "方向对但时机难把握"
       },
@@ -2279,23 +2335,30 @@ const newsData = {
     "tang_sanzang": {
       "仓位": "40-60% 中性",
       "最终行动": "",
-      "唐僧结论": "，胜率~55%（注意：1项高风险）",
+      "唐僧结论": "，胜率~50%（注意：1项高风险）",
       "仲裁矛盾": [
         "🙏 唐僧：四层信号无重大矛盾，各司其职"
       ],
       "仓位公式": "base(40-60% 中性) × 风控调整",
       "风控触发": [
+        "Trump喊话强度=2: ⚠️ 反转风险 - 连续2天喊话，反转概率~50%",
         "逻辑止损缺失（地缘事件场景）: ❌ 必须补充 - 地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
       ],
       "_raw": {
         "final_action": "",
-        "final_win_rate": "~55%",
+        "final_win_rate": "~50%",
         "optimal_etfs": "",
         "max_drawdown": "-8.0%（止损线）",
         "arbitration_notes": [
           "🙏 唐僧：四层信号无重大矛盾，各司其职"
         ],
         "risk_checks": [
+          {
+            "item": "Trump喊话强度=2",
+            "status": "⚠️ 反转风险",
+            "reason": "连续2天喊话，反转概率~50%",
+            "adjust_win_rate": -5
+          },
           {
             "item": "逻辑止损缺失（地缘事件场景）",
             "status": "❌ 必须补充",
@@ -2319,7 +2382,63 @@ const newsData = {
             "BJ-003"
           ]
         },
-        "original_bajie": {}
+        "original_bajie": {
+          "optimal_action": "",
+          "optimal_etfs": "",
+          "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+          "max_drawdown": "-8.0%（止损线）",
+          "holding_period": "",
+          "沙僧信号": {
+            "情绪": "积极",
+            "平均买入概率": 50,
+            "平均恐慌概率": 5,
+            "调整结果": "✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
+            "可信度级别": "neutral"
+          },
+          "白龙马信号": {
+            "主力状态": "拉升",
+            "是否利用散户": false,
+            "可信度": 1.0,
+            "风险等级": "low",
+            "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+          },
+          "悟空信号": {
+            "市场情绪": ""
+          },
+          "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
+          "融合说明": [
+            "【沙僧融合】✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
+            "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+          ],
+          "original_bajie": {},
+          "prior_calibration": {
+            "scene_type": "geopolitical_sudden",
+            "scene_desc": "地缘突发事件做多",
+            "original_prior": 50,
+            "calibrated_prior": 55,
+            "note": "方向对但时机难把握"
+          },
+          "signal_weights": {
+            "悟空深度分析": 1.0,
+            "沙僧情绪": 0.8,
+            "白龙马主力": 1.08,
+            "外盘先行指标": 1.1
+          },
+          "signal_weight_notes": [],
+          "geo_prior_check": {
+            "prior_type": "geopolitical",
+            "hours_since_last_update": 0.0,
+            "is_expired": false,
+            "needs_review": false,
+            "validity_hours": 12,
+            "review_interval_hours": 6
+          },
+          "_experiences_applied": [
+            "BJ-001",
+            "BJ-002",
+            "BJ-003"
+          ]
+        }
       }
     },
     "evolution_v4": {
@@ -2329,12 +2448,12 @@ const newsData = {
         "date": "2026-04-14",
         "has_geopolitical": true,
         "has_earnings_beat": true,
-        "trump_intensity": 1,
+        "trump_intensity": 2,
         "has_policy_benefit": true,
         "has_tech_breakthrough": true,
         "is_earnings_season": true,
         "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-15T04:08:56.580542"
+        "prior_updated_at": "2026-04-15T04:09:25.022605"
       },
       "wukong_experiences": [],
       "sangsha_experiences": [],
@@ -2351,7 +2470,7 @@ const newsData = {
     },
     "market_tone": {
       "早报": "",
-      "晚报": "【2026-04-14晚报】 | 胜率~55% | 40-60% 中性"
+      "晚报": "【2026-04-14晚报】 | 胜率~50% | 40-60% 中性"
     }
   },
   "2026-04-13": {
