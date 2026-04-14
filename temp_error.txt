@@ -1,2 +1,0 @@
-To github.com:xttey001/wnews.git
-   d4951ca..04ee1e0  main -> main

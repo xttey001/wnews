@@ -28,5 +28,11 @@
 - 早报/复盘待配置
 
 ## 已知问题
-1. 周末S/A级新闻为空 → search_today.py 数据源限制
-2. 前端index.html使用中文key(tang_sanzang.仓位)，后端需转换
+1. **搜索数据源缺陷（2026-04-14确认）**: search_today_v2.py用新浪全球滚动新闻API，返回以美股/地缘为主，**A股行情新闻搜不到**。19条里0条A股收盘行情。需要增加东方财富/同花顺等A股专用数据源
+2. 周末S/A级新闻为空 → search_today.py 数据源限制
+3. 前端index.html使用中文key(tang_sanzang.仓位)，后端需转换
+
+## 自动化教训（2026-04-14总结）
+1. **修复了必须commit+push**: review.html的market_tone兼容修复之前做了但没push，线上一直报错
+2. **market_tone从字符串改为对象格式后**，所有前端页面(index/review)都需要做类型兼容检查
+3. **wukong_judgment字段不完整**: pipeline输出的wj只有market_view没有market_sentiment，前端需双重兜底
