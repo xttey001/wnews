@@ -497,11 +497,11 @@ const newsData = {
           "max_drawdown": "-8.0%（止损线）",
           "holding_period": "石油1-3天，芯片3-5天",
           "沙僧信号": {
-            "情绪": "积极",
-            "平均买入概率": 46,
+            "情绪": "平稳",
+            "平均买入概率": 44,
             "平均恐慌概率": 5,
-            "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
-            "可信度级别": "high"
+            "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+            "可信度级别": "normal"
           },
           "白龙马信号": {
             "主力状态": "拉升",
@@ -513,22 +513,22 @@ const newsData = {
           "悟空信号": {
             "市场情绪": ""
           },
-          "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
+          "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
           "融合说明": [
-            "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
+            "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
             "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
           ],
           "original_bajie": {
             "optimal_action": "双主线配置：石油ETF+芯片ETF",
             "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-            "win_rate": "~80%（贝叶斯后验+沙僧白龙马融合）",
+            "win_rate": "~85%（贝叶斯后验+沙僧白龙马融合）",
             "max_drawdown": "-8.0%（止损线）",
             "holding_period": "石油1-3天，芯片3-5天",
             "沙僧信号": {
               "情绪": "积极",
-              "平均买入概率": 47,
+              "平均买入概率": 46,
               "平均恐慌概率": 5,
-              "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
+              "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
               "可信度级别": "high"
             },
             "白龙马信号": {
@@ -543,20 +543,20 @@ const newsData = {
             },
             "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
             "融合说明": [
-              "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
+              "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
               "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
             ],
             "original_bajie": {
               "optimal_action": "双主线配置：石油ETF+芯片ETF",
               "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-              "win_rate": "~75%（贝叶斯后验+沙僧白龙马融合）",
+              "win_rate": "~80%（贝叶斯后验+沙僧白龙马融合）",
               "max_drawdown": "-8.0%（止损线）",
               "holding_period": "石油1-3天，芯片3-5天",
               "沙僧信号": {
                 "情绪": "积极",
                 "平均买入概率": 47,
                 "平均恐慌概率": 5,
-                "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
+                "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
                 "可信度级别": "high"
               },
               "白龙马信号": {
@@ -571,20 +571,20 @@ const newsData = {
               },
               "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
               "融合说明": [
-                "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
+                "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
                 "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
               ],
               "original_bajie": {
                 "optimal_action": "双主线配置：石油ETF+芯片ETF",
                 "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
+                "win_rate": "~75%（贝叶斯后验+沙僧白龙马融合）",
                 "max_drawdown": "-8.0%（止损线）",
                 "holding_period": "石油1-3天，芯片3-5天",
                 "沙僧信号": {
                   "情绪": "积极",
                   "平均买入概率": 47,
                   "平均恐慌概率": 5,
-                  "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
+                  "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
                   "可信度级别": "high"
                 },
                 "白龙马信号": {
@@ -599,21 +599,21 @@ const newsData = {
                 },
                 "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
                 "融合说明": [
-                  "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
+                  "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
                   "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
                 ],
                 "original_bajie": {
                   "optimal_action": "双主线配置：石油ETF+芯片ETF",
                   "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                  "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                  "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
                   "max_drawdown": "-8.0%（止损线）",
                   "holding_period": "石油1-3天，芯片3-5天",
                   "沙僧信号": {
-                    "情绪": "平稳",
-                    "平均买入概率": 35,
+                    "情绪": "积极",
+                    "平均买入概率": 47,
                     "平均恐慌概率": 5,
-                    "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-                    "可信度级别": "normal"
+                    "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
+                    "可信度级别": "high"
                   },
                   "白龙马信号": {
                     "主力状态": "拉升",
@@ -625,9 +625,9 @@ const newsData = {
                   "悟空信号": {
                     "市场情绪": ""
                   },
-                  "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                  "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
                   "融合说明": [
-                    "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                    "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
                     "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
                   ],
                   "original_bajie": {
@@ -638,7 +638,7 @@ const newsData = {
                     "holding_period": "石油1-3天，芯片3-5天",
                     "沙僧信号": {
                       "情绪": "平稳",
-                      "平均买入概率": 24,
+                      "平均买入概率": 35,
                       "平均恐慌概率": 5,
                       "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                       "可信度级别": "normal"
@@ -750,8 +750,8 @@ const newsData = {
                             "holding_period": "石油1-3天，芯片3-5天",
                             "沙僧信号": {
                               "情绪": "平稳",
-                              "平均买入概率": 22,
-                              "平均恐慌概率": 10,
+                              "平均买入概率": 24,
+                              "平均恐慌概率": 5,
                               "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                               "可信度级别": "normal"
                             },
@@ -778,8 +778,8 @@ const newsData = {
                               "holding_period": "石油1-3天，芯片3-5天",
                               "沙僧信号": {
                                 "情绪": "平稳",
-                                "平均买入概率": 30,
-                                "平均恐慌概率": 5,
+                                "平均买入概率": 22,
+                                "平均恐慌概率": 10,
                                 "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                                 "可信度级别": "normal"
                               },
@@ -801,38 +801,94 @@ const newsData = {
                               "original_bajie": {
                                 "optimal_action": "双主线配置：石油ETF+芯片ETF",
                                 "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                                "win_rate": "65%",
-                                "max_drawdown": "-8%",
+                                "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                                "max_drawdown": "-8.0%（止损线）",
                                 "holding_period": "石油1-3天，芯片3-5天",
-                                "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
-                                "overall": {
-                                  "best_action": "双主线配置",
-                                  "best_etfs": "561360+512760",
-                                  "win_rate": "65%",
-                                  "stop_loss": "-8%"
+                                "沙僧信号": {
+                                  "情绪": "平稳",
+                                  "平均买入概率": 30,
+                                  "平均恐慌概率": 5,
+                                  "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                                  "可信度级别": "normal"
                                 },
-                                "bayes_analysis": {
-                                  "scenario_1": {
-                                    "name": "封锁持续1周以上",
-                                    "probability": "40%",
-                                    "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                                "白龙马信号": {
+                                  "主力状态": "拉升",
+                                  "是否利用散户": false,
+                                  "可信度": 1.0,
+                                  "风险等级": "low",
+                                  "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                                },
+                                "悟空信号": {
+                                  "市场情绪": ""
+                                },
+                                "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                                "融合说明": [
+                                  "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                                  "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                                ],
+                                "original_bajie": {
+                                  "optimal_action": "双主线配置：石油ETF+芯片ETF",
+                                  "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
+                                  "win_rate": "65%",
+                                  "max_drawdown": "-8%",
+                                  "holding_period": "石油1-3天，芯片3-5天",
+                                  "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
+                                  "overall": {
+                                    "best_action": "双主线配置",
+                                    "best_etfs": "561360+512760",
+                                    "win_rate": "65%",
+                                    "stop_loss": "-8%"
                                   },
-                                  "scenario_2": {
-                                    "name": "双方迅速重启谈判",
-                                    "probability": "30%",
-                                    "outcome": "封锁解除→油价回落→避险降温"
-                                  },
-                                  "scenario_3": {
-                                    "name": "军事冲突升级",
-                                    "probability": "10%",
-                                    "outcome": "霍尔木兹全面关闭→全球能源危机"
-                                  },
-                                  "scenario_4": {
-                                    "name": "封锁执行但伊朗绕行",
-                                    "probability": "20%",
-                                    "outcome": "影响有限→逐步消化"
+                                  "bayes_analysis": {
+                                    "scenario_1": {
+                                      "name": "封锁持续1周以上",
+                                      "probability": "40%",
+                                      "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                                    },
+                                    "scenario_2": {
+                                      "name": "双方迅速重启谈判",
+                                      "probability": "30%",
+                                      "outcome": "封锁解除→油价回落→避险降温"
+                                    },
+                                    "scenario_3": {
+                                      "name": "军事冲突升级",
+                                      "probability": "10%",
+                                      "outcome": "霍尔木兹全面关闭→全球能源危机"
+                                    },
+                                    "scenario_4": {
+                                      "name": "封锁执行但伊朗绕行",
+                                      "probability": "20%",
+                                      "outcome": "影响有限→逐步消化"
+                                    }
                                   }
-                                }
+                                },
+                                "prior_calibration": {
+                                  "scene_type": "geopolitical_sudden",
+                                  "scene_desc": "地缘突发事件做多",
+                                  "original_prior": 65,
+                                  "calibrated_prior": 65,
+                                  "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                                },
+                                "signal_weights": {
+                                  "悟空深度分析": 1.0,
+                                  "沙僧情绪": 0.8,
+                                  "白龙马主力": 1.08,
+                                  "外盘先行指标": 1.1
+                                },
+                                "signal_weight_notes": [],
+                                "geo_prior_check": {
+                                  "prior_type": "geopolitical",
+                                  "hours_since_last_update": 0.0,
+                                  "is_expired": false,
+                                  "needs_review": false,
+                                  "validity_hours": 12,
+                                  "review_interval_hours": 6
+                                },
+                                "_experiences_applied": [
+                                  "BJ-001",
+                                  "BJ-002",
+                                  "BJ-003"
+                                ]
                               },
                               "prior_calibration": {
                                 "scene_type": "geopolitical_sudden",
@@ -1005,9 +1061,9 @@ const newsData = {
                   "prior_calibration": {
                     "scene_type": "geopolitical_sudden",
                     "scene_desc": "地缘突发事件做多",
-                    "original_prior": 65,
-                    "calibrated_prior": 65,
-                    "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                    "original_prior": 70,
+                    "calibrated_prior": 70,
+                    "note": "当前胜率70%已偏离默认值，不替代（方向对但时机难把握）"
                   },
                   "signal_weights": {
                     "悟空深度分析": 1.0,
@@ -1033,9 +1089,9 @@ const newsData = {
                 "prior_calibration": {
                   "scene_type": "geopolitical_sudden",
                   "scene_desc": "地缘突发事件做多",
-                  "original_prior": 70,
-                  "calibrated_prior": 70,
-                  "note": "当前胜率70%已偏离默认值，不替代（方向对但时机难把握）"
+                  "original_prior": 75,
+                  "calibrated_prior": 75,
+                  "note": "当前胜率75%已偏离默认值，不替代（方向对但时机难把握）"
                 },
                 "signal_weights": {
                   "悟空深度分析": 1.0,
@@ -1061,9 +1117,9 @@ const newsData = {
               "prior_calibration": {
                 "scene_type": "geopolitical_sudden",
                 "scene_desc": "地缘突发事件做多",
-                "original_prior": 75,
-                "calibrated_prior": 75,
-                "note": "当前胜率75%已偏离默认值，不替代（方向对但时机难把握）"
+                "original_prior": 80,
+                "calibrated_prior": 80,
+                "note": "当前胜率80%已偏离默认值，不替代（方向对但时机难把握）"
               },
               "signal_weights": {
                 "悟空深度分析": 1.0,
@@ -1089,9 +1145,9 @@ const newsData = {
             "prior_calibration": {
               "scene_type": "geopolitical_sudden",
               "scene_desc": "地缘突发事件做多",
-              "original_prior": 80,
-              "calibrated_prior": 80,
-              "note": "当前胜率80%已偏离默认值，不替代（方向对但时机难把握）"
+              "original_prior": 85,
+              "calibrated_prior": 85,
+              "note": "当前胜率85%已偏离默认值，不替代（方向对但时机难把握）"
             },
             "signal_weights": {
               "悟空深度分析": 1.0,
@@ -1391,7 +1447,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -1431,11 +1487,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -1582,11 +1638,11 @@ const newsData = {
           "max_drawdown": "-8.0%（止损线）",
           "holding_period": "石油1-3天，芯片3-5天",
           "沙僧信号": {
-            "情绪": "积极",
-            "平均买入概率": 46,
+            "情绪": "平稳",
+            "平均买入概率": 44,
             "平均恐慌概率": 5,
-            "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
-            "可信度级别": "high"
+            "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+            "可信度级别": "normal"
           },
           "白龙马信号": {
             "主力状态": "拉升",
@@ -1598,22 +1654,22 @@ const newsData = {
           "悟空信号": {
             "市场情绪": ""
           },
-          "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
+          "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
           "融合说明": [
-            "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
+            "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
             "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
           ],
           "original_bajie": {
             "optimal_action": "双主线配置：石油ETF+芯片ETF",
             "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-            "win_rate": "~80%（贝叶斯后验+沙僧白龙马融合）",
+            "win_rate": "~85%（贝叶斯后验+沙僧白龙马融合）",
             "max_drawdown": "-8.0%（止损线）",
             "holding_period": "石油1-3天，芯片3-5天",
             "沙僧信号": {
               "情绪": "积极",
-              "平均买入概率": 47,
+              "平均买入概率": 46,
               "平均恐慌概率": 5,
-              "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
+              "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
               "可信度级别": "high"
             },
             "白龙马信号": {
@@ -1628,20 +1684,20 @@ const newsData = {
             },
             "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
             "融合说明": [
-              "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
+              "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率46%）→ 八戒胜率提升至85%，信号一致",
               "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
             ],
             "original_bajie": {
               "optimal_action": "双主线配置：石油ETF+芯片ETF",
               "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-              "win_rate": "~75%（贝叶斯后验+沙僧白龙马融合）",
+              "win_rate": "~80%（贝叶斯后验+沙僧白龙马融合）",
               "max_drawdown": "-8.0%（止损线）",
               "holding_period": "石油1-3天，芯片3-5天",
               "沙僧信号": {
                 "情绪": "积极",
                 "平均买入概率": 47,
                 "平均恐慌概率": 5,
-                "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
+                "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
                 "可信度级别": "high"
               },
               "白龙马信号": {
@@ -1656,20 +1712,20 @@ const newsData = {
               },
               "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
               "融合说明": [
-                "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
+                "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至80%，信号一致",
                 "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
               ],
               "original_bajie": {
                 "optimal_action": "双主线配置：石油ETF+芯片ETF",
                 "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
+                "win_rate": "~75%（贝叶斯后验+沙僧白龙马融合）",
                 "max_drawdown": "-8.0%（止损线）",
                 "holding_period": "石油1-3天，芯片3-5天",
                 "沙僧信号": {
                   "情绪": "积极",
                   "平均买入概率": 47,
                   "平均恐慌概率": 5,
-                  "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
+                  "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
                   "可信度级别": "high"
                 },
                 "白龙马信号": {
@@ -1684,21 +1740,21 @@ const newsData = {
                 },
                 "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
                 "融合说明": [
-                  "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
+                  "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至75%，信号一致",
                   "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
                 ],
                 "original_bajie": {
                   "optimal_action": "双主线配置：石油ETF+芯片ETF",
                   "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                  "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                  "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
                   "max_drawdown": "-8.0%（止损线）",
                   "holding_period": "石油1-3天，芯片3-5天",
                   "沙僧信号": {
-                    "情绪": "平稳",
-                    "平均买入概率": 35,
+                    "情绪": "积极",
+                    "平均买入概率": 47,
                     "平均恐慌概率": 5,
-                    "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-                    "可信度级别": "normal"
+                    "调整结果": "✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
+                    "可信度级别": "high"
                   },
                   "白龙马信号": {
                     "主力状态": "拉升",
@@ -1710,9 +1766,9 @@ const newsData = {
                   "悟空信号": {
                     "市场情绪": ""
                   },
-                  "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                  "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
                   "融合说明": [
-                    "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                    "【沙僧融合】✅ 沙僧支持：散户情绪积极（买入概率47%）→ 八戒胜率提升至70%，信号一致",
                     "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
                   ],
                   "original_bajie": {
@@ -1723,7 +1779,7 @@ const newsData = {
                     "holding_period": "石油1-3天，芯片3-5天",
                     "沙僧信号": {
                       "情绪": "平稳",
-                      "平均买入概率": 24,
+                      "平均买入概率": 35,
                       "平均恐慌概率": 5,
                       "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                       "可信度级别": "normal"
@@ -1835,8 +1891,8 @@ const newsData = {
                             "holding_period": "石油1-3天，芯片3-5天",
                             "沙僧信号": {
                               "情绪": "平稳",
-                              "平均买入概率": 22,
-                              "平均恐慌概率": 10,
+                              "平均买入概率": 24,
+                              "平均恐慌概率": 5,
                               "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                               "可信度级别": "normal"
                             },
@@ -1863,8 +1919,8 @@ const newsData = {
                               "holding_period": "石油1-3天，芯片3-5天",
                               "沙僧信号": {
                                 "情绪": "平稳",
-                                "平均买入概率": 30,
-                                "平均恐慌概率": 5,
+                                "平均买入概率": 22,
+                                "平均恐慌概率": 10,
                                 "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                                 "可信度级别": "normal"
                               },
@@ -1886,38 +1942,94 @@ const newsData = {
                               "original_bajie": {
                                 "optimal_action": "双主线配置：石油ETF+芯片ETF",
                                 "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                                "win_rate": "65%",
-                                "max_drawdown": "-8%",
+                                "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                                "max_drawdown": "-8.0%（止损线）",
                                 "holding_period": "石油1-3天，芯片3-5天",
-                                "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
-                                "overall": {
-                                  "best_action": "双主线配置",
-                                  "best_etfs": "561360+512760",
-                                  "win_rate": "65%",
-                                  "stop_loss": "-8%"
+                                "沙僧信号": {
+                                  "情绪": "平稳",
+                                  "平均买入概率": 30,
+                                  "平均恐慌概率": 5,
+                                  "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                                  "可信度级别": "normal"
                                 },
-                                "bayes_analysis": {
-                                  "scenario_1": {
-                                    "name": "封锁持续1周以上",
-                                    "probability": "40%",
-                                    "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                                "白龙马信号": {
+                                  "主力状态": "拉升",
+                                  "是否利用散户": false,
+                                  "可信度": 1.0,
+                                  "风险等级": "low",
+                                  "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                                },
+                                "悟空信号": {
+                                  "市场情绪": ""
+                                },
+                                "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                                "融合说明": [
+                                  "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                                  "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                                ],
+                                "original_bajie": {
+                                  "optimal_action": "双主线配置：石油ETF+芯片ETF",
+                                  "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
+                                  "win_rate": "65%",
+                                  "max_drawdown": "-8%",
+                                  "holding_period": "石油1-3天，芯片3-5天",
+                                  "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
+                                  "overall": {
+                                    "best_action": "双主线配置",
+                                    "best_etfs": "561360+512760",
+                                    "win_rate": "65%",
+                                    "stop_loss": "-8%"
                                   },
-                                  "scenario_2": {
-                                    "name": "双方迅速重启谈判",
-                                    "probability": "30%",
-                                    "outcome": "封锁解除→油价回落→避险降温"
-                                  },
-                                  "scenario_3": {
-                                    "name": "军事冲突升级",
-                                    "probability": "10%",
-                                    "outcome": "霍尔木兹全面关闭→全球能源危机"
-                                  },
-                                  "scenario_4": {
-                                    "name": "封锁执行但伊朗绕行",
-                                    "probability": "20%",
-                                    "outcome": "影响有限→逐步消化"
+                                  "bayes_analysis": {
+                                    "scenario_1": {
+                                      "name": "封锁持续1周以上",
+                                      "probability": "40%",
+                                      "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                                    },
+                                    "scenario_2": {
+                                      "name": "双方迅速重启谈判",
+                                      "probability": "30%",
+                                      "outcome": "封锁解除→油价回落→避险降温"
+                                    },
+                                    "scenario_3": {
+                                      "name": "军事冲突升级",
+                                      "probability": "10%",
+                                      "outcome": "霍尔木兹全面关闭→全球能源危机"
+                                    },
+                                    "scenario_4": {
+                                      "name": "封锁执行但伊朗绕行",
+                                      "probability": "20%",
+                                      "outcome": "影响有限→逐步消化"
+                                    }
                                   }
-                                }
+                                },
+                                "prior_calibration": {
+                                  "scene_type": "geopolitical_sudden",
+                                  "scene_desc": "地缘突发事件做多",
+                                  "original_prior": 65,
+                                  "calibrated_prior": 65,
+                                  "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                                },
+                                "signal_weights": {
+                                  "悟空深度分析": 1.0,
+                                  "沙僧情绪": 0.8,
+                                  "白龙马主力": 1.08,
+                                  "外盘先行指标": 1.1
+                                },
+                                "signal_weight_notes": [],
+                                "geo_prior_check": {
+                                  "prior_type": "geopolitical",
+                                  "hours_since_last_update": 0.0,
+                                  "is_expired": false,
+                                  "needs_review": false,
+                                  "validity_hours": 12,
+                                  "review_interval_hours": 6
+                                },
+                                "_experiences_applied": [
+                                  "BJ-001",
+                                  "BJ-002",
+                                  "BJ-003"
+                                ]
                               },
                               "prior_calibration": {
                                 "scene_type": "geopolitical_sudden",
@@ -2090,9 +2202,9 @@ const newsData = {
                   "prior_calibration": {
                     "scene_type": "geopolitical_sudden",
                     "scene_desc": "地缘突发事件做多",
-                    "original_prior": 65,
-                    "calibrated_prior": 65,
-                    "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                    "original_prior": 70,
+                    "calibrated_prior": 70,
+                    "note": "当前胜率70%已偏离默认值，不替代（方向对但时机难把握）"
                   },
                   "signal_weights": {
                     "悟空深度分析": 1.0,
@@ -2118,9 +2230,9 @@ const newsData = {
                 "prior_calibration": {
                   "scene_type": "geopolitical_sudden",
                   "scene_desc": "地缘突发事件做多",
-                  "original_prior": 70,
-                  "calibrated_prior": 70,
-                  "note": "当前胜率70%已偏离默认值，不替代（方向对但时机难把握）"
+                  "original_prior": 75,
+                  "calibrated_prior": 75,
+                  "note": "当前胜率75%已偏离默认值，不替代（方向对但时机难把握）"
                 },
                 "signal_weights": {
                   "悟空深度分析": 1.0,
@@ -2146,9 +2258,9 @@ const newsData = {
               "prior_calibration": {
                 "scene_type": "geopolitical_sudden",
                 "scene_desc": "地缘突发事件做多",
-                "original_prior": 75,
-                "calibrated_prior": 75,
-                "note": "当前胜率75%已偏离默认值，不替代（方向对但时机难把握）"
+                "original_prior": 80,
+                "calibrated_prior": 80,
+                "note": "当前胜率80%已偏离默认值，不替代（方向对但时机难把握）"
               },
               "signal_weights": {
                 "悟空深度分析": 1.0,
@@ -2174,9 +2286,9 @@ const newsData = {
             "prior_calibration": {
               "scene_type": "geopolitical_sudden",
               "scene_desc": "地缘突发事件做多",
-              "original_prior": 80,
-              "calibrated_prior": 80,
-              "note": "当前胜率80%已偏离默认值，不替代（方向对但时机难把握）"
+              "original_prior": 85,
+              "calibrated_prior": 85,
+              "note": "当前胜率85%已偏离默认值，不替代（方向对但时机难把握）"
             },
             "signal_weights": {
               "悟空深度分析": 1.0,
@@ -2240,7 +2352,7 @@ const newsData = {
         "has_tech_breakthrough": true,
         "is_earnings_season": true,
         "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-14T14:37:57.339138"
+        "prior_updated_at": "2026-04-14T14:38:24.054939"
       },
       "wukong_experiences": [],
       "sangsha_experiences": [],
@@ -2707,7 +2819,7 @@ const newsData = {
         "category": "市场资讯"
       }
     ],
-    "last_updated": "2026-04-14T14:37:57.210376"
+    "last_updated": "2026-04-14T14:38:23.916928"
   },
   "2026-04-13": {
     "date": "2026-04-13",
@@ -3427,7 +3539,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -3467,11 +3579,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -3840,7 +3952,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -3880,11 +3992,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -5819,7 +5931,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5859,11 +5971,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -6630,7 +6742,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6670,11 +6782,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -7046,7 +7158,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7086,11 +7198,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -7485,7 +7597,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7525,11 +7637,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -7891,7 +8003,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7931,11 +8043,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -8412,7 +8524,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8452,11 +8564,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -8971,7 +9083,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9011,11 +9123,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -9307,7 +9419,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9347,11 +9459,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -9731,7 +9843,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9771,11 +9883,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -10145,7 +10257,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10185,11 +10297,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -10559,7 +10671,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10599,11 +10711,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -10969,7 +11081,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -11009,11 +11121,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -11389,7 +11501,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -11429,11 +11541,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -11782,7 +11894,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -11822,11 +11934,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -12172,7 +12284,7 @@ const newsData = {
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -0.7,
+            "change_pct": -0.68,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12212,11 +12324,11 @@ const newsData = {
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.37
+            "change_pct": 0.41
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -20.28,
+            "change_pct": -20.27,
             "level": "normal"
           },
           "主力状态": "观望",
