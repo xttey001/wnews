@@ -411,8 +411,8 @@ const newsData = {
             "holding_period": "石油1-3天，芯片3-5天",
             "沙僧信号": {
               "情绪": "平稳",
-              "平均买入概率": 22,
-              "平均恐慌概率": 10,
+              "平均买入概率": 24,
+              "平均恐慌概率": 5,
               "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
               "可信度级别": "normal"
             },
@@ -439,7 +439,7 @@ const newsData = {
               "holding_period": "石油1-3天，芯片3-5天",
               "沙僧信号": {
                 "情绪": "平稳",
-                "平均买入概率": 30,
+                "平均买入概率": 24,
                 "平均恐慌概率": 5,
                 "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                 "可信度级别": "normal"
@@ -462,38 +462,150 @@ const newsData = {
               "original_bajie": {
                 "optimal_action": "双主线配置：石油ETF+芯片ETF",
                 "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                "win_rate": "65%",
-                "max_drawdown": "-8%",
+                "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                "max_drawdown": "-8.0%（止损线）",
                 "holding_period": "石油1-3天，芯片3-5天",
-                "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
-                "overall": {
-                  "best_action": "双主线配置",
-                  "best_etfs": "561360+512760",
-                  "win_rate": "65%",
-                  "stop_loss": "-8%"
+                "沙僧信号": {
+                  "情绪": "平稳",
+                  "平均买入概率": 22,
+                  "平均恐慌概率": 10,
+                  "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                  "可信度级别": "normal"
                 },
-                "bayes_analysis": {
-                  "scenario_1": {
-                    "name": "封锁持续1周以上",
-                    "probability": "40%",
-                    "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                "白龙马信号": {
+                  "主力状态": "拉升",
+                  "是否利用散户": false,
+                  "可信度": 1.0,
+                  "风险等级": "low",
+                  "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                },
+                "悟空信号": {
+                  "市场情绪": ""
+                },
+                "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                "融合说明": [
+                  "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                  "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                ],
+                "original_bajie": {
+                  "optimal_action": "双主线配置：石油ETF+芯片ETF",
+                  "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
+                  "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                  "max_drawdown": "-8.0%（止损线）",
+                  "holding_period": "石油1-3天，芯片3-5天",
+                  "沙僧信号": {
+                    "情绪": "平稳",
+                    "平均买入概率": 30,
+                    "平均恐慌概率": 5,
+                    "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                    "可信度级别": "normal"
                   },
-                  "scenario_2": {
-                    "name": "双方迅速重启谈判",
-                    "probability": "30%",
-                    "outcome": "封锁解除→油价回落→避险降温"
+                  "白龙马信号": {
+                    "主力状态": "拉升",
+                    "是否利用散户": false,
+                    "可信度": 1.0,
+                    "风险等级": "low",
+                    "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
                   },
-                  "scenario_3": {
-                    "name": "军事冲突升级",
-                    "probability": "10%",
-                    "outcome": "霍尔木兹全面关闭→全球能源危机"
+                  "悟空信号": {
+                    "市场情绪": ""
                   },
-                  "scenario_4": {
-                    "name": "封锁执行但伊朗绕行",
-                    "probability": "20%",
-                    "outcome": "影响有限→逐步消化"
-                  }
-                }
+                  "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                  "融合说明": [
+                    "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                    "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                  ],
+                  "original_bajie": {
+                    "optimal_action": "双主线配置：石油ETF+芯片ETF",
+                    "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
+                    "win_rate": "65%",
+                    "max_drawdown": "-8%",
+                    "holding_period": "石油1-3天，芯片3-5天",
+                    "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
+                    "overall": {
+                      "best_action": "双主线配置",
+                      "best_etfs": "561360+512760",
+                      "win_rate": "65%",
+                      "stop_loss": "-8%"
+                    },
+                    "bayes_analysis": {
+                      "scenario_1": {
+                        "name": "封锁持续1周以上",
+                        "probability": "40%",
+                        "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                      },
+                      "scenario_2": {
+                        "name": "双方迅速重启谈判",
+                        "probability": "30%",
+                        "outcome": "封锁解除→油价回落→避险降温"
+                      },
+                      "scenario_3": {
+                        "name": "军事冲突升级",
+                        "probability": "10%",
+                        "outcome": "霍尔木兹全面关闭→全球能源危机"
+                      },
+                      "scenario_4": {
+                        "name": "封锁执行但伊朗绕行",
+                        "probability": "20%",
+                        "outcome": "影响有限→逐步消化"
+                      }
+                    }
+                  },
+                  "prior_calibration": {
+                    "scene_type": "geopolitical_sudden",
+                    "scene_desc": "地缘突发事件做多",
+                    "original_prior": 65,
+                    "calibrated_prior": 65,
+                    "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                  },
+                  "signal_weights": {
+                    "悟空深度分析": 1.0,
+                    "沙僧情绪": 0.8,
+                    "白龙马主力": 1.08,
+                    "外盘先行指标": 1.1
+                  },
+                  "signal_weight_notes": [],
+                  "geo_prior_check": {
+                    "prior_type": "geopolitical",
+                    "hours_since_last_update": 0.0,
+                    "is_expired": false,
+                    "needs_review": false,
+                    "validity_hours": 12,
+                    "review_interval_hours": 6
+                  },
+                  "_experiences_applied": [
+                    "BJ-001",
+                    "BJ-002",
+                    "BJ-003"
+                  ]
+                },
+                "prior_calibration": {
+                  "scene_type": "geopolitical_sudden",
+                  "scene_desc": "地缘突发事件做多",
+                  "original_prior": 65,
+                  "calibrated_prior": 65,
+                  "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                },
+                "signal_weights": {
+                  "悟空深度分析": 1.0,
+                  "沙僧情绪": 0.8,
+                  "白龙马主力": 1.08,
+                  "外盘先行指标": 1.1
+                },
+                "signal_weight_notes": [],
+                "geo_prior_check": {
+                  "prior_type": "geopolitical",
+                  "hours_since_last_update": 0.0,
+                  "is_expired": false,
+                  "needs_review": false,
+                  "validity_hours": 12,
+                  "review_interval_hours": 6
+                },
+                "_experiences_applied": [
+                  "BJ-001",
+                  "BJ-002",
+                  "BJ-003"
+                ]
               },
               "prior_calibration": {
                 "scene_type": "geopolitical_sudden",
@@ -830,11 +942,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -845,18 +957,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -867,18 +979,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -889,18 +1001,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -911,7 +1023,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -1054,8 +1166,8 @@ const newsData = {
             "holding_period": "石油1-3天，芯片3-5天",
             "沙僧信号": {
               "情绪": "平稳",
-              "平均买入概率": 22,
-              "平均恐慌概率": 10,
+              "平均买入概率": 24,
+              "平均恐慌概率": 5,
               "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
               "可信度级别": "normal"
             },
@@ -1082,7 +1194,7 @@ const newsData = {
               "holding_period": "石油1-3天，芯片3-5天",
               "沙僧信号": {
                 "情绪": "平稳",
-                "平均买入概率": 30,
+                "平均买入概率": 24,
                 "平均恐慌概率": 5,
                 "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
                 "可信度级别": "normal"
@@ -1105,38 +1217,150 @@ const newsData = {
               "original_bajie": {
                 "optimal_action": "双主线配置：石油ETF+芯片ETF",
                 "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
-                "win_rate": "65%",
-                "max_drawdown": "-8%",
+                "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                "max_drawdown": "-8.0%（止损线）",
                 "holding_period": "石油1-3天，芯片3-5天",
-                "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
-                "overall": {
-                  "best_action": "双主线配置",
-                  "best_etfs": "561360+512760",
-                  "win_rate": "65%",
-                  "stop_loss": "-8%"
+                "沙僧信号": {
+                  "情绪": "平稳",
+                  "平均买入概率": 22,
+                  "平均恐慌概率": 10,
+                  "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                  "可信度级别": "normal"
                 },
-                "bayes_analysis": {
-                  "scenario_1": {
-                    "name": "封锁持续1周以上",
-                    "probability": "40%",
-                    "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                "白龙马信号": {
+                  "主力状态": "拉升",
+                  "是否利用散户": false,
+                  "可信度": 1.0,
+                  "风险等级": "low",
+                  "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                },
+                "悟空信号": {
+                  "市场情绪": ""
+                },
+                "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                "融合说明": [
+                  "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                  "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                ],
+                "original_bajie": {
+                  "optimal_action": "双主线配置：石油ETF+芯片ETF",
+                  "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
+                  "win_rate": "~65%（贝叶斯后验+沙僧白龙马融合）",
+                  "max_drawdown": "-8.0%（止损线）",
+                  "holding_period": "石油1-3天，芯片3-5天",
+                  "沙僧信号": {
+                    "情绪": "平稳",
+                    "平均买入概率": 30,
+                    "平均恐慌概率": 5,
+                    "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                    "可信度级别": "normal"
                   },
-                  "scenario_2": {
-                    "name": "双方迅速重启谈判",
-                    "probability": "30%",
-                    "outcome": "封锁解除→油价回落→避险降温"
+                  "白龙马信号": {
+                    "主力状态": "拉升",
+                    "是否利用散户": false,
+                    "可信度": 1.0,
+                    "风险等级": "low",
+                    "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
                   },
-                  "scenario_3": {
-                    "name": "军事冲突升级",
-                    "probability": "10%",
-                    "outcome": "霍尔木兹全面关闭→全球能源危机"
+                  "悟空信号": {
+                    "市场情绪": ""
                   },
-                  "scenario_4": {
-                    "name": "封锁执行但伊朗绕行",
-                    "probability": "20%",
-                    "outcome": "影响有限→逐步消化"
-                  }
-                }
+                  "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+                  "融合说明": [
+                    "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+                    "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+                  ],
+                  "original_bajie": {
+                    "optimal_action": "双主线配置：石油ETF+芯片ETF",
+                    "optimal_etfs": "561360石油ETF(40%) + 512760芯片ETF(60%)",
+                    "win_rate": "65%",
+                    "max_drawdown": "-8%",
+                    "holding_period": "石油1-3天，芯片3-5天",
+                    "key_variables": "停火达成→退出油气；特朗普软化→退出芯片",
+                    "overall": {
+                      "best_action": "双主线配置",
+                      "best_etfs": "561360+512760",
+                      "win_rate": "65%",
+                      "stop_loss": "-8%"
+                    },
+                    "bayes_analysis": {
+                      "scenario_1": {
+                        "name": "封锁持续1周以上",
+                        "probability": "40%",
+                        "outcome": "油价维持高位→通胀担忧→美联储降息推迟→全球股市承压"
+                      },
+                      "scenario_2": {
+                        "name": "双方迅速重启谈判",
+                        "probability": "30%",
+                        "outcome": "封锁解除→油价回落→避险降温"
+                      },
+                      "scenario_3": {
+                        "name": "军事冲突升级",
+                        "probability": "10%",
+                        "outcome": "霍尔木兹全面关闭→全球能源危机"
+                      },
+                      "scenario_4": {
+                        "name": "封锁执行但伊朗绕行",
+                        "probability": "20%",
+                        "outcome": "影响有限→逐步消化"
+                      }
+                    }
+                  },
+                  "prior_calibration": {
+                    "scene_type": "geopolitical_sudden",
+                    "scene_desc": "地缘突发事件做多",
+                    "original_prior": 65,
+                    "calibrated_prior": 65,
+                    "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                  },
+                  "signal_weights": {
+                    "悟空深度分析": 1.0,
+                    "沙僧情绪": 0.8,
+                    "白龙马主力": 1.08,
+                    "外盘先行指标": 1.1
+                  },
+                  "signal_weight_notes": [],
+                  "geo_prior_check": {
+                    "prior_type": "geopolitical",
+                    "hours_since_last_update": 0.0,
+                    "is_expired": false,
+                    "needs_review": false,
+                    "validity_hours": 12,
+                    "review_interval_hours": 6
+                  },
+                  "_experiences_applied": [
+                    "BJ-001",
+                    "BJ-002",
+                    "BJ-003"
+                  ]
+                },
+                "prior_calibration": {
+                  "scene_type": "geopolitical_sudden",
+                  "scene_desc": "地缘突发事件做多",
+                  "original_prior": 65,
+                  "calibrated_prior": 65,
+                  "note": "当前胜率65%已偏离默认值，不替代（方向对但时机难把握）"
+                },
+                "signal_weights": {
+                  "悟空深度分析": 1.0,
+                  "沙僧情绪": 0.8,
+                  "白龙马主力": 1.08,
+                  "外盘先行指标": 1.1
+                },
+                "signal_weight_notes": [],
+                "geo_prior_check": {
+                  "prior_type": "geopolitical",
+                  "hours_since_last_update": 0.0,
+                  "is_expired": false,
+                  "needs_review": false,
+                  "validity_hours": 12,
+                  "review_interval_hours": 6
+                },
+                "_experiences_applied": [
+                  "BJ-001",
+                  "BJ-002",
+                  "BJ-003"
+                ]
               },
               "prior_calibration": {
                 "scene_type": "geopolitical_sudden",
@@ -1235,7 +1459,7 @@ const newsData = {
         "has_tech_breakthrough": true,
         "is_earnings_season": true,
         "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-14T11:09:48.645272"
+        "prior_updated_at": "2026-04-14T13:57:47.453229"
       },
       "wukong_experiences": [],
       "sangsha_experiences": [],
@@ -1965,11 +2189,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -1980,18 +2204,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -2002,18 +2226,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -2024,18 +2248,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -2046,7 +2270,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -2378,11 +2602,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -2393,18 +2617,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -2415,18 +2639,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -2437,18 +2661,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -2459,7 +2683,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -4124,7 +4348,7 @@ const newsData = {
       }
     },
     "tang_sanzang": {
-      "仓位": "40-50%（×0.8 唐僧系数：情绪过热+信号混乱）",
+      "仓位": "40-50%（×0.8 唐憎系数：情绪过热+信号混乱）",
       "最终行动": "轻仓观望为主",
       "仲裁矛盾": [
         "悟空看多+白龙马AI算力真多（信号混乱×0.8）→ 矛盾抵消，唐憎介入",
@@ -4357,11 +4581,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -4372,18 +4596,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -4394,18 +4618,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -4416,18 +4640,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -4438,7 +4662,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -5168,11 +5392,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5183,18 +5407,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5205,18 +5429,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -5227,18 +5451,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5249,7 +5473,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -5584,11 +5808,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5599,18 +5823,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5621,18 +5845,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -5643,18 +5867,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -5665,7 +5889,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率72%，胜率信号积极"
@@ -6023,11 +6247,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6038,18 +6262,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6060,18 +6284,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -6082,18 +6306,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6104,7 +6328,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -6429,11 +6653,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6444,18 +6668,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6466,18 +6690,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -6488,18 +6712,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6510,7 +6734,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -6950,11 +7174,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6965,18 +7189,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -6987,18 +7211,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -7009,18 +7233,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7031,7 +7255,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -7509,11 +7733,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7524,18 +7748,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7546,18 +7770,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -7568,18 +7792,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7590,7 +7814,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -7845,11 +8069,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7860,18 +8084,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7882,18 +8106,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -7904,18 +8128,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -7926,7 +8150,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -8269,11 +8493,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8284,18 +8508,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8306,18 +8530,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -8328,18 +8552,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8350,7 +8574,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -8683,11 +8907,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8698,18 +8922,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8720,18 +8944,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -8742,18 +8966,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8764,7 +8988,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -9097,11 +9321,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9112,18 +9336,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9134,18 +9358,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -9156,18 +9380,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9178,7 +9402,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -9507,11 +9731,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9522,18 +9746,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9544,18 +9768,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -9566,18 +9790,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9588,7 +9812,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -9927,11 +10151,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9942,18 +10166,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9964,18 +10188,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -9986,18 +10210,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10008,7 +10232,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -10320,11 +10544,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10335,18 +10559,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10357,18 +10581,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -10379,18 +10603,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10401,7 +10625,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率70%，胜率信号积极"
@@ -10710,11 +10934,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 6.71
+            "change_pct": 6.29
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -6.95,
+            "change_pct": -2.07,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10725,18 +10949,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.72
+          "单日量比": 0.97
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.28
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 0.81,
+            "change_pct": 4.76,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10747,18 +10971,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.9
+          "单日量比": 1.15
         },
         {
           "code": "518880",
           "price_trend": {
             "trend": "side",
             "strength": 40,
-            "change_pct": 0.41
+            "change_pct": 0.37
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -25.86,
+            "change_pct": -21.6,
             "level": "normal"
           },
           "主力状态": "观望",
@@ -10769,18 +10993,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.5
+          "单日量比": 0.74
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 90,
-            "change_pct": 7.34
+            "change_pct": 6.82
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.29,
+            "change_pct": 7.4,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10791,7 +11015,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.75
+          "单日量比": 0.89
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率70%，胜率信号积极"
