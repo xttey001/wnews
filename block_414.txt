@@ -1,0 +1,23 @@
+=== 2026-04-14 block (first 500 chars) ===
+"2026-04-14": {
+    "date": "2026-04-14",
+    "market_tone": {
+      "早报": "【2026-04-14早报】AI+医疗领涨，地缘风险持续演化 - 今日关注芯片AI、风电、医疗机器人三条主线",
+      "晚报": "【2026-04-14晚报】待更新"
+    },
+    "all_news": [
+      {
+        "title": "公用事业公司计划未来五年投入1.4万亿美元，助力人工智能热潮发展",
+        "summary": "公用事业公司计划未来五年投入1.4万亿美元，助力人工智能热潮发展",
+        "source": "环球市场播报",
+        "date": "2026-04-14",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-14/doc-inhunpmv9018780.shtml",
+        "emoji": "📰",
+        "catego
+
+=== Field check ===
+Pending count: 1
+wukong_enhanced: NO
+tang_sanzang: NO
+bajie_conclusion: NO
+market_tone: YES
