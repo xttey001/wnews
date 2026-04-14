@@ -1913,12 +1913,12 @@ const newsData = {
         "category": "A股直接相关"
       }
     ],
-    "last_updated": "2026-04-15T04:07:08.835542",
+    "last_updated": "2026-04-15T04:12:57.698398",
     "source_info": "东方财富多频道+新浪财经(v3)",
     "sangsha_module": {
       "overall_sentiment": "平稳",
       "advice": "震荡整理，观望为主",
-      "avg_buy_prob": 20,
+      "avg_buy_prob": 21,
       "avg_panic_prob": 11,
       "analysis_results": [
         {
@@ -1936,7 +1936,7 @@ const newsData = {
           "韭菜行为总结": "散户疯了，都在追！",
           "市场含义": "顶部风险",
           "买入概率": 50,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 50
@@ -1956,7 +1956,7 @@ const newsData = {
           "韭菜行为总结": "散户疯了，都在追！",
           "市场含义": "顶部风险",
           "买入概率": 47,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 47
@@ -1976,7 +1976,7 @@ const newsData = {
           "韭菜行为总结": "散户疯了，都在追！",
           "市场含义": "顶部风险",
           "买入概率": 44,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 44
@@ -1994,7 +1994,7 @@ const newsData = {
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
           "买入概率": 14,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 14
@@ -2012,7 +2012,7 @@ const newsData = {
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
           "买入概率": 14,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 14
@@ -2030,7 +2030,25 @@ const newsData = {
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
           "买入概率": 14,
-          "is_long_term": false,
+          "is_long_term": true,
+          "date": "2026-04-14",
+          "decay": 1.0,
+          "weighted_buy_prob": 14
+        },
+        {
+          "news": "特朗普：两天内谈判！油价要跌？",
+          "title": "特朗普：两天内谈判！油价要跌？",
+          "full_title": "特朗普：两天内谈判！油价要跌？",
+          "summary": "",
+          "追高买入概率": 20,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 89,
+          "情绪标签": [],
+          "韭菜行为总结": "散户情绪平稳",
+          "市场含义": "中性",
+          "买入概率": 14,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 14
@@ -2048,7 +2066,7 @@ const newsData = {
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
           "买入概率": 10,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 10
@@ -2068,7 +2086,7 @@ const newsData = {
           "韭菜行为总结": "散户恐慌，想割肉",
           "市场含义": "可能见底",
           "买入概率": 5,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 5
@@ -2086,25 +2104,7 @@ const newsData = {
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
           "买入概率": 5,
-          "is_long_term": false,
-          "date": "2026-04-14",
-          "decay": 1.0,
-          "weighted_buy_prob": 5
-        },
-        {
-          "news": "特朗普提名的美联储主席人选确认听证会已排期",
-          "title": "特朗普提名的美联储主席人选确认听证会已排期",
-          "full_title": "特朗普提名的美联储主席人选确认听证会已排期",
-          "summary": "特朗普提名的美联储主席人选确认听证会已排期",
-          "追高买入概率": 5,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 95,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 5,
-          "is_long_term": false,
+          "is_long_term": true,
           "date": "2026-04-14",
           "decay": 1.0,
           "weighted_buy_prob": 5
@@ -2124,7 +2124,7 @@ const newsData = {
         "平均买入概率": 33,
         "平均恐慌概率": 5
       },
-      "悟空信号": "暂无",
+      "悟空信号": "",
       "八戒胜率": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
       "各ETF分析": [
         {
@@ -2471,7 +2471,256 @@ const newsData = {
     "market_tone": {
       "早报": "",
       "晚报": "【2026-04-14晚报】 | 胜率~50% | 40-60% 中性"
-    }
+    },
+    "s_level": [
+      {
+        "emoji": "🔴",
+        "title": "德意志银行判断战争风险见顶（地缘拐点信号）",
+        "source": "环球市场播报/德意志银行",
+        "key_point": "德意志银行发布研究报告称，美伊战争风险已见顶，建议押注美元下跌。这一判断基于：① 特朗普称谈判可能在未来两天内举行 ② 能源价格已从高点回落 ③ 市场对战争持续时间的预期趋于理性。GEO-002范式触发：地缘风险见顶信号→风险资产反弹窗口。关键信号：① 德银作为全球顶级投行，判断具有风向标意义 ② 美元下跌预期=新兴市场资金回流 ③ 战争风险溢价消退→成长股估值修复。Trump Jawboning验证：若24小时内谈判重启→地缘风险彻底解除。",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "513100 纳指ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "561360 石油ETF",
+            "sentiment": "偏空"
+          }
+        ],
+        "stocks": [
+          "成长股板块(宁德时代/东方财富/迈瑞医疗)",
+          "科技股(寒武纪-U/海光信息/中芯国际)",
+          "美元反向资产(黄金/人民币资产)"
+        ],
+        "signal": "短期：地缘风险见顶→成长股反弹窗口3-5天，止损-5%；中期：若谈判重启→全面risk-on",
+        "bayes_analysis": {
+          "prior_judgment": "德银判断战争风险见顶=地缘拐点信号，风险资产受益",
+          "prior_prob": 72,
+          "likelihood_judgment": "能源价格回落+谈判预期+德银背书=风险溢价消退",
+          "likelihood_prob": 75,
+          "posterior": 74,
+          "expected_return": "纳指ETF短期+2%~+5%，创业板ETF+3%~+6%",
+          "confidence_interval": "[-4%, +8%]",
+          "key_variables": "谈判结果、能源价格走势、美元指数变化"
+        }
+      },
+      {
+        "emoji": "🔴",
+        "title": "IMF预警伊朗战争持续将导致全球经济下行（系统性风险评估）",
+        "source": "环球市场播报/IMF",
+        "key_point": "IMF发布全球经济情景预测，警告若伊朗战争持续，全球经济可能陷入深度下行。关键内容：① 战争持续时间是关键变量 ② 能源价格持续高位将推高全球通胀 ③ 新兴市场受冲击最大。MACRO-001范式触发：IMF预警=全球央行政策调整预期。关键信号：① IMF作为全球顶级机构，预警具有权威性 ② 若战争持续→全球央行被迫维持高利率 ③ 新兴市场资金外流压力加大。但反向思考：市场已部分定价，若好于预期→反弹强劲。",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "518880 黄金ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "511010 国债ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "偏空"
+          }
+        ],
+        "stocks": [
+          "防御性资产(黄金/国债)",
+          "内需消费(食品饮料/医药)",
+          "出口导向型(谨慎)"
+        ],
+        "signal": "短期：IMF预警→避险情绪升温，黄金/国债配置1-3天；中期：若战争结束→快速切换risk-on",
+        "bayes_analysis": {
+          "prior_judgment": "IMF预警=系统性风险上升，避险资产受益",
+          "prior_prob": 68,
+          "likelihood_judgment": "IMF权威性高，但市场已部分定价",
+          "likelihood_prob": 65,
+          "posterior": 67,
+          "expected_return": "黄金ETF+1%~+3%，国债ETF+0.5%~+1.5%",
+          "confidence_interval": "[-2%, +4%]",
+          "key_variables": "战争持续时间、能源价格走势、央行政策反应"
+        }
+      },
+      {
+        "emoji": "🔴",
+        "title": "特朗普称谈判可能在未来两天内举行（地缘缓和信号）",
+        "source": "环球市场播报/白宫",
+        "key_point": "特朗普在接受采访时表示，与伊朗的谈判可能在未来两天内举行。这一表态释放缓和信号：① 封锁措施可能是施压手段，而非永久政策 ② 谈判重启预期升温 ③ 市场从恐慌转向理性定价。GEO-003范式触发：谈判重启预期→地缘风险溢价快速消退。关键信号：① 特朗普主动释放谈判信号=态度软化 ② 48小时窗口期=关键观察期 ③ 若谈判重启→油气板块回调，成长股反弹。Trump Jawboning验证：此次非喊话，而是实质性谈判信号。",
+        "duration": "1-3天",
+        "etfs": [
+          {
+            "name": "512760 芯片ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "561360 石油ETF",
+            "sentiment": "偏空"
+          }
+        ],
+        "stocks": [
+          "成长股板块(宁德时代/东方财富/寒武纪)",
+          "科技股(中芯国际/海光信息)",
+          "油气板块(止盈)"
+        ],
+        "signal": "短期：谈判预期→成长股反弹窗口2-3天，止损-5%；关键：48小时内谈判结果决定方向",
+        "bayes_analysis": {
+          "prior_judgment": "特朗普谈判表态=地缘缓和信号，风险资产受益",
+          "prior_prob": 70,
+          "likelihood_judgment": "48小时窗口期=关键观察期，谈判概率60%",
+          "likelihood_prob": 60,
+          "posterior": 65,
+          "expected_return": "芯片ETF+2%~+5%，石油ETF-3%~-6%",
+          "confidence_interval": "[-5%, +7%]",
+          "key_variables": "48小时内谈判结果、伊朗态度、能源价格反应"
+        }
+      }
+    ],
+    "a_level": [
+      {
+        "emoji": "🟡",
+        "title": "能源价格回落，交易员下调对欧洲央行加息押注（通胀预期改善）",
+        "source": "环球市场播报/欧洲央行",
+        "key_point": "受能源价格回落影响，交易员下调对欧洲央行加息的押注。关键信号：① 能源价格从高点回落=通胀压力缓解 ② 欧洲央行加息预期下降=全球流动性改善 ③ 美联储降息空间讨论升温。MACRO-002范式触发：能源价格回落→全球央行政策转向预期。关键逻辑：① 欧洲央行若放缓加息→欧元走弱→美元走强压力缓解 ② 全球流动性改善预期→新兴市场资金回流 ③ A股外资流入预期增强。",
+        "duration": "1-3天",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "513100 纳指ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "561360 石油ETF",
+            "sentiment": "偏空"
+          }
+        ],
+        "stocks": [
+          "成长股板块(宁德时代/东方财富)",
+          "科技股(寒武纪/海光信息)",
+          "油气板块(止盈)"
+        ],
+        "signal": "短期：能源回落→成长股反弹窗口1-3天，关注外资流向",
+        "bayes_analysis": {
+          "prior_judgment": "能源价格回落=通胀压力缓解，成长股受益",
+          "prior_prob": 68,
+          "likelihood_judgment": "欧洲央行加息预期下降=全球流动性改善",
+          "likelihood_prob": 65,
+          "posterior": 67,
+          "expected_return": "创业板ETF+2%~+4%",
+          "confidence_interval": "[-3%, +6%]",
+          "key_variables": "能源价格走势、欧洲央行政策、外资流向"
+        }
+      },
+      {
+        "emoji": "🟡",
+        "title": "白宫首席经济顾问：美联储仍有降息空间（政策转向信号）",
+        "source": "环球市场播报/白宫",
+        "key_point": "白宫首席经济顾问表示，美联储仍有降息空间，得益于高生产率的推动。关键信号：① 白宫表态=政策转向预期 ② 高生产率=降息空间的理论基础 ③ 若美联储降息→全球流动性改善。POLICY-001范式触发：白宫表态=美联储政策转向预期。关键逻辑：① 白宫施压美联储=政治压力 ② 降息预期升温→美元走弱→新兴市场受益 ③ A股外资流入预期增强。但需注意：白宫表态≠美联储决定，需观察后续数据。",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "513100 纳指ETF",
+            "sentiment": "利好"
+          },
+          {
+            "name": "518880 黄金ETF",
+            "sentiment": "利好"
+          }
+        ],
+        "stocks": [
+          "成长股板块(宁德时代/东方财富)",
+          "黄金板块(山东黄金/中金黄金)",
+          "外资重仓股(茅台/宁德时代)"
+        ],
+        "signal": "中期：美联储降息预期升温→成长股配置窗口，关注后续数据验证",
+        "bayes_analysis": {
+          "prior_judgment": "白宫表态=美联储降息预期升温，成长股受益",
+          "prior_prob": 62,
+          "likelihood_judgment": "白宫施压≠美联储决定，需观察后续数据",
+          "likelihood_prob": 58,
+          "posterior": 60,
+          "expected_return": "创业板ETF中期+5%~+10%",
+          "confidence_interval": "[-5%, +12%]",
+          "key_variables": "美联储官员讲话、通胀数据、就业数据"
+        }
+      }
+    ],
+    "wukong_judgment": {
+      "market_view": "中性偏多",
+      "confidence": 68,
+      "key_factors": [
+        "GEO-002触发：德银判断战争风险见顶=风险资产反弹窗口",
+        "GEO-003触发：特朗普称谈判可能在未来两天内举行=地缘缓和信号",
+        "MACRO-001触发：IMF预警=系统性风险评估，但市场已部分定价",
+        "MACRO-002触发：能源价格回落→全球央行政策转向预期",
+        "POLICY-001触发：白宫表态=美联储降息预期升温"
+      ],
+      "active_patterns": [
+        {
+          "id": "GEO-002",
+          "name": "地缘风险见顶信号→风险资产反弹窗口",
+          "triggered": true,
+          "confidence": 74,
+          "action": "做多创业板ETF(159915)，持仓3-5天，止损-5%"
+        },
+        {
+          "id": "GEO-003",
+          "name": "谈判重启预期→地缘风险溢价快速消退",
+          "triggered": true,
+          "confidence": 65,
+          "action": "成长股配置，48小时内观察谈判结果"
+        },
+        {
+          "id": "MACRO-002",
+          "name": "能源价格回落→全球央行政策转向预期",
+          "triggered": true,
+          "confidence": 67,
+          "action": "关注外资流向，成长股反弹窗口1-3天"
+        },
+        {
+          "id": "POLICY-001",
+          "name": "白宫表态=美联储降息预期",
+          "triggered": true,
+          "confidence": 60,
+          "action": "中期配置成长股，需观察后续数据验证"
+        }
+      ],
+      "risk_alerts": [
+        "地缘风险：若48小时内谈判破裂→立即退出成长股",
+        "政策风险：IMF预警若持续→避险资产配置",
+        "数据风险：关注后续通胀数据、就业数据对美联储政策的影响"
+      ]
+    },
+    "douyin": [
+      {
+        "title": "德银喊话：战争风险见顶，该买成长股了！",
+        "hot": "🔥🔥🔥",
+        "views": "120万"
+      },
+      {
+        "title": "特朗普：两天内谈判！油价要跌？",
+        "hot": "🔥🔥",
+        "views": "85万"
+      }
+    ],
+    "wukong_generated": true,
+    "wukong_generated_time": "2026-04-15T04:12:57.698415"
   },
   "2026-04-13": {
     "date": "2026-04-13",
