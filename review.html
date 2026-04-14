@@ -409,11 +409,13 @@ function calcSummary(dates){
         const day=newsData[ds]; if(!day) return;
         totalNews+=day.all_news?day.all_news.length:0;
         if(day.wukong_judgment) hasWukong++;
-        const tone=day.market_tone||'';
-        if(tone.match(/涨|多|反弹/))sc.偏多++;
-        else if(tone.match(/跌|空|回调/))sc.偏空++;
-        else if(tone.match(/震荡|分化/))sc.震荡++;
-        else if(tone.match(/谨慎|防/))sc.谨慎++; else sc.中性++;
+        const rawTone = day.market_tone || '';
+        // 兼容新旧两种格式: 新格式={早报:"...",晚报:"..."}, 旧格式="..."
+        const tone = typeof rawTone === 'string' ? rawTone : (rawTone['晚报'] || rawTone['早报'] || '');
+        if(typeof tone === 'string' && tone.match(/涨|多|反弹/))sc.偏多++;
+        else if(typeof tone === 'string' && tone.match(/跌|空|回调/))sc.偏空++;
+        else if(typeof tone === 'string' && tone.match(/震荡|分化/))sc.震荡++;
+        else if(typeof tone === 'string' && tone.match(/谨慎|防/))sc.谨慎++; else sc.中性++;
         const etfStr=(day.bajie_conclusion||{}).optimal_etfs||'';
         (etfStr.match(/\d{6}/g)||[]).forEach(c=>etfs[c]=(etfs[c]||0)+1);
         const wds=((day.white_dragon||{})['主力状态']||(day.white_dragon||{}).state||'');
