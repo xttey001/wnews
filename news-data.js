@@ -2125,7 +2125,7 @@ const newsData = {
         "平均恐慌概率": 5
       },
       "悟空信号": "暂无",
-      "八戒胜率": "暂无",
+      "八戒胜率": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
       "各ETF分析": [
         {
           "code": "512760",
@@ -2221,21 +2221,15 @@ const newsData = {
     "bajie_conclusion": {
       "optimal_action": "",
       "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
+      "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
       "max_drawdown": "-8.0%（止损线）",
       "holding_period": "",
-      "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
-      },
       "沙僧信号": {
-        "情绪": "平稳",
-        "平均买入概率": 20,
-        "平均恐慌概率": 11,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "情绪": "积极",
+        "平均买入概率": 50,
+        "平均恐慌概率": 5,
+        "调整结果": "✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
+        "可信度级别": "neutral"
       },
       "白龙马信号": {
         "主力状态": "拉升",
@@ -2247,13 +2241,117 @@ const newsData = {
       "悟空信号": {
         "市场情绪": ""
       },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
-      "信号一致性得分": 2,
+      "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
       "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+        "【沙僧融合】✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
         "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
       ],
-      "original_bajie": {}
+      "original_bajie": {},
+      "prior_calibration": {
+        "scene_type": "geopolitical_sudden",
+        "scene_desc": "地缘突发事件做多",
+        "original_prior": 50,
+        "calibrated_prior": 55,
+        "note": "方向对但时机难把握"
+      },
+      "signal_weights": {
+        "悟空深度分析": 1.0,
+        "沙僧情绪": 0.8,
+        "白龙马主力": 1.08,
+        "外盘先行指标": 1.1
+      },
+      "signal_weight_notes": [],
+      "geo_prior_check": {
+        "prior_type": "geopolitical",
+        "hours_since_last_update": 0.0,
+        "is_expired": false,
+        "needs_review": false,
+        "validity_hours": 12,
+        "review_interval_hours": 6
+      },
+      "_experiences_applied": [
+        "BJ-001",
+        "BJ-002",
+        "BJ-003"
+      ]
+    },
+    "wukong_enhanced": {},
+    "tang_sanzang": {
+      "仓位": "40-60% 中性",
+      "最终行动": "",
+      "唐僧结论": "，胜率~55%（注意：1项高风险）",
+      "仲裁矛盾": [
+        "🙏 唐僧：四层信号无重大矛盾，各司其职"
+      ],
+      "仓位公式": "base(40-60% 中性) × 风控调整",
+      "风控触发": [
+        "逻辑止损缺失（地缘事件场景）: ❌ 必须补充 - 地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
+      ],
+      "_raw": {
+        "final_action": "",
+        "final_win_rate": "~55%",
+        "optimal_etfs": "",
+        "max_drawdown": "-8.0%（止损线）",
+        "arbitration_notes": [
+          "🙏 唐僧：四层信号无重大矛盾，各司其职"
+        ],
+        "risk_checks": [
+          {
+            "item": "逻辑止损缺失（地缘事件场景）",
+            "status": "❌ 必须补充",
+            "reason": "地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
+          }
+        ],
+        "conflict_count": 0,
+        "module_summary": {
+          "悟空": "无数据",
+          "沙僧": "情绪:积极(买入50%)",
+          "白龙马": "主力:拉升(可信度1.0)",
+          "八戒": "行动: 胜率:~55%（BJ校准：地缘突发事件做多，基准先验55%） | 注入3条经验"
+        },
+        "experience_applied": {
+          "悟空": [],
+          "沙僧": [],
+          "白龙马": [],
+          "八戒": [
+            "BJ-001",
+            "BJ-002",
+            "BJ-003"
+          ]
+        },
+        "original_bajie": {}
+      }
+    },
+    "evolution_v4": {
+      "version": "v4",
+      "date": "2026-04-14",
+      "scene_metadata": {
+        "date": "2026-04-14",
+        "has_geopolitical": true,
+        "has_earnings_beat": true,
+        "trump_intensity": 1,
+        "has_policy_benefit": true,
+        "has_tech_breakthrough": true,
+        "is_earnings_season": true,
+        "prior_type": "geopolitical",
+        "prior_updated_at": "2026-04-15T04:08:56.580542"
+      },
+      "wukong_experiences": [],
+      "sangsha_experiences": [],
+      "white_dragon_experiences": [],
+      "bajie_experiences": [
+        "BJ-001",
+        "BJ-002",
+        "BJ-003"
+      ],
+      "tang_rules": [],
+      "arbitration_notes": [
+        "🙏 唐僧：四层信号无重大矛盾，各司其职"
+      ]
+    },
+    "market_tone": {
+      "早报": "",
+      "晚报": "【2026-04-14晚报】 | 胜率~55% | 40-60% 中性"
     }
   },
   "2026-04-13": {
