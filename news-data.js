@@ -1479,7 +1479,7 @@ const newsData = {
         "category": "A股直接相关"
       }
     ],
-    "last_updated": "2026-04-17T00:42:08.634521",
+    "last_updated": "2026-04-17T01:25:12.049573",
     "source_info": "东方财富快讯+新浪财经",
     "total_count": 14,
     "filtered_count": 14,
@@ -1689,7 +1689,7 @@ const newsData = {
         "平均买入概率": 16,
         "平均恐慌概率": 5
       },
-      "悟空信号": "暂无",
+      "悟空信号": "",
       "八戒胜率": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
       "各ETF分析": [
         {
@@ -1811,11 +1811,67 @@ const newsData = {
         "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
         "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
       ],
-      "original_bajie": {},
+      "original_bajie": {
+        "optimal_action": "",
+        "optimal_etfs": "",
+        "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+        "max_drawdown": "-8.0%（止损线）",
+        "holding_period": "",
+        "沙僧信号": {
+          "情绪": "平稳",
+          "平均买入概率": 10,
+          "平均恐慌概率": 12,
+          "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+          "可信度级别": "normal"
+        },
+        "白龙马信号": {
+          "主力状态": "拉升",
+          "是否利用散户": false,
+          "可信度": 1.0,
+          "风险等级": "low",
+          "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        },
+        "悟空信号": {
+          "市场情绪": ""
+        },
+        "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+        "融合说明": [
+          "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+          "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        ],
+        "original_bajie": {},
+        "prior_calibration": {
+          "scene_type": "geopolitical_sudden",
+          "scene_desc": "地缘突发事件做多",
+          "original_prior": 50,
+          "calibrated_prior": 55,
+          "note": "方向对但时机难把握"
+        },
+        "signal_weights": {
+          "悟空深度分析": 1.0,
+          "沙僧情绪": 0.8,
+          "白龙马主力": 1.08,
+          "外盘先行指标": 1.1
+        },
+        "signal_weight_notes": [],
+        "geo_prior_check": {
+          "prior_type": "geopolitical",
+          "hours_since_last_update": 0.0,
+          "is_expired": false,
+          "needs_review": false,
+          "validity_hours": 12,
+          "review_interval_hours": 6
+        },
+        "_experiences_applied": [
+          "BJ-001",
+          "BJ-002",
+          "BJ-003"
+        ]
+      },
       "prior_calibration": {
         "scene_type": "geopolitical_sudden",
         "scene_desc": "地缘突发事件做多",
-        "original_prior": 50,
+        "original_prior": 55,
         "calibrated_prior": 55,
         "note": "方向对但时机难把握"
       },
@@ -1840,22 +1896,42 @@ const newsData = {
         "BJ-003"
       ]
     },
-    "wukong_enhanced": {},
+    "wukong_enhanced": {
+      "date": "2026-04-17",
+      "total_news": 14,
+      "s_count": 8,
+      "a_count": 1,
+      "b_count": 5,
+      "market_trend": "偏空",
+      "key_events": [
+        "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
+        "美联储理事米兰：看不到等待降息的理由",
+        "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息"
+      ],
+      "risk_level": "高",
+      "recommendation": "政策利好→成长股 | 政策利好→成长股",
+      "_experiences_applied": [],
+      "_scene_tags": {
+        "has_geopolitical": false,
+        "trump_intensity": 0,
+        "has_earnings_news": false
+      }
+    },
     "tang_sanzang": {
       "仓位": "40-60% 中性",
       "最终行动": "",
-      "唐僧结论": "，胜率~50%（注意：1项高风险）",
+      "唐僧结论": "，胜率~40%（注意：1项高风险）",
       "仲裁矛盾": [
         "🙏 唐僧：四层信号无重大矛盾，各司其职"
       ],
       "仓位公式": "base(40-60% 中性) × 风控调整",
       "风控触发": [
-        "Trump喊话强度=2: ⚠️ 反转风险 - 连续2天喊话，反转概率~50%",
+        "Trump喊话强度=3: ⚠️ 反转风险 - 连续3天喊话，反转概率~70%+",
         "逻辑止损缺失（地缘事件场景）: ❌ 必须补充 - 地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
       ],
       "_raw": {
         "final_action": "",
-        "final_win_rate": "~50%",
+        "final_win_rate": "~40%",
         "optimal_etfs": "",
         "max_drawdown": "-8.0%（止损线）",
         "arbitration_notes": [
@@ -1863,10 +1939,10 @@ const newsData = {
         ],
         "risk_checks": [
           {
-            "item": "Trump喊话强度=2",
+            "item": "Trump喊话强度=3",
             "status": "⚠️ 反转风险",
-            "reason": "连续2天喊话，反转概率~50%",
-            "adjust_win_rate": -5
+            "reason": "连续3天喊话，反转概率~70%+",
+            "adjust_win_rate": -15
           },
           {
             "item": "逻辑止损缺失（地缘事件场景）",
@@ -1876,7 +1952,7 @@ const newsData = {
         ],
         "conflict_count": 0,
         "module_summary": {
-          "悟空": "无数据",
+          "悟空": "情绪:?",
           "沙僧": "情绪:平稳(买入10%) | 注入1条经验",
           "白龙马": "主力:拉升(可信度1.0)",
           "八戒": "行动: 胜率:~55%（BJ校准：地缘突发事件做多，基准先验55%） | 注入3条经验"
@@ -1893,7 +1969,63 @@ const newsData = {
             "BJ-003"
           ]
         },
-        "original_bajie": {}
+        "original_bajie": {
+          "optimal_action": "",
+          "optimal_etfs": "",
+          "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+          "max_drawdown": "-8.0%（止损线）",
+          "holding_period": "",
+          "沙僧信号": {
+            "情绪": "平稳",
+            "平均买入概率": 10,
+            "平均恐慌概率": 12,
+            "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+            "可信度级别": "normal"
+          },
+          "白龙马信号": {
+            "主力状态": "拉升",
+            "是否利用散户": false,
+            "可信度": 1.0,
+            "风险等级": "low",
+            "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+          },
+          "悟空信号": {
+            "市场情绪": ""
+          },
+          "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+          "融合说明": [
+            "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+            "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+          ],
+          "original_bajie": {},
+          "prior_calibration": {
+            "scene_type": "geopolitical_sudden",
+            "scene_desc": "地缘突发事件做多",
+            "original_prior": 50,
+            "calibrated_prior": 55,
+            "note": "方向对但时机难把握"
+          },
+          "signal_weights": {
+            "悟空深度分析": 1.0,
+            "沙僧情绪": 0.8,
+            "白龙马主力": 1.08,
+            "外盘先行指标": 1.1
+          },
+          "signal_weight_notes": [],
+          "geo_prior_check": {
+            "prior_type": "geopolitical",
+            "hours_since_last_update": 0.0,
+            "is_expired": false,
+            "needs_review": false,
+            "validity_hours": 12,
+            "review_interval_hours": 6
+          },
+          "_experiences_applied": [
+            "BJ-001",
+            "BJ-002",
+            "BJ-003"
+          ]
+        }
       }
     },
     "evolution_v4": {
@@ -1903,12 +2035,12 @@ const newsData = {
         "date": "2026-04-17",
         "has_geopolitical": true,
         "has_earnings_beat": true,
-        "trump_intensity": 2,
+        "trump_intensity": 3,
         "has_policy_benefit": true,
         "is_earnings_season": true,
         "is_near_weekend": true,
         "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-17T00:42:33.603567"
+        "prior_updated_at": "2026-04-17T01:25:17.971872"
       },
       "wukong_experiences": [],
       "sangsha_experiences": [
@@ -1927,7 +2059,317 @@ const newsData = {
     },
     "market_tone": {
       "早报": "",
-      "晚报": "【2026-04-17晚报】 | 胜率~50% | 40-60% 中性"
+      "晚报": "【2026-04-17晚报】 | 胜率~40% | 40-60% 中性"
+    },
+    "s_level": [
+      {
+        "emoji": "🔴",
+        "title": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
+        "source": "环球市场播报",
+        "key_point": "关键事件：特朗普称以色列与黎巴嫩已达成为期10天的停火协议...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "弱势信号：谨慎观察，轻仓试探",
+        "bayes_analysis": {
+          "prior_judgment": "基于trade事件的先验判断",
+          "prior_prob": 55,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 60,
+          "posterior": 57,
+          "expected_return": "相关板块波动加大，需谨慎",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "政策细节、中方回应、执行时间"
+        },
+        "event_type": "trade",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfu6930677.shtml"
+      },
+      {
+        "emoji": "🔴",
+        "title": "美联储理事米兰：看不到等待降息的理由",
+        "source": "环球市场播报",
+        "key_point": "关键事件：美联储理事米兰：看不到等待降息的理由...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "中等信号：适度参与，控制仓位50%",
+        "bayes_analysis": {
+          "prior_judgment": "基于policy事件的先验判断",
+          "prior_prob": 65,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 70,
+          "posterior": 67,
+          "expected_return": "创业板ETF +4%~+10%，纳指ETF +3%~+8%",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "政策落地时间、市场预期、后续数据"
+        },
+        "event_type": "policy",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tob/2026-04-17/doc-inhutnfw3701932.shtml"
+      },
+      {
+        "emoji": "🔴",
+        "title": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
+        "source": "环球市场播报",
+        "key_point": "关键事件：纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "中等信号：适度参与，控制仓位50%",
+        "bayes_analysis": {
+          "prior_judgment": "基于policy事件的先验判断",
+          "prior_prob": 65,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 70,
+          "posterior": 67,
+          "expected_return": "创业板ETF +4%~+10%，纳指ETF +3%~+8%",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "政策落地时间、市场预期、后续数据"
+        },
+        "event_type": "policy",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfw3700615.shtml"
+      },
+      {
+        "emoji": "🔴",
+        "title": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
+        "source": "环球市场播报",
+        "key_point": "关键事件：特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "弱势信号：谨慎观察，轻仓试探",
+        "bayes_analysis": {
+          "prior_judgment": "基于trade事件的先验判断",
+          "prior_prob": 55,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 60,
+          "posterior": 57,
+          "expected_return": "相关板块波动加大，需谨慎",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "政策细节、中方回应、执行时间"
+        },
+        "event_type": "trade",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfy1424230.shtml"
+      },
+      {
+        "emoji": "🔴",
+        "title": "限特朗普战争权力议案遭美众院否决",
+        "source": "东方财富",
+        "key_point": "关键事件：限特朗普战争权力议案遭美众院否决...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "中等信号：适度参与，控制仓位50%",
+        "bayes_analysis": {
+          "prior_judgment": "基于geopolitical事件的先验判断",
+          "prior_prob": 60,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 65,
+          "posterior": 62,
+          "expected_return": "石油ETF +3%~+8%，黄金ETF +2%~+5%",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "地缘事件发展、官方表态、市场情绪"
+        },
+        "event_type": "geopolitical",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173707905668.html"
+      },
+      {
+        "emoji": "🔴",
+        "title": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
+        "source": "东方财富",
+        "key_point": "关键事件：伊朗回应美加大经济制裁：这是“经济恐怖主义”...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "中等信号：适度参与，控制仓位50%",
+        "bayes_analysis": {
+          "prior_judgment": "基于geopolitical事件的先验判断",
+          "prior_prob": 60,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 65,
+          "posterior": 62,
+          "expected_return": "石油ETF +3%~+8%，黄金ETF +2%~+5%",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "地缘事件发展、官方表态、市场情绪"
+        },
+        "event_type": "geopolitical",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173707903073.html"
+      },
+      {
+        "emoji": "🔴",
+        "title": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
+        "source": "东方财富",
+        "key_point": "关键事件：特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "弱势信号：谨慎观察，轻仓试探",
+        "bayes_analysis": {
+          "prior_judgment": "基于trade事件的先验判断",
+          "prior_prob": 55,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 60,
+          "posterior": 57,
+          "expected_return": "相关板块波动加大，需谨慎",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "政策细节、中方回应、执行时间"
+        },
+        "event_type": "trade",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173707902973.html"
+      },
+      {
+        "emoji": "🔴",
+        "title": "特朗普说将邀请以黎领导人前往白宫会谈",
+        "source": "东方财富",
+        "key_point": "关键事件：特朗普说将邀请以黎领导人前往白宫会谈...",
+        "duration": "1-4周",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "弱势信号：谨慎观察，轻仓试探",
+        "bayes_analysis": {
+          "prior_judgment": "基于trade事件的先验判断",
+          "prior_prob": 55,
+          "likelihood_judgment": "结合市场情绪和技术指标",
+          "likelihood_prob": 60,
+          "posterior": 57,
+          "expected_return": "相关板块波动加大，需谨慎",
+          "confidence_interval": "[-5%, +15%]",
+          "key_variables": "政策细节、中方回应、执行时间"
+        },
+        "event_type": "trade",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173707902872.html"
+      }
+    ],
+    "a_level": [
+      {
+        "emoji": "🟡",
+        "title": "海昇药业：一季度净利润同比增长51.52%",
+        "source": "东方财富",
+        "key_point": "关注点：海昇药业：一季度净利润同比增长51.52%...",
+        "duration": "3-7天",
+        "etfs": [
+          {
+            "name": "159915 创业板ETF",
+            "sentiment": "中性"
+          }
+        ],
+        "stocks": [
+          "待观察板块"
+        ],
+        "signal": "适度关注，观察后续发展",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173707901481.html"
+      }
+    ],
+    "b_level": [
+      {
+        "emoji": "📌",
+        "title": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
+        "source": "环球市场播报",
+        "category": "市场资讯"
+      },
+      {
+        "emoji": "📌",
+        "title": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
+        "source": "环球市场播报",
+        "category": "市场资讯"
+      },
+      {
+        "emoji": "📌",
+        "title": "伊朗武装部队司令：敌人对战局存在“误判”",
+        "source": "东方财富",
+        "category": "市场资讯"
+      },
+      {
+        "emoji": "📌",
+        "title": "谷歌云宣布BigQuery Studio笔记本画廊全面正式上线",
+        "source": "东方财富",
+        "category": "市场资讯"
+      },
+      {
+        "emoji": "📌",
+        "title": "据房利美 美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%",
+        "source": "东方财富",
+        "category": "市场资讯"
+      }
+    ],
+    "wukong_judgment": {
+      "date": "2026-04-17",
+      "total_news": 14,
+      "s_count": 8,
+      "a_count": 1,
+      "b_count": 5,
+      "market_trend": "偏空",
+      "key_events": [
+        "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
+        "美联储理事米兰：看不到等待降息的理由",
+        "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息"
+      ],
+      "risk_level": "高",
+      "recommendation": "政策利好→成长股 | 政策利好→成长股"
     }
   },
   "2026-04-15": {
