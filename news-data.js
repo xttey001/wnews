@@ -575,11 +575,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -590,18 +590,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 12,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -612,40 +612,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 12,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 12,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -656,7 +656,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 12,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -1169,338 +1169,3326 @@ const newsData = {
     "date": "2026-04-17",
     "all_news": [
       {
-        "title": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-        "summary": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
+        "title": "市场挑战下美铝Q1业绩不及预期",
+        "summary": "市场挑战下美铝Q1业绩不及预期",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfu6930677.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvrew3023761.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776357241",
+        "timestamp": "1776435511",
         "category": "A股直接相关"
       },
       {
-        "title": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
-        "summary": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
+        "title": "卡沙甘油田就50亿美元哈萨克斯坦硫磺罚款上诉再遭驳回",
+        "summary": "卡沙甘油田就50亿美元哈萨克斯坦硫磺罚款上诉再遭驳回",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfw3706876.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0960656.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776357018",
+        "timestamp": "1776434847",
         "category": "市场资讯"
       },
       {
-        "title": "美联储理事米兰：看不到等待降息的理由",
-        "summary": "美联储理事米兰：看不到等待降息的理由",
+        "title": "DOGE削减一年后，特朗普政府悄然重启招聘",
+        "summary": "DOGE削减一年后，特朗普政府悄然重启招聘",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/tob/2026-04-17/doc-inhutnfw3701932.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6371254.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355899",
+        "timestamp": "1776434678",
         "category": "A股直接相关"
       },
       {
-        "title": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-        "summary": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
+        "title": "德国法院裁定：前麦格理银行家必须接受Cum-Ex庭审",
+        "summary": "德国法院裁定：前麦格理银行家必须接受Cum-Ex庭审",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfs2628532.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6369642.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355662",
+        "timestamp": "1776434415",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "私募巨头EQT警告：私募股权持有的另类能源资产面临退出风险",
+        "summary": "私募巨头EQT警告：私募股权持有的另类能源资产面临退出风险",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2158102.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776434347",
         "category": "市场资讯"
       },
       {
-        "title": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-        "summary": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
+        "title": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+        "summary": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfw3700615.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6368110.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355654",
-        "category": "A股直接相关"
+        "timestamp": "1776434135",
+        "category": "市场资讯"
       },
       {
-        "title": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-        "summary": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
+        "title": "伊朗宣布开放霍尔木兹海峡 油价暴跌超10% 供应担忧缓解",
+        "summary": "伊朗宣布开放霍尔木兹海峡 油价暴跌超10% 供应担忧缓解",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfy1424230.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0953005.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355342",
+        "timestamp": "1776433970",
         "category": "A股直接相关"
       },
       {
-        "title": "伊朗武装部队司令：敌人对战局存在“误判”",
-        "summary": "【伊朗武装部队司令：敌人对战局存在“误判”】据伊朗法尔斯通讯社16日报道，伊朗武装部队哈塔姆安比亚中央总部司令阿卜杜拉希在会见巴基斯坦陆军参谋长穆尼尔时表示，敌人对伊朗发动侵略源于其对伊朗人民抵抗意志以及伊朗武装部队防御能力的“误判”。",
-        "source": "东方财富",
+        "title": "伊朗宣布霍尔木兹海峡对航运开放，特朗普称美国封锁仍在实施",
+        "summary": "伊朗宣布霍尔木兹海峡对航运开放，特朗普称美国封锁仍在实施",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707905124.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2152573.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:28:06",
+        "channel": "新浪美股",
+        "timestamp": "1776433784",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "市场为何对美以对伊战争如此乐观？",
+        "summary": "市场为何对美以对伊战争如此乐观？",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6365850.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776433686",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+        "summary": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3139600.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776433020",
         "category": "市场资讯"
       },
       {
-        "title": "限特朗普战争权力议案遭美众院否决",
-        "summary": "【限特朗普战争权力议案遭美众院否决】美国国会众议院当地时间4月16日以214票赞成、213票反对的表决结果，以微弱优势否决了民主党发起的一项议案。该议案要求总统特朗普结束对伊朗的军事行动，并在进一步对伊朗采取军事行动前必须获得国会授权。该议案此前一天已在参议院遭否决。民主党方面表示将继续提出类似议案，直到对伊朗战事结束或国会授权继续展开军事行动为止。依据美国宪法，只有国会能授权发动战争。美国国会1973年通过的法案规定，仅由针对美国的攻击或迫在眉睫的威胁所引发的国家紧急状态下，美国总统才能在未经国会授权的情况下采取有限的军事行动。",
-        "source": "东方财富",
+        "title": "欧洲石油巨头凭借伊朗战争交易收益超越美国竞争对手",
+        "summary": "欧洲石油巨头凭借伊朗战争交易收益超越美国竞争对手",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707905668.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2143907.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:26:45",
+        "channel": "新浪美股",
+        "timestamp": "1776432956",
         "category": "A股直接相关"
       },
       {
-        "title": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
-        "summary": "【伊朗回应美加大经济制裁：这是“经济恐怖主义”】当地时间4月16日，伊朗外交部发言人巴加埃在社交平台回应美国方面威胁加大对伊朗制裁时表示，美国这些政策是“故意给人们带来痛苦”，这种行为是“经济恐怖主义”和“敲诈”，实质上构成反人类罪和种族灭绝罪。",
-        "source": "东方财富",
+        "title": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+        "summary": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707903073.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0937251.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:17:53",
+        "channel": "新浪美股",
+        "timestamp": "1776432525",
         "category": "A股直接相关"
       },
       {
-        "title": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
-        "summary": "【特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部】总台记者当地时间16日晚获悉，在美国总统特朗普宣布黎巴嫩和以色列将于贝鲁特时间当天午夜停火后，以色列国防军正在对黎巴嫩南部多个地区发动大规模空袭。",
-        "source": "东方财富",
+        "title": "证监会拟推18条硬核罚则，业绩注水、拉高套现行为将遭重击",
+        "summary": "证监会拟推18条硬核罚则，业绩注水、拉高套现行为将遭重击",
+        "source": "21世纪经济报道",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707902973.html",
+        "url": "https://finance.sina.com.cn/wm/2026-04-17/doc-inhuvkxa0937110.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:15:17",
+        "channel": "新浪美股",
+        "timestamp": "1776432120",
         "category": "A股直接相关"
       },
       {
-        "title": "特朗普说将邀请以黎领导人前往白宫会谈",
-        "summary": "【特朗普说将邀请以黎领导人前往白宫会谈】美国总统特朗普16日在社交媒体上说：“我将邀请以色列总理内塔尼亚胡和黎巴嫩总统奥恩前往白宫，举行以色列与黎巴嫩之间首次有意义的会谈。”",
-        "source": "东方财富",
+        "title": "巴西国家石油公司收购圣多美和普林西比海上区块权益并担任作业者",
+        "summary": "巴西国家石油公司收购圣多美和普林西比海上区块权益并担任作业者",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707902872.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2132718.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:12:47",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "谷歌云宣布BigQuery Studio笔记本画廊全面正式上线",
-        "summary": "谷歌云宣布BigQueryStudio笔记本画廊全面正式上线。",
-        "source": "东方财富",
-        "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707902695.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:09:05",
+        "channel": "新浪美股",
+        "timestamp": "1776431828",
         "category": "市场资讯"
       },
       {
-        "title": "据房利美 美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%",
-        "summary": "据房利美，美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%，较前一周的6.37%有所下降。",
-        "source": "东方财富",
+        "title": "Netflix宣布董事长Reed Hastings卸任，Q2展望不及预期，股价盘后大跌",
+        "summary": "Netflix宣布董事长Reed Hastings卸任，Q2展望不及预期，股价盘后大跌",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707901387.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0930834.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:01:32",
+        "channel": "新浪美股",
+        "timestamp": "1776431749",
         "category": "市场资讯"
       },
       {
-        "title": "海昇药业：一季度净利润同比增长51.52%",
-        "summary": "【海昇药业：一季度净利润同比增长51.52%】海昇药业公告，2026年第一季度报告显示，公司实现营业收入6564.22万元，同比增长56.36%；归属于上市公司股东的净利润2009.25万元，同比增长51.52%。",
+        "title": "巴西Oncoclínicas获法院禁令，避免债务提前到期",
+        "summary": "巴西Oncoclínicas获法院禁令，避免债务提前到期",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3133035.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431692",
+        "category": "市场资讯"
+      },
+      {
+        "title": "巴西Simpar以1.215亿雷亚尔出售Ciclus Amazônia股份",
+        "summary": "巴西Simpar以1.215亿雷亚尔出售Ciclus Amazônia股份",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3132367.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431616",
+        "category": "市场资讯"
+      },
+      {
+        "title": "优步从Prosus手中收购Delivery Hero股份 2.7亿欧元交易表明对配送领域的兴趣",
+        "summary": "优步从Prosus手中收购Delivery Hero股份 2.7亿欧元交易表明对配送领域的兴趣",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2127578.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431222",
+        "category": "市场资讯"
+      },
+      {
+        "title": "Netflix联合创始人退出引发担忧，盘前股价大跌约10%",
+        "summary": "Netflix联合创始人退出引发担忧，盘前股价大跌约10%",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0926098.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431201",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国考虑与伊朗达成200亿美元现金换铀协议",
+        "summary": "美国考虑与伊朗达成200亿美元现金换铀协议",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0923554.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430887",
+        "category": "市场资讯"
+      },
+      {
+        "title": "道富银行营收增长带动利润上升",
+        "summary": "道富银行营收增长带动利润上升",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3124751.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430858",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "巴西国家石油公司获得中非海上区块作业权",
+        "summary": "巴西国家石油公司获得中非海上区块作业权",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0918151.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430295",
+        "category": "市场资讯"
+      },
+      {
+        "title": "微软股价因大型AI数据中心提前启用而上涨",
+        "summary": "微软股价因大型AI数据中心提前启用而上涨",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6342618.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430023",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "市场监管总局重拳整治“幽灵外卖” 拼多多被罚逾15亿元居首",
+        "summary": "市场监管总局重拳整治“幽灵外卖” 拼多多被罚逾15亿元居首",
+        "source": "中证网",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-04-17/doc-inhuvkwy3118847.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429805",
+        "category": "市场资讯"
+      },
+      {
+        "title": "赌注越押越大 希腊船东派出其迄今最大油轮穿越霍尔木兹海峡",
+        "summary": "赌注越押越大 希腊船东派出其迄今最大油轮穿越霍尔木兹海峡",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3118610.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429799",
+        "category": "市场资讯"
+      },
+      {
+        "title": "OpenAI首席执行官住所遭袭事件后，民众对AI的抵制情绪加剧",
+        "summary": "OpenAI首席执行官住所遭袭事件后，民众对AI的抵制情绪加剧",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3118340.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429757",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Allbirds转向AI业务，股价剧烈波动",
+        "summary": "Allbirds转向AI业务，股价剧烈波动",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3118191.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429737",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "太空核能推进计划提振反应堆和铀相关股票",
+        "summary": "太空核能推进计划提振反应堆和铀相关股票",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6340560.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429676",
+        "category": "市场资讯"
+      },
+      {
+        "title": "中天期货:橡胶短线走弱 玻璃初步止跌",
+        "summary": "中天期货:橡胶短线走弱 玻璃初步止跌",
+        "source": "市场资讯",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-04-17/doc-inhuvkwu2112209.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429643",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "台积电创纪录利润凸显AI需求",
+        "summary": "台积电创纪录利润凸显AI需求",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3117575.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429641",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "早盘：美股继续上扬 道指涨逾800点",
+        "summary": "早盘：美股继续上扬 道指涨逾800点",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0963124.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776435110",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "周五美股因中东和平希望上涨，投资者预期本周将强劲收官",
+        "summary": "周五美股因中东和平希望上涨，投资者预期本周将强劲收官",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6363277.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776433165",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+        "summary": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6360480.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776432649",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "对下一任美联储主席人选凯文・沃什的三问",
+        "summary": "对下一任美联储主席人选凯文・沃什的三问",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0930097.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431632",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "标普500闪现罕见上涨信号",
+        "summary": "标普500闪现罕见上涨信号",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6340009.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429576",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "群核科技成功登陆港交所，股价涨超160%",
+        "summary": "群核科技成功登陆港交所，股价涨超160%",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupte2249457.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776394502",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "纳指、标普500指数涨幅达1%",
+        "summary": "【纳指、标普500指数涨幅达1%】美股涨势延续，道琼斯指数涨1.56%，标普500指数涨1%，纳斯达克综合指数涨1.15%。",
         "source": "东方财富",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707901481.html",
+        "url": "http://finance.eastmoney.com/a/202604173709319098.html",
         "emoji": "📰",
         "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:00:54",
-        "category": "A股直接相关"
+        "timestamp": "2026-04-17 22:03:52",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "美股稀土概念股全线冲高 Critical Metals飙升逾28%",
+        "summary": "【美股稀土概念股全线冲高 Critical Metals飙升逾28%】美股稀土概念股全线冲高。Critical Metals飙升逾28%，据财联社，公司取得格陵兰岛坦布里兹稀土矿绝对控股权；USA Rare Earth涨近8%，United States Antimony涨近5%，MP Materials涨近3%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709294822.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:39:55",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "纳斯达克中国金龙指数涨超0.7%",
+        "summary": "纳斯达克中国金龙指数涨超0.7%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709288827.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:34:31",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "伊朗宣布对所有商船开放霍尔木兹海峡 美股三大指数集体高开",
+        "summary": "【伊朗宣布对所有商船开放霍尔木兹海峡 美股三大指数集体高开】伊朗宣布对所有商船开放霍尔木兹海峡，美股三大指数集体高开，道指涨1.09%，纳指涨1.03%，标普500指数涨0.65%。航空股上涨，达美航空涨超7%，美国航空涨超7%，阿拉斯加航空涨超6%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709287380.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:32:21",
+        "category": "辅助决策（港股美股）"
       }
     ],
     "raw_news": [
       {
-        "title": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-        "summary": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
+        "title": "市场挑战下美铝Q1业绩不及预期",
+        "summary": "市场挑战下美铝Q1业绩不及预期",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfu6930677.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvrew3023761.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776357241",
+        "timestamp": "1776435511",
         "category": "A股直接相关"
       },
       {
-        "title": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
-        "summary": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
+        "title": "早盘：美股继续上扬 道指涨逾800点",
+        "summary": "早盘：美股继续上扬 道指涨逾800点",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfw3706876.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0963124.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776357018",
+        "timestamp": "1776435110",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "卡沙甘油田就50亿美元哈萨克斯坦硫磺罚款上诉再遭驳回",
+        "summary": "卡沙甘油田就50亿美元哈萨克斯坦硫磺罚款上诉再遭驳回",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0960656.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776434847",
         "category": "市场资讯"
       },
       {
-        "title": "美联储理事米兰：看不到等待降息的理由",
-        "summary": "美联储理事米兰：看不到等待降息的理由",
+        "title": "DOGE削减一年后，特朗普政府悄然重启招聘",
+        "summary": "DOGE削减一年后，特朗普政府悄然重启招聘",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/tob/2026-04-17/doc-inhutnfw3701932.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6371254.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355899",
+        "timestamp": "1776434678",
         "category": "A股直接相关"
       },
       {
-        "title": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-        "summary": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
+        "title": "德国法院裁定：前麦格理银行家必须接受Cum-Ex庭审",
+        "summary": "德国法院裁定：前麦格理银行家必须接受Cum-Ex庭审",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfs2628532.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6369642.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355662",
+        "timestamp": "1776434415",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "私募巨头EQT警告：私募股权持有的另类能源资产面临退出风险",
+        "summary": "私募巨头EQT警告：私募股权持有的另类能源资产面临退出风险",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2158102.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776434347",
         "category": "市场资讯"
       },
       {
-        "title": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-        "summary": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
+        "title": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+        "summary": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfw3700615.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6368110.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355654",
-        "category": "A股直接相关"
+        "timestamp": "1776434135",
+        "category": "市场资讯"
       },
       {
-        "title": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-        "summary": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
+        "title": "伊朗宣布开放霍尔木兹海峡 油价暴跌超10% 供应担忧缓解",
+        "summary": "伊朗宣布开放霍尔木兹海峡 油价暴跌超10% 供应担忧缓解",
         "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhutnfy1424230.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0953005.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776355342",
+        "timestamp": "1776433970",
         "category": "A股直接相关"
       },
       {
-        "title": "伊朗武装部队司令：敌人对战局存在“误判”",
-        "summary": "【伊朗武装部队司令：敌人对战局存在“误判”】据伊朗法尔斯通讯社16日报道，伊朗武装部队哈塔姆安比亚中央总部司令阿卜杜拉希在会见巴基斯坦陆军参谋长穆尼尔时表示，敌人对伊朗发动侵略源于其对伊朗人民抵抗意志以及伊朗武装部队防御能力的“误判”。",
-        "source": "东方财富",
+        "title": "伊朗宣布霍尔木兹海峡对航运开放，特朗普称美国封锁仍在实施",
+        "summary": "伊朗宣布霍尔木兹海峡对航运开放，特朗普称美国封锁仍在实施",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707905124.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2152573.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:28:06",
+        "channel": "新浪美股",
+        "timestamp": "1776433784",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "市场为何对美以对伊战争如此乐观？",
+        "summary": "市场为何对美以对伊战争如此乐观？",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6365850.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776433686",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "周五美股因中东和平希望上涨，投资者预期本周将强劲收官",
+        "summary": "周五美股因中东和平希望上涨，投资者预期本周将强劲收官",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6363277.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776433165",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+        "summary": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3139600.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776433020",
         "category": "市场资讯"
       },
       {
-        "title": "限特朗普战争权力议案遭美众院否决",
-        "summary": "【限特朗普战争权力议案遭美众院否决】美国国会众议院当地时间4月16日以214票赞成、213票反对的表决结果，以微弱优势否决了民主党发起的一项议案。该议案要求总统特朗普结束对伊朗的军事行动，并在进一步对伊朗采取军事行动前必须获得国会授权。该议案此前一天已在参议院遭否决。民主党方面表示将继续提出类似议案，直到对伊朗战事结束或国会授权继续展开军事行动为止。依据美国宪法，只有国会能授权发动战争。美国国会1973年通过的法案规定，仅由针对美国的攻击或迫在眉睫的威胁所引发的国家紧急状态下，美国总统才能在未经国会授权的情况下采取有限的军事行动。",
-        "source": "东方财富",
+        "title": "欧洲石油巨头凭借伊朗战争交易收益超越美国竞争对手",
+        "summary": "欧洲石油巨头凭借伊朗战争交易收益超越美国竞争对手",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707905668.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2143907.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:26:45",
+        "channel": "新浪美股",
+        "timestamp": "1776432956",
         "category": "A股直接相关"
       },
       {
-        "title": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
-        "summary": "【伊朗回应美加大经济制裁：这是“经济恐怖主义”】当地时间4月16日，伊朗外交部发言人巴加埃在社交平台回应美国方面威胁加大对伊朗制裁时表示，美国这些政策是“故意给人们带来痛苦”，这种行为是“经济恐怖主义”和“敲诈”，实质上构成反人类罪和种族灭绝罪。",
-        "source": "东方财富",
+        "title": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+        "summary": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707903073.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6360480.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:17:53",
+        "channel": "新浪美股",
+        "timestamp": "1776432649",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+        "summary": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0937251.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776432525",
         "category": "A股直接相关"
       },
       {
-        "title": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
-        "summary": "【特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部】总台记者当地时间16日晚获悉，在美国总统特朗普宣布黎巴嫩和以色列将于贝鲁特时间当天午夜停火后，以色列国防军正在对黎巴嫩南部多个地区发动大规模空袭。",
-        "source": "东方财富",
+        "title": "证监会拟推18条硬核罚则，业绩注水、拉高套现行为将遭重击",
+        "summary": "证监会拟推18条硬核罚则，业绩注水、拉高套现行为将遭重击",
+        "source": "21世纪经济报道",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707902973.html",
+        "url": "https://finance.sina.com.cn/wm/2026-04-17/doc-inhuvkxa0937110.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:15:17",
+        "channel": "新浪美股",
+        "timestamp": "1776432120",
         "category": "A股直接相关"
       },
       {
-        "title": "特朗普说将邀请以黎领导人前往白宫会谈",
-        "summary": "【特朗普说将邀请以黎领导人前往白宫会谈】美国总统特朗普16日在社交媒体上说：“我将邀请以色列总理内塔尼亚胡和黎巴嫩总统奥恩前往白宫，举行以色列与黎巴嫩之间首次有意义的会谈。”",
-        "source": "东方财富",
+        "title": "巴西国家石油公司收购圣多美和普林西比海上区块权益并担任作业者",
+        "summary": "巴西国家石油公司收购圣多美和普林西比海上区块权益并担任作业者",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707902872.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2132718.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:12:47",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "谷歌云宣布BigQuery Studio笔记本画廊全面正式上线",
-        "summary": "谷歌云宣布BigQueryStudio笔记本画廊全面正式上线。",
-        "source": "东方财富",
-        "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707902695.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:09:05",
+        "channel": "新浪美股",
+        "timestamp": "1776431828",
         "category": "市场资讯"
       },
       {
-        "title": "据房利美 美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%",
-        "summary": "据房利美，美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%，较前一周的6.37%有所下降。",
-        "source": "东方财富",
+        "title": "Netflix宣布董事长Reed Hastings卸任，Q2展望不及预期，股价盘后大跌",
+        "summary": "Netflix宣布董事长Reed Hastings卸任，Q2展望不及预期，股价盘后大跌",
+        "source": "环球市场播报",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707901387.html",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0930834.shtml",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:01:32",
+        "channel": "新浪美股",
+        "timestamp": "1776431749",
         "category": "市场资讯"
       },
       {
-        "title": "海昇药业：一季度净利润同比增长51.52%",
-        "summary": "【海昇药业：一季度净利润同比增长51.52%】海昇药业公告，2026年第一季度报告显示，公司实现营业收入6564.22万元，同比增长56.36%；归属于上市公司股东的净利润2009.25万元，同比增长51.52%。",
+        "title": "巴西Oncoclínicas获法院禁令，避免债务提前到期",
+        "summary": "巴西Oncoclínicas获法院禁令，避免债务提前到期",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3133035.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431692",
+        "category": "市场资讯"
+      },
+      {
+        "title": "对下一任美联储主席人选凯文・沃什的三问",
+        "summary": "对下一任美联储主席人选凯文・沃什的三问",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0930097.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431632",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "巴西Simpar以1.215亿雷亚尔出售Ciclus Amazônia股份",
+        "summary": "巴西Simpar以1.215亿雷亚尔出售Ciclus Amazônia股份",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3132367.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431616",
+        "category": "市场资讯"
+      },
+      {
+        "title": "优步从Prosus手中收购Delivery Hero股份 2.7亿欧元交易表明对配送领域的兴趣",
+        "summary": "优步从Prosus手中收购Delivery Hero股份 2.7亿欧元交易表明对配送领域的兴趣",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2127578.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431222",
+        "category": "市场资讯"
+      },
+      {
+        "title": "Netflix联合创始人退出引发担忧，盘前股价大跌约10%",
+        "summary": "Netflix联合创始人退出引发担忧，盘前股价大跌约10%",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0926098.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776431201",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国考虑与伊朗达成200亿美元现金换铀协议",
+        "summary": "美国考虑与伊朗达成200亿美元现金换铀协议",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0923554.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430887",
+        "category": "市场资讯"
+      },
+      {
+        "title": "道富银行营收增长带动利润上升",
+        "summary": "道富银行营收增长带动利润上升",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3124751.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430858",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "巴西国家石油公司获得中非海上区块作业权",
+        "summary": "巴西国家石油公司获得中非海上区块作业权",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0918151.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430295",
+        "category": "市场资讯"
+      },
+      {
+        "title": "微软股价因大型AI数据中心提前启用而上涨",
+        "summary": "微软股价因大型AI数据中心提前启用而上涨",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6342618.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776430023",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "市场监管总局重拳整治“幽灵外卖” 拼多多被罚逾15亿元居首",
+        "summary": "市场监管总局重拳整治“幽灵外卖” 拼多多被罚逾15亿元居首",
+        "source": "中证网",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-04-17/doc-inhuvkwy3118847.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429805",
+        "category": "市场资讯"
+      },
+      {
+        "title": "赌注越押越大 希腊船东派出其迄今最大油轮穿越霍尔木兹海峡",
+        "summary": "赌注越押越大 希腊船东派出其迄今最大油轮穿越霍尔木兹海峡",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3118610.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429799",
+        "category": "市场资讯"
+      },
+      {
+        "title": "OpenAI首席执行官住所遭袭事件后，民众对AI的抵制情绪加剧",
+        "summary": "OpenAI首席执行官住所遭袭事件后，民众对AI的抵制情绪加剧",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3118340.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429757",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Allbirds转向AI业务，股价剧烈波动",
+        "summary": "Allbirds转向AI业务，股价剧烈波动",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3118191.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429737",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "太空核能推进计划提振反应堆和铀相关股票",
+        "summary": "太空核能推进计划提振反应堆和铀相关股票",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6340560.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429676",
+        "category": "市场资讯"
+      },
+      {
+        "title": "中天期货:橡胶短线走弱 玻璃初步止跌",
+        "summary": "中天期货:橡胶短线走弱 玻璃初步止跌",
+        "source": "市场资讯",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-04-17/doc-inhuvkwu2112209.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429643",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "台积电创纪录利润凸显AI需求",
+        "summary": "台积电创纪录利润凸显AI需求",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3117575.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429641",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "标普500闪现罕见上涨信号",
+        "summary": "标普500闪现罕见上涨信号",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6340009.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429576",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "QVC申请第11章破产保护以削减债务",
+        "summary": "QVC申请第11章破产保护以削减债务",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0909452.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429518",
+        "category": "市场资讯"
+      },
+      {
+        "title": "受以色列-黎巴嫩停火消息影响，油价下滑",
+        "summary": "受以色列-黎巴嫩停火消息影响，油价下滑",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6338599.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429375",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美股指数期货因局势缓和希望小幅上涨",
+        "summary": "美股指数期货因局势缓和希望小幅上涨",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkww6338278.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429333",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "航空燃油紧缺威胁多国航空公司",
+        "summary": "航空燃油紧缺威胁多国航空公司",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2108025.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429207",
+        "category": "市场资讯"
+      },
+      {
+        "title": "亚洲股市因停火希望缓解油价压力而走低",
+        "summary": "亚洲股市因停火希望缓解油价压力而走低",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2107553.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429172",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Netflix盘前股价暴跌，哈斯廷斯将退出董事会",
+        "summary": "Netflix盘前股价暴跌，哈斯廷斯将退出董事会",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwy3113704.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429147",
+        "category": "市场资讯"
+      },
+      {
+        "title": "英国金融时报称欧盟拟放宽并购规则 培育全球冠军企业",
+        "summary": "英国金融时报称欧盟拟放宽并购规则 培育全球冠军企业",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkwu2107247.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429146",
+        "category": "市场资讯"
+      },
+      {
+        "title": "中天策略:4月17日市场分析",
+        "summary": "中天策略:4月17日市场分析",
+        "source": "市场资讯",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/money/future/fmnews/2026-04-17/doc-inhuvkxa0905718.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429125",
+        "category": "市场资讯"
+      },
+      {
+        "title": "盘前：特朗普称战争“很快结束”，纳指期货涨0.4%",
+        "summary": "盘前：特朗普称战争“很快结束”，纳指期货涨0.4%",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0907619.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776429037",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "编排股市“小作文”关号就可以了？“杰克船长”领罚80万传递新信号",
+        "summary": "编排股市“小作文”关号就可以了？“杰克船长”领罚80万传递新信号",
+        "source": "一财网",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/roll/2026-04-17/doc-inhuvkxa0900498.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776428076",
+        "category": "市场资讯"
+      },
+      {
+        "title": "匈牙利欧尔班政府提前启动欧盟谈判，以解除资金冻结",
+        "summary": "匈牙利欧尔班政府提前启动欧盟谈判，以解除资金冻结",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvkxa0897424.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776427934",
+        "category": "市场资讯"
+      },
+      {
+        "title": "高盛称近期股市涨势若要延续 需要央行重新转向降息",
+        "summary": "高盛称近期股市涨势若要延续 需要央行重新转向降息",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvere1016173.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426917",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "瑞银委托开展的研究显示：资本金新规可能损害瑞士经济",
+        "summary": "瑞银委托开展的研究显示：资本金新规可能损害瑞士经济",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuveqw2216079.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426806",
+        "category": "市场资讯"
+      },
+      {
+        "title": "欧洲央行管委穆勒：央行需保持“警惕” 但不应仓促加息",
+        "summary": "欧洲央行管委穆勒：央行需保持“警惕” 但不应仓促加息",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/world/2026-04-17/doc-inhuveqw2215296.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426747",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "奥特曼成为OpenAI超级IPO的风险因素",
+        "summary": "奥特曼成为OpenAI超级IPO的风险因素",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvere1013436.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426713",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Anthropic首席执行官将与白宫办公厅主任会面，时值五角大楼人工智能争议发酵",
+        "summary": "Anthropic首席执行官将与白宫办公厅主任会面，时值五角大楼人工智能争议发酵",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvere1013248.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426697",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伦敦金属指数创历史新高 市场担忧铝供应“黑洞”",
+        "summary": "伦敦金属指数创历史新高 市场担忧铝供应“黑洞”",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvere1013004.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426670",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "西门子计划于2027年2月就分拆西门子医疗一事举行股东投票",
+        "summary": "西门子计划于2027年2月就分拆西门子医疗一事举行股东投票",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuveqw2213634.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776426549",
+        "category": "市场资讯"
+      },
+      {
+        "title": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "summary": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "source": "新浪财经",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyhy2258420.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776417379",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "summary": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyia6508459.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776416962",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "summary": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuuyhy2228505.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776414753",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "summary": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyie3217943.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776411295",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "summary": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuyie3211315.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776409923",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "summary": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuutzk1049417.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776406544",
+        "category": "市场资讯"
+      },
+      {
+        "title": "比亚迪宣布第1600万辆新能源汽车下线",
+        "summary": "比亚迪宣布第1600万辆新能源汽车下线",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/roll/2026-04-17/doc-inhuutzh3297491.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776406282",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "summary": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuupte2318698.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776399072",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "summary": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuupte2316519.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776399054",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "summary": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuupte2318664.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776398564",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "summary": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuptn1102607.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776397794",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "群核科技成功登陆港交所，股价涨超160%",
+        "summary": "群核科技成功登陆港交所，股价涨超160%",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupte2249457.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776394502",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "summary": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "source": "新浪证券",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/observe/2026-04-17/doc-inhuuimq1152489.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776392982",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "summary": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimk6656309.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776392979",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "summary": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuuimk6646231.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776392470",
+        "category": "市场资讯"
+      },
+      {
+        "title": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "summary": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-17/doc-inhuuimq1130620.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776391596",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "summary": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimk6605969.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776390005",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "字节启动豆包股首次回购，价格13.08美元",
+        "summary": "字节启动豆包股首次回购，价格13.08美元",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimk6602606.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776389807",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "summary": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimq1103318.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776389341",
+        "category": "市场资讯"
+      },
+      {
+        "title": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "summary": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuuccs1134188.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776380177",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "summary": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/world/2026-04-17/doc-inhutwvs3517643.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776374164",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "*ST天喻：因信披违规等拟被湖北证监局警告并罚款600万元",
+        "summary": "【*ST天喻：因信披违规等拟被湖北证监局警告并罚款600万元】*ST天喻(300205.SZ)公告称，公司收到湖北证监局《行政处罚事先告知书》。经查，公司涉嫌未按规定披露关联交易、实际控制人非经营性资金占用及重大担保，导致定期报告存在重大遗漏。湖北证监局拟对公司责令改正、给予警告，并处以600万元罚款。",
         "source": "东方财富",
         "date": "2026-04-17",
-        "url": "http://finance.eastmoney.com/a/202604173707901481.html",
+        "url": "http://finance.eastmoney.com/a/202604173709321098.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 22:06:01",
+        "category": "市场资讯"
+      },
+      {
+        "title": "中化岩土：股票将被实施退市风险警示 简称变更为*ST中岩",
+        "summary": "【中化岩土：股票将被实施退市风险警示 简称变更为*ST中岩】中化岩土(002542.SZ)公告称，因公司2025年末经审计的归属于上市公司股东的净资产为负值，根据深交所相关规定，公司股票交易将被实施退市风险警示。公司股票将于4月20日停牌一天，4月21日开市起复牌并实施退市风险警示。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709313513.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:50:43",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "亚光科技：将被实施其他风险警示 4月21日起股票简称变更为“ST亚光”",
+        "summary": "【亚光科技：将被实施其他风险警示 4月21日起股票简称变更为“ST亚光”】亚光科技(300123.SZ)公告称，因公司最近三个会计年度扣非前后净利润孰低者均为负值，且2025年度审计报告被出具带持续经营重大不确定性段落的无保留意见，触及深交所相关规定，公司股票交易将被实施其他风险警示。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709292343.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:37:27",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "宁德时代：第四大股东拟询价转让方式出让公司1.27%股份",
+        "summary": "【宁德时代：股东拟询价转让方式出让公司1.27%股份】宁德时代(300750.SZ)公告称，股东宁波联合创新新能源投资管理合伙企业（有限合伙）拟通过询价转让方式出让5800万股，占总股本的1.27%。注：截至一季度末，宁波联合创新新能源投资管理合伙企业（有限合伙）持有宁德时代6.23%股份，为公司的第四大股东。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709284360.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:24:10",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "北方华创：2025年净利润55.22亿元 同比下降1.77%",
+        "summary": "【北方华创：2025年净利润55.22亿元 同比下降1.77%】北方华创(002371.SZ)发布2025年年度报告，实现营业收入393.53亿元，同比增长30.85%；归属于上市公司股东的净利润为55.22亿元，同比下降1.77%。公司拟以7.25亿股为基数，向全体股东每10股派发现金红利7.62元(含税)。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709279922.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:16:05",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "奥飞数据：2025年净利润1.32亿元 同比增长6.65%",
+        "summary": "【奥飞数据：2025年净利润1.32亿元 同比增长6.65%】奥飞数据(300738.SZ)发布2025年年度报告，实现营业收入25.21亿元，同比增长16.47%；归属于上市公司股东的净利润为1.32亿元，同比增长6.65%。公司拟向全体股东每10股派发现金红利0.14元(含税)。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709279145.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:15:07",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "光洋股份：拟6.22亿元收购东南相互100%股权",
+        "summary": "【光洋股份：拟6.22亿元收购东南相互100%股权】光洋股份(002708.SZ)公告称，公司拟以现金支付方式收购常熟东南相互电子有限公司100%股权，交易对价为6.22亿元。本次交易不构成关联交易及重大资产重组。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709279336.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:15:01",
+        "category": "市场资讯"
+      },
+      {
+        "title": "大华股份：2025年净利润38.58亿元 同比增长32.77%",
+        "summary": "【大华股份：2025年净利润38.58亿元 同比增长32.77%】4月17日，大华股份(002236.SZ)发布2025年年度报告，实现营业收入327.44亿元，同比增长1.75%；归属于上市公司股东的净利润为38.58亿元，同比增长32.77%。公司拟向全体股东每10股派发现金红利3.70元(含税)。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709273421.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 21:09:31",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "时空科技：拟收购嘉合劲威100%股权 交易价格10.78亿元",
+        "summary": "【时空科技：拟收购嘉合劲威100%股权 交易价格10.78亿元】4月17日，时空科技(605178.SH)公告称，拟通过发行股份及支付现金的方式向张丽丽、陈晖、东珵管理、普沃创达等19名交易对方收购嘉合劲威100%股权，并向上市公司控股股东、实际控制人宫殿海募集配套资金。交易价格10.78亿元。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709260343.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:57:18",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "浙江震元：公司董事、副总经理被留置调查",
+        "summary": "【浙江震元：公司董事、副总经理被留置调查】浙江震元4月17日公告，公司于4月16日收到监察机关《留置通知书》和《立案通知书》，公司董事、副总经理魏民被立案调查并实施留置措施。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709256786.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:55:13",
+        "category": "市场资讯"
+      },
+      {
+        "title": "臻镭科技：因信披违规将被实施其他风险警示 股票停牌",
+        "summary": "【臻镭科技：因信披违规将被实施其他风险警示 股票停牌】臻镭科技(688270.SH)公告称，公司于4月17日收到证监会浙江监管局《行政处罚事先告知书》，因披露的年度报告财务指标存在虚假记载，根据相关规定，公司股票将被实施其他风险警示。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709247640.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:47:57",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "仕佳光子：拟12.65亿元投建高速光芯片与器件开发及产业化项目",
+        "summary": "【仕佳光子：拟12.65亿元投建高速光芯片与器件开发及产业化项目】仕佳光子4月17日公告，公司拟投资建设高速光芯片与器件开发及产业化项目。本项目投资总额约为12.65亿元人民币（以实际投入为准）。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709244260.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:41:29",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "信维通信：一季度净利润1.05亿元 同比增长35.35%",
+        "summary": "【信维通信：一季度净利润1.05亿元 同比增长35.35%】信维通信披露一季报，公司2026年一季度实现营业收入19.92亿元，同比增长14.31%；归母净利润1.05亿元，同比增长35.35%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709244322.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:41:10",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "华夏幸福：重大资产出售暨关联交易实施完成",
+        "summary": "【华夏幸福：重大资产出售暨关联交易实施完成】华夏幸福(600340.SH)公告称，公司关于重大资产出售暨关联交易已实施完成。公司以全资子公司持有的誉诺金100%股权及合计255.84亿元债权设立信托计划，拟以信托受益权份额抵偿不超过240.01亿元金融债务。截至公告披露日，标的资产已完成交付，公司已通过信托偿债方式完成对223.48亿元金融债务的清偿。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709243748.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:37:05",
+        "category": "市场资讯"
+      },
+      {
+        "title": "包钢股份：2025年净利润3.74亿元 同比增长41.19%",
+        "summary": "【包钢股份：2025年净利润3.74亿元 同比增长41.19%】包钢股份(600010.SH)发布2025年年度报告，实现营业收入663.58亿元，同比下降2.54%；归属于上市公司股东的净利润为3.74亿元，同比增长41.19%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709228051.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:21:52",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "侨银股份：预中标约7.92亿元环卫保洁项目",
+        "summary": "【侨银股份：预中标约7.92亿元环卫保洁项目】侨银股份(002973.SZ)公告称，公司作为联合体成员之一，预中标安徽省阜阳市颍泉区环卫保洁市场化项目。该项目中标金额为6603万元/年，服务期限采用“3+3+3+3”模式，累计最长可达12年，预估中标总金额约为7.92亿元。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709220525.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:20:02",
+        "category": "市场资讯"
+      },
+      {
+        "title": "韵达股份：3月快递服务业务收入45.9亿元 同比增长4.08%",
+        "summary": "【韵达股份：3月快递服务业务收入45.9亿元 同比增长4.08%】韵达股份(002120.SZ)公告称，3月公司实现快递服务业务收入45.90亿元，同比增长4.08%；完成业务量21.42亿票，同比下降4.93%；快递服务单票收入2.14元，同比增长9.18%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709212537.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:16:38",
+        "category": "市场资讯"
+      },
+      {
+        "title": "赣锋锂业：控制锂电业务扩产节奏 重点关注产品质量和盈利能力",
+        "summary": "【赣锋锂业：控制锂电业务扩产节奏 重点关注产品质量和盈利能力】赣锋锂业近日在接待机构调研时表示，公司未来3至5年资本开支主要包括Goulamina二期、Caucharí-Olaroz二期等优质低成本项目，锂电业务控制扩产节奏，重点关注产品质量和盈利能力。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709208857.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:15:27",
+        "category": "市场资讯"
+      },
+      {
+        "title": "晶丰明源：2025年净利润3560.26万元 同比扭亏为盈",
+        "summary": "【晶丰明源：2025年净利润3560.26万元 同比扭亏为盈】晶丰明源(688368.SH)发布2025年年度报告，实现营业收入15.70亿元，同比增长4.40%；归属于上市公司股东的净利润为3560.26万元，较2024年净亏损3305.13万元实现扭亏为盈。公司拟向全体股东每10股派发现金红利10元(含税)，同时以资本公积每10股转增4股。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709207943.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:15:18",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "长虹华意：一季度净利润同比增长14.96%",
+        "summary": "【长虹华意：一季度净利润同比增长14.96%】长虹华意(000404.SZ)公告称，2026年第一季度实现营业收入30.31亿元，同比下降13.05%；归属于上市公司股东的净利润为1.15亿元，同比增长14.96%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709204234.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:09:15",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "藏格矿业：一季度净利润同比增长110.6%",
+        "summary": "【藏格矿业：一季度净利润同比增长110.6%】藏格矿业(000408.SZ)公告称，2026年第一季度实现营业收入7.16亿元，同比增长29.61%；归属于上市公司股东的净利润为15.74亿元，同比增长110.60%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709204168.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:08:29",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "赣能股份：2025年净利润同比增长40.97% 拟10派5.67元",
+        "summary": "【赣能股份：2025年净利润同比增长40.97% 拟10派5.67元】赣能股份(000899.SZ)发布2025年年度报告，实现营业收入73.98亿元，同比增长6.90%；归属于上市公司股东的净利润为10.07亿元，同比增长40.97%。公司拟向全体股东每10股派发现金红利5.67元(含税)。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709202480.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 20:05:24",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "*ST天微：撤销退市风险警示",
+        "summary": "【*ST天微：撤销退市风险警示】*ST天微(688511.SH)公告称，公司股票将于2026年4月20日停牌1天，自4月21日起复牌并撤销退市风险警示，证券简称由“*ST天微”变更为“天微电子”。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709199797.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:59:14",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "海航控股：2025年净利润19.8亿元 同比扭亏为盈",
+        "summary": "【海航控股：2025年净利润19.8亿元 同比扭亏为盈】海航控股(600221)4月17日披露年报，2025年实现营业收入684.71亿元，同比增长4.96%；归母净利润19.8亿元，上年同期亏损9.21亿元；基本每股收益0.046元。2025年以来，民航市场持续向好，报告期内公司旅客运输量同比上升3.75%；货邮运输量同比上升20.08%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709199964.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:57:38",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "长盈精密：2025年度净利润5.98亿元 同比下降22.53%",
+        "summary": "【长盈精密：2025年度净利润5.98亿元 同比下降22.53%】长盈精密(300115.SZ)发布2025年年度报告，实现营业收入188.19亿元，同比增长11.13%；归属于上市公司股东的净利润为5.98亿元，同比下降22.53%。公司拟向全体股东每10股派发现金红利1.2元(含税)，送红股0股，不以资本公积金转增股本。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709165054.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:36:32",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "鸿路钢构：2025年归母净利润同比下降18.27% 拟10派2.8元",
+        "summary": "【鸿路钢构：2025年归母净利润同比下降18.27% 拟10派2.8元】鸿路钢构4月17日公告，2025年实现营业收入220.68亿元，同比增长2.57%；归属于上市公司股东的净利润6.31亿元，同比下降18.27%；基本每股收益0.92元。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709164395.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:36:01",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "用友网络：2025年净亏损13.89亿元",
+        "summary": "【用友网络：2025年净亏损13.89亿元】用友网络(600588.SH)公告称，公司发布2025年年度报告摘要，实现营业收入91.82亿元，同比增长0.32%；归属于上市公司股东的净利润为-13.89亿元。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709158475.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:30:04",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "申通快递：3月快递服务业务收入同比增长33.57%",
+        "summary": "【申通快递：3月快递服务业务收入同比增长33.57%】申通快递(002468.SZ)公告称，2026年3月快递服务业务收入55.95亿元，同比增长33.57%；完成业务量25.02亿票，同比增长19.97%；快递服务单票收入2.24元，同比增长11.44%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709156867.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:24:59",
+        "category": "市场资讯"
+      },
+      {
+        "title": "吉林敖东：2025年净利润同比增长54.39% 拟10派3元",
+        "summary": "【吉林敖东：2025年净利润同比增长54.39% 拟10派3元】吉林敖东(000623.SZ)披露年报，2025年实现营业收入23.35亿元，同比下降10.55%；归母净利润23.95亿元，同比增长54.39%；基本每股收益2.04元。公司拟每10股派发现金红利3元(含税)。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709151170.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:16:24",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "3连板均瑶健康：公司业务不涉及保健食品的注册及生产 AKK菌粉销售目前对公司利润影响极小",
+        "summary": "【3连板均瑶健康：公司业务不涉及保健食品的注册及生产 AKK菌粉销售目前对公司利润影响极小】均瑶健康(605388.SH)发布风险提示公告，公司业务目前不涉及药品的研发、申报、生产及销售，也不涉及保健食品的注册及生产，所有相关菌株及产品均为普通食品原料或普通食品，相关阶段性研究数据仅为基础试验结果，不构成产品功效承诺或保健或药品资质认定。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709140855.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-17 19:09:26",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普：美国将获得伊朗所有核“尘埃”",
+        "summary": "【特朗普：美国将获得伊朗所有核“尘埃”】美国总统特朗普17日在社交媒体上称，美国将获得伊朗所有核“尘埃”，不会以任何方式、任何形式支付任何款项。多家西方媒体解读特朗普所说的核“尘埃”是指伊朗的浓缩铀库存。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709325244.html",
         "emoji": "📰",
         "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-17 00:00:54",
+        "timestamp": "2026-04-17 22:16:21",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊资产解冻是开放霍尔木兹条件之一",
+        "summary": "【伊资产解冻是开放霍尔木兹条件之一】据路透社今天（4月17日）援引伊朗高级官员消息报道称，解冻伊朗资产是开放霍尔木兹海峡协议的一部分。但这位伊朗官员没有给出具体的“资产解冻时间表”。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709324482.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 22:14:08",
+        "category": "市场资讯"
+      },
+      {
+        "title": "土耳其基准股指上涨2.3%",
+        "summary": "土耳其基准股指上涨2.3%，触及历史新高。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709320266.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 22:09:26",
+        "category": "市场资讯"
+      },
+      {
+        "title": "马克龙：我们要求全面、无条件地重新开放霍尔木兹海峡",
+        "summary": "法国总统马克龙称，我们要求全面、无条件地重新开放霍尔木兹海峡。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709319252.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 22:05:04",
+        "category": "市场资讯"
+      },
+      {
+        "title": "纳指、标普500指数涨幅达1%",
+        "summary": "【纳指、标普500指数涨幅达1%】美股涨势延续，道琼斯指数涨1.56%，标普500指数涨1%，纳斯达克综合指数涨1.15%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709319098.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 22:03:52",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "以总理：同意在黎巴嫩暂时停火",
+        "summary": "【以总理：同意在黎巴嫩暂时停火】以色列总理内塔尼亚胡17日称：“应美国总统特朗普的要求，我们同意在黎巴嫩暂时停火。”",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709318850.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 22:03:08",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "现货白银涨5% 报82.34美元/盎司",
+        "summary": "现货白银涨5%，报82.34美元/盎司。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709315057.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:56:46",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "拼多多回应被处罚：诚恳接受 坚决服从",
+        "summary": "【拼多多回应被处罚：诚恳接受 坚决服从】拼多多发文称，4月17日，公司收到国家市场监督管理总局对拼多多等多家电商平台“幽灵外卖”系列案作出的行政处罚。对此，拼多多诚恳接受，坚决服从。我们将以此为戒，进一步规范业务流程，完善升级。坚守初心，积极履行社会责任。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709315589.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:56:23",
+        "category": "市场资讯"
+      },
+      {
+        "title": "比特币向上突破77000美元",
+        "summary": "【比特币向上突破77000美元】行情显示，比特币涨至77295美元，过去24小时内涨4.02%。以太坊涨至2426.36美元，过去24小时内涨4.67%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709313825.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:53:31",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗方面称军舰仍被禁止通过霍尔木兹海峡",
+        "summary": "伊朗方面称，军舰仍被禁止通过霍尔木兹海峡。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709312093.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:52:04",
+        "category": "市场资讯"
+      },
+      {
+        "title": "以总理：将给黎巴嫩寻求全面政治和军事解决方案的机会",
+        "summary": "【以总理：将给黎巴嫩寻求全面政治和军事解决方案的机会】以色列总理内塔尼亚胡17日称，应美国总统特朗普的要求，以色列将给黎巴嫩一个寻求全面政治和军事解决方案的机会。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709309166.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:49:06",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "阿布扎比基金计划调整中国战略以促进投资",
+        "summary": "阿布扎比基金计划调整中国战略以促进投资。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709310920.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:46:37",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "以色列宣布全国基本解除战时限制",
+        "summary": "【以色列宣布全国基本解除战时限制】以色列军方本土守备司令部17日表示，随着黎以停火持续以及与伊朗的停火状态延续，全国范围内的战时限制措施已基本解除。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709301523.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:44:38",
+        "category": "市场资讯"
+      },
+      {
+        "title": "深交所：本周共对122起证券异常交易行为采取了自律监管措施",
+        "summary": "【深交所：本周共对122起证券异常交易行为采取了自律监管措施】深交所表示，本周共对122起证券异常交易行为采取了自律监管措施，涉及盘中拉抬打压、虚假申报等异常交易情形；共对2起上市公司重大事项进行核查。针对融资融券业务管理违规的情形，本所对一家会员采取了约见谈话的监管措施。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709305570.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:43:43",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "多伦多证券市场能源板块下跌6.3%",
+        "summary": "多伦多证券市场能源板块下跌6.3%，创下自3月10日以来的最低水平。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709298176.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:42:31",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁",
+        "summary": "【美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁】当地时间4月17日，据美国中央司令部消息，美军导弹驱逐舰“拉斐尔·佩拉尔塔”号在执行对伊朗海上封锁任务期间，已指示一艘商船返回伊朗港口。美方表示，自封锁开始以来已有19艘船只按要求掉头返回，未有船只成功突破封锁。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709295732.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:40:56",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美股稀土概念股全线冲高 Critical Metals飙升逾28%",
+        "summary": "【美股稀土概念股全线冲高 Critical Metals飙升逾28%】美股稀土概念股全线冲高。Critical Metals飙升逾28%，据财联社，公司取得格陵兰岛坦布里兹稀土矿绝对控股权；USA Rare Earth涨近8%，United States Antimony涨近5%，MP Materials涨近3%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709294822.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:39:55",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "英特尔股价上涨1.5%",
+        "summary": "英特尔股价上涨1.5%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709290926.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:36:07",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普称对伊朗海上封锁仍将持续",
+        "summary": "【特朗普：对伊朗的海上封锁将持续至“交易”完成】美国总统特朗普17日在社交媒体上说，“针对伊朗的海上封锁将继续有效，直至我们与伊朗的交易百分之百完成。由于大部分细节已经完成谈判，这一进程应该会很快完成。”",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709290695.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:35:23",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "纳斯达克中国金龙指数涨超0.7%",
+        "summary": "纳斯达克中国金龙指数涨超0.7%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709288827.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:34:31",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "奈飞股价下跌11%",
+        "summary": "奈飞股价下跌11%，创自2022年4月以来最大跌幅。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709287739.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:34:01",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗宣布对所有商船开放霍尔木兹海峡 美股三大指数集体高开",
+        "summary": "【伊朗宣布对所有商船开放霍尔木兹海峡 美股三大指数集体高开】伊朗宣布对所有商船开放霍尔木兹海峡，美股三大指数集体高开，道指涨1.09%，纳指涨1.03%，标普500指数涨0.65%。航空股上涨，达美航空涨超7%，美国航空涨超7%，阿拉斯加航空涨超6%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709287380.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:32:21",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "斯坦福报告：中美顶级大模型差距“实质性消除”",
+        "summary": "【斯坦福报告：中美顶级大模型差距“实质性消除”】近日，斯坦福大学人工智能研究所发布的最新一期《2026年人工智能指数报告》指出，当前中美顶级大模型差距“实质性消除”（effectively closed），头部模型间表现相当，呈并跑态势。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709285639.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:29:35",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "欧洲天然气期货日内大跌近9%",
+        "summary": "欧洲天然气期货日内大跌近9%，报38.7欧元/兆瓦时，4月初以来累计大跌近20%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709285262.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:27:14",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "交易员目前认为美联储在12月前降息的可能性约为60%",
+        "summary": "交易员目前认为美联储在12月前降息的可能性约为60%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709284747.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:25:46",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特斯拉六座版Model Y最快下周登陆印度",
+        "summary": "【特斯拉六座版Model Y最快下周登陆印度】特斯拉正计划最早于下周在印度发布一款全新、尺寸更大的Model Y车型，长轴距六座版本Model Y L。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709285512.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:25:22",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伦敦金属交易所（LME）三个月期铝价跌幅一度扩大至5.6%",
+        "summary": "伦敦金属交易所（LME）三个月期铝价延续跌势，跌幅一度扩大至5.6%，最新报价为每吨3,470美元。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709284667.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-17 21:25:07",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "俄方称希望以黎避免再起战火",
+        "summary": "【俄方称希望以黎避免再起战火】俄总统新闻秘书佩斯科夫17日在例行记者会上表示，俄罗斯欢迎以色列和黎巴嫩达成停火协议，希望双方能够避免再次发生冲突。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709278462.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:16:58",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普证实伊朗宣布开放霍尔木兹海峡",
+        "summary": "【特朗普证实伊朗宣布开放霍尔木兹海峡】当地时间4月17日，美国总统特朗普在其社交平台“真实社交”发文称，伊朗已宣布霍尔木兹海峡“完全开放并准备恢复全面通航”。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709277391.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:15:47",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美元现货指数抹去自中东战争爆发以来的所有涨幅",
+        "summary": "美元现货指数抹去自中东战争爆发以来的所有涨幅。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://forex.eastmoney.com/a/202604173709273264.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:11:02",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "现货白银日内涨幅扩大至4%",
+        "summary": "【现货白银日内涨幅扩大至4%】现货白银日内涨幅扩大至4%，报81.61美元/盎司。现货黄金向上触及4850美元，日内上涨1.29%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709271859.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:08:40",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美伊正磋商结束战争的计划",
+        "summary": "【美伊正磋商结束战争的计划】据美国媒体17日援引两名美国官员和两名了解谈判情况的消息人士的话报道说，美国和伊朗正就一份旨在结束战争的计划进行沟通。其中一个重要议题是美国将解冻伊朗被冻结的200亿美元资金，以换取伊朗放弃其浓缩铀库存。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709270387.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:07:45",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "货币市场将欧洲央行4月加息的概率从此前的15%下调至8%左右",
+        "summary": "货币市场将欧洲央行4月加息的概率从此前的15%下调至8%左右。市场预计欧洲央行12月存款利率为2.43%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709268768.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:06:57",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗外长：黎以停火期间对所有商船开放霍尔木兹海峡",
+        "summary": "【伊朗外长：黎以停火期间对所有商船开放霍尔木兹海峡】当地时间17日下午，伊朗外长阿拉格齐在社交媒体发文称，根据黎巴嫩停火协议，所有商船在停火剩余时间内，按照伊朗港口和海事组织已经公布的协调路线，通行霍尔木兹海峡完全开放。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709262353.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:02:10",
+        "category": "市场资讯"
+      },
+      {
+        "title": "国内商品期货夜盘开盘 主力合约多数下跌",
+        "summary": "国内商品期货夜盘开盘，主力合约多数下跌。跌幅方面，燃油跌超7%，原油跌超6%，低硫燃油跌超5%，对二甲苯、甲醇、聚丙烯跌超4%，纯苯跌近4%，PTA、LPG、乙二醇跌超3%，瓶片、苯乙烯、丁二烯胶、短纤、丙烯等跌超2%，PVC、棕榈油、焦煤、烧碱跌超1%；涨幅方面，沪银涨超3%，沪镍、玻璃涨超1%，沪金、沪锡、不锈钢、国际铜、沪铅等小幅上涨。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://futures.eastmoney.com/a/202604173709260514.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 21:00:02",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "WTI原油期货跌幅扩大至10%",
+        "summary": "【WTI原油期货跌幅扩大至10%】WTI原油期货价格跌10.14%，报85.090美元/桶；布伦特原油期货价格跌9.03%，报90.414美元/桶。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709255857.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-17 20:56:32",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "在岸人民币兑美元收盘报6.8263",
+        "summary": "【在岸人民币兑美元收盘报6.8263】在岸人民币兑美元收盘报6.8263，较上一交易日下跌66点。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://forex.eastmoney.com/a/202604173708953633.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 16:33:41",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国前财长敦促政策制定者制定紧急计划 以防国债需求崩溃",
+        "summary": "【美国前财长敦促政策制定者制定紧急计划 以防国债需求崩溃】美国前财政部长保尔森敦促美国政策制定者制定一项紧急计划，以防国债需求崩溃。他警告称，政府债券市场若发生危机，可能会在整个经济中引发严重后果。在保尔森发出上述警告之际，投资者对美国国债吸引力下降的担忧正日益加剧。持续的财政赤字、大规模发债以及通胀担忧最近一直令美国长期政府债券承压。截至4月16日，美国联邦债务总额为38.9万亿美元，这意味着美国国债市场的重要性达到了前所未有的高度。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://bond.eastmoney.com/a/202604173708820734.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 14:22:25",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "德意志银行预计美联储2026年维持利率不变",
+        "summary": "德意志银行预计美联储2026年维持利率不变，此前的预期为9月份降息。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708701078.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 12:42:24",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4次降息变3次？美联储理事米兰“趋鹰”：通胀更顽固了！",
+        "summary": "【4次降息变3次？美联储理事米兰“趋鹰”：通胀更顽固了！】自美国总统特朗普去年9月任命斯蒂芬·米兰（StephenMiran）填补美联储理事空缺以来，米兰一直是美联储同事中的异类，他始终支持更大幅度、更频繁地降息。然而近阶段，他的态度似乎略有变化。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708624661.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 10:49:26",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "中越联合声明：加强金融领域合作 探讨扩大本币结算范围",
+        "summary": "【中越联合声明：加强金融领域合作，探讨扩大本币结算范围】《中华人民共和国和越南社会主义共和国关于在新时期持续深化全面战略合作伙伴关系、推动构建更高水平具有战略意义的中越命运共同体的联合声明》发布。其中提出，加强金融领域合作，按照市场原则为合资合伙项目提供金融支持。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708617951.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 10:39:28",
+        "category": "市场资讯"
+      },
+      {
+        "title": "央行今日开展5亿元7天逆回购操作",
+        "summary": "央行今日开展5亿元7天逆回购操作，操作利率为1.40%，与此前持平。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708393221.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 09:21:59",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "人民币兑美元中间价报6.8622 下调6点",
+        "summary": "人民币兑美元中间价报6.8622，下调6点。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://forex.eastmoney.com/a/202604173708390086.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 09:16:39",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "日本央行行长植田和男：中东冲突带来通胀上行和经济下行的双重风险",
+        "summary": "【日本央行行长植田和男：中东冲突带来通胀上行和经济下行的双重风险】4月17日，日本央行行长植田和男表示，中东冲突带来通胀上行和经济下行的双重风险，货币政策委员会将在月末议息会议上决定应采取何种最合适的政策以实现2%的通胀目标。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708293234.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 09:03:01",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "日本央行行长：油价上涨将给核心通胀带来上行压力",
+        "summary": "【日本央行行长：油价上涨将给核心通胀带来上行压力】据报道，在被问及市场对4月加息的预期下降时，日本央行行长植田和男表示不予置评。植田和男称，油价上涨将给核心通胀带来上行压力，将选择适当的政策以实现通胀目标。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708147626.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-17 07:52:57",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "利好！北证50指数基金规模上限将提升",
+        "summary": "【利好！北证50指数基金规模上限将提升】4月17日，中国证券报记者从业内获悉，多家基金公司旗下北证50指数基金规模上限将提升。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709169860.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 19:42:29",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "中基协：基金公司高管等当年全部绩效薪酬中不少于30%要自购旗下公募基金",
+        "summary": "【中基协：基金公司高管等当年全部绩效薪酬中不少于30%要自购旗下公募基金】《基金管理公司绩效考核管理指引》最新出台，其中明确提出，基金公司的高管、主要业务部门负责人、基金经理应当将一定比例的绩效薪酬购买本公司或者本人管理的公募基金，且持有期限不得少于一年。高管、主要业务部门负责人应当将不少于当年全绩效薪酬的百分之三十购买本公司管理的公募基金，其中购买权益类基金不得低于百分之六十，但是公司无权益类基金等情形除外。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173709077665.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 18:19:04",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "三家主权基金联合发起中国-东盟合作基金 总规模10亿美元",
+        "summary": "【三家主权基金联合发起中国-东盟合作基金 总规模10亿美元】记者获悉，中投公司、印尼投资局、阿塞拜疆国家石油基金联合发起中国-东盟合作基金，基金已完成首关募集，约5.2亿美元，目标总规模为10亿美元，银河证券境外子公司银河海外担任基金GP。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://biz.eastmoney.com/a/202604173709008057.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 17:18:40",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "人工智能ETF华富(515980)盘中上涨2.03%，权重股中际旭创Q1净利大增262%，AI算力基础设施建设全面提速",
+        "summary": "【人工智能ETF华富(515980)盘中上涨2.03%，权重股中际旭创Q1净利大增262%，AI算力基础设施建设全面提速】截至2026年4月17日14:12，人工智能ETF华富(515980)上涨2.03%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708805088.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 14:15:15",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "科创新能源ETF鹏华涨超2%，锂电储能双轮驱动",
+        "summary": "【科创新能源ETF鹏华涨超2%，锂电储能双轮驱动】截止04月17日13:56，指数科创新能(000692.SH)上涨2.37%；主要成分股普涨，明冠新材上涨19.97%，先惠技术上涨9.01%，容百科技上涨7.06%；科创新能源ETF鹏华(588830.SH)上涨2.42%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708776147.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 13:55:25",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "AI产业从“能力升级”走向“场景扩容”，人工智能ETF易方达（159819）涨近2%",
+        "summary": "【AI产业从“能力升级”走向“场景扩容”，人工智能ETF易方达（159819）涨近2%】人工智能板块早盘拉升，截至2026年4月17日11:21，人工智能ETF易方达（159819）上涨1.9%。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708698225.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 11:24:57",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情",
+        "summary": "【中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情】4月17日，AI板块延续逼空行情，创业板人工智能ETF招商(159243)放量上涨2.61%，光模块三杰集体暴涨——新易盛大涨9.08%，天孚通信大涨6.04%，中际旭创大涨4.25%。资金热度不减，据Level-2实时数据估算，该ETF盘中净流入超1400万元。FOMO资金(FearOfMissingOut，即“害怕错过”的资金)正在跑步入场，纷纷追高抢筹，进一步推升行情。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708675732.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 11:19:13",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "高速光模块需求持续攀升，中际旭创一季报净利高增262%，创业板ETF易方达(159915)盘中涨超1%",
+        "summary": "【高速光模块需求持续攀升，中际旭创一季报净利高增262%，创业板ETF易方达(159915)盘中涨超1%】截至2026年4月17日10:53，创业板指数(399006)上涨0.58%，创业板ETF易方达(159915)一度涨超1%，现涨0.41%，盘中换手5.38%，成交28.85亿元。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708643031.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 11:03:48",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "CPO概念反复活跃，创业板指盘中再创阶段新高，创业板ETF博时涨超1%",
+        "summary": "【CPO概念反复活跃，创业板指盘中再创阶段新高，创业板ETF博时涨超1%】2026年4月17日，创业板ETF博时(159908)涨超1%，成分股胜宏科技涨超8%，新易盛、信维通信、天孚通信、乖宝宠物跟涨。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708626043.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 10:40:23",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "中际旭创一季度净利狂增262%！5GETF博时强势涨超3%",
+        "summary": "【中际旭创一季度净利狂增262%！5GETF博时强势涨超3%】2026年4月17日，5GETF博时(159811)涨超3%，成分股光迅科技涨超8%，新易盛、胜宏科技、天孚通信，中际旭创等个股跟涨。",
+        "source": "东方财富",
+        "date": "2026-04-17",
+        "url": "http://finance.eastmoney.com/a/202604173708594370.html",
+        "emoji": "📰",
+        "channel": "东方财富ETF/债券",
+        "timestamp": "2026-04-17 10:12:13",
         "category": "A股直接相关"
       }
     ],
-    "last_updated": "2026-04-17T01:41:03.810007",
+    "last_updated": "2026-04-17T22:24:16.067279",
     "source_info": "东方财富快讯+新浪财经",
-    "total_count": 14,
-    "filtered_count": 14,
+    "total_count": 159,
+    "filtered_count": 40,
+    "wukong_judgment": {
+      "market_view": "震荡",
+      "confidence": 50,
+      "key_factors": [
+        "地缘政治",
+        "货币政策",
+        "经济数据",
+        "政策利好",
+        "业绩驱动"
+      ],
+      "active_patterns": [
+        "地缘事件驱动",
+        "政策博弈",
+        "业绩行情",
+        "资金博弈"
+      ],
+      "risk_alerts": [
+        "地缘风险",
+        "政策风险",
+        "流动性风险"
+      ]
+    },
+    "s_level": [
+      {
+        "title": "DOGE削减一年后，特朗普政府悄然重启招聘",
+        "summary": "DOGE削减一年后，特朗普政府悄然重启招聘",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "伊朗宣布开放霍尔木兹海峡 油价暴跌超10% 供应担忧缓解",
+        "summary": "伊朗宣布开放霍尔木兹海峡 油价暴跌超10% 供应担忧缓解",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "伊朗宣布霍尔木兹海峡对航运开放，特朗普称美国封锁仍在实施",
+        "summary": "伊朗宣布霍尔木兹海峡对航运开放，特朗普称美国封锁仍在实施",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "市场为何对美以对伊战争如此乐观？",
+        "summary": "市场为何对美以对伊战争如此乐观？",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "欧洲石油巨头凭借伊朗战争交易收益超越美国竞争对手",
+        "summary": "欧洲石油巨头凭借伊朗战争交易收益超越美国竞争对手",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+        "summary": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "对下一任美联储主席人选凯文・沃什的三问",
+        "summary": "对下一任美联储主席人选凯文・沃什的三问",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "Netflix盘前股价暴跌，哈斯廷斯将退出董事会",
+        "summary": "Netflix盘前股价暴跌，哈斯廷斯将退出董事会",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "盘前：特朗普称战争“很快结束”，纳指期货涨0.4%",
+        "summary": "盘前：特朗普称战争“很快结束”，纳指期货涨0.4%",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "高盛称近期股市涨势若要延续 需要央行重新转向降息",
+        "summary": "高盛称近期股市涨势若要延续 需要央行重新转向降息",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "欧洲央行管委穆勒：央行需保持“警惕” 但不应仓促加息",
+        "summary": "欧洲央行管委穆勒：央行需保持“警惕” 但不应仓促加息",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普：美国将获得伊朗所有核“尘埃”",
+        "summary": "【特朗普：美国将获得伊朗所有核“尘埃”】美国总统特朗普17日在社交媒体上称，美国将获得伊朗所有核“尘埃”，不会以任何方式、任何形式支付任何款项。多家西方媒体解读特朗普所说的核“尘埃”是指伊朗的浓缩铀库存。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "以总理：同意在黎巴嫩暂时停火",
+        "summary": "【以总理：同意在黎巴嫩暂时停火】以色列总理内塔尼亚胡17日称：“应美国总统特朗普的要求，我们同意在黎巴嫩暂时停火。”",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "以总理：将给黎巴嫩寻求全面政治和军事解决方案的机会",
+        "summary": "【以总理：将给黎巴嫩寻求全面政治和军事解决方案的机会】以色列总理内塔尼亚胡17日称，应美国总统特朗普的要求，以色列将给黎巴嫩一个寻求全面政治和军事解决方案的机会。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普称对伊朗海上封锁仍将持续",
+        "summary": "【特朗普：对伊朗的海上封锁将持续至“交易”完成】美国总统特朗普17日在社交媒体上说，“针对伊朗的海上封锁将继续有效，直至我们与伊朗的交易百分之百完成。由于大部分细节已经完成谈判，这一进程应该会很快完成。”",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "交易员目前认为美联储在12月前降息的可能性约为60%",
+        "summary": "交易员目前认为美联储在12月前降息的可能性约为60%。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "俄方称希望以黎避免再起战火",
+        "summary": "【俄方称希望以黎避免再起战火】俄总统新闻秘书佩斯科夫17日在例行记者会上表示，俄罗斯欢迎以色列和黎巴嫩达成停火协议，希望双方能够避免再次发生冲突。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普证实伊朗宣布开放霍尔木兹海峡",
+        "summary": "【特朗普证实伊朗宣布开放霍尔木兹海峡】当地时间4月17日，美国总统特朗普在其社交平台“真实社交”发文称，伊朗已宣布霍尔木兹海峡“完全开放并准备恢复全面通航”。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美元现货指数抹去自中东战争爆发以来的所有涨幅",
+        "summary": "美元现货指数抹去自中东战争爆发以来的所有涨幅。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美伊正磋商结束战争的计划",
+        "summary": "【美伊正磋商结束战争的计划】据美国媒体17日援引两名美国官员和两名了解谈判情况的消息人士的话报道说，美国和伊朗正就一份旨在结束战争的计划进行沟通。其中一个重要议题是美国将解冻伊朗被冻结的200亿美元资金，以换取伊朗放弃其浓缩铀库存。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "货币市场将欧洲央行4月加息的概率从此前的15%下调至8%左右",
+        "summary": "货币市场将欧洲央行4月加息的概率从此前的15%下调至8%左右。市场预计欧洲央行12月存款利率为2.43%。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美国前财长敦促政策制定者制定紧急计划 以防国债需求崩溃",
+        "summary": "【美国前财长敦促政策制定者制定紧急计划 以防国债需求崩溃】美国前财政部长保尔森敦促美国政策制定者制定一项紧急计划，以防国债需求崩溃。他警告称，政府债券市场若发生危机，可能会在整个经济中引发严重后果。在保尔森发出上述警告之际，投资者对美国国债吸引力下降的担忧正日益加剧。持续的财政赤字、大规模发债以及通胀担忧最近一直令美国长期政府债券承压。截至4月16日，美国联邦债务总额为38.9万亿美元，这意味着美",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "德意志银行预计美联储2026年维持利率不变",
+        "summary": "德意志银行预计美联储2026年维持利率不变，此前的预期为9月份降息。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "4次降息变3次？美联储理事米兰“趋鹰”：通胀更顽固了！",
+        "summary": "【4次降息变3次？美联储理事米兰“趋鹰”：通胀更顽固了！】自美国总统特朗普去年9月任命斯蒂芬·米兰（StephenMiran）填补美联储理事空缺以来，米兰一直是美联储同事中的异类，他始终支持更大幅度、更频繁地降息。然而近阶段，他的态度似乎略有变化。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "央行今日开展5亿元7天逆回购操作",
+        "summary": "央行今日开展5亿元7天逆回购操作，操作利率为1.40%，与此前持平。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "日本央行行长植田和男：中东冲突带来通胀上行和经济下行的双重风险",
+        "summary": "【日本央行行长植田和男：中东冲突带来通胀上行和经济下行的双重风险】4月17日，日本央行行长植田和男表示，中东冲突带来通胀上行和经济下行的双重风险，货币政策委员会将在月末议息会议上决定应采取何种最合适的政策以实现2%的通胀目标。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "日本央行行长：油价上涨将给核心通胀带来上行压力",
+        "summary": "【日本央行行长：油价上涨将给核心通胀带来上行压力】据报道，在被问及市场对4月加息的预期下降时，日本央行行长植田和男表示不予置评。植田和男称，油价上涨将给核心通胀带来上行压力，将选择适当的政策以实现通胀目标。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情",
+        "summary": "【中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情】4月17日，AI板块延续逼空行情，创业板人工智能ETF招商(159243)放量上涨2.61%，光模块三杰集体暴涨——新易盛大涨9.08%，天孚通信大涨6.04%，中际旭创大涨4.25%。资金热度不减，据Level-2实时数据估算，该ETF盘中净流入超1400万元。FOMO资金(FearOfMissingOut，即“害怕错过”的资金)正在",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      }
+    ],
+    "a_level": [
+      {
+        "title": "市场挑战下美铝Q1业绩不及预期",
+        "summary": "市场挑战下美铝Q1业绩不及预期",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+        "summary": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+        "summary": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "证监会拟推18条硬核罚则，业绩注水、拉高套现行为将遭重击",
+        "summary": "证监会拟推18条硬核罚则，业绩注水、拉高套现行为将遭重击",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "Netflix宣布董事长Reed Hastings卸任，Q2展望不及预期，股价盘后大跌",
+        "summary": "Netflix宣布董事长Reed Hastings卸任，Q2展望不及预期，股价盘后大跌",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "Netflix联合创始人退出引发担忧，盘前股价大跌约10%",
+        "summary": "Netflix联合创始人退出引发担忧，盘前股价大跌约10%",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "道富银行营收增长带动利润上升",
+        "summary": "道富银行营收增长带动利润上升",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "英国金融时报称欧盟拟放宽并购规则 培育全球冠军企业",
+        "summary": "英国金融时报称欧盟拟放宽并购规则 培育全球冠军企业",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "summary": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "亚光科技：将被实施其他风险警示 4月21日起股票简称变更为“ST亚光”",
+        "summary": "【亚光科技：将被实施其他风险警示 4月21日起股票简称变更为“ST亚光”】亚光科技(300123.SZ)公告称，因公司最近三个会计年度扣非前后净利润孰低者均为负值，且2025年度审计报告被出具带持续经营重大不确定性段落的无保留意见，触及深交所相关规定，公司股票交易将被实施其他风险警示。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "北方华创：2025年净利润55.22亿元 同比下降1.77%",
+        "summary": "【北方华创：2025年净利润55.22亿元 同比下降1.77%】北方华创(002371.SZ)发布2025年年度报告，实现营业收入393.53亿元，同比增长30.85%；归属于上市公司股东的净利润为55.22亿元，同比下降1.77%。公司拟以7.25亿股为基数，向全体股东每10股派发现金红利7.62元(含税)。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "奥飞数据：2025年净利润1.32亿元 同比增长6.65%",
+        "summary": "【奥飞数据：2025年净利润1.32亿元 同比增长6.65%】奥飞数据(300738.SZ)发布2025年年度报告，实现营业收入25.21亿元，同比增长16.47%；归属于上市公司股东的净利润为1.32亿元，同比增长6.65%。公司拟向全体股东每10股派发现金红利0.14元(含税)。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "光洋股份：拟6.22亿元收购东南相互100%股权",
+        "summary": "【光洋股份：拟6.22亿元收购东南相互100%股权】光洋股份(002708.SZ)公告称，公司拟以现金支付方式收购常熟东南相互电子有限公司100%股权，交易对价为6.22亿元。本次交易不构成关联交易及重大资产重组。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "大华股份：2025年净利润38.58亿元 同比增长32.77%",
+        "summary": "【大华股份：2025年净利润38.58亿元 同比增长32.77%】4月17日，大华股份(002236.SZ)发布2025年年度报告，实现营业收入327.44亿元，同比增长1.75%；归属于上市公司股东的净利润为38.58亿元，同比增长32.77%。公司拟向全体股东每10股派发现金红利3.70元(含税)。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "信维通信：一季度净利润1.05亿元 同比增长35.35%",
+        "summary": "【信维通信：一季度净利润1.05亿元 同比增长35.35%】信维通信披露一季报，公司2026年一季度实现营业收入19.92亿元，同比增长14.31%；归母净利润1.05亿元，同比增长35.35%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "包钢股份：2025年净利润3.74亿元 同比增长41.19%",
+        "summary": "【包钢股份：2025年净利润3.74亿元 同比增长41.19%】包钢股份(600010.SH)发布2025年年度报告，实现营业收入663.58亿元，同比下降2.54%；归属于上市公司股东的净利润为3.74亿元，同比增长41.19%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "晶丰明源：2025年净利润3560.26万元 同比扭亏为盈",
+        "summary": "【晶丰明源：2025年净利润3560.26万元 同比扭亏为盈】晶丰明源(688368.SH)发布2025年年度报告，实现营业收入15.70亿元，同比增长4.40%；归属于上市公司股东的净利润为3560.26万元，较2024年净亏损3305.13万元实现扭亏为盈。公司拟向全体股东每10股派发现金红利10元(含税)，同时以资本公积每10股转增4股。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "长虹华意：一季度净利润同比增长14.96%",
+        "summary": "【长虹华意：一季度净利润同比增长14.96%】长虹华意(000404.SZ)公告称，2026年第一季度实现营业收入30.31亿元，同比下降13.05%；归属于上市公司股东的净利润为1.15亿元，同比增长14.96%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "藏格矿业：一季度净利润同比增长110.6%",
+        "summary": "【藏格矿业：一季度净利润同比增长110.6%】藏格矿业(000408.SZ)公告称，2026年第一季度实现营业收入7.16亿元，同比增长29.61%；归属于上市公司股东的净利润为15.74亿元，同比增长110.60%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "赣能股份：2025年净利润同比增长40.97% 拟10派5.67元",
+        "summary": "【赣能股份：2025年净利润同比增长40.97% 拟10派5.67元】赣能股份(000899.SZ)发布2025年年度报告，实现营业收入73.98亿元，同比增长6.90%；归属于上市公司股东的净利润为10.07亿元，同比增长40.97%。公司拟向全体股东每10股派发现金红利5.67元(含税)。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "海航控股：2025年净利润19.8亿元 同比扭亏为盈",
+        "summary": "【海航控股：2025年净利润19.8亿元 同比扭亏为盈】海航控股(600221)4月17日披露年报，2025年实现营业收入684.71亿元，同比增长4.96%；归母净利润19.8亿元，上年同期亏损9.21亿元；基本每股收益0.046元。2025年以来，民航市场持续向好，报告期内公司旅客运输量同比上升3.75%；货邮运输量同比上升20.08%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "长盈精密：2025年度净利润5.98亿元 同比下降22.53%",
+        "summary": "【长盈精密：2025年度净利润5.98亿元 同比下降22.53%】长盈精密(300115.SZ)发布2025年年度报告，实现营业收入188.19亿元，同比增长11.13%；归属于上市公司股东的净利润为5.98亿元，同比下降22.53%。公司拟向全体股东每10股派发现金红利1.2元(含税)，送红股0股，不以资本公积金转增股本。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "鸿路钢构：2025年归母净利润同比下降18.27% 拟10派2.8元",
+        "summary": "【鸿路钢构：2025年归母净利润同比下降18.27% 拟10派2.8元】鸿路钢构4月17日公告，2025年实现营业收入220.68亿元，同比增长2.57%；归属于上市公司股东的净利润6.31亿元，同比下降18.27%；基本每股收益0.92元。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "用友网络：2025年净亏损13.89亿元",
+        "summary": "【用友网络：2025年净亏损13.89亿元】用友网络(600588.SH)公告称，公司发布2025年年度报告摘要，实现营业收入91.82亿元，同比增长0.32%；归属于上市公司股东的净利润为-13.89亿元。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "吉林敖东：2025年净利润同比增长54.39% 拟10派3元",
+        "summary": "【吉林敖东：2025年净利润同比增长54.39% 拟10派3元】吉林敖东(000623.SZ)披露年报，2025年实现营业收入23.35亿元，同比下降10.55%；归母净利润23.95亿元，同比增长54.39%；基本每股收益2.04元。公司拟每10股派发现金红利3元(含税)。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "比特币向上突破77000美元",
+        "summary": "【比特币向上突破77000美元】行情显示，比特币涨至77295美元，过去24小时内涨4.02%。以太坊涨至2426.36美元，过去24小时内涨4.67%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁",
+        "summary": "【美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁】当地时间4月17日，据美国中央司令部消息，美军导弹驱逐舰“拉斐尔·佩拉尔塔”号在执行对伊朗海上封锁任务期间，已指示一艘商船返回伊朗港口。美方表示，自封锁开始以来已有19艘船只按要求掉头返回，未有船只成功突破封锁。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "奈飞股价下跌11%",
+        "summary": "奈飞股价下跌11%，创自2022年4月以来最大跌幅。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "欧洲天然气期货日内大跌近9%",
+        "summary": "欧洲天然气期货日内大跌近9%，报38.7欧元/兆瓦时，4月初以来累计大跌近20%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "利好！北证50指数基金规模上限将提升",
+        "summary": "【利好！北证50指数基金规模上限将提升】4月17日，中国证券报记者从业内获悉，多家基金公司旗下北证50指数基金规模上限将提升。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      }
+    ],
+    "b_level": [
+      {
+        "title": "早盘：美股继续上扬 道指涨逾800点",
+        "summary": "早盘：美股继续上扬 道指涨逾800点"
+      },
+      {
+        "title": "卡沙甘油田就50亿美元哈萨克斯坦硫磺罚款上诉再遭驳回",
+        "summary": "卡沙甘油田就50亿美元哈萨克斯坦硫磺罚款上诉再遭驳回"
+      },
+      {
+        "title": "德国法院裁定：前麦格理银行家必须接受Cum-Ex庭审",
+        "summary": "德国法院裁定：前麦格理银行家必须接受Cum-Ex庭审"
+      },
+      {
+        "title": "私募巨头EQT警告：私募股权持有的另类能源资产面临退出风险",
+        "summary": "私募巨头EQT警告：私募股权持有的另类能源资产面临退出风险"
+      },
+      {
+        "title": "周五美股因中东和平希望上涨，投资者预期本周将强劲收官",
+        "summary": "周五美股因中东和平希望上涨，投资者预期本周将强劲收官"
+      },
+      {
+        "title": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+        "summary": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高"
+      },
+      {
+        "title": "巴西国家石油公司收购圣多美和普林西比海上区块权益并担任作业者",
+        "summary": "巴西国家石油公司收购圣多美和普林西比海上区块权益并担任作业者"
+      },
+      {
+        "title": "巴西Oncoclínicas获法院禁令，避免债务提前到期",
+        "summary": "巴西Oncoclínicas获法院禁令，避免债务提前到期"
+      },
+      {
+        "title": "巴西Simpar以1.215亿雷亚尔出售Ciclus Amazônia股份",
+        "summary": "巴西Simpar以1.215亿雷亚尔出售Ciclus Amazônia股份"
+      },
+      {
+        "title": "优步从Prosus手中收购Delivery Hero股份 2.7亿欧元交易表明对配送领域的兴趣",
+        "summary": "优步从Prosus手中收购Delivery Hero股份 2.7亿欧元交易表明对配送领域的兴趣"
+      },
+      {
+        "title": "美国考虑与伊朗达成200亿美元现金换铀协议",
+        "summary": "美国考虑与伊朗达成200亿美元现金换铀协议"
+      },
+      {
+        "title": "巴西国家石油公司获得中非海上区块作业权",
+        "summary": "巴西国家石油公司获得中非海上区块作业权"
+      },
+      {
+        "title": "微软股价因大型AI数据中心提前启用而上涨",
+        "summary": "微软股价因大型AI数据中心提前启用而上涨"
+      },
+      {
+        "title": "市场监管总局重拳整治“幽灵外卖” 拼多多被罚逾15亿元居首",
+        "summary": "市场监管总局重拳整治“幽灵外卖” 拼多多被罚逾15亿元居首"
+      },
+      {
+        "title": "赌注越押越大 希腊船东派出其迄今最大油轮穿越霍尔木兹海峡",
+        "summary": "赌注越押越大 希腊船东派出其迄今最大油轮穿越霍尔木兹海峡"
+      },
+      {
+        "title": "OpenAI首席执行官住所遭袭事件后，民众对AI的抵制情绪加剧",
+        "summary": "OpenAI首席执行官住所遭袭事件后，民众对AI的抵制情绪加剧"
+      },
+      {
+        "title": "Allbirds转向AI业务，股价剧烈波动",
+        "summary": "Allbirds转向AI业务，股价剧烈波动"
+      },
+      {
+        "title": "太空核能推进计划提振反应堆和铀相关股票",
+        "summary": "太空核能推进计划提振反应堆和铀相关股票"
+      },
+      {
+        "title": "中天期货:橡胶短线走弱 玻璃初步止跌",
+        "summary": "中天期货:橡胶短线走弱 玻璃初步止跌"
+      },
+      {
+        "title": "台积电创纪录利润凸显AI需求",
+        "summary": "台积电创纪录利润凸显AI需求"
+      },
+      {
+        "title": "标普500闪现罕见上涨信号",
+        "summary": "标普500闪现罕见上涨信号"
+      },
+      {
+        "title": "QVC申请第11章破产保护以削减债务",
+        "summary": "QVC申请第11章破产保护以削减债务"
+      },
+      {
+        "title": "受以色列-黎巴嫩停火消息影响，油价下滑",
+        "summary": "受以色列-黎巴嫩停火消息影响，油价下滑"
+      },
+      {
+        "title": "美股指数期货因局势缓和希望小幅上涨",
+        "summary": "美股指数期货因局势缓和希望小幅上涨"
+      },
+      {
+        "title": "航空燃油紧缺威胁多国航空公司",
+        "summary": "航空燃油紧缺威胁多国航空公司"
+      },
+      {
+        "title": "亚洲股市因停火希望缓解油价压力而走低",
+        "summary": "亚洲股市因停火希望缓解油价压力而走低"
+      },
+      {
+        "title": "中天策略:4月17日市场分析",
+        "summary": "中天策略:4月17日市场分析"
+      },
+      {
+        "title": "编排股市“小作文”关号就可以了？“杰克船长”领罚80万传递新信号",
+        "summary": "编排股市“小作文”关号就可以了？“杰克船长”领罚80万传递新信号"
+      },
+      {
+        "title": "匈牙利欧尔班政府提前启动欧盟谈判，以解除资金冻结",
+        "summary": "匈牙利欧尔班政府提前启动欧盟谈判，以解除资金冻结"
+      },
+      {
+        "title": "瑞银委托开展的研究显示：资本金新规可能损害瑞士经济",
+        "summary": "瑞银委托开展的研究显示：资本金新规可能损害瑞士经济"
+      },
+      {
+        "title": "奥特曼成为OpenAI超级IPO的风险因素",
+        "summary": "奥特曼成为OpenAI超级IPO的风险因素"
+      },
+      {
+        "title": "Anthropic首席执行官将与白宫办公厅主任会面，时值五角大楼人工智能争议发酵",
+        "summary": "Anthropic首席执行官将与白宫办公厅主任会面，时值五角大楼人工智能争议发酵"
+      },
+      {
+        "title": "伦敦金属指数创历史新高 市场担忧铝供应“黑洞”",
+        "summary": "伦敦金属指数创历史新高 市场担忧铝供应“黑洞”"
+      },
+      {
+        "title": "西门子计划于2027年2月就分拆西门子医疗一事举行股东投票",
+        "summary": "西门子计划于2027年2月就分拆西门子医疗一事举行股东投票"
+      },
+      {
+        "title": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "summary": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才"
+      },
+      {
+        "title": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "summary": "联想发布超级智能体天禧AI Pro，离线可用全程可管"
+      },
+      {
+        "title": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "summary": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用"
+      },
+      {
+        "title": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "summary": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付"
+      },
+      {
+        "title": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "summary": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻"
+      },
+      {
+        "title": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "summary": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还"
+      },
+      {
+        "title": "比亚迪宣布第1600万辆新能源汽车下线",
+        "summary": "比亚迪宣布第1600万辆新能源汽车下线"
+      },
+      {
+        "title": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "summary": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时"
+      },
+      {
+        "title": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "summary": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔"
+      },
+      {
+        "title": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "summary": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U"
+      },
+      {
+        "title": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "summary": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等"
+      },
+      {
+        "title": "群核科技成功登陆港交所，股价涨超160%",
+        "summary": "群核科技成功登陆港交所，股价涨超160%"
+      },
+      {
+        "title": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "summary": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜"
+      },
+      {
+        "title": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "summary": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%"
+      },
+      {
+        "title": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "summary": "华为Pura X Max价格持续上涨：最高或达12888元"
+      },
+      {
+        "title": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "summary": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”"
+      },
+      {
+        "title": "字节启动豆包股首次回购，价格13.08美元",
+        "summary": "字节启动豆包股首次回购，价格13.08美元"
+      },
+      {
+        "title": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "summary": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营"
+      },
+      {
+        "title": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "summary": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了"
+      },
+      {
+        "title": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "summary": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温"
+      },
+      {
+        "title": "*ST天喻：因信披违规等拟被湖北证监局警告并罚款600万元",
+        "summary": "【*ST天喻：因信披违规等拟被湖北证监局警告并罚款600万元】*ST天喻(300205.SZ)公告称，公司收到湖北证监局《行政处罚事先告知书》。经查，公司涉嫌未按规定披露关联交易、实际控制人非经营性资金占用及重大担保，导致定期报告存在重大遗漏。湖北证监局拟对公司责令改正、给予警告，并处以600万元罚款。"
+      },
+      {
+        "title": "中化岩土：股票将被实施退市风险警示 简称变更为*ST中岩",
+        "summary": "【中化岩土：股票将被实施退市风险警示 简称变更为*ST中岩】中化岩土(002542.SZ)公告称，因公司2025年末经审计的归属于上市公司股东的净资产为负值，根据深交所相关规定，公司股票交易将被实施退市风险警示。公司股票将于4月20日停牌一天，4月21日开市起复牌并实施退市风险警示。"
+      },
+      {
+        "title": "宁德时代：第四大股东拟询价转让方式出让公司1.27%股份",
+        "summary": "【宁德时代：股东拟询价转让方式出让公司1.27%股份】宁德时代(300750.SZ)公告称，股东宁波联合创新新能源投资管理合伙企业（有限合伙）拟通过询价转让方式出让5800万股，占总股本的1.27%。注：截至一季度末，宁波联合创新新能源投资管理合伙企业（有限合伙）持有宁德时代6.23%股份，为公司的第四大股东。"
+      },
+      {
+        "title": "时空科技：拟收购嘉合劲威100%股权 交易价格10.78亿元",
+        "summary": "【时空科技：拟收购嘉合劲威100%股权 交易价格10.78亿元】4月17日，时空科技(605178.SH)公告称，拟通过发行股份及支付现金的方式向张丽丽、陈晖、东珵管理、普沃创达等19名交易对方收购嘉合劲威100%股权，并向上市公司控股股东、实际控制人宫殿海募集配套资金。交易价格10.78亿元。"
+      },
+      {
+        "title": "浙江震元：公司董事、副总经理被留置调查",
+        "summary": "【浙江震元：公司董事、副总经理被留置调查】浙江震元4月17日公告，公司于4月16日收到监察机关《留置通知书》和《立案通知书》，公司董事、副总经理魏民被立案调查并实施留置措施。"
+      },
+      {
+        "title": "臻镭科技：因信披违规将被实施其他风险警示 股票停牌",
+        "summary": "【臻镭科技：因信披违规将被实施其他风险警示 股票停牌】臻镭科技(688270.SH)公告称，公司于4月17日收到证监会浙江监管局《行政处罚事先告知书》，因披露的年度报告财务指标存在虚假记载，根据相关规定，公司股票将被实施其他风险警示。"
+      },
+      {
+        "title": "仕佳光子：拟12.65亿元投建高速光芯片与器件开发及产业化项目",
+        "summary": "【仕佳光子：拟12.65亿元投建高速光芯片与器件开发及产业化项目】仕佳光子4月17日公告，公司拟投资建设高速光芯片与器件开发及产业化项目。本项目投资总额约为12.65亿元人民币（以实际投入为准）。"
+      },
+      {
+        "title": "华夏幸福：重大资产出售暨关联交易实施完成",
+        "summary": "【华夏幸福：重大资产出售暨关联交易实施完成】华夏幸福(600340.SH)公告称，公司关于重大资产出售暨关联交易已实施完成。公司以全资子公司持有的誉诺金100%股权及合计255.84亿元债权设立信托计划，拟以信托受益权份额抵偿不超过240.01亿元金融债务。截至公告披露日，标的资产已完成交付，公司已通过信托偿债方式完成对223.48亿元金融债务的清偿。"
+      },
+      {
+        "title": "侨银股份：预中标约7.92亿元环卫保洁项目",
+        "summary": "【侨银股份：预中标约7.92亿元环卫保洁项目】侨银股份(002973.SZ)公告称，公司作为联合体成员之一，预中标安徽省阜阳市颍泉区环卫保洁市场化项目。该项目中标金额为6603万元/年，服务期限采用“3+3+3+3”模式，累计最长可达12年，预估中标总金额约为7.92亿元。"
+      },
+      {
+        "title": "韵达股份：3月快递服务业务收入45.9亿元 同比增长4.08%",
+        "summary": "【韵达股份：3月快递服务业务收入45.9亿元 同比增长4.08%】韵达股份(002120.SZ)公告称，3月公司实现快递服务业务收入45.90亿元，同比增长4.08%；完成业务量21.42亿票，同比下降4.93%；快递服务单票收入2.14元，同比增长9.18%。"
+      },
+      {
+        "title": "赣锋锂业：控制锂电业务扩产节奏 重点关注产品质量和盈利能力",
+        "summary": "【赣锋锂业：控制锂电业务扩产节奏 重点关注产品质量和盈利能力】赣锋锂业近日在接待机构调研时表示，公司未来3至5年资本开支主要包括Goulamina二期、Caucharí-Olaroz二期等优质低成本项目，锂电业务控制扩产节奏，重点关注产品质量和盈利能力。"
+      },
+      {
+        "title": "*ST天微：撤销退市风险警示",
+        "summary": "【*ST天微：撤销退市风险警示】*ST天微(688511.SH)公告称，公司股票将于2026年4月20日停牌1天，自4月21日起复牌并撤销退市风险警示，证券简称由“*ST天微”变更为“天微电子”。"
+      },
+      {
+        "title": "申通快递：3月快递服务业务收入同比增长33.57%",
+        "summary": "【申通快递：3月快递服务业务收入同比增长33.57%】申通快递(002468.SZ)公告称，2026年3月快递服务业务收入55.95亿元，同比增长33.57%；完成业务量25.02亿票，同比增长19.97%；快递服务单票收入2.24元，同比增长11.44%。"
+      },
+      {
+        "title": "3连板均瑶健康：公司业务不涉及保健食品的注册及生产 AKK菌粉销售目前对公司利润影响极小",
+        "summary": "【3连板均瑶健康：公司业务不涉及保健食品的注册及生产 AKK菌粉销售目前对公司利润影响极小】均瑶健康(605388.SH)发布风险提示公告，公司业务目前不涉及药品的研发、申报、生产及销售，也不涉及保健食品的注册及生产，所有相关菌株及产品均为普通食品原料或普通食品，相关阶段性研究数据仅为基础试验结果，不构成产品功效承诺或保健或药品资质认定。"
+      },
+      {
+        "title": "伊资产解冻是开放霍尔木兹条件之一",
+        "summary": "【伊资产解冻是开放霍尔木兹条件之一】据路透社今天（4月17日）援引伊朗高级官员消息报道称，解冻伊朗资产是开放霍尔木兹海峡协议的一部分。但这位伊朗官员没有给出具体的“资产解冻时间表”。"
+      },
+      {
+        "title": "土耳其基准股指上涨2.3%",
+        "summary": "土耳其基准股指上涨2.3%，触及历史新高。"
+      },
+      {
+        "title": "马克龙：我们要求全面、无条件地重新开放霍尔木兹海峡",
+        "summary": "法国总统马克龙称，我们要求全面、无条件地重新开放霍尔木兹海峡。"
+      },
+      {
+        "title": "纳指、标普500指数涨幅达1%",
+        "summary": "【纳指、标普500指数涨幅达1%】美股涨势延续，道琼斯指数涨1.56%，标普500指数涨1%，纳斯达克综合指数涨1.15%。"
+      },
+      {
+        "title": "现货白银涨5% 报82.34美元/盎司",
+        "summary": "现货白银涨5%，报82.34美元/盎司。"
+      },
+      {
+        "title": "拼多多回应被处罚：诚恳接受 坚决服从",
+        "summary": "【拼多多回应被处罚：诚恳接受 坚决服从】拼多多发文称，4月17日，公司收到国家市场监督管理总局对拼多多等多家电商平台“幽灵外卖”系列案作出的行政处罚。对此，拼多多诚恳接受，坚决服从。我们将以此为戒，进一步规范业务流程，完善升级。坚守初心，积极履行社会责任。"
+      },
+      {
+        "title": "伊朗方面称军舰仍被禁止通过霍尔木兹海峡",
+        "summary": "伊朗方面称，军舰仍被禁止通过霍尔木兹海峡。"
+      },
+      {
+        "title": "阿布扎比基金计划调整中国战略以促进投资",
+        "summary": "阿布扎比基金计划调整中国战略以促进投资。"
+      },
+      {
+        "title": "以色列宣布全国基本解除战时限制",
+        "summary": "【以色列宣布全国基本解除战时限制】以色列军方本土守备司令部17日表示，随着黎以停火持续以及与伊朗的停火状态延续，全国范围内的战时限制措施已基本解除。"
+      },
+      {
+        "title": "深交所：本周共对122起证券异常交易行为采取了自律监管措施",
+        "summary": "【深交所：本周共对122起证券异常交易行为采取了自律监管措施】深交所表示，本周共对122起证券异常交易行为采取了自律监管措施，涉及盘中拉抬打压、虚假申报等异常交易情形；共对2起上市公司重大事项进行核查。针对融资融券业务管理违规的情形，本所对一家会员采取了约见谈话的监管措施。"
+      },
+      {
+        "title": "多伦多证券市场能源板块下跌6.3%",
+        "summary": "多伦多证券市场能源板块下跌6.3%，创下自3月10日以来的最低水平。"
+      },
+      {
+        "title": "美股稀土概念股全线冲高 Critical Metals飙升逾28%",
+        "summary": "【美股稀土概念股全线冲高 Critical Metals飙升逾28%】美股稀土概念股全线冲高。Critical Metals飙升逾28%，据财联社，公司取得格陵兰岛坦布里兹稀土矿绝对控股权；USA Rare Earth涨近8%，United States Antimony涨近5%，MP Materials涨近3%。"
+      },
+      {
+        "title": "英特尔股价上涨1.5%",
+        "summary": "英特尔股价上涨1.5%。"
+      },
+      {
+        "title": "纳斯达克中国金龙指数涨超0.7%",
+        "summary": "纳斯达克中国金龙指数涨超0.7%。"
+      },
+      {
+        "title": "伊朗宣布对所有商船开放霍尔木兹海峡 美股三大指数集体高开",
+        "summary": "【伊朗宣布对所有商船开放霍尔木兹海峡 美股三大指数集体高开】伊朗宣布对所有商船开放霍尔木兹海峡，美股三大指数集体高开，道指涨1.09%，纳指涨1.03%，标普500指数涨0.65%。航空股上涨，达美航空涨超7%，美国航空涨超7%，阿拉斯加航空涨超6%。"
+      },
+      {
+        "title": "斯坦福报告：中美顶级大模型差距“实质性消除”",
+        "summary": "【斯坦福报告：中美顶级大模型差距“实质性消除”】近日，斯坦福大学人工智能研究所发布的最新一期《2026年人工智能指数报告》指出，当前中美顶级大模型差距“实质性消除”（effectively closed），头部模型间表现相当，呈并跑态势。"
+      },
+      {
+        "title": "特斯拉六座版Model Y最快下周登陆印度",
+        "summary": "【特斯拉六座版Model Y最快下周登陆印度】特斯拉正计划最早于下周在印度发布一款全新、尺寸更大的Model Y车型，长轴距六座版本Model Y L。"
+      },
+      {
+        "title": "伦敦金属交易所（LME）三个月期铝价跌幅一度扩大至5.6%",
+        "summary": "伦敦金属交易所（LME）三个月期铝价延续跌势，跌幅一度扩大至5.6%，最新报价为每吨3,470美元。"
+      },
+      {
+        "title": "现货白银日内涨幅扩大至4%",
+        "summary": "【现货白银日内涨幅扩大至4%】现货白银日内涨幅扩大至4%，报81.61美元/盎司。现货黄金向上触及4850美元，日内上涨1.29%。"
+      },
+      {
+        "title": "伊朗外长：黎以停火期间对所有商船开放霍尔木兹海峡",
+        "summary": "【伊朗外长：黎以停火期间对所有商船开放霍尔木兹海峡】当地时间17日下午，伊朗外长阿拉格齐在社交媒体发文称，根据黎巴嫩停火协议，所有商船在停火剩余时间内，按照伊朗港口和海事组织已经公布的协调路线，通行霍尔木兹海峡完全开放。"
+      },
+      {
+        "title": "国内商品期货夜盘开盘 主力合约多数下跌",
+        "summary": "国内商品期货夜盘开盘，主力合约多数下跌。跌幅方面，燃油跌超7%，原油跌超6%，低硫燃油跌超5%，对二甲苯、甲醇、聚丙烯跌超4%，纯苯跌近4%，PTA、LPG、乙二醇跌超3%，瓶片、苯乙烯、丁二烯胶、短纤、丙烯等跌超2%，PVC、棕榈油、焦煤、烧碱跌超1%；涨幅方面，沪银涨超3%，沪镍、玻璃涨超1%，沪金、沪锡、不锈钢、国际铜、沪铅等小幅上涨。"
+      },
+      {
+        "title": "WTI原油期货跌幅扩大至10%",
+        "summary": "【WTI原油期货跌幅扩大至10%】WTI原油期货价格跌10.14%，报85.090美元/桶；布伦特原油期货价格跌9.03%，报90.414美元/桶。"
+      },
+      {
+        "title": "在岸人民币兑美元收盘报6.8263",
+        "summary": "【在岸人民币兑美元收盘报6.8263】在岸人民币兑美元收盘报6.8263，较上一交易日下跌66点。"
+      },
+      {
+        "title": "中越联合声明：加强金融领域合作 探讨扩大本币结算范围",
+        "summary": "【中越联合声明：加强金融领域合作，探讨扩大本币结算范围】《中华人民共和国和越南社会主义共和国关于在新时期持续深化全面战略合作伙伴关系、推动构建更高水平具有战略意义的中越命运共同体的联合声明》发布。其中提出，加强金融领域合作，按照市场原则为合资合伙项目提供金融支持。"
+      },
+      {
+        "title": "人民币兑美元中间价报6.8622 下调6点",
+        "summary": "人民币兑美元中间价报6.8622，下调6点。"
+      },
+      {
+        "title": "中基协：基金公司高管等当年全部绩效薪酬中不少于30%要自购旗下公募基金",
+        "summary": "【中基协：基金公司高管等当年全部绩效薪酬中不少于30%要自购旗下公募基金】《基金管理公司绩效考核管理指引》最新出台，其中明确提出，基金公司的高管、主要业务部门负责人、基金经理应当将一定比例的绩效薪酬购买本公司或者本人管理的公募基金，且持有期限不得少于一年。高管、主要业务部门负责人应当将不少于当年全绩效薪酬的百分之三十购买本公司管理的公募基金，其中购买权益类基金不得低于百分之六十，但是公司无权益类基"
+      },
+      {
+        "title": "三家主权基金联合发起中国-东盟合作基金 总规模10亿美元",
+        "summary": "【三家主权基金联合发起中国-东盟合作基金 总规模10亿美元】记者获悉，中投公司、印尼投资局、阿塞拜疆国家石油基金联合发起中国-东盟合作基金，基金已完成首关募集，约5.2亿美元，目标总规模为10亿美元，银河证券境外子公司银河海外担任基金GP。"
+      },
+      {
+        "title": "人工智能ETF华富(515980)盘中上涨2.03%，权重股中际旭创Q1净利大增262%，AI算力基础设施建设全面提速",
+        "summary": "【人工智能ETF华富(515980)盘中上涨2.03%，权重股中际旭创Q1净利大增262%，AI算力基础设施建设全面提速】截至2026年4月17日14:12，人工智能ETF华富(515980)上涨2.03%。"
+      },
+      {
+        "title": "科创新能源ETF鹏华涨超2%，锂电储能双轮驱动",
+        "summary": "【科创新能源ETF鹏华涨超2%，锂电储能双轮驱动】截止04月17日13:56，指数科创新能(000692.SH)上涨2.37%；主要成分股普涨，明冠新材上涨19.97%，先惠技术上涨9.01%，容百科技上涨7.06%；科创新能源ETF鹏华(588830.SH)上涨2.42%。"
+      },
+      {
+        "title": "AI产业从“能力升级”走向“场景扩容”，人工智能ETF易方达（159819）涨近2%",
+        "summary": "【AI产业从“能力升级”走向“场景扩容”，人工智能ETF易方达（159819）涨近2%】人工智能板块早盘拉升，截至2026年4月17日11:21，人工智能ETF易方达（159819）上涨1.9%。"
+      },
+      {
+        "title": "高速光模块需求持续攀升，中际旭创一季报净利高增262%，创业板ETF易方达(159915)盘中涨超1%",
+        "summary": "【高速光模块需求持续攀升，中际旭创一季报净利高增262%，创业板ETF易方达(159915)盘中涨超1%】截至2026年4月17日10:53，创业板指数(399006)上涨0.58%，创业板ETF易方达(159915)一度涨超1%，现涨0.41%，盘中换手5.38%，成交28.85亿元。"
+      },
+      {
+        "title": "CPO概念反复活跃，创业板指盘中再创阶段新高，创业板ETF博时涨超1%",
+        "summary": "【CPO概念反复活跃，创业板指盘中再创阶段新高，创业板ETF博时涨超1%】2026年4月17日，创业板ETF博时(159908)涨超1%，成分股胜宏科技涨超8%，新易盛、信维通信、天孚通信、乖宝宠物跟涨。"
+      },
+      {
+        "title": "中际旭创一季度净利狂增262%！5GETF博时强势涨超3%",
+        "summary": "【中际旭创一季度净利狂增262%！5GETF博时强势涨超3%】2026年4月17日，5GETF博时(159811)涨超3%，成分股光迅科技涨超8%，新易盛、胜宏科技、天孚通信，中际旭创等个股跟涨。"
+      }
+    ],
+    "wukong_enhanced": {
+      "market_view": "震荡",
+      "confidence": 50,
+      "key_factors": [
+        "地缘政治",
+        "货币政策",
+        "经济数据",
+        "政策利好",
+        "业绩驱动"
+      ],
+      "active_patterns": [
+        "地缘事件驱动",
+        "政策博弈",
+        "业绩行情",
+        "资金博弈"
+      ],
+      "risk_alerts": [
+        "地缘风险",
+        "政策风险",
+        "流动性风险"
+      ],
+      "_experiences_applied": [],
+      "_scene_tags": {
+        "has_geopolitical": false,
+        "trump_intensity": 0,
+        "has_earnings_news": false
+      }
+    },
     "sangsha_module": {
       "overall_sentiment": "平稳",
       "advice": "震荡整理，观望为主",
-      "avg_buy_prob": 10,
-      "avg_panic_prob": 12,
+      "avg_buy_prob": 36,
+      "avg_panic_prob": 5,
       "analysis_results": [
         {
-          "news": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易...",
-          "title": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-          "full_title": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-          "summary": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-          "追高买入概率": 88,
+          "news": "中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情",
+          "title": "中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情",
+          "full_title": "中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情",
+          "summary": "【中际旭创净利暴增262%！光模块三杰领衔，AI延续逼空行情】4月17日，AI板块延续逼空行情，创业...",
+          "追高买入概率": 89,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
           "观望概率": 61,
           "情绪标签": [
-            "FOMO",
-            "易懂"
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 55,
+          "is_long_term": false,
+          "date": "2026-04-17",
+          "decay": 1.0,
+          "weighted_buy_prob": 55
+        },
+        {
+          "news": "美股稀土概念股全线冲高 Critical Metals飙升逾...",
+          "title": "美股稀土概念股全线冲高 Critical Metals飙升逾28%",
+          "full_title": "美股稀土概念股全线冲高 Critical Metals飙升逾28%",
+          "summary": "【美股稀土概念股全线冲高 Critical Metals飙升逾28%】美股稀土概念股全线冲高。Cri...",
+          "追高买入概率": 86,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 62,
+          "情绪标签": [
+            "FOMO"
           ],
           "韭菜行为总结": "散户疯了，都在追！",
           "市场含义": "顶部风险",
@@ -1511,10 +4499,90 @@ const newsData = {
           "weighted_buy_prob": 54
         },
         {
-          "news": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
-          "title": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
-          "full_title": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
-          "summary": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
+          "news": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开...",
+          "title": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+          "full_title": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+          "summary": "开盘：美股高开纳指与标普指数再创新高 伊朗宣布霍尔木兹海峡开放",
+          "追高买入概率": 86,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 62,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 53,
+          "is_long_term": false,
+          "date": "2026-04-17",
+          "decay": 1.0,
+          "weighted_buy_prob": 53
+        },
+        {
+          "news": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+          "title": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+          "full_title": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+          "summary": "北约军费飙升，英国航空防务巨头BAE市值有望突破千亿美元",
+          "追高买入概率": 84,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 63,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 52,
+          "is_long_term": false,
+          "date": "2026-04-17",
+          "decay": 1.0,
+          "weighted_buy_prob": 52
+        },
+        {
+          "news": "比特币向上突破77000美元",
+          "title": "比特币向上突破77000美元",
+          "full_title": "比特币向上突破77000美元",
+          "summary": "【比特币向上突破77000美元】行情显示，比特币涨至77295美元，过去24小时内涨4.02%。以太...",
+          "追高买入概率": 78,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 65,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 49,
+          "is_long_term": false,
+          "date": "2026-04-17",
+          "decay": 1.0,
+          "weighted_buy_prob": 49
+        },
+        {
+          "news": "美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁",
+          "title": "美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁",
+          "full_title": "美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁",
+          "summary": "【美军称19艘船只在对伊封锁中被迫返航 无船只突破封锁】当地时间4月17日，据美国中央司令部消息，美...",
+          "追高买入概率": 78,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 65,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 49,
+          "is_long_term": false,
+          "date": "2026-04-17",
+          "decay": 1.0,
+          "weighted_buy_prob": 49
+        },
+        {
+          "news": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+          "title": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+          "full_title": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
+          "summary": "阿联酋股市因美伊和谈希望上涨，迪拜指数创六周新高",
           "追高买入概率": 20,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
@@ -1529,153 +4597,61 @@ const newsData = {
           "weighted_buy_prob": 14
         },
         {
-          "news": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-          "title": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-          "full_title": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-          "summary": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-          "追高买入概率": 5,
+          "news": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+          "title": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+          "full_title": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+          "summary": "德黑兰表示霍尔木兹海峡开放后 美元回吐伊朗战争以来全部涨幅",
+          "追高买入概率": 20,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
-          "观望概率": 95,
+          "观望概率": 89,
           "情绪标签": [],
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
-          "买入概率": 5,
+          "买入概率": 14,
           "is_long_term": false,
           "date": "2026-04-17",
           "decay": 1.0,
-          "weighted_buy_prob": 5
+          "weighted_buy_prob": 14
         },
         {
-          "news": "美联储理事米兰：看不到等待降息的理由",
-          "title": "美联储理事米兰：看不到等待降息的理由",
-          "full_title": "美联储理事米兰：看不到等待降息的理由",
-          "summary": "美联储理事米兰：看不到等待降息的理由",
-          "追高买入概率": 5,
+          "news": "微软股价因大型AI数据中心提前启用而上涨",
+          "title": "微软股价因大型AI数据中心提前启用而上涨",
+          "full_title": "微软股价因大型AI数据中心提前启用而上涨",
+          "summary": "微软股价因大型AI数据中心提前启用而上涨",
+          "追高买入概率": 20,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
-          "观望概率": 95,
+          "观望概率": 89,
           "情绪标签": [],
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
-          "买入概率": 5,
+          "买入概率": 14,
           "is_long_term": false,
           "date": "2026-04-17",
           "decay": 1.0,
-          "weighted_buy_prob": 5
+          "weighted_buy_prob": 14
         },
         {
-          "news": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-          "title": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-          "full_title": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-          "summary": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-          "追高买入概率": 5,
+          "news": "中天期货:橡胶短线走弱 玻璃初步止跌",
+          "title": "中天期货:橡胶短线走弱 玻璃初步止跌",
+          "full_title": "中天期货:橡胶短线走弱 玻璃初步止跌",
+          "summary": "中天期货:橡胶短线走弱 玻璃初步止跌",
+          "追高买入概率": 20,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
-          "观望概率": 95,
+          "观望概率": 89,
           "情绪标签": [],
           "韭菜行为总结": "散户情绪平稳",
           "市场含义": "中性",
-          "买入概率": 5,
+          "买入概率": 14,
           "is_long_term": false,
           "date": "2026-04-17",
           "decay": 1.0,
-          "weighted_buy_prob": 5
-        },
-        {
-          "news": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-          "title": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-          "full_title": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-          "summary": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-          "追高买入概率": 5,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 95,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 5,
-          "is_long_term": false,
-          "date": "2026-04-17",
-          "decay": 1.0,
-          "weighted_buy_prob": 5
-        },
-        {
-          "news": "伊朗武装部队司令：敌人对战局存在“误判”",
-          "title": "伊朗武装部队司令：敌人对战局存在“误判”",
-          "full_title": "伊朗武装部队司令：敌人对战局存在“误判”",
-          "summary": "【伊朗武装部队司令：敌人对战局存在“误判”】据伊朗法尔斯通讯社16日报道，伊朗武装部队哈塔姆安比亚中...",
-          "追高买入概率": 5,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 95,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 5,
-          "is_long_term": false,
-          "date": "2026-04-17",
-          "decay": 1.0,
-          "weighted_buy_prob": 5
-        },
-        {
-          "news": "限特朗普战争权力议案遭美众院否决",
-          "title": "限特朗普战争权力议案遭美众院否决",
-          "full_title": "限特朗普战争权力议案遭美众院否决",
-          "summary": "【限特朗普战争权力议案遭美众院否决】美国国会众议院当地时间4月16日以214票赞成、213票反对的表...",
-          "追高买入概率": 5,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 95,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 5,
-          "is_long_term": false,
-          "date": "2026-04-17",
-          "decay": 1.0,
-          "weighted_buy_prob": 5
-        },
-        {
-          "news": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
-          "title": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
-          "full_title": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
-          "summary": "【伊朗回应美加大经济制裁：这是“经济恐怖主义”】当地时间4月16日，伊朗外交部发言人巴加埃在社交平台...",
-          "追高买入概率": 5,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 78,
-          "观望概率": 72,
-          "情绪标签": [
-            "恐慌"
-          ],
-          "韭菜行为总结": "散户恐慌，想割肉",
-          "市场含义": "可能见底",
-          "买入概率": 5,
-          "is_long_term": false,
-          "date": "2026-04-17",
-          "decay": 1.0,
-          "weighted_buy_prob": 5
-        },
-        {
-          "news": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
-          "title": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
-          "full_title": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
-          "summary": "【特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部】总台记者当地时间16日晚获悉，在美国总统特朗普宣...",
-          "追高买入概率": 5,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 95,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 5,
-          "is_long_term": false,
-          "date": "2026-04-17",
-          "decay": 1.0,
-          "weighted_buy_prob": 5
+          "weighted_buy_prob": 14
         }
       ],
-      "total_news_count": 14,
+      "total_news_count": 40,
       "time_window": "7天累积（长期新闻除外）"
     },
     "white_dragon": {
@@ -1686,7 +4662,7 @@ const newsData = {
       "可信度": 1.0,
       "矛盾ETF数": 0,
       "散户情绪": {
-        "平均买入概率": 16,
+        "平均买入概率": 52,
         "平均恐慌概率": 5
       },
       "悟空信号": "",
@@ -1697,11 +4673,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -1710,20 +4686,20 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 16,
+          "sangsha_buy_prob": 52,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -1732,42 +4708,42 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 16,
+          "sangsha_buy_prob": 52,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 16,
+          "sangsha_buy_prob": 52,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -1776,9 +4752,9 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 16,
+          "sangsha_buy_prob": 52,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -1790,11 +4766,11 @@ const newsData = {
       "max_drawdown": "-8.0%（止损线）",
       "holding_period": "",
       "沙僧信号": {
-        "情绪": "平稳",
-        "平均买入概率": 10,
-        "平均恐慌概率": 12,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "情绪": "积极",
+        "平均买入概率": 48,
+        "平均恐慌概率": 5,
+        "调整结果": "✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
+        "可信度级别": "neutral"
       },
       "白龙马信号": {
         "主力状态": "拉升",
@@ -1806,128 +4782,16 @@ const newsData = {
       "悟空信号": {
         "市场情绪": ""
       },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "信号一致性": "✅✅ 高度一致：四层信号共振，胜率可信",
       "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+        "【沙僧融合】✅ 沙僧支持：散户情绪积极，与八戒信号方向一致",
         "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
       ],
-      "original_bajie": {
-        "optimal_action": "",
-        "optimal_etfs": "",
-        "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
-        "max_drawdown": "-8.0%（止损线）",
-        "holding_period": "",
-        "沙僧信号": {
-          "情绪": "平稳",
-          "平均买入概率": 10,
-          "平均恐慌概率": 12,
-          "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-          "可信度级别": "normal"
-        },
-        "白龙马信号": {
-          "主力状态": "拉升",
-          "是否利用散户": false,
-          "可信度": 1.0,
-          "风险等级": "low",
-          "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-        },
-        "悟空信号": {
-          "市场情绪": ""
-        },
-        "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
-        "融合说明": [
-          "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-          "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-        ],
-        "original_bajie": {
-          "optimal_action": "",
-          "optimal_etfs": "",
-          "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
-          "max_drawdown": "-8.0%（止损线）",
-          "holding_period": "",
-          "沙僧信号": {
-            "情绪": "平稳",
-            "平均买入概率": 10,
-            "平均恐慌概率": 12,
-            "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-            "可信度级别": "normal"
-          },
-          "白龙马信号": {
-            "主力状态": "拉升",
-            "是否利用散户": false,
-            "可信度": 1.0,
-            "风险等级": "low",
-            "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-          },
-          "悟空信号": {
-            "市场情绪": ""
-          },
-          "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
-          "融合说明": [
-            "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-            "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-          ],
-          "original_bajie": {},
-          "prior_calibration": {
-            "scene_type": "geopolitical_sudden",
-            "scene_desc": "地缘突发事件做多",
-            "original_prior": 50,
-            "calibrated_prior": 55,
-            "note": "方向对但时机难把握"
-          },
-          "signal_weights": {
-            "悟空深度分析": 1.0,
-            "沙僧情绪": 0.8,
-            "白龙马主力": 1.08,
-            "外盘先行指标": 1.1
-          },
-          "signal_weight_notes": [],
-          "geo_prior_check": {
-            "prior_type": "geopolitical",
-            "hours_since_last_update": 0.0,
-            "is_expired": false,
-            "needs_review": false,
-            "validity_hours": 12,
-            "review_interval_hours": 6
-          },
-          "_experiences_applied": [
-            "BJ-001",
-            "BJ-002",
-            "BJ-003"
-          ]
-        },
-        "prior_calibration": {
-          "scene_type": "geopolitical_sudden",
-          "scene_desc": "地缘突发事件做多",
-          "original_prior": 55,
-          "calibrated_prior": 55,
-          "note": "方向对但时机难把握"
-        },
-        "signal_weights": {
-          "悟空深度分析": 1.0,
-          "沙僧情绪": 0.8,
-          "白龙马主力": 1.08,
-          "外盘先行指标": 1.1
-        },
-        "signal_weight_notes": [],
-        "geo_prior_check": {
-          "prior_type": "geopolitical",
-          "hours_since_last_update": 0.0,
-          "is_expired": false,
-          "needs_review": false,
-          "validity_hours": 12,
-          "review_interval_hours": 6
-        },
-        "_experiences_applied": [
-          "BJ-001",
-          "BJ-002",
-          "BJ-003"
-        ]
-      },
+      "original_bajie": {},
       "prior_calibration": {
         "scene_type": "geopolitical_sudden",
         "scene_desc": "地缘突发事件做多",
-        "original_prior": 55,
+        "original_prior": 50,
         "calibrated_prior": 55,
         "note": "方向对但时机难把握"
       },
@@ -1952,46 +4816,21 @@ const newsData = {
         "BJ-003"
       ]
     },
-    "wukong_enhanced": {
-      "market_view": "震荡",
-      "confidence": 50,
-      "key_factors": [
-        "地缘政治",
-        "货币政策",
-        "经济数据",
-        "政策利好",
-        "业绩驱动"
-      ],
-      "active_patterns": [
-        "地缘事件驱动",
-        "政策博弈",
-        "Trump喊话"
-      ],
-      "risk_alerts": [
-        "地缘风险"
-      ],
-      "_experiences_applied": [],
-      "_scene_tags": {
-        "has_geopolitical": false,
-        "trump_intensity": 0,
-        "has_earnings_news": false
-      }
-    },
     "tang_sanzang": {
       "仓位": "40-60% 中性",
       "最终行动": "",
-      "唐僧结论": "，胜率~40%（注意：1项高风险）",
+      "唐僧结论": "，胜率~50%（注意：1项高风险）",
       "仲裁矛盾": [
         "🙏 唐僧：四层信号无重大矛盾，各司其职"
       ],
       "仓位公式": "base(40-60% 中性) × 风控调整",
       "风控触发": [
-        "Trump喊话强度=3: ⚠️ 反转风险 - 连续3天喊话，反转概率~70%+",
+        "Trump喊话强度=2: ⚠️ 反转风险 - 连续2天喊话，反转概率~50%",
         "逻辑止损缺失（地缘事件场景）: ❌ 必须补充 - 地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
       ],
       "_raw": {
         "final_action": "",
-        "final_win_rate": "~40%",
+        "final_win_rate": "~50%",
         "optimal_etfs": "",
         "max_drawdown": "-8.0%（止损线）",
         "arbitration_notes": [
@@ -1999,10 +4838,10 @@ const newsData = {
         ],
         "risk_checks": [
           {
-            "item": "Trump喊话强度=3",
+            "item": "Trump喊话强度=2",
             "status": "⚠️ 反转风险",
-            "reason": "连续3天喊话，反转概率~70%+",
-            "adjust_win_rate": -15
+            "reason": "连续2天喊话，反转概率~50%",
+            "adjust_win_rate": -5
           },
           {
             "item": "逻辑止损缺失（地缘事件场景）",
@@ -2013,7 +4852,7 @@ const newsData = {
         "conflict_count": 0,
         "module_summary": {
           "悟空": "情绪:?",
-          "沙僧": "情绪:平稳(买入10%) | 注入1条经验",
+          "沙僧": "情绪:积极(买入48%) | 注入1条经验",
           "白龙马": "主力:拉升(可信度1.0)",
           "八戒": "行动: 胜率:~55%（BJ校准：地缘突发事件做多，基准先验55%） | 注入3条经验"
         },
@@ -2029,119 +4868,7 @@ const newsData = {
             "BJ-003"
           ]
         },
-        "original_bajie": {
-          "optimal_action": "",
-          "optimal_etfs": "",
-          "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
-          "max_drawdown": "-8.0%（止损线）",
-          "holding_period": "",
-          "沙僧信号": {
-            "情绪": "平稳",
-            "平均买入概率": 10,
-            "平均恐慌概率": 12,
-            "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-            "可信度级别": "normal"
-          },
-          "白龙马信号": {
-            "主力状态": "拉升",
-            "是否利用散户": false,
-            "可信度": 1.0,
-            "风险等级": "low",
-            "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-          },
-          "悟空信号": {
-            "市场情绪": ""
-          },
-          "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
-          "融合说明": [
-            "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-            "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-          ],
-          "original_bajie": {
-            "optimal_action": "",
-            "optimal_etfs": "",
-            "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
-            "max_drawdown": "-8.0%（止损线）",
-            "holding_period": "",
-            "沙僧信号": {
-              "情绪": "平稳",
-              "平均买入概率": 10,
-              "平均恐慌概率": 12,
-              "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-              "可信度级别": "normal"
-            },
-            "白龙马信号": {
-              "主力状态": "拉升",
-              "是否利用散户": false,
-              "可信度": 1.0,
-              "风险等级": "low",
-              "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-            },
-            "悟空信号": {
-              "市场情绪": ""
-            },
-            "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
-            "融合说明": [
-              "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-              "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-            ],
-            "original_bajie": {},
-            "prior_calibration": {
-              "scene_type": "geopolitical_sudden",
-              "scene_desc": "地缘突发事件做多",
-              "original_prior": 50,
-              "calibrated_prior": 55,
-              "note": "方向对但时机难把握"
-            },
-            "signal_weights": {
-              "悟空深度分析": 1.0,
-              "沙僧情绪": 0.8,
-              "白龙马主力": 1.08,
-              "外盘先行指标": 1.1
-            },
-            "signal_weight_notes": [],
-            "geo_prior_check": {
-              "prior_type": "geopolitical",
-              "hours_since_last_update": 0.0,
-              "is_expired": false,
-              "needs_review": false,
-              "validity_hours": 12,
-              "review_interval_hours": 6
-            },
-            "_experiences_applied": [
-              "BJ-001",
-              "BJ-002",
-              "BJ-003"
-            ]
-          },
-          "prior_calibration": {
-            "scene_type": "geopolitical_sudden",
-            "scene_desc": "地缘突发事件做多",
-            "original_prior": 55,
-            "calibrated_prior": 55,
-            "note": "方向对但时机难把握"
-          },
-          "signal_weights": {
-            "悟空深度分析": 1.0,
-            "沙僧情绪": 0.8,
-            "白龙马主力": 1.08,
-            "外盘先行指标": 1.1
-          },
-          "signal_weight_notes": [],
-          "geo_prior_check": {
-            "prior_type": "geopolitical",
-            "hours_since_last_update": 0.0,
-            "is_expired": false,
-            "needs_review": false,
-            "validity_hours": 12,
-            "review_interval_hours": 6
-          },
-          "_experiences_applied": [
-            "BJ-001",
-            "BJ-002",
-            "BJ-003"
-          ]
-        }
+        "original_bajie": {}
       }
     },
     "evolution_v4": {
@@ -2151,12 +4878,13 @@ const newsData = {
         "date": "2026-04-17",
         "has_geopolitical": true,
         "has_earnings_beat": true,
-        "trump_intensity": 3,
+        "trump_intensity": 2,
         "has_policy_benefit": true,
+        "has_tech_breakthrough": true,
         "is_earnings_season": true,
         "is_near_weekend": true,
         "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-17T01:41:09.711833"
+        "prior_updated_at": "2026-04-17T22:24:18.573906"
       },
       "wukong_experiences": [],
       "sangsha_experiences": [
@@ -2175,200 +4903,7 @@ const newsData = {
     },
     "market_tone": {
       "早报": "",
-      "晚报": "【2026-04-17晚报】 | 胜率~40% | 40-60% 中性"
-    },
-    "s_level": [
-      {
-        "title": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-        "summary": "特朗普称以色列与黎巴嫩已达成为期10天的停火协议",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "美联储理事米兰：看不到等待降息的理由",
-        "summary": "美联储理事米兰：看不到等待降息的理由",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-        "summary": "纽约联储行长称不确定性阻碍提供利率指引 料长期仍将降息",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-        "summary": "特朗普称以色列和黎巴嫩同意停火10天 但未提及真主党",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "限特朗普战争权力议案遭美众院否决",
-        "summary": "【限特朗普战争权力议案遭美众院否决】美国国会众议院当地时间4月16日以214票赞成、213票反对的表决结果，以微弱优势否决了民主党发起的一项议案。该议案要求总统特朗普结束对伊朗的军事行动，并在进一步对伊朗采取军事行动前必须获得国会授权。该议案此前一天已在参议院遭否决。民主党方面表示将继续提出类似议案，直到对伊朗战事结束或国会授权继续展开军事行动为止。依据美国宪法，只有国会能授权发动战争。美国国会1",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "伊朗回应美加大经济制裁：这是“经济恐怖主义”",
-        "summary": "【伊朗回应美加大经济制裁：这是“经济恐怖主义”】当地时间4月16日，伊朗外交部发言人巴加埃在社交平台回应美国方面威胁加大对伊朗制裁时表示，美国这些政策是“故意给人们带来痛苦”，这种行为是“经济恐怖主义”和“敲诈”，实质上构成反人类罪和种族灭绝罪。",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部",
-        "summary": "【特朗普宣布黎以将停火后 以军大规模空袭黎巴嫩南部】总台记者当地时间16日晚获悉，在美国总统特朗普宣布黎巴嫩和以色列将于贝鲁特时间当天午夜停火后，以色列国防军正在对黎巴嫩南部多个地区发动大规模空袭。",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "特朗普说将邀请以黎领导人前往白宫会谈",
-        "summary": "【特朗普说将邀请以黎领导人前往白宫会谈】美国总统特朗普16日在社交媒体上说：“我将邀请以色列总理内塔尼亚胡和黎巴嫩总统奥恩前往白宫，举行以色列与黎巴嫩之间首次有意义的会谈。”",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      },
-      {
-        "title": "据房利美 美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%",
-        "summary": "据房利美，美国30年期固定利率抵押贷款在4月16日当周的平均利率为6.30%，较前一周的6.37%有所下降。",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
-        "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
-          "key_variables": [
-            "市场情绪",
-            "资金流向"
-          ]
-        }
-      }
-    ],
-    "a_level": [
-      {
-        "title": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-        "summary": "嘉信理财跌5.5%，宣布利润大涨30%，计划推出加密货币交易服务",
-        "reason": "包含重要市场信息",
-        "etf_list": []
-      },
-      {
-        "title": "海昇药业：一季度净利润同比增长51.52%",
-        "summary": "【海昇药业：一季度净利润同比增长51.52%】海昇药业公告，2026年第一季度报告显示，公司实现营业收入6564.22万元，同比增长56.36%；归属于上市公司股东的净利润2009.25万元，同比增长51.52%。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
-      }
-    ],
-    "b_level": [
-      {
-        "title": "汉莎航空将削减运力、停飞低效机型以应对成本上涨",
-        "summary": "汉莎航空将削减运力、停飞低效机型以应对成本上涨"
-      },
-      {
-        "title": "伊朗武装部队司令：敌人对战局存在“误判”",
-        "summary": "【伊朗武装部队司令：敌人对战局存在“误判”】据伊朗法尔斯通讯社16日报道，伊朗武装部队哈塔姆安比亚中央总部司令阿卜杜拉希在会见巴基斯坦陆军参谋长穆尼尔时表示，敌人对伊朗发动侵略源于其对伊朗人民抵抗意志以及伊朗武装部队防御能力的“误判”。"
-      },
-      {
-        "title": "谷歌云宣布BigQuery Studio笔记本画廊全面正式上线",
-        "summary": "谷歌云宣布BigQueryStudio笔记本画廊全面正式上线。"
-      }
-    ],
-    "wukong_judgment": {
-      "market_view": "震荡",
-      "confidence": 50,
-      "key_factors": [
-        "地缘政治",
-        "货币政策",
-        "经济数据",
-        "政策利好",
-        "业绩驱动"
-      ],
-      "active_patterns": [
-        "地缘事件驱动",
-        "政策博弈",
-        "Trump喊话"
-      ],
-      "risk_alerts": [
-        "地缘风险"
-      ]
+      "晚报": "【2026-04-17晚报】 | 胜率~50% | 40-60% 中性"
     }
   },
   "2026-04-15": {
@@ -4700,11 +7235,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -4715,18 +7250,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 32,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -4737,40 +7272,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 32,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 32,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -4781,7 +7316,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 32,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率90%，胜率信号积极"
@@ -8592,11 +11127,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8607,18 +11142,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8629,40 +11164,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -8673,7 +11208,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 42,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -9005,11 +11540,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9020,18 +11555,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9042,40 +11577,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -9086,7 +11621,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 5,
           "sangsha_panic_prob": 22,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -10912,11 +13447,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10927,18 +13462,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10949,40 +13484,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -10993,7 +13528,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 34,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -11687,11 +14222,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -11702,18 +14237,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -11724,40 +14259,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -11768,7 +14303,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 53,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -12067,11 +14602,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12082,18 +14617,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12104,40 +14639,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12148,7 +14683,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 25,
           "sangsha_panic_prob": 19,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率72%，胜率信号积极"
@@ -12506,11 +15041,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12521,18 +15056,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12543,40 +15078,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12587,7 +15122,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 21,
           "sangsha_panic_prob": 15,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -12912,11 +15447,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12927,18 +15462,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12949,40 +15484,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -12993,7 +15528,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -13433,11 +15968,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -13448,18 +15983,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -13470,40 +16005,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -13514,7 +16049,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 37,
           "sangsha_panic_prob": 8,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -13992,11 +16527,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14007,18 +16542,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14029,40 +16564,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14073,7 +16608,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 54,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -14328,11 +16863,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14343,18 +16878,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14365,40 +16900,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14409,7 +16944,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -14752,11 +17287,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14767,18 +17302,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14789,40 +17324,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -14833,7 +17368,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 22,
           "sangsha_panic_prob": 15,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -15166,11 +17701,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -15181,18 +17716,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -15203,40 +17738,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -15247,7 +17782,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 8,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -15580,11 +18115,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -15595,18 +18130,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -15617,40 +18152,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -15661,7 +18196,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 26,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -15990,11 +18525,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16005,18 +18540,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16027,40 +18562,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16071,7 +18606,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 16,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -16410,11 +18945,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16425,18 +18960,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16447,40 +18982,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16491,7 +19026,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 36,
           "sangsha_panic_prob": 5,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
@@ -16803,11 +19338,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16818,18 +19353,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16840,40 +19375,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -16884,7 +19419,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 31,
           "sangsha_panic_prob": 20,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率70%，胜率信号积极"
@@ -17193,11 +19728,11 @@ const newsData = {
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 3.76
+            "change_pct": 3.01
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -8.04,
+            "change_pct": -8.11,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -17208,18 +19743,18 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.79
+          "单日量比": 0.92
         },
         {
           "code": "512930",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.37
+            "change_pct": 4.58
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -1.6,
+            "change_pct": 4.51,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -17230,40 +19765,40 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 1.17
+          "单日量比": 0.9
         },
         {
           "code": "518880",
           "price_trend": {
-            "trend": "up",
-            "strength": 90,
-            "change_pct": 0.78
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": -23.79,
+            "change_pct": -13.67,
             "level": "normal"
           },
-          "主力状态": "拉升",
-          "阶段": "初期",
-          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 0.77
+          "单日量比": 0.95
         },
         {
           "code": "588890",
           "price_trend": {
             "trend": "up",
             "strength": 75,
-            "change_pct": 4.33
+            "change_pct": 3.62
           },
           "volume_trend": {
             "trend": "side",
-            "change_pct": 4.34,
+            "change_pct": -3.7,
             "level": "normal"
           },
           "主力状态": "拉升",
@@ -17274,7 +19809,7 @@ const newsData = {
           "矛盾信号": "",
           "sangsha_buy_prob": 23,
           "sangsha_panic_prob": 20,
-          "单日量比": 1.04
+          "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓；✅ 八戒支持：胜率70%，胜率信号积极"
