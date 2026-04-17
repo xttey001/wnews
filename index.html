@@ -861,6 +861,35 @@
             font-size: 12px;
         }
 
+        /* ===== 新闻筛选 ===== */
+        .news-filter-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .filter-btn {
+            padding: 5px 14px;
+            border-radius: 16px;
+            font-size: 13px;
+            cursor: pointer;
+            color: #666;
+            background: #f0f0f0;
+            border: 1px solid #e0e0e0;
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .filter-btn:hover {
+            background: #e8e8e8;
+        }
+        .filter-btn.filter-active {
+            background: #e63946;
+            color: #fff;
+            border-color: #e63946;
+        }
+        .news-cards-container {
+            /* container for filterable news cards */
+        }
+
         /* ===== 响应式 ===== */
         @media (max-width: 768px) {
             .header h1 { font-size: 22px; }
@@ -1051,10 +1080,13 @@
             if (!bayesData) return '';
             const pc = bayesData.posterior >= 65 ? 'high' : bayesData.posterior >= 50 ? 'medium' : 'low';
             const priorJudg = bayesData.prior_judgment || '历史基准';
-            const priorProb = bayesData.prior_prob || bayesData.prior || 50;
+            let priorProb = bayesData.prior_prob || bayesData.prior || 50;
+            if (priorProb < 1) priorProb = Math.round(priorProb * 100);
             const likelihoodJudg = bayesData.likelihood_judgment || '新闻信息强度';
-            const likelihoodProb = bayesData.likelihood_prob || bayesData.likelihood || 50;
-            const posterior = bayesData.posterior || 50;
+            let likelihoodProb = bayesData.likelihood_prob || bayesData.likelihood || 50;
+            if (likelihoodProb < 1) likelihoodProb = Math.round(likelihoodProb * 100);
+            let posterior = bayesData.posterior || 50;
+            if (posterior < 1) posterior = Math.round(posterior * 100);
             const expectedReturn = bayesData.expected_return || 'N/A';
             const confidence = bayesData.confidence_interval || bayesData.confidence || 'N/A';
             const keyVar = bayesData.key_variables || bayesData.key_variable || 'N/A';
@@ -1196,18 +1228,9 @@
                     .slice(0, 10);
 
                 if (filteredMatrix.length > 0) {
-                    // 计算总体信号
-                    const avgRate = Math.round(filteredMatrix.reduce((s, m) => s + m.win_rate, 0) / filteredMatrix.length);
-                    const signalLabel = avgRate >= 65 ? '看多' : avgRate <= 35 ? '看空' : '中性';
-                    const signalClass = avgRate >= 65 ? 'high' : avgRate <= 35 ? 'low' : 'medium';
-
                     html += `
                     <div class="section matrix-section">
                         <div class="section-title">📊 决策矩阵 <span style="font-size:12px;color:#888;font-weight:normal;">（筛选${filteredMatrix.length}条高信号）</span></div>
-                        <div style="margin-bottom:10px;padding:8px 12px;background:${avgRate >= 65 ? '#fff3e0' : avgRate <= 35 ? '#e8f5e9' : '#f5f5f5'};border-radius:8px;display:flex;justify-content:space-between;align-items:center;">
-                            <span>总体信号：<strong class="win-rate ${signalClass}">${signalLabel}</strong></span>
-                            <span>平均胜率：<strong>${avgRate}%</strong></span>
-                        </div>
                         <div class="decision-matrix">
                             <table class="matrix-table">
                                 <thead>
@@ -1376,6 +1399,65 @@
             html += `<div class="section-divider"><span>=== 新闻详情 ===</span></div>`;
 
             // 从每条新闻的 bayes_analysis 构建 bajie_bayesian 结构（兼容新旧数据格式）
+            // A股新闻筛选：关键词匹配
+            function filterAShare(newsList) {
+                const cnKeywords = ['A股','沪指','深成指','创业板','科创板','北证','上证','沪深','证监会','央行','沪深港通','北向资金','ETF','沪指','深证','中小板','中证','两融','融资融券','涨停','跌停','龙虎榜','基金','公募','私募','券商','期货','沪深300','上证50','中证500','中证1000','科创50','创业板指','国债','逆回购','回购','股权','IPO','注册制','退市','ST股','摘帽','业绩','年报','季报','半年报','分红','配股','增发','定向增发','并购','重组','国企改革','央企','地方国企','壳资源','可转债','可交换债','融资盘','平仓','强平','触及平仓线','证监会','银保监','发改委','工信部','商务部','财政部','国务院','政治局','经济工作会议','十四五','碳中和','新能源','光伏','锂电','储能','风电','芯片','半导体','人工智能','数字经济','信创','数据要素','云计算','5G','6G','物联网','智能驾驶','机器人','军工','航天','航空','医药','中药','创新药','CXO','医美','白酒','食品','消费','旅游','酒店','地产','基建','钢铁','煤炭','有色','化工','银行','保险','证券','电力','石油','天然气','稀土','农业','种业','养殖','航运','港口','铁路','公路','机场','教育','游戏','影视','传媒','数字经济','元宇宙','Web3','区块链','氢能','核能','特高压','充电桩','车联网','鸿蒙','华为','比亚迪','宁德时代','贵州茅台','中芯国际','寒武纪','源杰','北证50'];
+                // 美股排除词（与A股关键词冲突时优先排除）
+                const usKeywords = ['美股','道指','标普','纳指','纳斯达克','S&P','道琼斯','华尔街','美联储','鲍威尔','SEC','纳斯达克','纳斯达克','英伟达','Nvidia','特斯拉','Tesla','苹果','Apple','微软','Microsoft','谷歌','Google','亚马逊','Amazon','Meta','Netflix','OpenAI','特朗普','Trump','拜登','Biden','DOGE','美铝','Netflix','BAE'];
+
+                return newsList.filter(item => {
+                    const title = (item.title || '') + (item.summary || '');
+                    // 先检查是否包含美股关键词
+                    const hasUs = usKeywords.some(kw => title.includes(kw));
+                    // 检查A股关键词
+                    const hasCn = cnKeywords.some(kw => title.includes(kw));
+                    // 有A股关键词且没有美股关键词，或A股关键词更多
+                    if (hasCn && !hasUs) return true;
+                    // 纯美股新闻但包含A股关键词（如"美股大涨利好A股科技"），也保留
+                    if (hasCn && hasUs) {
+                        const cnCount = cnKeywords.filter(kw => title.includes(kw)).length;
+                        const usCount = usKeywords.filter(kw => title.includes(kw)).length;
+                        return cnCount >= usCount;
+                    }
+                    return false;
+                });
+            }
+
+            // 新闻筛选切换
+            function toggleFilter(btn, level, mode) {
+                const section = btn.closest('.news-section');
+                section.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('filter-active'));
+                btn.classList.add('filter-active');
+                // 重新渲染该级别的新闻
+                const data = newsData[currentDate];
+                const newsList = data[level] || [];
+                const filtered = mode === 'cn' ? filterAShare(newsList) : newsList;
+                // 构建news cards html
+                const bj = data.bajie_bayesian || buildBajieBayesian(data) || {};
+                let cardsHtml = '';
+                filtered.forEach(item => {
+                    cardsHtml += renderNewsCard(item);
+                    const bayes = item.bayes_analysis || findBayesForNews(item.title, bj?.news_analysis, bj?.decision_matrix);
+                    if (bayes) {
+                        cardsHtml += renderNewsBayesAnalysis(item.title, bayes);
+                    }
+                });
+                // 替换filter bar之后的内容
+                const filterBar = section.querySelector('.news-filter-bar');
+                const contentDiv = filterBar ? filterBar.nextElementSibling : null;
+                if (contentDiv) {
+                    contentDiv.innerHTML = cardsHtml;
+                } else {
+                    // 没有contentDiv时，在filterBar后插入
+                    const wrapper = document.createElement('div');
+                    wrapper.innerHTML = cardsHtml;
+                    if (filterBar) filterBar.after(wrapper);
+                }
+                if (filtered.length === 0) {
+                    cardsHtml = '<div style="text-align:center;color:#999;padding:20px;">该筛选条件下暂无新闻</div>';
+                }
+            }
+
             function buildBajieBayesian(data) {
                 const allNews = [].concat(data.s_level || [], data.a_level || [], data.douyin || []);
                 const newsAnalysis = [];
@@ -1384,7 +1466,9 @@
                     const ba = item.bayes_analysis;
                     if (ba) {
                         newsAnalysis.push({ news_title: item.title, ...ba });
-                        const wr = ba.posterior || 50;
+                        // posterior可能是小数(0.65)或百分比(65)，统一转为百分比
+                        let wr = ba.posterior || 50;
+                        if (wr < 1) wr = Math.round(wr * 100);
                         const action = wr >= 65 ? '✅ 坚定做多' : wr >= 50 ? '⚠️ 轻仓' : '❌ 回避';
                         decisionMatrix.push({
                             news: item.title.substring(0, 15) + '...',
@@ -1459,32 +1543,50 @@
 
             // S级
             if (data.s_level && data.s_level.length) {
+                const sFiltered = filterAShare(data.s_level);
+                const sGlobal = data.s_level.length - sFiltered.length;
                 html += `
                     <div class="section news-section s-level">
                         <div class="section-title">🔴 S级（结构性叙事，影响1-4周）</div>`;
-                data.s_level.forEach(item => {
+                if (sGlobal > 0) {
+                    html += `<div class="news-filter-bar">
+                        <span class="filter-btn filter-active" onclick="toggleFilter(this, 's-level', 'cn')">A股 (${sFiltered.length})</span>
+                        <span class="filter-btn" onclick="toggleFilter(this, 's-level', 'all')">全部 (${data.s_level.length})</span>
+                    </div>`;
+                }
+                html += '<div class="news-cards-container">';
+                sFiltered.forEach(item => {
                     html += renderNewsCard(item);
                     const bayes = item.bayes_analysis || findBayesForNews(item.title, bj?.news_analysis, bj?.decision_matrix);
                     if (bayes) {
                         html += renderNewsBayesAnalysis(item.title, bayes);
                     }
                 });
-                html += '</div>';
+                html += '</div></div>';
             }
 
             // A级
             if (data.a_level && data.a_level.length) {
+                const aFiltered = filterAShare(data.a_level);
+                const aGlobal = data.a_level.length - aFiltered.length;
                 html += `
                     <div class="section news-section a-level">
                         <div class="section-title">🟡 A级（阶段性叙事，影响1-3天）</div>`;
-                data.a_level.forEach(item => {
+                if (aGlobal > 0) {
+                    html += `<div class="news-filter-bar">
+                        <span class="filter-btn filter-active" onclick="toggleFilter(this, 'a-level', 'cn')">A股 (${aFiltered.length})</span>
+                        <span class="filter-btn" onclick="toggleFilter(this, 'a-level', 'all')">全部 (${data.a_level.length})</span>
+                    </div>`;
+                }
+                html += '<div class="news-cards-container">';
+                aFiltered.forEach(item => {
                     html += renderNewsCard(item);
                     const bayes = item.bayes_analysis || findBayesForNews(item.title, bj?.news_analysis, bj?.decision_matrix);
                     if (bayes) {
                         html += renderNewsBayesAnalysis(item.title, bayes);
                     }
                 });
-                html += '</div>';
+                html += '</div></div>';
             }
 
             // 抖音/平台
