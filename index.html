@@ -889,6 +889,18 @@
         .news-cards-container {
             /* container for filterable news cards */
         }
+        /* 悟空详细分析 */
+        .analysis-detail {
+            margin-top: 10px;
+            padding: 12px 16px;
+            background: #fafbfc;
+            border-left: 3px solid #2563eb;
+            border-radius: 0 8px 8px 0;
+            font-size: 14px;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+        .analysis-detail:empty { display: none; }
 
         /* ===== 响应式 ===== */
         @media (max-width: 768px) {
@@ -1161,56 +1173,92 @@
             }
 
             // 悟空今日判断
-            if (data.wukong_judgment) {
-                const wj = data.wukong_judgment;
-                html += `
-                    <div class="section judgment-section">
-                        <div class="section-title">📈 悟空今日判断</div>`;
-                
-                // 兼容两种字段格式
+            // 兼容两种数据格式：
+            // 格式A（AI详细分析）：core_analysis(段落) + operations(对象列表) + market_sentiment
+            // 格式B（模型标签）：key_factors(关键词列表) + active_patterns(列表) + market_view
+            const wjData = data.wukong_judgment || data.wukong_enhanced;
+            if (wjData) {
+                const wj = wjData;
+                const hasDetailFormat = wj.core_analysis || wj.operations;
+
+                // 大盘情绪 + 置信度
                 const emotion = wj.emotion || wj.market_sentiment || wj.market_view;
-                if (emotion) {
+                const confidence = wj.confidence || '';
+                if (emotion || confidence) {
+                    const confDisplay = confidence ? ` ${confidence}%` : '';
+                    const confClass = confidence >= 65 ? 'high' : confidence >= 50 ? 'medium' : confidence < 35 ? 'low' : '';
                     html += `
+                    <div class="section judgment-section">
+                        <div class="section-title">📈 悟空今日判断</div>
                         <div class="emotion-row">
                             <span class="emotion-label">大盘情绪：</span>
-                            <span class="emotion-value">${emotion}</span>
+                            <span class="emotion-value">${emotion || '暂无'}</span>
+                            ${confidence ? `<span class="win-rate ${confClass}" style="margin-left:8px;font-size:14px;">${confidence}%</span>` : ''}
                         </div>`;
-                }
-
-                // 兼容两种字段格式
-                const analysisList = wj.analysis || wj.core_analysis || wj.key_factors;
-                if (analysisList && analysisList.length) {
-                    html += '<div class="analysis-list">';
-                    analysisList.forEach(a => {
-                        html += `<div class="analysis-item">${a}</div>`;
-                    });
-                    html += '</div>';
-                }
-
-                // 兼容操作建议字段（active_patterns）
-                const strategyList = wj.strategy || wj.operations || wj.active_patterns;
-                if (strategyList && strategyList.length) {
+                } else {
                     html += `
-                        <div class="strategy-box">
-                            <div class="strategy-label">今日操作参考：</div>`;
-                    strategyList.forEach(s => {
-                        const label = s.type || s.id ? `${s.type || s.id} ` : '';
-                        const text = s.content || s.action || s.name || s;
-                        html += `<div class="strategy-item">${label}${text}</div>`;
-                    });
-                    html += '</div>';
+                    <div class="section judgment-section">
+                        <div class="section-title">📈 悟空今日判断</div>`;
                 }
 
-                // 新增风险提示字段
-                const riskAlerts = wj.risk_alerts;
-                if (riskAlerts && riskAlerts.length) {
-                    html += `
-                        <div class="warning-box">
+                if (hasDetailFormat) {
+                    // === 格式A：详细分析（AI生成）===
+                    const coreAnalysis = wj.core_analysis;
+                    if (typeof coreAnalysis === 'string' && coreAnalysis) {
+                        html += `<div class="analysis-detail">${coreAnalysis}</div>`;
+                    } else if (Array.isArray(coreAnalysis)) {
+                        html += '<div class="analysis-list">';
+                        coreAnalysis.forEach(a => {
+                            const text = typeof a === 'object' ? (a.content || a.text || a) : a;
+                            html += `<div class="analysis-item">• ${text}</div>`;
+                        });
+                        html += '</div>';
+                    }
+
+                    // 操作建议（operations格式）
+                    const ops = wj.operations || wj.strategy || [];
+                    if (ops.length) {
+                        html += `<div class="strategy-box"><div class="strategy-label">今日操作参考：</div>`;
+                        ops.forEach(s => {
+                            const type = s.type || '';
+                            const content = s.content || s.action || s.name || (typeof s === 'string' ? s : '');
+                            const icon = type === '可做' ? '✅' : type === '警惕' || type === '回避' ? '⚠️' : type === '关注' ? '👁️' : '📌';
+                            html += `<div class="strategy-item">${icon} ${type ? type + '：' : ''}${content}</div>`;
+                        });
+                        html += '</div>';
+                    }
+                } else {
+                    // === 格式B：简单标签（关键词模型）===
+                    const factors = wj.key_factors || wj.analysis || [];
+                    const patterns = wj.active_patterns || [];
+                    const risks = wj.risk_alerts || [];
+
+                    if (factors.length) {
+                        html += `<div style="margin-top:10px;"><div class="strategy-label">关键影响因素：</div>`;
+                        html += '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;">';
+                        factors.forEach(f => {
+                            html += `<span style="display:inline-block;padding:3px 10px;background:#f0f4ff;color:#2563eb;border-radius:12px;font-size:13px;">${f}</span>`;
+                        });
+                        html += '</div></div>';
+                    }
+
+                    if (patterns.length) {
+                        html += `<div style="margin-top:10px;"><div class="strategy-label">活跃交易模式：</div>`;
+                        html += '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;">';
+                        patterns.forEach(p => {
+                            html += `<span style="display:inline-block;padding:3px 10px;background:#fff7ed;color:#d97706;border-radius:12px;font-size:13px;">${p}</span>`;
+                        });
+                        html += '</div></div>';
+                    }
+
+                    if (risks.length) {
+                        html += `<div class="warning-box" style="margin-top:10px;">
                             <div style="font-weight:600;margin-bottom:6px;">⚠️ 风险提示：</div>`;
-                    riskAlerts.forEach(r => {
-                        html += `<div style="margin-bottom:4px;">• ${r}</div>`;
-                    });
-                    html += '</div>';
+                        risks.forEach(r => {
+                            html += `<div style="margin-bottom:4px;">• ${r}</div>`;
+                        });
+                        html += '</div>';
+                    }
                 }
 
                 html += '</div>';
