@@ -500,7 +500,7 @@
             font-size: 11px;
         }
 
-        /* ===== 唐僧最终仲裁 ===== */
+        /* ===== 唐憎最终仲裁 ===== */
         .tang-sanzang-section {
             margin-top: 16px;
             background: linear-gradient(135deg, rgba(255,193,7,0.08) 0%, rgba(255,152,0,0.06) 100%);
@@ -998,14 +998,20 @@
         }
 
         function renderNewsCard(item) {
+            const emoji = item.emoji || '';
+            const title = item.title || '';
+            const source = item.source || '';
+            const keyPoint = item.key_point || item.summary || '';
+            const duration = item.duration || 'N/A';
+            const signal = item.signal || '';
             let html = `
                 <div class="news-card">
                     <div class="news-header">
-                        <div class="news-title">${item.emoji} ${item.title}</div>
-                        ${item.source ? '<div class="news-source">来源：' + item.source + '</div>' : ''}
+                        <div class="news-title">${emoji} ${title}</div>
+                        ${source ? '<div class="news-source">来源：' + source + '</div>' : ''}
                     </div>
-                    <div class="news-row"><span class="label">要点：</span>${item.key_point || item.summary || ''}</div>
-                    <div class="news-row"><span class="label">影响时长：</span>${item.duration}</div>`;
+                    <div class="news-row"><span class="label">要点：</span>${keyPoint}</div>
+                    <div class="news-row"><span class="label">影响时长：</span>${duration}</div>`;
 
             if (item.etfs && item.etfs.length) {
                 html += `
@@ -1183,11 +1189,25 @@
             const overall = bj.overall || data.bajie_conclusion || {};
 
             if (bj && (bj.decision_matrix && bj.decision_matrix.length)) {
-                // 决策矩阵表格
-                if (bj.decision_matrix && bj.decision_matrix.length) {
+                // 过滤决策矩阵：只保留高置信度信号（胜率≥65%或≤35%），最多10条
+                const filteredMatrix = bj.decision_matrix
+                    .filter(m => (m.win_rate >= 65 || m.win_rate <= 35))
+                    .sort((a, b) => Math.abs(b.win_rate - 50) - Math.abs(a.win_rate - 50))
+                    .slice(0, 10);
+
+                if (filteredMatrix.length > 0) {
+                    // 计算总体信号
+                    const avgRate = Math.round(filteredMatrix.reduce((s, m) => s + m.win_rate, 0) / filteredMatrix.length);
+                    const signalLabel = avgRate >= 65 ? '看多' : avgRate <= 35 ? '看空' : '中性';
+                    const signalClass = avgRate >= 65 ? 'high' : avgRate <= 35 ? 'low' : 'medium';
+
                     html += `
                     <div class="section matrix-section">
-                        <div class="section-title">📊 决策矩阵</div>
+                        <div class="section-title">📊 决策矩阵 <span style="font-size:12px;color:#888;font-weight:normal;">（筛选${filteredMatrix.length}条高信号）</span></div>
+                        <div style="margin-bottom:10px;padding:8px 12px;background:${avgRate >= 65 ? '#fff3e0' : avgRate <= 35 ? '#e8f5e9' : '#f5f5f5'};border-radius:8px;display:flex;justify-content:space-between;align-items:center;">
+                            <span>总体信号：<strong class="win-rate ${signalClass}">${signalLabel}</strong></span>
+                            <span>平均胜率：<strong>${avgRate}%</strong></span>
+                        </div>
                         <div class="decision-matrix">
                             <table class="matrix-table">
                                 <thead>
@@ -1200,15 +1220,15 @@
                                     </tr>
                                 </thead>
                                 <tbody>`;
-                    bj.decision_matrix.forEach(m => {
-                        const rc = m.win_rate >= 65 ? 'high' : m.win_rate >= 50 ? 'medium' : 'low';
+                    filteredMatrix.forEach(m => {
+                        const rc = m.win_rate >= 65 ? 'high' : m.win_rate <= 35 ? 'low' : 'medium';
                         html += `
                                     <tr>
-                                        <td>${m.news}</td>
-                                        <td><span class="win-rate ${rc}">${m.win_rate}%</span></td>
-                                        <td>${m.expected_return}</td>
-                                        <td>${m.risk_ratio}</td>
-                                        <td>${m.action}</td>
+                                        <td>${m.news || ''}</td>
+                                        <td><span class="win-rate ${rc}">${m.win_rate || 'N/A'}%</span></td>
+                                        <td>${m.expected_return || 'N/A'}</td>
+                                        <td>${m.risk_ratio || 'N/A'}</td>
+                                        <td>${m.action || ''}</td>
                                     </tr>`;
                     });
                     html += `
@@ -1242,7 +1262,7 @@
             if (ts) {
                 const tsAction = ts.最终行动 || ts.action || '';
                 const tsPosition = ts.仓位 || '';
-                const tsNote = ts.唐僧结论 || ts.唐憎结论 || ts.conclusion || '';
+                const tsNote = ts.唐憎结论 || ts.conclusion || '';
                 const conflicts = Array.isArray(ts.仲裁矛盾) ? ts.仲裁矛盾 : [];
                 const riskTriggers = Array.isArray(ts.风控触发) ? ts.风控触发 : [];
                 const formulas = ts.仓位公式 || {};
@@ -1259,11 +1279,11 @@
                 conflicts.forEach(c => {
                     const cType = typeof c === 'object' ? (c.类型 || c.type || '') : '';
                     const cDesc = typeof c === 'object' ? (c.描述 || c.desc || String(c)) : String(c);
-                    const cCoef = typeof c === 'object' ? (c.唐僧系数 || c.唐憎系数 || c.coef || '') : '';
+                    const cCoef = typeof c === 'object' ? (c.唐憎系数 || c.coef || '') : '';
                     html += `<div class="ts-conflict-item">⚠️ ${cType ? cType + '：' : ''}${cDesc}${cCoef ? '（' + cCoef + '）' : ''}</div>`;
                 });
                 html += `
-                        <div class="ts-formula">仓位公式：${formulas.基础仓位 || ''} × ${formulas.唐僧系数 || formulas.唐憎系数 || ''} × ${formulas.风控系数 || '1.0'} = ${formulas.结果 || tsPosition}</div>`;
+                        <div class="ts-formula">仓位公式：${formulas.基础仓位 || ''} × ${formulas.唐憎系数 || ''} × ${formulas.风控系数 || '1.0'} = ${formulas.结果 || tsPosition}</div>`;
                 if (riskTriggers.length > 0) {
                     html += `<div class="ts-subtitle">🚨 风控触发：</div>`;
                     riskTriggers.forEach(r => {
@@ -1271,7 +1291,7 @@
                     });
                 }
                 html += `
-                        <div class="ts-conclusion">✅ 唐僧结论：${tsNote}</div>
+                        <div class="ts-conclusion">✅ 唐憎结论：${tsNote}</div>
                     </div>
                 </div>`;
             }
@@ -1491,5 +1511,3 @@
     </script>
 </body>
 </html>
-< ! - -   F o r c e   r e b u i l d   2 0 2 6 - 0 4 - 1 4   1 4 : 3 9 : 5 5   - - >  
- 
