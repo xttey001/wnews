@@ -1177,6 +1177,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776496561",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1188,7 +1197,61 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776495141",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "伊媒：伊朗自周六上午起部分开放空域",
+        "summary": "伊媒：伊朗自周六上午起部分开放空域",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxchh0253148.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776494524",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "俄军夜间袭击乌克兰港口及电力设施",
+        "summary": "俄军夜间袭击乌克兰港口及电力设施",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxche2420077.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776493514",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "价格周报｜猪价继续探底，机构称当前养殖端加速去化仍需时间推进",
+        "summary": "价格周报｜猪价继续探底，机构称当前养殖端加速去化仍需时间推进",
+        "source": "澎湃新闻",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuxcha5642142.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776493140",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "伊朗消息人士：美伊双方已出现折中谈判迹象",
@@ -1199,6 +1262,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776492192",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1210,6 +1277,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776489342",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1221,6 +1292,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776488745",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1232,7 +1307,46 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776488393",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "“五一”假期大批航班取消，怎么回事？",
+        "summary": "“五一”假期大批航班取消，怎么回事？",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/wm/2026-04-18/doc-inhuwwya1532353.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776485220",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国联邦航空管理局将削减美国大型机场航班量 缓解航班延误",
+        "summary": "美国联邦航空管理局将削减美国大型机场航班量 缓解航班延误",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwwye5727106.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776485191",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
@@ -1243,6 +1357,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776485028",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1254,6 +1377,30 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776484261",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "格雷格·阿贝尔执掌伯克希尔满百日，公司已然迎来变局",
+        "summary": "格雷格·阿贝尔执掌伯克希尔满百日，公司已然迎来变局",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwssn0451025.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776484189",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1265,6 +1412,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776483086",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1276,6 +1427,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776482547",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1287,7 +1442,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776481672",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "140年来最强厄尔尼诺正在酝酿？地球或今年冲击高温极限？国家气候中心回应",
+        "summary": "140年来最强厄尔尼诺正在酝酿？地球或今年冲击高温极限？国家气候中心回应",
+        "source": "澎湃新闻",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwssn0415402.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776479400",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
@@ -1298,6 +1472,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776478375",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1309,6 +1492,55 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776477881",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "澳大利亚能源部长称燃料储备上升 更多货轮正在途中",
+        "summary": "澳大利亚能源部长称燃料储备上升 更多货轮正在途中",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwssh5794123.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776476485",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "霍尔木兹海峡开放后多艘船只尝试通行但未竟全功 不确定性犹在",
+        "summary": "霍尔木兹海峡开放后多艘船只尝试通行但未竟全功 不确定性犹在",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwnkn2661644.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776470612",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国法官驳回拜耳要求阻止强生前列腺癌药物索赔的申请",
+        "summary": "美国法官驳回拜耳要求阻止强生前列腺癌药物索赔的申请",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwnkh1665365.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776469260",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1320,6 +1552,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776469213",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1331,7 +1567,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776467150",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "尽管伊朗宣称海峡已开放，但美国封锁仍在实施",
+        "summary": "尽管伊朗宣称海峡已开放，但美国封锁仍在实施",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5990945.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466748",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
@@ -1342,7 +1597,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776466607",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "报道：Meta计划5月下旬全球裁员10%",
+        "summary": "报道：Meta计划5月下旬全球裁员10%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0579769.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466520",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
@@ -1353,150 +1627,35 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776466431",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
-        "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
-        "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "title": "美国航空：公司未参与也没兴趣与美联航合并",
+        "summary": "美国航空：公司未参与也没兴趣与美联航合并",
         "source": "环球市场播报",
         "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5978102.shtml",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1772586.shtml",
         "emoji": "📰",
         "channel": "新浪美股",
-        "timestamp": "1776463739",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "报道：伊朗官员否认特朗普有关铀问题的说法",
-        "summary": "报道：伊朗官员否认特朗普有关铀问题的说法",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0566983.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776463392",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-        "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2749840.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776462316",
+        "timestamp": "1776464436",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
-      },
-      {
-        "title": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
-        "summary": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2745717.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776461283",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-        "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5967358.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776460967",
-        "category": "市场资讯"
-      },
-      {
-        "title": "贵金属全线收涨 白银本周涨幅居前",
-        "summary": "贵金属全线收涨 白银本周涨幅居前",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1760015.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776460636",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
-        "summary": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0556303.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776460161",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
-        "summary": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5962048.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776459921",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
-        "summary": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2867901.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776459523",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
-        "summary": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
-        "source": "央视",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwhan5964367.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776459087",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
-        "summary": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776458608",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
-        "summary": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776458542",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
-        "summary": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
-        "source": "环球市场播报",
-        "date": "2026-04-18",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
-        "emoji": "📰",
-        "channel": "新浪美股",
-        "timestamp": "1776457148",
-        "category": "A股直接相关"
       },
       {
         "title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
@@ -1507,6 +1666,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776460936",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1518,6 +1681,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776458675",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1529,6 +1696,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776457452",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1540,6 +1711,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776456591",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1551,6 +1726,25 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776451704",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "群核科技成功登陆港交所，股价涨超160%",
+        "summary": "群核科技成功登陆港交所，股价涨超160%",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupte2249457.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776394502",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       }
     ],
@@ -1564,6 +1758,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776496561",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1575,7 +1778,61 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776495141",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "伊媒：伊朗自周六上午起部分开放空域",
+        "summary": "伊媒：伊朗自周六上午起部分开放空域",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxchh0253148.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776494524",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "俄军夜间袭击乌克兰港口及电力设施",
+        "summary": "俄军夜间袭击乌克兰港口及电力设施",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxche2420077.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776493514",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "价格周报｜猪价继续探底，机构称当前养殖端加速去化仍需时间推进",
+        "summary": "价格周报｜猪价继续探底，机构称当前养殖端加速去化仍需时间推进",
+        "source": "澎湃新闻",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuxcha5642142.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776493140",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "伊朗消息人士：美伊双方已出现折中谈判迹象",
@@ -1586,6 +1843,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776492192",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1597,6 +1858,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776489342",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1608,6 +1873,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776488745",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1619,7 +1888,46 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776488393",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "“五一”假期大批航班取消，怎么回事？",
+        "summary": "“五一”假期大批航班取消，怎么回事？",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/wm/2026-04-18/doc-inhuwwya1532353.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776485220",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国联邦航空管理局将削减美国大型机场航班量 缓解航班延误",
+        "summary": "美国联邦航空管理局将削减美国大型机场航班量 缓解航班延误",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwwye5727106.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776485191",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
@@ -1630,6 +1938,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776485028",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1641,6 +1958,30 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776484261",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "格雷格·阿贝尔执掌伯克希尔满百日，公司已然迎来变局",
+        "summary": "格雷格·阿贝尔执掌伯克希尔满百日，公司已然迎来变局",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwssn0451025.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776484189",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1652,6 +1993,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776483086",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1663,6 +2008,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776482547",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1674,7 +2023,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776481672",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "140年来最强厄尔尼诺正在酝酿？地球或今年冲击高温极限？国家气候中心回应",
+        "summary": "140年来最强厄尔尼诺正在酝酿？地球或今年冲击高温极限？国家气候中心回应",
+        "source": "澎湃新闻",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwssn0415402.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776479400",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
@@ -1685,6 +2053,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776478375",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1696,6 +2073,55 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776477881",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "澳大利亚能源部长称燃料储备上升 更多货轮正在途中",
+        "summary": "澳大利亚能源部长称燃料储备上升 更多货轮正在途中",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwssh5794123.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776476485",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "霍尔木兹海峡开放后多艘船只尝试通行但未竟全功 不确定性犹在",
+        "summary": "霍尔木兹海峡开放后多艘船只尝试通行但未竟全功 不确定性犹在",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwnkn2661644.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776470612",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国法官驳回拜耳要求阻止强生前列腺癌药物索赔的申请",
+        "summary": "美国法官驳回拜耳要求阻止强生前列腺癌药物索赔的申请",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwnkh1665365.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776469260",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1707,6 +2133,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776469213",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1718,7 +2148,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776467150",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "尽管伊朗宣称海峡已开放，但美国封锁仍在实施",
+        "summary": "尽管伊朗宣称海峡已开放，但美国封锁仍在实施",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5990945.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466748",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
@@ -1729,7 +2178,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776466607",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "报道：Meta计划5月下旬全球裁员10%",
+        "summary": "报道：Meta计划5月下旬全球裁员10%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0579769.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466520",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
@@ -1740,7 +2208,50 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776466431",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "美国航空：公司未参与也没兴趣与美联航合并",
+        "summary": "美国航空：公司未参与也没兴趣与美联航合并",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1772586.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776464436",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国据悉考虑收紧汽车进口规定以加速制造业回流",
+        "summary": "美国据悉考虑收紧汽车进口规定以加速制造业回流",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1772480.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776464407",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
@@ -1751,6 +2262,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776463739",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1762,7 +2282,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776463392",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "白宫：与Anthropic的会谈富有成效",
+        "summary": "白宫：与Anthropic的会谈富有成效",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5976153.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776463298",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
@@ -1773,6 +2312,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776462316",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1784,6 +2327,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776461283",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1795,6 +2342,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776460967",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1806,6 +2357,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776460936",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1817,6 +2372,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776460636",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "518880",
+              "name": "黄金ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1828,6 +2392,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776460161",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1839,6 +2407,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776459921",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1850,6 +2427,23 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776459523",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "518880",
+              "name": "黄金ETF"
+            },
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            },
+            {
+              "code": "159871",
+              "name": "有色ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1861,6 +2455,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776459087",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1872,6 +2470,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776458675",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1883,6 +2485,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776458608",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1894,7 +2505,26 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776458542",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "报道：Meta计划于5月20日裁员 影响全球约10%员工",
+        "summary": "报道：Meta计划于5月20日裁员 影响全球约10%员工",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6084795.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776457500",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
@@ -1905,6 +2535,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776457452",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1916,6 +2550,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776457148",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1927,6 +2570,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776457107",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1938,6 +2590,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776456938",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1949,6 +2605,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776456591",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -1960,6 +2620,25 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776456018",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗议长：绝不放弃控制霍尔木兹海峡 美妄言摧毁伊朗文明已失败",
+        "summary": "伊朗议长：绝不放弃控制霍尔木兹海峡 美妄言摧毁伊朗文明已失败",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuvzuu0677223.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776455617",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -1971,6 +2650,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776454561",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1982,6 +2670,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776454498",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -1993,6 +2685,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776454393",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2004,7 +2700,31 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776454362",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "白宫与Anthropic冰释前嫌，美政府拟推动Mythos模型落地",
+        "summary": "白宫与Anthropic冰释前嫌，美政府拟推动Mythos模型落地",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1871131.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454307",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌",
@@ -2015,7 +2735,31 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776454251",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "159871",
+              "name": "有色ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "梦龙乐队主创兄弟跨界游戏圈，5v5射击新作《终极旗令》正式上线",
+        "summary": "梦龙乐队主创兄弟跨界游戏圈，5v5射击新作《终极旗令》正式上线",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0669195.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454188",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆",
@@ -2026,6 +2770,19 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776454088",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2037,6 +2794,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453933",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2048,6 +2809,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453840",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2059,6 +2829,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453709",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2070,6 +2844,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453652",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2081,6 +2864,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453570",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2092,6 +2879,30 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453481",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗战争推高全球化肥价格，美国买家转向海外转口获利",
+        "summary": "伊朗战争推高全球化肥价格，美国买家转向海外转口获利",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0667462.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453416",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2103,6 +2914,19 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453393",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2114,6 +2938,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453357",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2125,6 +2958,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453303",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2136,7 +2978,61 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453247",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "数千作家寻求在Anthropic和解协议中获得赔偿",
+        "summary": "数千作家寻求在Anthropic和解协议中获得赔偿",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6070563.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453176",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "比利时UCB制药厂以最高11.5亿美元收购Neurona Therapeutics",
+        "summary": "比利时UCB制药厂以最高11.5亿美元收购Neurona Therapeutics",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2847544.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453111",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗外交部发言人：伊方拒绝将浓缩铀运往国外",
+        "summary": "伊朗外交部发言人：伊方拒绝将浓缩铀运往国外",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuvzuu0672432.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453054",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓",
@@ -2147,6 +3043,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776453045",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2158,6 +3063,25 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452714",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "Netflix遭抛售 或开启买入窗口",
+        "summary": "Netflix遭抛售 或开启买入窗口",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6068933.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452664",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2169,6 +3093,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452604",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2180,6 +3108,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452517",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2191,6 +3123,23 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452462",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2202,7 +3151,50 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452371",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            },
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "摩根大通将希捷列入“积极催化剂观察”名单 目标价上调至600美元",
+        "summary": "摩根大通将希捷列入“积极催化剂观察”名单 目标价上调至600美元",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0663797.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452315",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "Simmons预示2026年净利息收入增长率达9%-11%的高端区间",
+        "summary": "Simmons预示2026年净利息收入增长率达9%-11%的高端区间",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0663579.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452229",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "受AI推动，IBM有望交出强劲季度财报",
@@ -2213,6 +3205,15 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452104",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2224,6 +3225,75 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776452044",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "据传维权投资者正在瞄准数字支付公司PayPal",
+        "summary": "据传维权投资者正在瞄准数字支付公司PayPal",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6067072.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452043",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "516100",
+              "name": "金融科技ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗官员：伊美正拟定谅解备忘录 为永久和平协议设定框架",
+        "summary": "伊朗官员：伊美正拟定谅解备忘录 为永久和平协议设定框架",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuvzun1867821.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452024",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "黎巴嫩总统：今天是近半个世纪来首次由国家自己做决定",
+        "summary": "黎巴嫩总统：今天是近半个世纪来首次由国家自己做决定",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6066912.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451986",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "IMF成员国：中东冲突对全球经济构成严重威胁",
+        "summary": "IMF成员国：中东冲突对全球经济构成严重威胁",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuu0663035.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451956",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2235,6 +3305,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776451929",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2246,6 +3320,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776451919",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2257,6 +3335,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776451704",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "辅助决策（港股美股）"
       },
       {
@@ -2268,6 +3350,10 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776451653",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2279,6 +3365,25 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776450900",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国中央司令部：美军仍“紧盯伊朗每一个港口”",
+        "summary": "美国中央司令部：美军仍“紧盯伊朗每一个港口”",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuvzuu0662216.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776449825",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2290,7 +3395,91 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪美股",
         "timestamp": "1776448847",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "礼来CEO预计：减重药物渗透率峰值或将达到潜在适用人群的半数左右",
+        "summary": "礼来CEO预计：减重药物渗透率峰值或将达到潜在适用人群的半数左右",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvvns6177450.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776447232",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗外交部：若美国封锁持续 伊朗将采取行动",
+        "summary": "伊朗外交部：若美国封锁持续 伊朗将采取行动",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvvnw0774656.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776447128",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "高德智能导盲犬“途途”官宣，将参加亦庄机器人马拉松",
+        "summary": "高德智能导盲犬“途途”官宣，将参加亦庄机器人马拉松",
+        "source": "新浪科技",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/roll/2026-04-18/doc-inhuxiqa2326754.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776502799",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "淘天集团回应被处罚：坚决执行监管要求，守护舌尖上的安全",
+        "summary": "淘天集团回应被处罚：坚决执行监管要求，守护舌尖上的安全",
+        "source": "新浪科技",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-18/doc-inhuwwyk0333097.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776486208",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "京东回应被处罚：全面接受并坚决拥护监管要求，保障食品安全和品质",
+        "summary": "京东回应被处罚：全面接受并坚决拥护监管要求，保障食品安全和品质",
+        "source": "新浪科技",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-18/doc-inhuwssh5837781.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776482593",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
       },
       {
         "title": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起",
@@ -2301,7 +3490,1348 @@ const newsData = {
         "emoji": "📰",
         "channel": "新浪科技",
         "timestamp": "1776478034",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
+      },
+      {
+        "title": "拼多多回应被处罚：诚恳接受，坚决服从",
+        "summary": "拼多多回应被处罚：诚恳接受，坚决服从",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/roll/2026-04-17/doc-inhuvreu6261430.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776437694",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "淘宝闪购：坚决执行监管要求，守护舌尖上的安全",
+        "summary": "淘宝闪购：坚决执行监管要求，守护舌尖上的安全",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/roll/2026-04-17/doc-inhuvrey0846060.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776437155",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "叮咚买菜定制啤酒被曝抄袭 官方回应：反对缺乏事实依据的指控 愿与厂家积极沟通",
+        "summary": "叮咚买菜定制啤酒被曝抄袭 官方回应：反对缺乏事实依据的指控 愿与厂家积极沟通",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvkxa0958657.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776434614",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "15小时！雷军完成京沪续航直播：全程1313公里 只充一次电",
+        "summary": "15小时！雷军完成京沪续航直播：全程1313公里 只充一次电",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvkww6368600.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776434176",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美团：坚决落实监管要求，切实守护外卖食品安全",
+        "summary": "美团：坚决落实监管要求，切实守护外卖食品安全",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvkwu2156492.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776434163",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "前车帮挡风省电？雷军：阴谋论，我们的车绝大部分时间都是头车",
+        "summary": "前车帮挡风省电？雷军：阴谋论，我们的车绝大部分时间都是头车",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvkxa0922034.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776430661",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "雷军：不建议有司机的大老板买小米汽车",
+        "summary": "雷军：不建议有司机的大老板买小米汽车",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvkxa0894201.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776427695",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "奥特曼成为OpenAI超级IPO的风险因素",
+        "summary": "奥特曼成为OpenAI超级IPO的风险因素",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-17/doc-inhuvere1013436.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776426713",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "雷军：直播不能放背景音乐 涉及版权问题",
+        "summary": "雷军：直播不能放背景音乐 涉及版权问题",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvera3215282.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776424926",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "雷军：5年内不会造房车和卡车",
+        "summary": "雷军：5年内不会造房车和卡车",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvere0978917.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776422974",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "橘子海乐队指责华为终端侵权，华为客服回应：暂无相关信息",
+        "summary": "橘子海乐队指责华为终端侵权，华为客服回应：暂无相关信息",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/it/2026-04-17/doc-inhuvere0967895.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776421957",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "588260",
+              "name": "科创信息ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "姚安娜代言！华为Pura X Max本月开卖：鸿蒙史上最强阔折叠",
+        "summary": "姚安娜代言！华为Pura X Max本月开卖：鸿蒙史上最强阔折叠",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuvera3188434.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776420859",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "胡峥楠出任小米集团副总裁、汽车部CTO，宋钢出任小米汽车部副总裁",
+        "summary": "胡峥楠出任小米集团副总裁、汽车部CTO，宋钢出任小米汽车部副总裁",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuvera3177075.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776419685",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+        "summary": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuvere0949654.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776419451",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": [
+            {
+              "name": "比亚迪",
+              "code": "002594",
+              "sector": "新能源车"
+            }
+          ]
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "SMT数字运动新生态论坛举行 数字共建战略正式启动",
+        "summary": "SMT数字运动新生态论坛举行 数字共建战略正式启动",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyhy2267370.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776418436",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "冲上热搜！雷军拼了！15小时直播测试",
+        "summary": "冲上热搜！雷军拼了！15小时直播测试",
+        "source": "市场资讯",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/wm/2026-04-17/doc-inhuuyih1065995.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776418200",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "大疆客服回应 Pocket 4发热烫手：因性能与功能升级，功耗与发热相比上代略有增加",
+        "summary": "大疆客服回应 Pocket 4发热烫手：因性能与功能升级，功耗与发热相比上代略有增加",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyhy2259036.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776417449",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "summary": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "source": "新浪财经",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyhy2258420.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776417379",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "京东国民好车深蓝L06增程版正式下线",
+        "summary": "京东国民好车深蓝L06增程版正式下线",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyia6509359.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776417062",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "summary": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyia6508459.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776416962",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "TechWeb微晚报：美团、京东、淘宝等7家电商平台被罚35.97亿元，MacBook Neo一机难求",
+        "summary": "TechWeb微晚报：美团、京东、淘宝等7家电商平台被罚35.97亿元，MacBook Neo一机难求",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuuyih1041983.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776416033",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "summary": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuuyhy2228505.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776414753",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            },
+            {
+              "code": "589260",
+              "name": "科创芯设ETF"
+            }
+          ],
+          "stocks": [
+            {
+              "name": "中芯国际",
+              "code": "688981",
+              "sector": "半导体"
+            }
+          ]
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "苹果史上最便宜的笔记本！MacBook Neo爆火：热度远超预期",
+        "summary": "苹果史上最便宜的笔记本！MacBook Neo爆火：热度远超预期",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuuyie3254739.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776413758",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "赛力斯加入宝马和奔驰超充合资公司，共同推进中国豪华超充网络发展",
+        "summary": "赛力斯加入宝马和奔驰超充合资公司，共同推进中国豪华超充网络发展",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyhy2197305.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776413276",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "summary": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuyie3217943.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776411295",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特斯拉在去年四季度获得SpaceX大单 买走1200多辆Cybertruck",
+        "summary": "特斯拉在去年四季度获得SpaceX大单 买走1200多辆Cybertruck",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuuyhy2163954.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776410838",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "summary": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuyie3211315.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776409923",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "靓号过户要预存1万元话费？中国移动客服回应：过户后按新入网号码执行，需办理合约方案",
+        "summary": "靓号过户要预存1万元话费？中国移动客服回应：过户后按新入网号码执行，需办理合约方案",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/2026-04-17/doc-inhuutza2279410.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776409858",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "华为擎云 HA5B0 商用智能手环发布：8.99mm 超薄机身，支持多维度健康监测",
+        "summary": "华为擎云 HA5B0 商用智能手环发布：8.99mm 超薄机身，支持多维度健康监测",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuyhy2159325.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776409698",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "账号余额用完了才能取消会员，德国法院裁定 Netflix 平台“霸王条款”无效",
+        "summary": "账号余额用完了才能取消会员，德国法院裁定 Netflix 平台“霸王条款”无效",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuutzk1078081.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776409041",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "近十年拉锯战仍未终结！Intel被VLSI拉回法庭：30亿美元专利诉讼重启",
+        "summary": "近十年拉锯战仍未终结！Intel被VLSI拉回法庭：30亿美元专利诉讼重启",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuutzk1068489.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776408887",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "对话智元CTO彭志辉：宇树“值得学习”，我们更“全栈”，特斯拉“没法评”",
+        "summary": "对话智元CTO彭志辉：宇树“值得学习”，我们更“全栈”，特斯拉“没法评”",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuutzh3319226.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776408804",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "华为智慧屏 S7 Pro 官宣 4 月 20 日发布：低反光护眼屏、灵犀手写笔，预售价 7999 元起",
+        "summary": "华为智慧屏 S7 Pro 官宣 4 月 20 日发布：低反光护眼屏、灵犀手写笔，预售价 7999 元起",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuutzh3330688.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776408727",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "summary": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuutzk1049417.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776406544",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "比亚迪宣布第1600万辆新能源汽车下线",
+        "summary": "比亚迪宣布第1600万辆新能源汽车下线",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/roll/2026-04-17/doc-inhuutzh3297491.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776406282",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "516070",
+              "name": "易方达新能源ETF"
+            }
+          ],
+          "stocks": [
+            {
+              "name": "比亚迪",
+              "code": "002594",
+              "sector": "新能源车"
+            }
+          ]
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "彭志辉：智元已能够自己造血，目前不缺钱",
+        "summary": "彭志辉：智元已能够自己造血，目前不缺钱",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuutzk1029468.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776404780",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "华为乾崑与东风联手打造，奕境首款旗舰大六座 SUV 预告图发布",
+        "summary": "华为乾崑与东风联手打造，奕境首款旗舰大六座 SUV 预告图发布",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuutzk1033507.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776404641",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "前荣耀CEO赵明也来造车了！放话要把特斯拉打服 和对手、队友在车圈碰一碰",
+        "summary": "前荣耀CEO赵明也来造车了！放话要把特斯拉打服 和对手、队友在车圈碰一碰",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuutze6500737.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776403148",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "两项全球高危漏洞被发现 360首次公开漏洞挖掘智能体",
+        "summary": "两项全球高危漏洞被发现 360首次公开漏洞挖掘智能体",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupth6598363.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776399956",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "智元发布远征A3人形机器人：为舞台而生，续航达10小时",
+        "summary": "智元发布远征A3人形机器人：为舞台而生，续航达10小时",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuptn1115845.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776399677",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "summary": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuupte2318698.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776399072",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "summary": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuupte2316519.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776399054",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "核能“十四五”成绩单：在运在建112台机组，三代核电机组国产化率超95%",
+        "summary": "核能“十四五”成绩单：在运在建112台机组，三代核电机组国产化率超95%",
+        "source": "新浪财经",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuptk3359863.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776398651",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "注意没有Ultra！Intel发布低端酷睿3系列：同款18A工艺和架构",
+        "summary": "注意没有Ultra！Intel发布低端酷睿3系列：同款18A工艺和架构",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuuptn1115893.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776398598",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "summary": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuupte2318664.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776398564",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "516070",
+              "name": "易方达新能源ETF"
+            },
+            {
+              "code": "159755",
+              "name": "电池ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "黄晓明现身发布，擎天租SHAREBOT全球网络宣布落地13国",
+        "summary": "黄晓明现身发布，擎天租SHAREBOT全球网络宣布落地13国",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupte2300303.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776397927",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "summary": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuptn1102607.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776397794",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Bose发布“落日暖桃”新色系 覆盖SoundLink全系列",
+        "summary": "Bose发布“落日暖桃”新色系 覆盖SoundLink全系列",
+        "source": "新浪数码",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-04-17/doc-inhuuptk3346740.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776397416",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "库克都没想到：MacBook Neo卖爆了！官网交付已排到5月",
+        "summary": "库克都没想到：MacBook Neo卖爆了！官网交付已排到5月",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuupte2290063.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776396887",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "彭志辉：特斯拉量产阶段落后，智元可享受一下“领跑”快乐",
+        "summary": "彭志辉：特斯拉量产阶段落后，智元可享受一下“领跑”快乐",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupte2282930.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776396868",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "智元董事长邓泰华：计划2027年营收100亿+，2030年超1000亿元",
+        "summary": "智元董事长邓泰华：计划2027年营收100亿+，2030年超1000亿元",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuptk3330604.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776396107",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "智元董事长邓泰华：2026 年为“部署态”元年，产业进入生产力落地新阶段",
+        "summary": "智元董事长邓泰华：2026 年为“部署态”元年，产业进入生产力落地新阶段",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupth6541186.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776395015",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "群核科技成功登陆港交所，股价涨超160%",
+        "summary": "群核科技成功登陆港交所，股价涨超160%",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupte2249457.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776394502",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "智元董事长邓泰华：2026年远征系列有望单品出货过万",
+        "summary": "智元董事长邓泰华：2026年远征系列有望单品出货过万",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimn3430719.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776393458",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "高德机器狗视频曝光：能自主过马路、买奶茶",
+        "summary": "高德机器狗视频曝光：能自主过马路、买奶茶",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimn3427336.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776393174",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "summary": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "source": "新浪证券",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/stock/observe/2026-04-17/doc-inhuuimq1152489.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776392982",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "summary": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimk6656309.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776392979",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": [
+            {
+              "name": "比亚迪",
+              "code": "002594",
+              "sector": "新能源车"
+            }
+          ]
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "summary": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuuimk6646231.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776392470",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "智元董事长邓泰华：2025年营收10.5亿元，今年将数倍增长",
+        "summary": "智元董事长邓泰华：2025年营收10.5亿元，今年将数倍增长",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimq1135225.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776391884",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "“近亿元年薪入职字节”刷屏？官方回应：假的，但四年后未必不可能",
+        "summary": "“近亿元年薪入职字节”刷屏？官方回应：假的，但四年后未必不可能",
+        "source": "TechWeb",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuuimh2337859.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776391763",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "summary": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-17/doc-inhuuimq1130620.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776391596",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512690",
+              "name": "酒ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "智元董事长邓泰华：2026年目标是实现数万台机器人量产",
+        "summary": "智元董事长邓泰华：2026年目标是实现数万台机器人量产",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-17/doc-inhuuimn3405363.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776391565",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "专为远程办公人群设计：日本新干线将推新一代私人包厢，防外放 + 不断网",
+        "summary": "专为远程办公人群设计：日本新干线将推新一代私人包厢，防外放 + 不断网",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimh2349055.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776391554",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国研究团队开发新型自愈材料，有望将汽车、飞机使用寿命延长至数百年",
+        "summary": "美国研究团队开发新型自愈材料，有望将汽车、飞机使用寿命延长至数百年",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimq1132989.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776390980",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "B站ESG报告：累计支持建设8所乡村公益学校，超135万用户参与爱心捐款",
+        "summary": "B站ESG报告：累计支持建设8所乡村公益学校，超135万用户参与爱心捐款",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimh2308893.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776390219",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "summary": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimk6605969.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776390005",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "字节启动豆包股首次回购，价格13.08美元",
+        "summary": "字节启动豆包股首次回购，价格13.08美元",
+        "source": "新浪科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimk6602606.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776389807",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "summary": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimq1103318.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776389341",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "全球第四大车企发力智能化，Stellantis 与微软达成五年合作伙伴关系",
+        "summary": "全球第四大车企发力智能化，Stellantis 与微软达成五年合作伙伴关系",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuimk6568057.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776385887",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "Gucci 明年有望推出“高奢版”谷歌智能眼镜",
+        "summary": "Gucci 明年有望推出“高奢版”谷歌智能眼镜",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuccs1167751.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776383805",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "不仅 GT-R 会“复活”，日产称经典跑车 Silvia 也有望回归",
+        "summary": "不仅 GT-R 会“复活”，日产称经典跑车 Silvia 也有望回归",
+        "source": "IT之家",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-04-17/doc-inhuuccn6647022.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776380917",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "summary": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhuuccs1134188.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776380177",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "summary": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "source": "环球市场播报",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/world/2026-04-17/doc-inhutwvs3517643.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776374164",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "理想加价、小米降价 四月新车又有好戏看了",
+        "summary": "理想加价、小米降价 四月新车又有好戏看了",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhutnfy1429238.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776355553",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "华为云自研龙虾办公智能体OfficeClaw发布：支持微信直连 一键生成专业级PPT",
+        "summary": "华为云自研龙虾办公智能体OfficeClaw发布：支持微信直连 一键生成专业级PPT",
+        "source": "快科技",
+        "date": "2026-04-17",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-04-17/doc-inhutnfy1429129.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776355500",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域",
+        "summary": "【力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域】力诺药包4月18日在互动平台表示，公司作为亚洲规模较大的中硼硅药用玻璃生产基地之一，产能利用率维持在行业较高水平。2026年，国家出台了众多鼓励医药产业发展的政策，医药包装行业将得到进一步发展，公司将依据市场趋势及客户需求，继续对中硼硅模制瓶与管制瓶进行扩产，并布局高端医药包材领域，以巩固和扩大竞争优势，充分把握国产替代的市场机遇。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709740455.html",
+        "emoji": "📰",
+        "channel": "东财A股",
+        "timestamp": "2026-04-18 19:24:29",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "比亚迪闪充“珠峰站”正式投入运营",
+        "summary": "【比亚迪闪充“珠峰站”正式投入运营】4月18日，据比亚迪消息，比亚迪珠峰小镇闪充站——全球海拔最高的闪充站日前正式投入运营。截至4月16日，比亚迪已累计建成5356座闪充站，覆盖全国311座城市。此前，比亚迪已宣布将于2026年年底在全国建设20000座闪充站。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709736161.html",
+        "emoji": "📰",
+        "channel": "东财A股",
+        "timestamp": "2026-04-18 18:52:41",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": [
+            {
+              "name": "比亚迪",
+              "code": "002594",
+              "sector": "新能源车"
+            }
+          ]
+        },
+        "category": "市场资讯"
       },
       {
         "title": "石化机械：公司在沙特、科威特、阿联酋等国家均有业务",
@@ -2310,8 +4840,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709731917.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 18:11:17",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "159542",
+              "name": "工程机械ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2321,8 +4860,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709731131.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 17:43:55",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2332,8 +4875,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://hk.eastmoney.com/a/202604183709730747.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 17:36:55",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "588260",
+              "name": "科创信息ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2343,8 +4895,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709727541.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 16:52:22",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2354,8 +4910,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709724058.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 16:12:53",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2365,8 +4925,21 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709722438.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:47:04",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2376,8 +4949,31 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709721667.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:44:11",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "516070",
+              "name": "易方达新能源ETF"
+            },
+            {
+              "code": "159755",
+              "name": "电池ETF"
+            },
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": [
+            {
+              "name": "宁德时代",
+              "code": "300750",
+              "sector": "电池"
+            }
+          ]
+        },
         "category": "A股直接相关"
       },
       {
@@ -2387,8 +4983,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709719556.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:31:10",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2398,8 +4998,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709719065.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:23:16",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2409,8 +5013,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709718580.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:17:16",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2420,8 +5028,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709717258.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:09:04",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2431,8 +5043,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709716340.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:00:56",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "589260",
+              "name": "科创芯设ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2442,8 +5063,21 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://fund.eastmoney.com/a/202604183709716680.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 15:00:37",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512880",
+              "name": "证券ETF"
+            },
+            {
+              "code": "512900",
+              "name": "证券ETF华泰"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2453,8 +5087,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709714310.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 14:25:32",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2464,8 +5102,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709711329.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 13:34:08",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2475,8 +5117,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709691510.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 11:59:00",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2486,8 +5132,21 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709680528.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 11:43:41",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2497,8 +5156,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709670958.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 11:24:50",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2508,8 +5171,18 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709670369.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 11:10:02",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": [
+            {
+              "name": "北方华创",
+              "code": "002371",
+              "sector": "半导体设备"
+            }
+          ]
+        },
         "category": "A股直接相关"
       },
       {
@@ -2519,8 +5192,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709670035.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 11:09:00",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2530,8 +5212,21 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709666732.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 10:44:21",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512760",
+              "name": "芯片ETF"
+            },
+            {
+              "code": "588200",
+              "name": "科创芯片ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2541,8 +5236,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709665233.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 10:30:50",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2552,8 +5251,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709665741.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 10:30:03",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2563,8 +5266,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://stock.eastmoney.com/a/202604183709663475.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 10:21:09",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2574,8 +5286,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709651885.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 09:26:17",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "588260",
+              "name": "科创信息ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2585,8 +5306,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709640653.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 08:14:05",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2596,8 +5321,21 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709523959.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 07:39:21",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -2607,316 +5345,147 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709466690.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
+        "channel": "东财A股",
         "timestamp": "2026-04-18 07:30:00",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "516070",
+              "name": "易方达新能源ETF"
+            },
+            {
+              "code": "159755",
+              "name": "电池ETF"
+            }
+          ],
+          "stocks": [
+            {
+              "name": "宁德时代",
+              "code": "300750",
+              "sector": "电池"
+            }
+          ]
+        },
         "category": "A股直接相关"
       },
       {
-        "title": "迪士尼推出影院巨幕品牌",
-        "summary": "【迪士尼推出影院巨幕品牌】当地时间4月16日，华特迪士尼宣布推出“InfinityVision”认证，称这是一项针对高端巨幕影院的全新认证。目前，已有超过75家美国本土和300家全球影院获得该认证。",
+        "title": "新西兰克马德克群岛以南附近发生6.0级左右地震",
+        "summary": "【新西兰克马德克群岛以南附近发生6.0级左右地震】中国地震台网自动测定：04月18日18时48分在新西兰克马德克群岛以南附近（南纬32.07度，西经178.13度）发生6.0级左右地震，最终结果以正式速报为准。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709465936.html",
+        "url": "http://global.eastmoney.com/a/202604183709737476.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
-        "timestamp": "2026-04-18 07:21:27",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 19:02:22",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论",
-        "summary": "【美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论】美国航空当地时间4月17日声明称，美国航空目前没有参与或有意参与任何与美国联合航空合并的讨论。尽管航空市场整体格局的变革或许势在必行，但与美国联合航空合并将对市场竞争和消费者造成不利影响。公司期待继续与政府合作，共同推进各项加强航空业发展的举措。",
+        "title": "伊朗最高领袖：伊朗海军已做好准备 将给敌方造成“新的惨痛失败”",
+        "summary": "【伊朗最高领袖：伊朗海军已做好准备 将给敌方造成“新的惨痛失败”】当地时间18日，伊朗最高领袖穆杰塔巴·哈梅内伊在建军节到来之际发布贺信，向全体军人及其家属以及伊朗人民致以节日祝贺。穆杰塔巴·哈梅内伊在信中表示，伊朗海军已做好准备，将给敌方造成“新的惨痛失败”。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709464525.html",
+        "url": "http://finance.eastmoney.com/a/202604183709737251.html",
         "emoji": "📰",
-        "channel": "东方财富A股",
-        "timestamp": "2026-04-18 07:11:33",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 19:01:08",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "全球首个机器人勇士挑战赛冠军诞生",
-        "summary": "【全球首个机器人勇士挑战赛冠军诞生】首届北京亦庄机器人勇士挑战赛落幕。北京人形携具身天工3.0全尺寸通用人形机器人参赛，并以全自主方式完赛，通关摆锤穿越、开拓前行、破门清障几个基于现实高危场景设计的赛项，以最高积分获得全球首个全自主机器人勇士挑战赛冠军，并赢得勇士智行奖。继2025年斩获人形机器人马拉松冠军后，北京人形再度登顶。",
+        "title": "国际航协：欧洲航班最早下月底开始出现停飞潮 各国需协调应对",
+        "summary": "【国际航协：欧洲航班最早下月底开始出现停飞潮 各国需协调应对】国际航空运输协会警告，中东战争或导致航空燃油配给措施启动，欧洲最早可能在5月底开始取消航班。航协呼吁各国政府尽快制定协调周密的应对方案，以降低对航班运行造成的冲击。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709734276.html",
+        "url": "http://finance.eastmoney.com/a/202604183709737070.html",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 18:18:16",
-        "category": "市场资讯"
-      },
-      {
-        "title": "胖东来否认所售“防切割手套”篡改日期",
-        "summary": "【胖东来否认所售“防切割手套”篡改日期】4月18日，胖东来发布《关于王海反馈胖东来销售星宇品牌“防切割手套”篡改日期指控的调查报告》。报告显示，经专项组重启调查，举报所称的篡改日期事实不成立，但该产品存在执行标准失效及日期标注不规范问题，不存在消费欺诈。胖东来决定给予投诉顾客1万元奖励。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709734359.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 18:17:09",
-        "category": "市场资讯"
-      },
-      {
-        "title": "IMF对菲债务风险及能源危机发出警示",
-        "summary": "【IMF对菲债务风险及能源危机发出警示】国际货币基金组织（IMF）近日对菲律宾政府债务风险发出警示，称当前菲律宾财政缓冲空间已十分有限，制约菲政府加大经济支持力度的能力，呼吁菲当局实施更具针对性的财政措施，以有效应对当前能源危机。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709732992.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 18:12:23",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:56:48",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
-        "title": "德国航空协会呼吁政府出手应对燃油危机",
-        "summary": "【德国航空协会呼吁政府出手应对燃油危机】据德国媒体17日报道，面对迫在眉睫的航空燃油短缺危机，德国航空协会日前呼吁联邦政府提供援助，并提出一揽子应对计划。如果联邦政府不尽快采取行动，从6月起，可能会出现大规模航班取消，进而威胁到暑期出行旺季。",
+        "title": "海事情报公司：伊朗革命卫队向试图穿越霍尔木兹海峡的油轮开火",
+        "summary": "【海事情报公司：伊朗革命卫队向试图穿越霍尔木兹海峡的油轮开火】海事情报公司“油轮追踪者”网站18日在社交媒体发文说，两艘试图穿越霍尔木兹海峡的印度船只被伊朗伊斯兰革命卫队海军逼退，其间出现开火情况。其中一艘是悬挂印度国旗的超大型油轮。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709731614.html",
+        "url": "http://finance.eastmoney.com/a/202604183709736046.html",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 18:01:47",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:53:59",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "美国至少5个州报告有超过10起龙卷风袭击",
-        "summary": "【美国至少5个州报告有超过10起龙卷风袭击】据美国媒体4月17日报道，美国中部地区在经历连续数日龙卷风和洪灾后，本周末再次迎来新一轮强对流天气，超过5100万人处于强风暴威胁之下。截至当地时间17日傍晚，美国至少5个州报告有超过10起龙卷风袭击。",
+        "title": "联合国秘书长古特雷斯：不要让强权凌驾于法律之上",
+        "summary": "【联合国秘书长古特雷斯：不要让强权凌驾于法律之上】联合国秘书长古特雷斯4月17日在海牙表示，世界正处在“危机时刻”，各国面临选择，要维护国际法权威，不可让强权凌驾于法律之上。古特雷斯当天在参加国际法院成立80周年活动时说，国际法院的成立为世界和平奠定了基石。但如今，违反国际法的行为正在发生，军事行动践踏了解决冲突的基本规则，人道主义义务被放在一边。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709731325.html",
+        "url": "http://finance.eastmoney.com/a/202604183709735685.html",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 18:00:13",
-        "category": "市场资讯"
-      },
-      {
-        "title": "本轮巴以冲突已致加沙地带72549人死亡",
-        "summary": "【本轮巴以冲突已致加沙地带72549人死亡】当地时间4月18日，加沙地带卫生部门公布最新统计报告称，自2023年10月7日新一轮巴以大规模冲突爆发以来，以色列对加沙地带的袭击已累计造成72549人死亡、172274人受伤。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709731218.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:51:01",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:50:30",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
-        "title": "印度内阁批准设立1298亿卢比海事保险基金",
-        "summary": "印度内阁批准设立1298亿卢比海事保险基金。",
+        "title": "伊朗称将继续严控霍尔木兹海峡 警告美方失信必遭回应",
+        "summary": "【伊朗称将继续严控霍尔木兹海峡 警告美方失信必遭回应】当地时间18日，伊朗伊斯兰革命卫队海军司令部在其官方社交账号发文表示，美国的任何失信行为都将遭到相应回应，并强调“只要往返伊朗的船只通行仍受到威胁，霍尔木兹海峡的局势就将维持现状不变”。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709731049.html",
+        "url": "http://finance.eastmoney.com/a/202604183709735263.html",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:41:37",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "俄罗斯发生一起交通事故 所涉车辆搭载中国游客",
-        "summary": "【俄罗斯发生一起交通事故 所涉车辆搭载中国游客】据俄罗斯紧急情况部门通报，当地时间4月18日，在连接后贝加尔斯克和赤塔的公路上发生一起大巴车翻车事故，导致1人死亡。该车辆搭载大约40名中国游客，其中12人不同程度受伤。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709730851.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:40:22",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:43:53",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "印度内阁批准提高生活补贴标准",
-        "summary": "印度内阁批准提高生活补贴标准。",
+        "title": "多艘船只尝试通过霍尔木兹海峡但最终折返",
+        "summary": "【多艘船只尝试通过霍尔木兹海峡但最终折返】船舶追踪数据显示，约10艘船只18日尝试通过霍尔木兹海峡，但最终折返。航运轨迹显示，多艘船只在行至伊朗拉腊克岛附近水域后折返。数据显示，这些船只中多为油轮，多艘船只在自动识别系统中的目的地为印度。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709730949.html",
+        "url": "http://finance.eastmoney.com/a/202604183709735115.html",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:38:16",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:38:01",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "以总理要求白宫澄清特朗普涉黎相关言论",
-        "summary": "【以总理要求白宫澄清特朗普涉黎相关言论】特朗普17日在社交媒体上称，以色列将不再轰炸黎巴嫩，美国已禁止以色列这样做。据美国方面17日援引知情人士的消息称，以色列总理内塔尼亚胡对此感到“震惊”，以方要求白宫就此作出澄清。",
+        "title": "二十届中央第七轮巡视完成进驻",
+        "summary": "【二十届中央第七轮巡视完成进驻】根据党中央关于巡视工作的统一部署，近日，二十届中央第七轮巡视完成进驻工作。15个中央巡视组将对36家中央和国家机关开展常规巡视。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709730479.html",
+        "url": "http://finance.eastmoney.com/a/202604183709735014.html",
         "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:28:17",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "投资圈沸腾了！DeepSeek首次启动外部融资？",
-        "summary": "【投资圈沸腾了！DeepSeek首次启动外部融资？】今天，一则重磅消息刷屏国内投资圈。外媒TheInformation报道称，深度求索（DeepSeek）正式启动成立以来的首次外部融资，目标估值不低于100亿美元，计划筹集至少3亿美元资金。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709730684.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:25:00",
-        "category": "市场资讯"
-      },
-      {
-        "title": "伊朗表示尚未同意与美国举行下一轮谈判",
-        "summary": "【伊朗表示尚未同意与美国举行下一轮谈判】据伊朗塔斯尼姆通讯社18日报道，伊朗尚未同意与美国举行下一轮谈判。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709729496.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:19:27",
-        "category": "市场资讯"
-      },
-      {
-        "title": "伊拉克将于近日恢复所有油田的石油出口业务",
-        "summary": "伊拉克将于近日恢复所有油田的石油出口业务。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709729133.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:14:49",
-        "category": "市场资讯"
-      },
-      {
-        "title": "第九届进博会推介会在布拉格举行",
-        "summary": "【第九届进博会推介会在布拉格举行】当地时间15日，第九届中国国际进口博览会推介会在布拉格举行。本次推介会由中国驻捷克大使馆、中国国际进口博览局和捷克工贸部联合主办，来自中国、捷克的两国政商界人士超百人参会，共同探讨两国经贸合作新机遇。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709728832.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:11:13",
-        "category": "市场资讯"
-      },
-      {
-        "title": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全",
-        "summary": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709728735.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:06:02",
-        "category": "市场资讯"
-      },
-      {
-        "title": "第六届消博会今天落幕 进场观众超30万人 发布新品386件",
-        "summary": "【第六届消博会今天落幕 进场观众超30万人 发布新品386件】第六届中国国际消费品博览会今天（4月18日）落幕，取得了丰硕成果。数据显示，本届消博会展览总面积达14.3万平方米，较上届增加1.3万平方米，共有来自67个国家和地区的3413个消费精品品牌参展，参展国际展品占比达65%，较上届提升20个百分点。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://biz.eastmoney.com/a/202604183709728615.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 17:04:00",
-        "category": "市场资讯"
-      },
-      {
-        "title": "外资密集调研新兴产业 看好中国经济韧性",
-        "summary": "【外资密集调研新兴产业 看好中国经济韧性】一季度我国高新技术产品出口额同比增长25.3%，以半导体、高端制造、AI硬件为代表的新兴产业成为出口增长的重要引擎。与此同时，外资机构密集调研新兴产业，普遍认为中国经济具备盈利增长、估值优势与产业升级等多重韧性，并对新兴产业带动的出口竞争力表示看好。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709728453.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:58:08",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "伊朗司法总监：敌人必须支付战争赔款",
-        "summary": "【伊朗司法总监：敌人必须支付战争赔款】据伊朗法尔斯通讯社18日报道，伊朗司法总监埃杰伊说敌人必须支付战争赔款。报道援引埃杰伊的话说，美国和以色列对伊朗人民发动战争和侵略，犯下各种战争罪行。相关国际机构必须对其进行起诉和审判，追究其战争罪行，要求其赔偿，对其进行惩罚。“绝不能让侵略者逍遥法外。”",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709727381.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:51:19",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "伊朗重新开放6个机场",
-        "summary": "【伊朗重新开放6个机场】据伊朗媒体18日报道，伊朗重新开放6个机场，各航空公司正准备恢复国内和国际航班运营。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709727239.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:48:04",
-        "category": "市场资讯"
-      },
-      {
-        "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
-        "summary": "【网传“环保新规推高养鸡成本致蛋价上涨”系谣言】“蛋鸡环保新规4月落地、粪便直排最高罚100万元”“成本大涨蛋价也涨，散户末日来了”。近日，一些对环保规定的流言，给群众造成了一定的恐慌情绪。记者从多方核实，相关部门并没有出台所谓的“新规”。业内人士认为，这些谣言是对若干法规的牵强拼凑。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709726724.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:43:31",
-        "category": "市场资讯"
-      },
-      {
-        "title": "伊朗清理与美以等国有勾连的组织",
-        "summary": "【伊朗清理与美以等国有勾连的组织】据伊朗光明通讯社18日报道，伊朗伊斯兰革命卫队情报部门近日在伊朗3个省份查明并清理了多个与美国、以色列和英国有勾连的组织。报道说，在近日开展的行动中，革命卫队情报部门在东阿塞拜疆省查明并逮捕7人，这些人被指为其指挥官提供武器、策划破坏行动、发送敏感地点坐标。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709726417.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:40:16",
-        "category": "市场资讯"
-      },
-      {
-        "title": "国际海事组织：约有2万海员被困波斯湾",
-        "summary": "【国际海事组织：约有2万海员被困波斯湾】国际海事组织秘书长多明格斯17日说，目前约有2万名海员和近2000艘船舶被困在波斯湾，他呼吁各国加大外交努力，支持国际海事组织推动海湾地区被困海员疏散计划。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709726580.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:39:25",
-        "category": "市场资讯"
-      },
-      {
-        "title": "老外抢着当张雪机车代理 张雪机车全球订单狂飙",
-        "summary": "【老外抢着当张雪机车代理 张雪机车全球订单狂飙】在第139届广交会的摩托车展区，围满了来自世界各地的采购商，很多人专程赶来，只为一睹半个月前在WSBK世界超级摩托车锦标赛上“一战封神”的中国品牌——张雪机车。张雪机车外贸部部长黄秦表示：这两天现场非常火爆，超过5000名客商直接冲着我们品牌来的，来了之后都要求成为当地的代理，要求直接下订单，我们收到了上千台的订单。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709726186.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:33:57",
-        "category": "市场资讯"
-      },
-      {
-        "title": "新疆阿克苏地区库车市发生3.4级地震 震源深度19千米",
-        "summary": "【新疆阿克苏地区库车市发生3.4级地震 震源深度19千米】中国地震台网正式测定：4月18日16时07分在新疆阿克苏地区库车市（北纬41.27度，东经83.90度）发生3.4级地震，震源深度19千米。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709725242.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:26:04",
-        "category": "市场资讯"
-      },
-      {
-        "title": "斯洛伐克将起诉欧盟的俄天然气进口禁令",
-        "summary": "【斯洛伐克将起诉欧盟的俄天然气进口禁令】斯洛伐克总理菲佐17日表示，斯洛伐克将在未来几天内就欧盟禁止进口俄罗斯天然气的决定向欧盟法院提起诉讼。菲佐表示，该决定“明确违反了欧盟条约所依据的所有原则”，有关制裁和外交政策问题的决定应由各方一致作出。1月26日，欧盟27个成员国正式通过关于逐步禁止从俄罗斯进口管道天然气和液化天然气的法规。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709725087.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:24:17",
-        "category": "A股直接相关"
-      },
-      {
-        "title": "伊朗军方说已恢复控制霍尔木兹海峡",
-        "summary": "【伊朗军方说已恢复控制霍尔木兹海峡】据伊朗媒体18日报道，伊朗军方发言人称，因美国“屡次违背承诺”，伊朗对霍尔木兹海峡的控制已恢复到以前的状态，这一海峡目前处于伊朗武装部队的严格管理和控制之下。",
-        "source": "东方财富",
-        "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709724191.html",
-        "emoji": "📰",
-        "channel": "东方财富全球7x24",
-        "timestamp": "2026-04-18 16:15:04",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:37:23",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2926,63 +5495,377 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709734939.html",
         "emoji": "📰",
-        "channel": "东方财富期货",
+        "channel": "东财全球7x24",
         "timestamp": "2026-04-18 18:30:58",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码",
-        "summary": "【伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码】伊朗最高领袖顾问、前副总统穆罕默德·穆赫贝尔17日在社交媒体上表示，伊朗内部的团结、政府与民众的联系、官员之间的凝聚力以及抵抗阵线的团结，是伊朗坚决抵抗带来的结果，这四个方面不能成为与外国谈判时进行讨价还价的筹码，也是保障伊朗未来独立、繁荣发展的基础。",
+        "title": "美媒称美军武器库存吃紧 美国拟动员车企生产武器",
+        "summary": "【美媒称美军武器库存吃紧 美国拟动员车企生产武器】据美国《华尔街日报》15日披露，由于俄乌冲突和中东战事持续消耗美军武器库存，美国政府正与汽车企业等制造商接触，有意让其生产武器。报道说，五角大楼高级官员已与多家企业高管就生产武器及其他军用物资展开沟通，其中车企包括通用汽车和福特汽车。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://global.eastmoney.com/a/202604183709723978.html",
+        "url": "http://finance.eastmoney.com/a/202604183709734628.html",
         "emoji": "📰",
-        "channel": "东方财富期货",
-        "timestamp": "2026-04-18 16:11:41",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:27:53",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "全球首个机器人勇士挑战赛冠军诞生",
+        "summary": "【全球首个机器人勇士挑战赛冠军诞生】首届北京亦庄机器人勇士挑战赛落幕。北京人形携具身天工3.0全尺寸通用人形机器人参赛，并以全自主方式完赛，通关摆锤穿越、开拓前行、破门清障几个基于现实高危场景设计的赛项，以最高积分获得全球首个全自主机器人勇士挑战赛冠军，并赢得勇士智行奖。继2025年斩获人形机器人马拉松冠军后，北京人形再度登顶。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709734276.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:18:16",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "巴空军被曝伊美谈判后护航伊代表团",
-        "summary": "【巴空军被曝伊美谈判后护航伊代表团】在12日伊美谈判结束后，巴基斯坦空军执行护航任务，护送伊朗代表团回国。消息人士称，巴基斯坦出动了20多架战机，还动用了空中预警和控制系统进行空中侦察，以确保伊朗代表团的安全。据消息人士透露，伊朗并未正式提出护航请求，但考虑到“无法排除以色列进行袭击的可能性”，因此巴基斯坦提供了护航。",
+        "title": "胖东来否认所售“防切割手套”篡改日期",
+        "summary": "【胖东来否认所售“防切割手套”篡改日期】4月18日，胖东来发布《关于王海反馈胖东来销售星宇品牌“防切割手套”篡改日期指控的调查报告》。报告显示，经专项组重启调查，举报所称的篡改日期事实不成立，但该产品存在执行标准失效及日期标注不规范问题，不存在消费欺诈。胖东来决定给予投诉顾客1万元奖励。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709719775.html",
+        "url": "http://finance.eastmoney.com/a/202604183709734359.html",
         "emoji": "📰",
-        "channel": "东方财富期货",
-        "timestamp": "2026-04-18 15:37:22",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:17:09",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧",
-        "summary": "【巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧】巴基斯坦军方18日发表声明说，巴陆军参谋长穆尼尔近日在访问伊朗时表示，应通过持续外交接触推动对话、实现局势缓和，并以和平方式解决悬而未决的问题。声明说，由穆尼尔和巴内政部长纳克维率领的代表团当天结束了对伊朗为期3天的正式访问。",
+        "title": "IMF对菲债务风险及能源危机发出警示",
+        "summary": "【IMF对菲债务风险及能源危机发出警示】国际货币基金组织（IMF）近日对菲律宾政府债务风险发出警示，称当前菲律宾财政缓冲空间已十分有限，制约菲政府加大经济支持力度的能力，呼吁菲当局实施更具针对性的财政措施，以有效应对当前能源危机。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709719493.html",
+        "url": "http://finance.eastmoney.com/a/202604183709732992.html",
         "emoji": "📰",
-        "channel": "东方财富期货",
-        "timestamp": "2026-04-18 15:33:08",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:12:23",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "德国航空协会呼吁政府出手应对燃油危机",
+        "summary": "【德国航空协会呼吁政府出手应对燃油危机】据德国媒体17日报道，面对迫在眉睫的航空燃油短缺危机，德国航空协会日前呼吁联邦政府提供援助，并提出一揽子应对计划。如果联邦政府不尽快采取行动，从6月起，可能会出现大规模航班取消，进而威胁到暑期出行旺季。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731614.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:01:47",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "航运业“谨慎欢迎”霍尔木兹海峡重新开放",
-        "summary": "【航运业“谨慎欢迎”霍尔木兹海峡重新开放】伊朗外交部长阿拉格齐17日宣布有条件暂时开放霍尔木兹海峡。船运业对此表示“谨慎欢迎”，盼望结束大批船舶滞留波斯湾的困境，但又担心诸多不确定因素威胁航行安全。航运巨头德国赫伯罗特公司发言人尼尔斯·豪普特说，海峡重开“总体而言……是好消息”，但船商需要知道船舶具体可以走哪条航线以及通行次序，他们还担心有水雷。",
+        "title": "美国至少5个州报告有超过10起龙卷风袭击",
+        "summary": "【美国至少5个州报告有超过10起龙卷风袭击】据美国媒体4月17日报道，美国中部地区在经历连续数日龙卷风和洪灾后，本周末再次迎来新一轮强对流天气，超过5100万人处于强风暴威胁之下。截至当地时间17日傍晚，美国至少5个州报告有超过10起龙卷风袭击。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709717411.html",
+        "url": "http://finance.eastmoney.com/a/202604183709731325.html",
         "emoji": "📰",
-        "channel": "东方财富期货",
-        "timestamp": "2026-04-18 15:10:45",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 18:00:13",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
-        "title": "伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决",
-        "summary": "【伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决】当地时间18日，总台记者从伊朗方面获悉，伊朗外交部发言人巴加埃表示，将伊朗浓缩铀转移至国外的选项已被否决。",
+        "title": "本轮巴以冲突已致加沙地带72549人死亡",
+        "summary": "【本轮巴以冲突已致加沙地带72549人死亡】当地时间4月18日，加沙地带卫生部门公布最新统计报告称，自2023年10月7日新一轮巴以大规模冲突爆发以来，以色列对加沙地带的袭击已累计造成72549人死亡、172274人受伤。",
         "source": "东方财富",
         "date": "2026-04-18",
-        "url": "http://finance.eastmoney.com/a/202604183709716924.html",
+        "url": "http://finance.eastmoney.com/a/202604183709731218.html",
         "emoji": "📰",
-        "channel": "东方财富期货",
-        "timestamp": "2026-04-18 15:10:08",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:51:01",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "印度内阁批准设立1298亿卢比海事保险基金",
+        "summary": "印度内阁批准设立1298亿卢比海事保险基金。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731049.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:41:37",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512070",
+              "name": "保险ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "俄罗斯发生一起交通事故 所涉车辆搭载中国游客",
+        "summary": "【俄罗斯发生一起交通事故 所涉车辆搭载中国游客】据俄罗斯紧急情况部门通报，当地时间4月18日，在连接后贝加尔斯克和赤塔的公路上发生一起大巴车翻车事故，导致1人死亡。该车辆搭载大约40名中国游客，其中12人不同程度受伤。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730851.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:40:22",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "印度内阁批准提高生活补贴标准",
+        "summary": "印度内阁批准提高生活补贴标准。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730949.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:38:16",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "以总理要求白宫澄清特朗普涉黎相关言论",
+        "summary": "【以总理要求白宫澄清特朗普涉黎相关言论】特朗普17日在社交媒体上称，以色列将不再轰炸黎巴嫩，美国已禁止以色列这样做。据美国方面17日援引知情人士的消息称，以色列总理内塔尼亚胡对此感到“震惊”，以方要求白宫就此作出澄清。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730479.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:28:17",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "投资圈沸腾了！DeepSeek首次启动外部融资？",
+        "summary": "【投资圈沸腾了！DeepSeek首次启动外部融资？】今天，一则重磅消息刷屏国内投资圈。外媒TheInformation报道称，深度求索（DeepSeek）正式启动成立以来的首次外部融资，目标估值不低于100亿美元，计划筹集至少3亿美元资金。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730684.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:25:00",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗表示尚未同意与美国举行下一轮谈判",
+        "summary": "【伊朗表示尚未同意与美国举行下一轮谈判】据伊朗塔斯尼姆通讯社18日报道，伊朗尚未同意与美国举行下一轮谈判。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709729496.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:19:27",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊拉克将于近日恢复所有油田的石油出口业务",
+        "summary": "伊拉克将于近日恢复所有油田的石油出口业务。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709729133.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:14:49",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "第九届进博会推介会在布拉格举行",
+        "summary": "【第九届进博会推介会在布拉格举行】当地时间15日，第九届中国国际进口博览会推介会在布拉格举行。本次推介会由中国驻捷克大使馆、中国国际进口博览局和捷克工贸部联合主办，来自中国、捷克的两国政商界人士超百人参会，共同探讨两国经贸合作新机遇。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709728832.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:11:13",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全",
+        "summary": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709728735.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:06:02",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "第六届消博会今天落幕 进场观众超30万人 发布新品386件",
+        "summary": "【第六届消博会今天落幕 进场观众超30万人 发布新品386件】第六届中国国际消费品博览会今天（4月18日）落幕，取得了丰硕成果。数据显示，本届消博会展览总面积达14.3万平方米，较上届增加1.3万平方米，共有来自67个国家和地区的3413个消费精品品牌参展，参展国际展品占比达65%，较上届提升20个百分点。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://biz.eastmoney.com/a/202604183709728615.html",
+        "emoji": "📰",
+        "channel": "东财全球7x24",
+        "timestamp": "2026-04-18 17:04:00",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗宣布暂停机票销售 航班须逐一审批",
+        "summary": "【伊朗宣布暂停机票销售 航班须逐一审批】当地时间18日，伊朗航空公司协会秘书表示，在航空公司尚未从民航组织获得必要许可前，全国范围内机票销售将暂停。他同时指出，在当前情况下，机票销售不被允许，航空公司无论执行国内还是国际航班，均需为每一班次申请相关许可。机票签发须以获得民航组织批准为前提。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709739389.html",
+        "emoji": "📰",
+        "channel": "东财期货",
+        "timestamp": "2026-04-18 19:13:37",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗司法总监：敌人必须支付战争赔款",
+        "summary": "【伊朗司法总监：敌人必须支付战争赔款】据伊朗法尔斯通讯社18日报道，伊朗司法总监埃杰伊说敌人必须支付战争赔款。报道援引埃杰伊的话说，美国和以色列对伊朗人民发动战争和侵略，犯下各种战争罪行。相关国际机构必须对其进行起诉和审判，追究其战争罪行，要求其赔偿，对其进行惩罚。“绝不能让侵略者逍遥法外。”",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709727381.html",
+        "emoji": "📰",
+        "channel": "东财期货",
+        "timestamp": "2026-04-18 16:51:19",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "516100",
+              "name": "金融科技ETF"
+            }
+          ],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
+        "summary": "【网传“环保新规推高养鸡成本致蛋价上涨”系谣言】“蛋鸡环保新规4月落地、粪便直排最高罚100万元”“成本大涨蛋价也涨，散户末日来了”。近日，一些对环保规定的流言，给群众造成了一定的恐慌情绪。记者从多方核实，相关部门并没有出台所谓的“新规”。业内人士认为，这些谣言是对若干法规的牵强拼凑。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709726724.html",
+        "emoji": "📰",
+        "channel": "东财期货",
+        "timestamp": "2026-04-18 16:43:31",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗清理与美以等国有勾连的组织",
+        "summary": "【伊朗清理与美以等国有勾连的组织】据伊朗光明通讯社18日报道，伊朗伊斯兰革命卫队情报部门近日在伊朗3个省份查明并清理了多个与美国、以色列和英国有勾连的组织。报道说，在近日开展的行动中，革命卫队情报部门在东阿塞拜疆省查明并逮捕7人，这些人被指为其指挥官提供武器、策划破坏行动、发送敏感地点坐标。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709726417.html",
+        "emoji": "📰",
+        "channel": "东财期货",
+        "timestamp": "2026-04-18 16:40:16",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "市场资讯"
+      },
+      {
+        "title": "斯洛伐克将起诉欧盟的俄天然气进口禁令",
+        "summary": "【斯洛伐克将起诉欧盟的俄天然气进口禁令】斯洛伐克总理菲佐17日表示，斯洛伐克将在未来几天内就欧盟禁止进口俄罗斯天然气的决定向欧盟法院提起诉讼。菲佐表示，该决定“明确违反了欧盟条约所依据的所有原则”，有关制裁和外交政策问题的决定应由各方一致作出。1月26日，欧盟27个成员国正式通过关于逐步禁止从俄罗斯进口管道天然气和液化天然气的法规。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709725087.html",
+        "emoji": "📰",
+        "channel": "东财期货",
+        "timestamp": "2026-04-18 16:24:17",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗军方说已恢复控制霍尔木兹海峡",
+        "summary": "【伊朗军方说已恢复控制霍尔木兹海峡】据伊朗媒体18日报道，伊朗军方发言人称，因美国“屡次违背承诺”，伊朗对霍尔木兹海峡的控制已恢复到以前的状态，这一海峡目前处于伊朗武装部队的严格管理和控制之下。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709724191.html",
+        "emoji": "📰",
+        "channel": "东财期货",
+        "timestamp": "2026-04-18 16:15:04",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -2992,8 +5875,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709644432.html",
         "emoji": "📰",
-        "channel": "东方财富外汇",
+        "channel": "东财外汇",
         "timestamp": "2026-04-18 08:45:32",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -3003,8 +5895,17 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709641882.html",
         "emoji": "📰",
-        "channel": "东方财富外汇",
+        "channel": "东财外汇",
         "timestamp": "2026-04-18 08:38:01",
+        "etf_mapping": {
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -3014,8 +5915,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709605075.html",
         "emoji": "📰",
-        "channel": "东方财富外汇",
+        "channel": "东财外汇",
         "timestamp": "2026-04-18 07:50:06",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "A股直接相关"
       },
       {
@@ -3025,8 +5930,12 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709595876.html",
         "emoji": "📰",
-        "channel": "东方财富外汇",
+        "channel": "东财外汇",
         "timestamp": "2026-04-18 07:49:13",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
       },
       {
@@ -3036,643 +5945,1264 @@ const newsData = {
         "date": "2026-04-18",
         "url": "http://finance.eastmoney.com/a/202604183709547376.html",
         "emoji": "📰",
-        "channel": "东方财富外汇",
+        "channel": "东财外汇",
         "timestamp": "2026-04-18 07:44:12",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
         "category": "市场资讯"
+      },
+      {
+        "title": "公募基金经理薪酬考核量化指标出台 哪些基金经理直面降薪压力？",
+        "summary": "【公募基金经理薪酬考核量化指标出台 哪些基金经理直面降薪压力？】公募基金经理的薪酬考核，正走向更具体的量化框架。4月17日，中基协发布的《基金管理公司绩效考核管理指引》明确提出，基金管理公司应当根据基金经理过去三年管理主动权益类基金的业绩比较基准对比、基金利润率的不同情形，建立阶梯化的绩效薪酬调整机制。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709666570.html",
+        "emoji": "📰",
+        "channel": "东财ETF/债券",
+        "timestamp": "2026-04-18 10:46:00",
+        "etf_mapping": {
+          "etfs": [],
+          "stocks": []
+        },
+        "category": "A股直接相关"
       }
     ],
-    "last_updated": "2026-04-18T18:33:52.899403",
-    "source_info": "东方财富快讯+新浪财经",
-    "total_count": 135,
-    "filtered_count": 35,
+    "last_updated": "2026-04-18T19:31:30.722412",
+    "source_info": "ProSearch: 新浪+东财+财联社+36氪(多引擎聚合)",
+    "total_count": 247,
+    "filtered_count": 36,
+    "etf_mapped_count": 74,
+    "search_keywords_used": [
+      "A股大盘",
+      "芯片AI科技",
+      "新能源车",
+      "避险资产",
+      "地缘政治",
+      "消费医药"
+    ],
+    "etf_map_version": "v2.0-insights-derived",
     "wukong_judgment": {
-      "market_view": "偏空",
-      "confidence": 74,
+      "market_view": "震荡",
+      "confidence": 50,
       "key_factors": [
-        "地缘政治",
-        "货币政策",
+        "地缘政治（关联: 黄金ETF, 石油ETF）",
+        "货币政策（关联: 银行ETF, 证券ETF）",
         "经济数据",
-        "政策利好",
-        "业绩驱动"
+        "政策利好（关联: 电网ETF, 易方达新能源ETF）",
+        "业绩驱动",
+        "资金流向（关联: 证券ETF, 证券ETF华泰）"
       ],
       "active_patterns": [
         "地缘事件驱动",
         "政策博弈",
         "业绩行情",
-        "资金博弈"
+        "资金博弈",
+        "Trump喊话"
       ],
       "risk_alerts": [
         "地缘风险",
         "政策风险",
-        "流动性风险"
+        "流动性风险",
+        "业绩风险"
+      ],
+      "today_signals": [
+        {
+          "news_title": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+          "direction": "利好",
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "signal_text": "银行ETF(512800): 美国债市：国债走高 交易员上调对美联储年内降息押注...",
+          "source": "环球市场播报",
+          "confidence_bias": "偏高"
+        },
+        {
+          "news_title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "signal_text": "银行ETF(512800): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "俄军夜间袭击乌克兰港口及电力设施",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "signal_text": "电力ETF博时(561700): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "美国延长部分俄罗斯石油的销售许可证期限",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "signal_text": "AI算力ETF(512930): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "贵金属全线收涨 白银本周涨幅居前",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "518880",
+              "name": "黄金ETF"
+            }
+          ],
+          "signal_text": "黄金ETF(518880): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        }
+      ],
+      "news_analysis": [
+        {
+          "title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "俄军夜间袭击乌克兰港口及电力设施",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "美国延长部分俄罗斯石油的销售许可证期限",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        }
+      ],
+      "market_narrative": "🟡 大盘情绪：震荡 50% | 关键驱动: 地缘政治 黄金ETF, 石油ETF、货币政策 银行ETF, 证券ETF、经济数据、政策利好 电网ETF, 易方达新能源ETF、业绩驱动 | 信号分布: 利好1条 / 利空0条 / 中性9条 | 活跃范式: Geopolitical event + · Foreign markets lead · Earnings validation  | ⚠️ 关注风险: 地缘风险、政策风险、流动性风险 | 操作思路: 结构性行情，精选个股，不追涨杀跌",
+      "signal_count": 10,
+      "paradigm_reference": [
+        "GEO-001",
+        "LEAD-001",
+        "EARN-001",
+        "TRUMP-001",
+        "TRUMP-002",
+        "TRUMP-003",
+        "ETF-001"
       ]
     },
     "s_level": [
       {
         "title": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
         "summary": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxcfy1457707.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
         "summary": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwya1527208.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
         "summary": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1644361.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
         "summary": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1641175.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普：若无法达成协议 或将不延长美伊临时停火",
         "summary": "特朗普：若无法达成协议 或将不延长美伊临时停火",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1634777.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
         "summary": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2770061.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
         "summary": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1781578.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
         "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5978102.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "报道：伊朗官员否认特朗普有关铀问题的说法",
         "summary": "报道：伊朗官员否认特朗普有关铀问题的说法",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0566983.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
         "summary": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2745717.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
         "summary": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0556303.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
         "summary": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwhan5964367.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
         "summary": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
         "summary": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
         "summary": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "美国债市：国债走高 交易员上调对美联储年内降息押注",
         "summary": "美国债市：国债走高 交易员上调对美联储年内降息押注",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6083436.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "旧金山联储行长戴利认为利率处于良好位置",
         "summary": "旧金山联储行长戴利认为利率处于良好位置",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6080084.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "数百个亲特朗普虚假头像涌现社交媒体，AI深度伪造或为幕后推手",
         "summary": "数百个亲特朗普虚假头像涌现社交媒体，AI深度伪造或为幕后推手",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2852177.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普寻求更多时间应对100亿美元税表泄露诉讼",
         "summary": "特朗普寻求更多时间应对100亿美元税表泄露诉讼",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1871803.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
         "summary": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2851517.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "伊朗战争威胁燃油供应，欧盟拟推动航空燃油来源多元化",
         "summary": "伊朗战争威胁燃油供应，欧盟拟推动航空燃油来源多元化",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2848956.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
+          ]
+        }
+      },
+      {
+        "title": "伊朗战争推高全球化肥价格，美国买家转向海外转口获利",
+        "summary": "伊朗战争推高全球化肥价格，美国买家转向海外转口获利",
+        "reason": "重大市场事件（S级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0667462.shtml",
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
+          "key_variables": [
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "油价下跌叠加降息预期升温，美债收益率降至4.24%",
         "summary": "油价下跌叠加降息预期升温，美债收益率降至4.24%",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          },
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1865270.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "欧洲领导人提出军事援助保障霍尔木兹安全 尽管特朗普警告“离远点”",
         "summary": "欧洲领导人提出军事援助保障霍尔木兹安全 尽管特朗普警告“离远点”",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzus2844290.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
+          ]
+        }
+      },
+      {
+        "title": "IMF成员国：中东冲突对全球经济构成严重威胁",
+        "summary": "IMF成员国：中东冲突对全球经济构成严重威胁",
+        "reason": "重大市场事件（S级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuu0663035.shtml",
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
+          "key_variables": [
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "美联储理事沃勒对利率调整表示谨慎 警示长期冲突风险",
         "summary": "美联储理事沃勒对利率调整表示谨慎 警示长期冲突风险",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6066717.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普向CBS表示：美国和伊朗将于本周末举行会晤",
         "summary": "特朗普向CBS表示：美国和伊朗将于本周末举行会晤",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6065851.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结的资金",
         "summary": "特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结的资金",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvres2088372.shtml",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
+          ]
+        }
+      },
+      {
+        "title": "力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域",
+        "summary": "【力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域】力诺药包4月18日在互动平台表示，公司作为亚洲规模较大的中硼硅药用玻璃生产基地之一，产能利用率维持在行业较高水平。2026年，国家出台了众多鼓励医药产业发展的政策，医药包装行业将得到进一步发展，公司将依据市场趋势及客户需求，继续对中硼硅模制瓶与管制瓶进行扩产，并布局高端医药包材领域，以巩固和扩大竞争优势，充分把握国产替代的市场机遇。",
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          },
+          {
+            "code": "512480",
+            "name": "半导体ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709740455.html",
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
+          "key_variables": [
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "港股部分IPO包装过度？港交所回应：正推进上市机制改革 保密递交也会公开“点名”",
         "summary": "【港股部分IPO包装过度？港交所回应：正推进上市机制改革 保密递交也会公开“点名”】香港新股市场火热，但部分拟上市公司上市资料质量不高、存在包装过度等问题。香港交易所上市科首次公开招股审查联席主管刘颖在接受采访时表示，拟上市公司若想加快审批进程，信息披露必须做到真实、准确、全面、简洁。",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "588260",
+            "name": "科创信息ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://hk.eastmoney.com/a/202604183709730747.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "时隔10年再现“增收不增利”！北方华创2025年净利润下滑1.77% 研发费用增长近50%",
         "summary": "【时隔10年再现“增收不增利”！北方华创2025年净利润下滑1.77% 研发费用增长近50%】数据显示，这是北方华创自2014年以来首次出现“增收不增利”的情况。年报显示，导致北方华创2025年出现“增收不增利”的直接原因是新产品前期带来的毛利率下降。报告期内，公司毛利率由42.93%下降至40.1%。公司称，主要原因为公司新产品在客户端验证过程中，零部件迭代升级成本增加较多。加剧利润挤压的另一个",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709670369.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "迈瑞医疗：2026年利润率预计会有小幅下降 但下降幅度将显著收窄",
         "summary": "【迈瑞医疗：2026年利润率预计会有小幅下降 但下降幅度将显著收窄】迈瑞医疗4月17日在业绩说明会上表示，2026年，随着肿标甲功试剂集采开始执行，预计毛利率还会略受影响，同时根据各国立法的全球最低税规则，迈瑞的所得税有效税率须不得低于15%，以及潜在的美元贬值带来的汇兑损失。考虑到这几个因素，2026年利润率预计会有小幅下降，但下降幅度将显著收窄。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709640653.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
+          ]
+        }
+      },
+      {
+        "title": "国际航协：欧洲航班最早下月底开始出现停飞潮 各国需协调应对",
+        "summary": "【国际航协：欧洲航班最早下月底开始出现停飞潮 各国需协调应对】国际航空运输协会警告，中东战争或导致航空燃油配给措施启动，欧洲最早可能在5月底开始取消航班。航协呼吁各国政府尽快制定协调周密的应对方案，以降低对航班运行造成的冲击。",
+        "reason": "重大市场事件（S级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709737070.html",
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
+          "key_variables": [
+            "地缘局势",
+            "资金流向",
+            "政策落地"
+          ]
+        }
+      },
+      {
+        "title": "联合国秘书长古特雷斯：不要让强权凌驾于法律之上",
+        "summary": "【联合国秘书长古特雷斯：不要让强权凌驾于法律之上】联合国秘书长古特雷斯4月17日在海牙表示，世界正处在“危机时刻”，各国面临选择，要维护国际法权威，不可让强权凌驾于法律之上。古特雷斯当天在参加国际法院成立80周年活动时说，国际法院的成立为世界和平奠定了基石。但如今，违反国际法的行为正在发生，军事行动践踏了解决冲突的基本规则，人道主义义务被放在一边。",
+        "reason": "重大市场事件（S级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709735685.html",
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
+          "key_variables": [
+            "地缘局势",
+            "资金流向",
+            "政策落地"
+          ]
+        }
+      },
+      {
+        "title": "美媒称美军武器库存吃紧 美国拟动员车企生产武器",
+        "summary": "【美媒称美军武器库存吃紧 美国拟动员车企生产武器】据美国《华尔街日报》15日披露，由于俄乌冲突和中东战事持续消耗美军武器库存，美国政府正与汽车企业等制造商接触，有意让其生产武器。报道说，五角大楼高级官员已与多家企业高管就生产武器及其他军用物资展开沟通，其中车企包括通用汽车和福特汽车。",
+        "reason": "重大市场事件（S级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709734628.html",
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
+          "key_variables": [
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "IMF对菲债务风险及能源危机发出警示",
         "summary": "【IMF对菲债务风险及能源危机发出警示】国际货币基金组织（IMF）近日对菲律宾政府债务风险发出警示，称当前菲律宾财政缓冲空间已十分有限，制约菲政府加大经济支持力度的能力，呼吁菲当局实施更具针对性的财政措施，以有效应对当前能源危机。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709732992.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "德国航空协会呼吁政府出手应对燃油危机",
         "summary": "【德国航空协会呼吁政府出手应对燃油危机】据德国媒体17日报道，面对迫在眉睫的航空燃油短缺危机，德国航空协会日前呼吁联邦政府提供援助，并提出一揽子应对计划。如果联邦政府不尽快采取行动，从6月起，可能会出现大规模航班取消，进而威胁到暑期出行旺季。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709731614.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "本轮巴以冲突已致加沙地带72549人死亡",
         "summary": "【本轮巴以冲突已致加沙地带72549人死亡】当地时间4月18日，加沙地带卫生部门公布最新统计报告称，自2023年10月7日新一轮巴以大规模冲突爆发以来，以色列对加沙地带的袭击已累计造成72549人死亡、172274人受伤。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709731218.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "以总理要求白宫澄清特朗普涉黎相关言论",
         "summary": "【以总理要求白宫澄清特朗普涉黎相关言论】特朗普17日在社交媒体上称，以色列将不再轰炸黎巴嫩，美国已禁止以色列这样做。据美国方面17日援引知情人士的消息称，以色列总理内塔尼亚胡对此感到“震惊”，以方要求白宫就此作出澄清。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财全球7x24",
+        "url": "http://finance.eastmoney.com/a/202604183709730479.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "伊朗司法总监：敌人必须支付战争赔款",
         "summary": "【伊朗司法总监：敌人必须支付战争赔款】据伊朗法尔斯通讯社18日报道，伊朗司法总监埃杰伊说敌人必须支付战争赔款。报道援引埃杰伊的话说，美国和以色列对伊朗人民发动战争和侵略，犯下各种战争罪行。相关国际机构必须对其进行起诉和审判，追究其战争罪行，要求其赔偿，对其进行惩罚。“绝不能让侵略者逍遥法外。”",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "516100",
+            "name": "金融科技ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财期货",
+        "url": "http://finance.eastmoney.com/a/202604183709727381.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "斯洛伐克将起诉欧盟的俄天然气进口禁令",
         "summary": "【斯洛伐克将起诉欧盟的俄天然气进口禁令】斯洛伐克总理菲佐17日表示，斯洛伐克将在未来几天内就欧盟禁止进口俄罗斯天然气的决定向欧盟法院提起诉讼。菲佐表示，该决定“明确违反了欧盟条约所依据的所有原则”，有关制裁和外交政策问题的决定应由各方一致作出。1月26日，欧盟27个成员国正式通过关于逐步禁止从俄罗斯进口管道天然气和液化天然气的法规。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财期货",
+        "url": "http://finance.eastmoney.com/a/202604183709725087.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "全球上演狂欢行情 战后交易模式开启？",
         "summary": "【全球上演狂欢行情 战后交易模式开启？】周五，伊朗宣布开放霍尔木兹海峡，市场预期这有望缓解全球石油短缺担忧和经济不确定性。受此影响，能源期货价格应声跳水，风险资产全线走强，欧美股市大幅反弹，航空旅游板块复苏。与此同时，加息预期降温打压各国国债收益率，美元指数一度触及2月末战前水平。",
-        "reason": "包含重大市场影响因素",
-        "etf_list": [],
+        "reason": "重大市场事件（S级）",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财外汇",
+        "url": "http://finance.eastmoney.com/a/202604183709641882.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "伊朗议长：特朗普7项社媒声明“均不属实”",
         "summary": "【伊朗议长：特朗普7项社媒声明“均不属实”】伊朗伊斯兰议会议长卡利巴夫18日凌晨在社交媒体发文称，美国总统特朗普此前在1小时内于社交媒体平台发布的7项声明“均不属实”。美方靠谎言没能赢得战争，在谈判中也将注定一无所获。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财外汇",
+        "url": "http://finance.eastmoney.com/a/202604183709605075.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       },
       {
         "title": "如果美债需求发生崩溃",
         "summary": "【如果美债需求发生崩溃】近日，美国保尔森罕见发出警告：美国国债市场一旦崩溃，将远比2008年金融危机更具毁灭性——届时政府自身融资告急，无力充当救援者。他急呼提前备好“打破玻璃”应急预案，因为“当我们撞上那堵墙，将会非常猛烈”。",
-        "reason": "包含重大市场影响因素",
+        "reason": "重大市场事件（S级）",
         "etf_list": [],
+        "direction": "中性",
+        "source": "东财外汇",
+        "url": "http://finance.eastmoney.com/a/202604183709547376.html",
         "bayes_analysis": {
           "prior": 0.5,
-          "likelihood": 0.7,
-          "posterior": 0.65,
-          "expected_return": "需结合其他指标判断",
+          "likelihood": 0.72,
+          "posterior": 0.55,
+          "expected_return": "-1%~+1%",
           "key_variables": [
-            "市场情绪",
-            "资金流向"
+            "地缘局势",
+            "资金流向",
+            "政策落地"
           ]
         }
       }
@@ -3681,450 +7211,2013 @@ const newsData = {
       {
         "title": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
         "summary": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5962048.shtml"
       },
       {
         "title": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
         "summary": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6071135.shtml"
       },
       {
         "title": "受AI推动，IBM有望交出强劲季度财报",
         "summary": "受AI推动，IBM有望交出强劲季度财报",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪美股",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2844440.shtml"
+      },
+      {
+        "title": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+        "summary": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "新浪科技",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuvere0949654.shtml"
+      },
+      {
+        "title": "智元董事长邓泰华：计划2027年营收100亿+，2030年超1000亿元",
+        "summary": "智元董事长邓泰华：计划2027年营收100亿+，2030年超1000亿元",
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "新浪科技",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuptk3330604.shtml"
+      },
+      {
+        "title": "智元董事长邓泰华：2025年营收10.5亿元，今年将数倍增长",
+        "summary": "智元董事长邓泰华：2025年营收10.5亿元，今年将数倍增长",
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "新浪科技",
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimq1135225.shtml"
+      },
+      {
+        "title": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "summary": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "512690",
+            "name": "酒ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "新浪科技",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-17/doc-inhuuimq1130620.shtml"
       },
       {
         "title": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
         "summary": "【美联新材：正研究布局EX电子材料新产能，尽快扩大产能】4月17日下午，美联新材在业绩说明会上表示，公司EX电子材料已经通过了HBM堆叠封装工艺的验证，但目前不方便披露详细进展。这是一个全新的材料，目前下游客户应用主要是海外供应链，国内的几个客户应用在不同阶段的评价阶段。该产品具有国内唯一性。公司控股企业辉虹科技已投产的EX电子材料年产能为200吨。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "512480",
+            "name": "半导体ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709719556.html"
       },
       {
         "title": "幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段",
         "summary": "【幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段】4月17日，幸福蓝海副董事长兼总经理张烨镝在业绩说明会上表示，公司出品的重大历史题材电视剧《张謇》已处于审查阶段；《兵自风中来》已取得发行许可证；《共生》已拍摄完成，目前已处于审查阶段；公司还储备了《赛因察戈答》《磐石》《走过冬季》《南京谈判》等精品项目。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709719065.html"
       },
       {
         "title": "ST东时：2025年归母净亏损7.45亿元，亏损收窄",
         "summary": "【ST东时：2025年归母净亏损7.45亿元，亏损收窄】4月18日，ST东时公告，2025年实现营业收入6.18亿元，同比下降23.47%；归属于上市公司股东的净利润亏损7.45亿元，上年同期亏损9.03亿元；基本每股收益-1.04元。鉴于公司2025年度末母公司期末未分配利润为负数，2025年公司不进行利润分配，也不进行资本公积转增股本和其他形式的分配。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709718580.html"
       },
       {
         "title": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
         "summary": "【龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨】4月16日晚，龙大美食的一则公告引发市场的关注。公司董事会决定将此前公告的不向下修正龙大转债转股价格的期限，由原定的“2026年4月2日至2026年5月1日”缩短调整为“2026年4月2日至2026年4月16日”。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709717258.html"
       },
       {
         "title": "鹏华基金去年营收净利双增长",
         "summary": "【鹏华基金去年营收净利双增长】国信证券2025年报显示，旗下鹏华基金去年实现营业收入40.28亿元，较去年同期的35.94亿元上升12.06%，净利润8.01亿元，较去年同期的7.51亿元上涨6.74%。截至去年末，鹏华基金资管总规模1.37万亿元（不含子公司），同比增长12%，其中公募基金规模1.05万亿元，同比增长15%。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "512880",
+            "name": "证券ETF"
+          },
+          {
+            "code": "512900",
+            "name": "证券ETF华泰"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://fund.eastmoney.com/a/202604183709716680.html"
       },
       {
         "title": "特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待",
         "summary": "【特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待】美国电动汽车制造商特斯拉股价本周收高，结束了此前连续八周的下跌趋势。该公司将在4月22日发布财报，分析师目前对该公司的股价前景较为乐观。周四晚些时候，有报道指出特斯拉正在中国台湾地区招聘芯片工程师，这可能是该公司试图挖角台积电的一个信号。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709680528.html"
       },
       {
         "title": "单季获上市以来最好业绩 华丰科技高增长能持续吗？",
         "summary": "【单季获上市以来最好业绩 华丰科技高增长能持续吗？】从2024年净亏损1775万元，到2025年实现营收净利双双大增，取得上市以来最好业绩。华丰科技（688629.SH）用一年时间完成了从亏损到“业绩巅峰”的反转。作为国内AI高速连接器核心供应商、防务连接器三强之一，华丰科技因业绩爆发被市场贴上“高速连接器国产替代龙头”标签。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709670035.html"
       },
       {
         "title": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
         "summary": "【这家浙江摩托车上市公司业绩创新高 七成收入来自海外】中国机车龙头春风动力（603129.SH）去年业绩再创新高。2025年，春风动力全年实现营业总收入197.46亿元，同比大增31.3%；归母净利润16.75亿元，同比增长13.83%。从业务结构来看，春风动力核心业务聚焦三大板块，分别为全地形车、燃油摩托车、电动两轮车，2025年三大业务营收占比依次为48.66%、32.77%、9.68%，全地",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财A股",
+        "url": "http://finance.eastmoney.com/a/202604183709665741.html"
       },
       {
         "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
         "summary": "【网传“环保新规推高养鸡成本致蛋价上涨”系谣言】“蛋鸡环保新规4月落地、粪便直排最高罚100万元”“成本大涨蛋价也涨，散户末日来了”。近日，一些对环保规定的流言，给群众造成了一定的恐慌情绪。记者从多方核实，相关部门并没有出台所谓的“新规”。业内人士认为，这些谣言是对若干法规的牵强拼凑。",
-        "reason": "包含重要市场信息",
-        "etf_list": []
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财期货",
+        "url": "http://finance.eastmoney.com/a/202604183709726724.html"
+      },
+      {
+        "title": "公募基金经理薪酬考核量化指标出台 哪些基金经理直面降薪压力？",
+        "summary": "【公募基金经理薪酬考核量化指标出台 哪些基金经理直面降薪压力？】公募基金经理的薪酬考核，正走向更具体的量化框架。4月17日，中基协发布的《基金管理公司绩效考核管理指引》明确提出，基金管理公司应当根据基金经理过去三年管理主动权益类基金的业绩比较基准对比、基金利润率的不同情形，建立阶梯化的绩效薪酬调整机制。",
+        "reason": "重要板块信息（A级）",
+        "etf_list": [],
+        "direction": "中性",
+        "source": "东财ETF/债券",
+        "url": "http://finance.eastmoney.com/a/202604183709666570.html"
       }
     ],
     "b_level": [
       {
         "title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
-        "summary": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲"
+        "summary": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "etf_list": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ]
+      },
+      {
+        "title": "伊媒：伊朗自周六上午起部分开放空域",
+        "summary": "伊媒：伊朗自周六上午起部分开放空域",
+        "etf_list": []
+      },
+      {
+        "title": "俄军夜间袭击乌克兰港口及电力设施",
+        "summary": "俄军夜间袭击乌克兰港口及电力设施",
+        "etf_list": [
+          {
+            "code": "561700",
+            "name": "电力ETF博时"
+          }
+        ]
+      },
+      {
+        "title": "价格周报｜猪价继续探底，机构称当前养殖端加速去化仍需时间推进",
+        "summary": "价格周报｜猪价继续探底，机构称当前养殖端加速去化仍需时间推进",
+        "etf_list": []
       },
       {
         "title": "伊朗消息人士：美伊双方已出现折中谈判迹象",
-        "summary": "伊朗消息人士：美伊双方已出现折中谈判迹象"
+        "summary": "伊朗消息人士：美伊双方已出现折中谈判迹象",
+        "etf_list": []
       },
       {
         "title": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
-        "summary": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返"
+        "summary": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
+        "etf_list": []
       },
       {
         "title": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
-        "summary": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议"
+        "summary": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
+        "etf_list": []
       },
       {
         "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
-        "summary": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮"
+        "summary": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
+      },
+      {
+        "title": "“五一”假期大批航班取消，怎么回事？",
+        "summary": "“五一”假期大批航班取消，怎么回事？",
+        "etf_list": []
+      },
+      {
+        "title": "美国联邦航空管理局将削减美国大型机场航班量 缓解航班延误",
+        "summary": "美国联邦航空管理局将削减美国大型机场航班量 缓解航班延误",
+        "etf_list": []
       },
       {
         "title": "美国延长部分俄罗斯石油的销售许可证期限",
-        "summary": "美国延长部分俄罗斯石油的销售许可证期限"
+        "summary": "美国延长部分俄罗斯石油的销售许可证期限",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
+      },
+      {
+        "title": "格雷格·阿贝尔执掌伯克希尔满百日，公司已然迎来变局",
+        "summary": "格雷格·阿贝尔执掌伯克希尔满百日，公司已然迎来变局",
+        "etf_list": []
+      },
+      {
+        "title": "140年来最强厄尔尼诺正在酝酿？地球或今年冲击高温极限？国家气候中心回应",
+        "summary": "140年来最强厄尔尼诺正在酝酿？地球或今年冲击高温极限？国家气候中心回应",
+        "etf_list": []
       },
       {
         "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
-        "summary": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏"
+        "summary": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
       },
       {
         "title": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
-        "summary": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票"
+        "summary": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
+        "etf_list": []
+      },
+      {
+        "title": "澳大利亚能源部长称燃料储备上升 更多货轮正在途中",
+        "summary": "澳大利亚能源部长称燃料储备上升 更多货轮正在途中",
+        "etf_list": []
+      },
+      {
+        "title": "霍尔木兹海峡开放后多艘船只尝试通行但未竟全功 不确定性犹在",
+        "summary": "霍尔木兹海峡开放后多艘船只尝试通行但未竟全功 不确定性犹在",
+        "etf_list": []
+      },
+      {
+        "title": "美国法官驳回拜耳要求阻止强生前列腺癌药物索赔的申请",
+        "summary": "美国法官驳回拜耳要求阻止强生前列腺癌药物索赔的申请",
+        "etf_list": []
       },
       {
         "title": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
-        "summary": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请"
+        "summary": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
+        "etf_list": []
+      },
+      {
+        "title": "尽管伊朗宣称海峡已开放，但美国封锁仍在实施",
+        "summary": "尽管伊朗宣称海峡已开放，但美国封锁仍在实施",
+        "etf_list": []
+      },
+      {
+        "title": "报道：Meta计划5月下旬全球裁员10%",
+        "summary": "报道：Meta计划5月下旬全球裁员10%",
+        "etf_list": []
       },
       {
         "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
-        "summary": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos"
+        "summary": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "美国航空：公司未参与也没兴趣与美联航合并",
+        "summary": "美国航空：公司未参与也没兴趣与美联航合并",
+        "etf_list": []
+      },
+      {
+        "title": "美国据悉考虑收紧汽车进口规定以加速制造业回流",
+        "summary": "美国据悉考虑收紧汽车进口规定以加速制造业回流",
+        "etf_list": []
+      },
+      {
+        "title": "白宫：与Anthropic的会谈富有成效",
+        "summary": "白宫：与Anthropic的会谈富有成效",
+        "etf_list": []
       },
       {
         "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-        "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观"
+        "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+        "etf_list": []
       },
       {
         "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-        "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中"
+        "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+        "etf_list": []
       },
       {
         "title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
-        "summary": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨"
+        "summary": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+        "etf_list": []
       },
       {
         "title": "贵金属全线收涨 白银本周涨幅居前",
-        "summary": "贵金属全线收涨 白银本周涨幅居前"
+        "summary": "贵金属全线收涨 白银本周涨幅居前",
+        "etf_list": [
+          {
+            "code": "518880",
+            "name": "黄金ETF"
+          }
+        ]
       },
       {
         "title": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
-        "summary": "大宗商品综述：原油重挫 伦铝走低 金价上涨"
+        "summary": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
+        "etf_list": [
+          {
+            "code": "518880",
+            "name": "黄金ETF"
+          },
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          },
+          {
+            "code": "159871",
+            "name": "有色ETF"
+          }
+        ]
       },
       {
         "title": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
-        "summary": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元"
+        "summary": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
+        "etf_list": []
+      },
+      {
+        "title": "报道：Meta计划于5月20日裁员 影响全球约10%员工",
+        "summary": "报道：Meta计划于5月20日裁员 影响全球约10%员工",
+        "etf_list": []
       },
       {
         "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
-        "summary": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%"
+        "summary": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+        "etf_list": []
       },
       {
         "title": "知情人士称美伊下轮谈判最快可能于20日恢复",
-        "summary": "知情人士称美伊下轮谈判最快可能于20日恢复"
+        "summary": "知情人士称美伊下轮谈判最快可能于20日恢复",
+        "etf_list": []
       },
       {
         "title": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
-        "summary": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录"
+        "summary": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+        "etf_list": []
+      },
+      {
+        "title": "伊朗议长：绝不放弃控制霍尔木兹海峡 美妄言摧毁伊朗文明已失败",
+        "summary": "伊朗议长：绝不放弃控制霍尔木兹海峡 美妄言摧毁伊朗文明已失败",
+        "etf_list": []
       },
       {
         "title": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧",
-        "summary": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧"
+        "summary": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧",
+        "etf_list": []
+      },
+      {
+        "title": "白宫与Anthropic冰释前嫌，美政府拟推动Mythos模型落地",
+        "summary": "白宫与Anthropic冰释前嫌，美政府拟推动Mythos模型落地",
+        "etf_list": []
       },
       {
         "title": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌",
-        "summary": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌"
+        "summary": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌",
+        "etf_list": [
+          {
+            "code": "159871",
+            "name": "有色ETF"
+          }
+        ]
+      },
+      {
+        "title": "梦龙乐队主创兄弟跨界游戏圈，5v5射击新作《终极旗令》正式上线",
+        "summary": "梦龙乐队主创兄弟跨界游戏圈，5v5射击新作《终极旗令》正式上线",
+        "etf_list": []
       },
       {
         "title": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆",
-        "summary": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆"
+        "summary": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "561700",
+            "name": "电力ETF博时"
+          }
+        ]
       },
       {
         "title": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府",
-        "summary": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府"
+        "summary": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府",
+        "etf_list": []
       },
       {
         "title": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具",
-        "summary": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具"
+        "summary": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
       },
       {
         "title": "空头回补引爆市场涨势，高风险股票领涨大盘",
-        "summary": "空头回补引爆市场涨势，高风险股票领涨大盘"
+        "summary": "空头回补引爆市场涨势，高风险股票领涨大盘",
+        "etf_list": []
       },
       {
         "title": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投",
-        "summary": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投"
+        "summary": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
       },
       {
         "title": "燃油价格飙升，加航削减四条纽约航线",
-        "summary": "燃油价格飙升，加航削减四条纽约航线"
+        "summary": "燃油价格飙升，加航削减四条纽约航线",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
       },
       {
         "title": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元",
-        "summary": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元"
+        "summary": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
       },
       {
         "title": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓",
-        "summary": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓"
+        "summary": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
       },
       {
         "title": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%",
-        "summary": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%"
+        "summary": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "数千作家寻求在Anthropic和解协议中获得赔偿",
+        "summary": "数千作家寻求在Anthropic和解协议中获得赔偿",
+        "etf_list": []
+      },
+      {
+        "title": "比利时UCB制药厂以最高11.5亿美元收购Neurona Therapeutics",
+        "summary": "比利时UCB制药厂以最高11.5亿美元收购Neurona Therapeutics",
+        "etf_list": []
+      },
+      {
+        "title": "伊朗外交部发言人：伊方拒绝将浓缩铀运往国外",
+        "summary": "伊朗外交部发言人：伊方拒绝将浓缩铀运往国外",
+        "etf_list": []
       },
       {
         "title": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓",
-        "summary": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓"
+        "summary": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
       },
       {
         "title": "顶级投行大幅调整苹果目标股价",
-        "summary": "顶级投行大幅调整苹果目标股价"
+        "summary": "顶级投行大幅调整苹果目标股价",
+        "etf_list": []
+      },
+      {
+        "title": "Netflix遭抛售 或开启买入窗口",
+        "summary": "Netflix遭抛售 或开启买入窗口",
+        "etf_list": []
       },
       {
         "title": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元",
-        "summary": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元"
+        "summary": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元",
+        "etf_list": []
       },
       {
         "title": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌",
-        "summary": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌"
+        "summary": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌",
+        "etf_list": []
       },
       {
         "title": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍",
-        "summary": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍"
+        "summary": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          }
+        ]
+      },
+      {
+        "title": "摩根大通将希捷列入“积极催化剂观察”名单 目标价上调至600美元",
+        "summary": "摩根大通将希捷列入“积极催化剂观察”名单 目标价上调至600美元",
+        "etf_list": []
+      },
+      {
+        "title": "Simmons预示2026年净利息收入增长率达9%-11%的高端区间",
+        "summary": "Simmons预示2026年净利息收入增长率达9%-11%的高端区间",
+        "etf_list": []
+      },
+      {
+        "title": "据传维权投资者正在瞄准数字支付公司PayPal",
+        "summary": "据传维权投资者正在瞄准数字支付公司PayPal",
+        "etf_list": [
+          {
+            "code": "516100",
+            "name": "金融科技ETF"
+          }
+        ]
+      },
+      {
+        "title": "伊朗官员：伊美正拟定谅解备忘录 为永久和平协议设定框架",
+        "summary": "伊朗官员：伊美正拟定谅解备忘录 为永久和平协议设定框架",
+        "etf_list": []
+      },
+      {
+        "title": "黎巴嫩总统：今天是近半个世纪来首次由国家自己做决定",
+        "summary": "黎巴嫩总统：今天是近半个世纪来首次由国家自己做决定",
+        "etf_list": []
       },
       {
         "title": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元",
-        "summary": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元"
+        "summary": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元",
+        "etf_list": []
       },
       {
         "title": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
-        "summary": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判"
+        "summary": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
+        "etf_list": []
       },
       {
         "title": "黎巴嫩总统：谈判不是软弱 寻求长期协议",
-        "summary": "黎巴嫩总统：谈判不是软弱 寻求长期协议"
+        "summary": "黎巴嫩总统：谈判不是软弱 寻求长期协议",
+        "etf_list": []
+      },
+      {
+        "title": "美国中央司令部：美军仍“紧盯伊朗每一个港口”",
+        "summary": "美国中央司令部：美军仍“紧盯伊朗每一个港口”",
+        "etf_list": []
+      },
+      {
+        "title": "礼来CEO预计：减重药物渗透率峰值或将达到潜在适用人群的半数左右",
+        "summary": "礼来CEO预计：减重药物渗透率峰值或将达到潜在适用人群的半数左右",
+        "etf_list": []
+      },
+      {
+        "title": "伊朗外交部：若美国封锁持续 伊朗将采取行动",
+        "summary": "伊朗外交部：若美国封锁持续 伊朗将采取行动",
+        "etf_list": []
+      },
+      {
+        "title": "高德智能导盲犬“途途”官宣，将参加亦庄机器人马拉松",
+        "summary": "高德智能导盲犬“途途”官宣，将参加亦庄机器人马拉松",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "淘天集团回应被处罚：坚决执行监管要求，守护舌尖上的安全",
+        "summary": "淘天集团回应被处罚：坚决执行监管要求，守护舌尖上的安全",
+        "etf_list": []
+      },
+      {
+        "title": "京东回应被处罚：全面接受并坚决拥护监管要求，保障食品安全和品质",
+        "summary": "京东回应被处罚：全面接受并坚决拥护监管要求，保障食品安全和品质",
+        "etf_list": []
       },
       {
         "title": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起",
-        "summary": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起"
+        "summary": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "拼多多回应被处罚：诚恳接受，坚决服从",
+        "summary": "拼多多回应被处罚：诚恳接受，坚决服从",
+        "etf_list": []
+      },
+      {
+        "title": "淘宝闪购：坚决执行监管要求，守护舌尖上的安全",
+        "summary": "淘宝闪购：坚决执行监管要求，守护舌尖上的安全",
+        "etf_list": []
+      },
+      {
+        "title": "叮咚买菜定制啤酒被曝抄袭 官方回应：反对缺乏事实依据的指控 愿与厂家积极沟通",
+        "summary": "叮咚买菜定制啤酒被曝抄袭 官方回应：反对缺乏事实依据的指控 愿与厂家积极沟通",
+        "etf_list": []
+      },
+      {
+        "title": "15小时！雷军完成京沪续航直播：全程1313公里 只充一次电",
+        "summary": "15小时！雷军完成京沪续航直播：全程1313公里 只充一次电",
+        "etf_list": []
+      },
+      {
+        "title": "美团：坚决落实监管要求，切实守护外卖食品安全",
+        "summary": "美团：坚决落实监管要求，切实守护外卖食品安全",
+        "etf_list": []
+      },
+      {
+        "title": "前车帮挡风省电？雷军：阴谋论，我们的车绝大部分时间都是头车",
+        "summary": "前车帮挡风省电？雷军：阴谋论，我们的车绝大部分时间都是头车",
+        "etf_list": []
+      },
+      {
+        "title": "雷军：不建议有司机的大老板买小米汽车",
+        "summary": "雷军：不建议有司机的大老板买小米汽车",
+        "etf_list": []
+      },
+      {
+        "title": "奥特曼成为OpenAI超级IPO的风险因素",
+        "summary": "奥特曼成为OpenAI超级IPO的风险因素",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "雷军：直播不能放背景音乐 涉及版权问题",
+        "summary": "雷军：直播不能放背景音乐 涉及版权问题",
+        "etf_list": []
+      },
+      {
+        "title": "雷军：5年内不会造房车和卡车",
+        "summary": "雷军：5年内不会造房车和卡车",
+        "etf_list": []
+      },
+      {
+        "title": "橘子海乐队指责华为终端侵权，华为客服回应：暂无相关信息",
+        "summary": "橘子海乐队指责华为终端侵权，华为客服回应：暂无相关信息",
+        "etf_list": [
+          {
+            "code": "588260",
+            "name": "科创信息ETF"
+          }
+        ]
+      },
+      {
+        "title": "姚安娜代言！华为Pura X Max本月开卖：鸿蒙史上最强阔折叠",
+        "summary": "姚安娜代言！华为Pura X Max本月开卖：鸿蒙史上最强阔折叠",
+        "etf_list": []
+      },
+      {
+        "title": "胡峥楠出任小米集团副总裁、汽车部CTO，宋钢出任小米汽车部副总裁",
+        "summary": "胡峥楠出任小米集团副总裁、汽车部CTO，宋钢出任小米汽车部副总裁",
+        "etf_list": []
+      },
+      {
+        "title": "SMT数字运动新生态论坛举行 数字共建战略正式启动",
+        "summary": "SMT数字运动新生态论坛举行 数字共建战略正式启动",
+        "etf_list": []
+      },
+      {
+        "title": "冲上热搜！雷军拼了！15小时直播测试",
+        "summary": "冲上热搜！雷军拼了！15小时直播测试",
+        "etf_list": []
+      },
+      {
+        "title": "大疆客服回应 Pocket 4发热烫手：因性能与功能升级，功耗与发热相比上代略有增加",
+        "summary": "大疆客服回应 Pocket 4发热烫手：因性能与功能升级，功耗与发热相比上代略有增加",
+        "etf_list": []
+      },
+      {
+        "title": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "summary": "独家 | 名创优品成立AI创新部 招聘算法与智能体研发人才",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "京东国民好车深蓝L06增程版正式下线",
+        "summary": "京东国民好车深蓝L06增程版正式下线",
+        "etf_list": []
+      },
+      {
+        "title": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "summary": "联想发布超级智能体天禧AI Pro，离线可用全程可管",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "TechWeb微晚报：美团、京东、淘宝等7家电商平台被罚35.97亿元，MacBook Neo一机难求",
+        "summary": "TechWeb微晚报：美团、京东、淘宝等7家电商平台被罚35.97亿元，MacBook Neo一机难求",
+        "etf_list": []
+      },
+      {
+        "title": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "summary": "美国调整对中国芯片设备法案：仍限制ASML DUV光刻机 禁止中芯国际、长江长鑫等使用",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          },
+          {
+            "code": "589260",
+            "name": "科创芯设ETF"
+          }
+        ]
+      },
+      {
+        "title": "苹果史上最便宜的笔记本！MacBook Neo爆火：热度远超预期",
+        "summary": "苹果史上最便宜的笔记本！MacBook Neo爆火：热度远超预期",
+        "etf_list": []
+      },
+      {
+        "title": "赛力斯加入宝马和奔驰超充合资公司，共同推进中国豪华超充网络发展",
+        "summary": "赛力斯加入宝马和奔驰超充合资公司，共同推进中国豪华超充网络发展",
+        "etf_list": []
+      },
+      {
+        "title": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "summary": "禾赛科技发布6D 全彩芯片等四款新品，今年下半年量产交付",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          }
+        ]
+      },
+      {
+        "title": "特斯拉在去年四季度获得SpaceX大单 买走1200多辆Cybertruck",
+        "summary": "特斯拉在去年四季度获得SpaceX大单 买走1200多辆Cybertruck",
+        "etf_list": [
+          {
+            "code": "515980",
+            "name": "人工智能ETF云计算"
+          }
+        ]
+      },
+      {
+        "title": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "summary": "彭博社：AI 冲击印度 IT 外包模式，“毕业即失业”情况严峻",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "靓号过户要预存1万元话费？中国移动客服回应：过户后按新入网号码执行，需办理合约方案",
+        "summary": "靓号过户要预存1万元话费？中国移动客服回应：过户后按新入网号码执行，需办理合约方案",
+        "etf_list": []
+      },
+      {
+        "title": "华为擎云 HA5B0 商用智能手环发布：8.99mm 超薄机身，支持多维度健康监测",
+        "summary": "华为擎云 HA5B0 商用智能手环发布：8.99mm 超薄机身，支持多维度健康监测",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "账号余额用完了才能取消会员，德国法院裁定 Netflix 平台“霸王条款”无效",
+        "summary": "账号余额用完了才能取消会员，德国法院裁定 Netflix 平台“霸王条款”无效",
+        "etf_list": []
+      },
+      {
+        "title": "近十年拉锯战仍未终结！Intel被VLSI拉回法庭：30亿美元专利诉讼重启",
+        "summary": "近十年拉锯战仍未终结！Intel被VLSI拉回法庭：30亿美元专利诉讼重启",
+        "etf_list": []
+      },
+      {
+        "title": "对话智元CTO彭志辉：宇树“值得学习”，我们更“全栈”，特斯拉“没法评”",
+        "summary": "对话智元CTO彭志辉：宇树“值得学习”，我们更“全栈”，特斯拉“没法评”",
+        "etf_list": []
+      },
+      {
+        "title": "华为智慧屏 S7 Pro 官宣 4 月 20 日发布：低反光护眼屏、灵犀手写笔，预售价 7999 元起",
+        "summary": "华为智慧屏 S7 Pro 官宣 4 月 20 日发布：低反光护眼屏、灵犀手写笔，预售价 7999 元起",
+        "etf_list": []
+      },
+      {
+        "title": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "summary": "马斯克 X Money 钱包服务有望本月在美国公测：6% 年化收益、3% 消费现金返还",
+        "etf_list": [
+          {
+            "code": "512690",
+            "name": "酒ETF"
+          }
+        ]
+      },
+      {
+        "title": "比亚迪宣布第1600万辆新能源汽车下线",
+        "summary": "比亚迪宣布第1600万辆新能源汽车下线",
+        "etf_list": [
+          {
+            "code": "516070",
+            "name": "易方达新能源ETF"
+          }
+        ]
+      },
+      {
+        "title": "彭志辉：智元已能够自己造血，目前不缺钱",
+        "summary": "彭志辉：智元已能够自己造血，目前不缺钱",
+        "etf_list": []
+      },
+      {
+        "title": "华为乾崑与东风联手打造，奕境首款旗舰大六座 SUV 预告图发布",
+        "summary": "华为乾崑与东风联手打造，奕境首款旗舰大六座 SUV 预告图发布",
+        "etf_list": []
+      },
+      {
+        "title": "前荣耀CEO赵明也来造车了！放话要把特斯拉打服 和对手、队友在车圈碰一碰",
+        "summary": "前荣耀CEO赵明也来造车了！放话要把特斯拉打服 和对手、队友在车圈碰一碰",
+        "etf_list": []
+      },
+      {
+        "title": "两项全球高危漏洞被发现 360首次公开漏洞挖掘智能体",
+        "summary": "两项全球高危漏洞被发现 360首次公开漏洞挖掘智能体",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "智元发布远征A3人形机器人：为舞台而生，续航达10小时",
+        "summary": "智元发布远征A3人形机器人：为舞台而生，续航达10小时",
+        "etf_list": []
+      },
+      {
+        "title": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "summary": "报告称半数美国员工已在工作中使用 AI，但每周为此浪费近 8 小时",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "summary": "三星电子芯片代工业务部门一关键高管被挖走 将在下月加入英特尔",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          }
+        ]
+      },
+      {
+        "title": "核能“十四五”成绩单：在运在建112台机组，三代核电机组国产化率超95%",
+        "summary": "核能“十四五”成绩单：在运在建112台机组，三代核电机组国产化率超95%",
+        "etf_list": [
+          {
+            "code": "561700",
+            "name": "电力ETF博时"
+          }
+        ]
+      },
+      {
+        "title": "注意没有Ultra！Intel发布低端酷睿3系列：同款18A工艺和架构",
+        "summary": "注意没有Ultra！Intel发布低端酷睿3系列：同款18A工艺和架构",
+        "etf_list": []
+      },
+      {
+        "title": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "summary": "小米首款万级超大电池手机曝光：100W 闪充、2 亿大底主摄、天玑中端 U",
+        "etf_list": [
+          {
+            "code": "516070",
+            "name": "易方达新能源ETF"
+          },
+          {
+            "code": "159755",
+            "name": "电池ETF"
+          }
+        ]
+      },
+      {
+        "title": "黄晓明现身发布，擎天租SHAREBOT全球网络宣布落地13国",
+        "summary": "黄晓明现身发布，擎天租SHAREBOT全球网络宣布落地13国",
+        "etf_list": []
+      },
+      {
+        "title": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "summary": "字节跳动启动前沿技术领域人才校招：仅限博士，研究大模型应用、AI 相关等",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "Bose发布“落日暖桃”新色系 覆盖SoundLink全系列",
+        "summary": "Bose发布“落日暖桃”新色系 覆盖SoundLink全系列",
+        "etf_list": []
+      },
+      {
+        "title": "库克都没想到：MacBook Neo卖爆了！官网交付已排到5月",
+        "summary": "库克都没想到：MacBook Neo卖爆了！官网交付已排到5月",
+        "etf_list": []
+      },
+      {
+        "title": "彭志辉：特斯拉量产阶段落后，智元可享受一下“领跑”快乐",
+        "summary": "彭志辉：特斯拉量产阶段落后，智元可享受一下“领跑”快乐",
+        "etf_list": []
+      },
+      {
+        "title": "智元董事长邓泰华：2026 年为“部署态”元年，产业进入生产力落地新阶段",
+        "summary": "智元董事长邓泰华：2026 年为“部署态”元年，产业进入生产力落地新阶段",
+        "etf_list": []
+      },
+      {
+        "title": "群核科技成功登陆港交所，股价涨超160%",
+        "summary": "群核科技成功登陆港交所，股价涨超160%",
+        "etf_list": []
+      },
+      {
+        "title": "智元董事长邓泰华：2026年远征系列有望单品出货过万",
+        "summary": "智元董事长邓泰华：2026年远征系列有望单品出货过万",
+        "etf_list": []
+      },
+      {
+        "title": "高德机器狗视频曝光：能自主过马路、买奶茶",
+        "summary": "高德机器狗视频曝光：能自主过马路、买奶茶",
+        "etf_list": []
+      },
+      {
+        "title": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "summary": "宝丰堂港股IPO：赵氏家族左手套现右手分红独揽8800万 PCB业务增长见顶、半导体转型受挫 1400万款项去向成谜",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          }
+        ]
+      },
+      {
+        "title": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "summary": "油价上涨带动德国消费者转向电动汽车，今年 Q1 比亚迪车型咨询量暴增 135%",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
+      },
+      {
+        "title": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "summary": "华为Pura X Max价格持续上涨：最高或达12888元",
+        "etf_list": []
+      },
+      {
+        "title": "“近亿元年薪入职字节”刷屏？官方回应：假的，但四年后未必不可能",
+        "summary": "“近亿元年薪入职字节”刷屏？官方回应：假的，但四年后未必不可能",
+        "etf_list": [
+          {
+            "code": "515980",
+            "name": "人工智能ETF云计算"
+          }
+        ]
+      },
+      {
+        "title": "智元董事长邓泰华：2026年目标是实现数万台机器人量产",
+        "summary": "智元董事长邓泰华：2026年目标是实现数万台机器人量产",
+        "etf_list": []
+      },
+      {
+        "title": "专为远程办公人群设计：日本新干线将推新一代私人包厢，防外放 + 不断网",
+        "summary": "专为远程办公人群设计：日本新干线将推新一代私人包厢，防外放 + 不断网",
+        "etf_list": []
+      },
+      {
+        "title": "美国研究团队开发新型自愈材料，有望将汽车、飞机使用寿命延长至数百年",
+        "summary": "美国研究团队开发新型自愈材料，有望将汽车、飞机使用寿命延长至数百年",
+        "etf_list": [
+          {
+            "code": "512480",
+            "name": "半导体ETF"
+          }
+        ]
+      },
+      {
+        "title": "B站ESG报告：累计支持建设8所乡村公益学校，超135万用户参与爱心捐款",
+        "summary": "B站ESG报告：累计支持建设8所乡村公益学校，超135万用户参与爱心捐款",
+        "etf_list": []
+      },
+      {
+        "title": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "summary": "商汤科技拟配售约32亿港元，将推出AI词元计划“Token Plan”",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "字节启动豆包股首次回购，价格13.08美元",
+        "summary": "字节启动豆包股首次回购，价格13.08美元",
+        "etf_list": [
+          {
+            "code": "515980",
+            "name": "人工智能ETF云计算"
+          }
+        ]
+      },
+      {
+        "title": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "summary": "开工率偏低，消息称本田将暂停部分在华燃油车厂运营",
+        "etf_list": []
+      },
+      {
+        "title": "全球第四大车企发力智能化，Stellantis 与微软达成五年合作伙伴关系",
+        "summary": "全球第四大车企发力智能化，Stellantis 与微软达成五年合作伙伴关系",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "Gucci 明年有望推出“高奢版”谷歌智能眼镜",
+        "summary": "Gucci 明年有望推出“高奢版”谷歌智能眼镜",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "不仅 GT-R 会“复活”，日产称经典跑车 Silvia 也有望回归",
+        "summary": "不仅 GT-R 会“复活”，日产称经典跑车 Silvia 也有望回归",
+        "etf_list": []
+      },
+      {
+        "title": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "summary": "黄仁勋怒斥美国芯片出口限制：芯片不是浓缩铀 卖中国咋了",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          }
+        ]
+      },
+      {
+        "title": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "summary": "OpenAI全面升级Codex对标Claude Code，AI编程工具竞争升温",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
+      },
+      {
+        "title": "理想加价、小米降价 四月新车又有好戏看了",
+        "summary": "理想加价、小米降价 四月新车又有好戏看了",
+        "etf_list": []
+      },
+      {
+        "title": "华为云自研龙虾办公智能体OfficeClaw发布：支持微信直连 一键生成专业级PPT",
+        "summary": "华为云自研龙虾办公智能体OfficeClaw发布：支持微信直连 一键生成专业级PPT",
+        "etf_list": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
+      },
+      {
+        "title": "比亚迪闪充“珠峰站”正式投入运营",
+        "summary": "【比亚迪闪充“珠峰站”正式投入运营】4月18日，据比亚迪消息，比亚迪珠峰小镇闪充站——全球海拔最高的闪充站日前正式投入运营。截至4月16日，比亚迪已累计建成5356座闪充站，覆盖全国311座城市。此前，比亚迪已宣布将于2026年年底在全国建设20000座闪充站。",
+        "etf_list": []
       },
       {
         "title": "石化机械：公司在沙特、科威特、阿联酋等国家均有业务",
-        "summary": "石化机械4月18日在互动平台表示，公司在沙特、科威特、阿联酋等国家均有业务。"
+        "summary": "石化机械4月18日在互动平台表示，公司在沙特、科威特、阿联酋等国家均有业务。",
+        "etf_list": [
+          {
+            "code": "159542",
+            "name": "工程机械ETF"
+          }
+        ]
       },
       {
         "title": "礼来米吉珠单抗注射液在华正式上市",
-        "summary": "【礼来米吉珠单抗注射液在华正式上市】4月18日，礼来中国宣布，其用于治疗炎症性肠病（IBD）的创新药物安妥来利（米吉珠单抗注射液）和安妥来（米吉珠单抗注射液（皮下注射））在中国上市。安妥来利和安妥来（米吉珠单抗）作为靶向IL-23p19亚基的抑制剂，于2026年2月获中国国家药品监督管理局批准，用于治疗成人中重度活动性溃疡性结肠炎（UC）及成人中重度活动性克罗恩病（CD）。"
+        "summary": "【礼来米吉珠单抗注射液在华正式上市】4月18日，礼来中国宣布，其用于治疗炎症性肠病（IBD）的创新药物安妥来利（米吉珠单抗注射液）和安妥来（米吉珠单抗注射液（皮下注射））在中国上市。安妥来利和安妥来（米吉珠单抗）作为靶向IL-23p19亚基的抑制剂，于2026年2月获中国国家药品监督管理局批准，用于治疗成人中重度活动性溃疡性结肠炎（UC）及成人中重度活动性克罗恩病（CD）。",
+        "etf_list": []
       },
       {
         "title": "高德动量机器人官宣将首次亮相亦庄机器人马拉松",
-        "summary": "【高德动量机器人官宣将首次亮相亦庄机器人马拉松】高德发布官方海报，首次曝光旗下首款具身机器人。据介绍，这款名叫“途途”的四足机器人，明天（19日）将在亦庄机器人马拉松大赛上首次亮相。"
+        "summary": "【高德动量机器人官宣将首次亮相亦庄机器人马拉松】高德发布官方海报，首次曝光旗下首款具身机器人。据介绍，这款名叫“途途”的四足机器人，明天（19日）将在亦庄机器人马拉松大赛上首次亮相。",
+        "etf_list": []
       },
       {
         "title": "蔚来回应ES9仍用隐藏式门把手：完全合规",
-        "summary": "【蔚来回应ES9仍用隐藏式门把手：完全合规】4月18日，蔚来汽车发文回应了关于新国标实施后，ES9的隐藏式门把手是否合规等问题：目前蔚来全系在售车型，均可以正常使用隐藏式门把手，也完全合规。对于“禁止隐藏式把手”的条目，新国标的实施时间要求：2027年12月31日之前上公告的全新车型都可以使用隐藏式把手，2028年12月31日之前出厂的现款/改款车型都可以使用隐藏式把手。"
+        "summary": "【蔚来回应ES9仍用隐藏式门把手：完全合规】4月18日，蔚来汽车发文回应了关于新国标实施后，ES9的隐藏式门把手是否合规等问题：目前蔚来全系在售车型，均可以正常使用隐藏式门把手，也完全合规。对于“禁止隐藏式把手”的条目，新国标的实施时间要求：2027年12月31日之前上公告的全新车型都可以使用隐藏式把手，2028年12月31日之前出厂的现款/改款车型都可以使用隐藏式把手。",
+        "etf_list": []
       },
       {
         "title": "捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成",
-        "summary": "【捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成】4月18日，咸阳清渭楼美术博物馆发布声明：我单位近日发现，视频号账号“捷途山海-咸阳捷盛昌店”于2026年4月17日发布题为《旅行者CDM挑战清渭楼楼梯》的商业宣传视频。该视频通过AI技术合成制作，虚构了捷途汽车攀爬清渭楼楼梯的场景，并配以“XWD智能四驱轻松拿捏任何路况”“封闭路段安全拍摄，请勿模仿”等误导性文字。该视频系账号运营方擅自利用A"
+        "summary": "【捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成】4月18日，咸阳清渭楼美术博物馆发布声明：我单位近日发现，视频号账号“捷途山海-咸阳捷盛昌店”于2026年4月17日发布题为《旅行者CDM挑战清渭楼楼梯》的商业宣传视频。该视频通过AI技术合成制作，虚构了捷途汽车攀爬清渭楼楼梯的场景，并配以“XWD智能四驱轻松拿捏任何路况”“封闭路段安全拍摄，请勿模仿”等误导性文字。该视频系账号运营方擅自利用A",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
       },
       {
         "title": "染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？",
-        "summary": "【染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？】过去两年，新能源产业的叙事正在悄然发生变化。从“技术驱动”到“资源约束”，从“电池性能竞赛”到“上游矿产争夺”，产业链的权力重心正不断上移。曾经决定企业命运的是能量密度与成本曲线，而如今，更重要的似乎成了矿在哪里、谁能拿到、价格由谁说了算。"
+        "summary": "【染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？】过去两年，新能源产业的叙事正在悄然发生变化。从“技术驱动”到“资源约束”，从“电池性能竞赛”到“上游矿产争夺”，产业链的权力重心正不断上移。曾经决定企业命运的是能量密度与成本曲线，而如今，更重要的似乎成了矿在哪里、谁能拿到、价格由谁说了算。",
+        "etf_list": [
+          {
+            "code": "516070",
+            "name": "易方达新能源ETF"
+          },
+          {
+            "code": "159755",
+            "name": "电池ETF"
+          },
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
       },
       {
         "title": "濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域",
-        "summary": "【濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域】濮阳惠成4月18日在互动平台表示，公司产品广泛应用于电子元器件封装材料、电气设备绝缘材料、风电领域、复合材料、涂料等诸多领域。功能材料中间体主要用于有机光电材料等领域。"
+        "summary": "【濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域】濮阳惠成4月18日在互动平台表示，公司产品广泛应用于电子元器件封装材料、电气设备绝缘材料、风电领域、复合材料、涂料等诸多领域。功能材料中间体主要用于有机光电材料等领域。",
+        "etf_list": [
+          {
+            "code": "589260",
+            "name": "科创芯设ETF"
+          }
+        ]
       },
       {
         "title": "7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任",
-        "summary": "【7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任】4月17日，市场监管总局依法对拼多多、美团、京东、饿了么、抖音、淘宝、天猫等7家电商平台“幽灵外卖”系列案作出行政处罚，责令7家电商平台改正违法行为，暂停新增蛋糕店铺3至9个月不等，并处以罚没款共计35.97亿元。同时，对7家平台企业法定代表人和食品安全总监合计处以罚款1968.74万元。"
+        "summary": "【7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任】4月17日，市场监管总局依法对拼多多、美团、京东、饿了么、抖音、淘宝、天猫等7家电商平台“幽灵外卖”系列案作出行政处罚，责令7家电商平台改正违法行为，暂停新增蛋糕店铺3至9个月不等，并处以罚没款共计35.97亿元。同时，对7家平台企业法定代表人和食品安全总监合计处以罚款1968.74万元。",
+        "etf_list": []
       },
       {
         "title": "瑞士企业圆桌会在伯尔尼举行",
-        "summary": "【瑞士企业圆桌会在伯尔尼举行】4月17日，瑞士企业圆桌会在伯尔尼举行。商务部副部长兼国际贸易谈判副代表凌激主持，中国驻瑞士使馆大使钱敏坚致辞。艾曼斯、医沛生、瑞银、雀巢、诺华、嘉能可、索诺瓦等25家企业和瑞中经济协会代表参会。"
+        "summary": "【瑞士企业圆桌会在伯尔尼举行】4月17日，瑞士企业圆桌会在伯尔尼举行。商务部副部长兼国际贸易谈判副代表凌激主持，中国驻瑞士使馆大使钱敏坚致辞。艾曼斯、医沛生、瑞银、雀巢、诺华、嘉能可、索诺瓦等25家企业和瑞中经济协会代表参会。",
+        "etf_list": []
       },
       {
         "title": "一日三公司被监管严惩",
-        "summary": "【一日三公司被监管严惩】4月17日晚间，臻镭科技公告称，当天公司收到浙江证监局下发的《行政处罚事先告知书》。同日，*ST天喻公告称，公司收到湖北证监局下发的《行政处罚事先告知书》。此外，已经退市的恒立实业，也收到湖南证监局下发的《行政处罚决定书》。"
+        "summary": "【一日三公司被监管严惩】4月17日晚间，臻镭科技公告称，当天公司收到浙江证监局下发的《行政处罚事先告知书》。同日，*ST天喻公告称，公司收到湖北证监局下发的《行政处罚事先告知书》。此外，已经退市的恒立实业，也收到湖南证监局下发的《行政处罚决定书》。",
+        "etf_list": []
       },
       {
         "title": "上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移",
-        "summary": "【上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移】4月16日，在2026涡轮技术大会暨民用航空发动机与燃气轮机展期间，上海电气燃气轮机副总经理唐健接受界面新闻采访时表示，全球燃气轮机产能正在向中国转移。 许多零部件供应商已接到大量国外订单，其中不乏直接来自GE、西门子、三菱等国际巨头的采购订单。 目前，上海电气燃气轮机的排产计划已经排到了2027年，产能基本排满。现在新接的订单，生产排期要安排"
+        "summary": "【上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移】4月16日，在2026涡轮技术大会暨民用航空发动机与燃气轮机展期间，上海电气燃气轮机副总经理唐健接受界面新闻采访时表示，全球燃气轮机产能正在向中国转移。 许多零部件供应商已接到大量国外订单，其中不乏直接来自GE、西门子、三菱等国际巨头的采购订单。 目前，上海电气燃气轮机的排产计划已经排到了2027年，产能基本排满。现在新接的订单，生产排期要安排",
+        "etf_list": []
       },
       {
         "title": "马斯克：SpaceX和特斯拉将始终是台积电的重要客户",
-        "summary": "【马斯克：SpaceX和特斯拉将始终是台积电的重要客户】马斯克表示，SpaceX和特斯拉将始终是台积电的重要客户。但台积电无法生产所需数量的芯片。如果台积电能够生产足够多芯片，我们就无需“Terafab”芯片工厂项目了。"
+        "summary": "【马斯克：SpaceX和特斯拉将始终是台积电的重要客户】马斯克表示，SpaceX和特斯拉将始终是台积电的重要客户。但台积电无法生产所需数量的芯片。如果台积电能够生产足够多芯片，我们就无需“Terafab”芯片工厂项目了。",
+        "etf_list": [
+          {
+            "code": "512760",
+            "name": "芯片ETF"
+          },
+          {
+            "code": "588200",
+            "name": "科创芯片ETF"
+          }
+        ]
       },
       {
         "title": "国网英大换帅",
-        "summary": "【国网英大换帅】近日，国网英大股份有限公司（以下简称“公司”）发布公告，杨东伟辞去国网英大董事长，俞华军已接任国网英大党委书记及其控股股东英大国际控股集团有限公司董事长、党委书记。"
+        "summary": "【国网英大换帅】近日，国网英大股份有限公司（以下简称“公司”）发布公告，杨东伟辞去国网英大董事长，俞华军已接任国网英大党委书记及其控股股东英大国际控股集团有限公司董事长、党委书记。",
+        "etf_list": []
       },
       {
         "title": "FF：获4500万美元新融资",
-        "summary": "【FF：获4500万美元新融资】4月18日，FaradayFuture（简称“FF”）官微宣布，公司已获得美国某机构投资者4500万美元新融资，这是公司近年来达成的最低成本融资交易。截至4月12日，FF已累计出货34台机器人，2026年累计出货目标为超1000台。此外，FF计划于5月22日召开年度股东大会，审议一系列旨在支持公司全球EAI战略执行与长期增长的提案。"
+        "summary": "【FF：获4500万美元新融资】4月18日，FaradayFuture（简称“FF”）官微宣布，公司已获得美国某机构投资者4500万美元新融资，这是公司近年来达成的最低成本融资交易。截至4月12日，FF已累计出货34台机器人，2026年累计出货目标为超1000台。此外，FF计划于5月22日召开年度股东大会，审议一系列旨在支持公司全球EAI战略执行与长期增长的提案。",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ]
       },
       {
         "title": "暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录",
-        "summary": "【暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录】2026年4月17日，北京——国家市场监督管理总局今日公布了对7家电商平台\"幽灵外卖\"系列案的行政处罚决定，其中拼多多（上海寻梦信息技术有限公司）以15.22亿元的罚没金额高居榜首，创下中国互联网平台经济领域史上最高罚单纪录。更引人注目的是，拼多多在调查过程中被认定存在\"暴力、软对抗\"等阻碍监管执法的行为，其法定代表人赵佳臻个人也被处以"
+        "summary": "【暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录】2026年4月17日，北京——国家市场监督管理总局今日公布了对7家电商平台\"幽灵外卖\"系列案的行政处罚决定，其中拼多多（上海寻梦信息技术有限公司）以15.22亿元的罚没金额高居榜首，创下中国互联网平台经济领域史上最高罚单纪录。更引人注目的是，拼多多在调查过程中被认定存在\"暴力、软对抗\"等阻碍监管执法的行为，其法定代表人赵佳臻个人也被处以",
+        "etf_list": [
+          {
+            "code": "588260",
+            "name": "科创信息ETF"
+          }
+        ]
       },
       {
         "title": "Meta据悉计划裁员10%",
-        "summary": "【Meta据悉计划裁员10%】4月18日消息，据报道，Meta计划于5月20日启动今年计划的第一轮大规模裁员，后续还将有更多裁员，首轮裁员将削减约10%的全球员工，即近8000人。Meta还计划在今年下半年进行进一步裁员，但裁员的具体细节，包括日期和规模，尚未确定。高管们可能会根据人工智能技术的发展情况调整裁员计划。"
+        "summary": "【Meta据悉计划裁员10%】4月18日消息，据报道，Meta计划于5月20日启动今年计划的第一轮大规模裁员，后续还将有更多裁员，首轮裁员将削减约10%的全球员工，即近8000人。Meta还计划在今年下半年进行进一步裁员，但裁员的具体细节，包括日期和规模，尚未确定。高管们可能会根据人工智能技术的发展情况调整裁员计划。",
+        "etf_list": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          },
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ]
       },
       {
         "title": "2万亿“宁王”大动作！第四大股东拟询价转让超250亿元股份！",
-        "summary": "【2万亿“宁王”大动作！第四大股东拟询价转让！】4月17日晚间，宁德时代公告称，持股6.23%的股东宁波联合创新新能源投资管理合伙企业（有限合伙）拟通过询价转让方式出让5800万股，占公司总股本的1.27%。根据宁德时代最新收盘价，本次询价转让的股份市值超250亿元。"
+        "summary": "【2万亿“宁王”大动作！第四大股东拟询价转让！】4月17日晚间，宁德时代公告称，持股6.23%的股东宁波联合创新新能源投资管理合伙企业（有限合伙）拟通过询价转让方式出让5800万股，占公司总股本的1.27%。根据宁德时代最新收盘价，本次询价转让的股份市值超250亿元。",
+        "etf_list": [
+          {
+            "code": "516070",
+            "name": "易方达新能源ETF"
+          },
+          {
+            "code": "159755",
+            "name": "电池ETF"
+          }
+        ]
       },
       {
-        "title": "迪士尼推出影院巨幕品牌",
-        "summary": "【迪士尼推出影院巨幕品牌】当地时间4月16日，华特迪士尼宣布推出“InfinityVision”认证，称这是一项针对高端巨幕影院的全新认证。目前，已有超过75家美国本土和300家全球影院获得该认证。"
+        "title": "新西兰克马德克群岛以南附近发生6.0级左右地震",
+        "summary": "【新西兰克马德克群岛以南附近发生6.0级左右地震】中国地震台网自动测定：04月18日18时48分在新西兰克马德克群岛以南附近（南纬32.07度，西经178.13度）发生6.0级左右地震，最终结果以正式速报为准。",
+        "etf_list": []
       },
       {
-        "title": "美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论",
-        "summary": "【美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论】美国航空当地时间4月17日声明称，美国航空目前没有参与或有意参与任何与美国联合航空合并的讨论。尽管航空市场整体格局的变革或许势在必行，但与美国联合航空合并将对市场竞争和消费者造成不利影响。公司期待继续与政府合作，共同推进各项加强航空业发展的举措。"
+        "title": "伊朗最高领袖：伊朗海军已做好准备 将给敌方造成“新的惨痛失败”",
+        "summary": "【伊朗最高领袖：伊朗海军已做好准备 将给敌方造成“新的惨痛失败”】当地时间18日，伊朗最高领袖穆杰塔巴·哈梅内伊在建军节到来之际发布贺信，向全体军人及其家属以及伊朗人民致以节日祝贺。穆杰塔巴·哈梅内伊在信中表示，伊朗海军已做好准备，将给敌方造成“新的惨痛失败”。",
+        "etf_list": []
       },
       {
-        "title": "全球首个机器人勇士挑战赛冠军诞生",
-        "summary": "【全球首个机器人勇士挑战赛冠军诞生】首届北京亦庄机器人勇士挑战赛落幕。北京人形携具身天工3.0全尺寸通用人形机器人参赛，并以全自主方式完赛，通关摆锤穿越、开拓前行、破门清障几个基于现实高危场景设计的赛项，以最高积分获得全球首个全自主机器人勇士挑战赛冠军，并赢得勇士智行奖。继2025年斩获人形机器人马拉松冠军后，北京人形再度登顶。"
+        "title": "海事情报公司：伊朗革命卫队向试图穿越霍尔木兹海峡的油轮开火",
+        "summary": "【海事情报公司：伊朗革命卫队向试图穿越霍尔木兹海峡的油轮开火】海事情报公司“油轮追踪者”网站18日在社交媒体发文说，两艘试图穿越霍尔木兹海峡的印度船只被伊朗伊斯兰革命卫队海军逼退，其间出现开火情况。其中一艘是悬挂印度国旗的超大型油轮。",
+        "etf_list": []
       },
       {
-        "title": "胖东来否认所售“防切割手套”篡改日期",
-        "summary": "【胖东来否认所售“防切割手套”篡改日期】4月18日，胖东来发布《关于王海反馈胖东来销售星宇品牌“防切割手套”篡改日期指控的调查报告》。报告显示，经专项组重启调查，举报所称的篡改日期事实不成立，但该产品存在执行标准失效及日期标注不规范问题，不存在消费欺诈。胖东来决定给予投诉顾客1万元奖励。"
+        "title": "伊朗称将继续严控霍尔木兹海峡 警告美方失信必遭回应",
+        "summary": "【伊朗称将继续严控霍尔木兹海峡 警告美方失信必遭回应】当地时间18日，伊朗伊斯兰革命卫队海军司令部在其官方社交账号发文表示，美国的任何失信行为都将遭到相应回应，并强调“只要往返伊朗的船只通行仍受到威胁，霍尔木兹海峡的局势就将维持现状不变”。",
+        "etf_list": []
       },
       {
-        "title": "美国至少5个州报告有超过10起龙卷风袭击",
-        "summary": "【美国至少5个州报告有超过10起龙卷风袭击】据美国媒体4月17日报道，美国中部地区在经历连续数日龙卷风和洪灾后，本周末再次迎来新一轮强对流天气，超过5100万人处于强风暴威胁之下。截至当地时间17日傍晚，美国至少5个州报告有超过10起龙卷风袭击。"
+        "title": "多艘船只尝试通过霍尔木兹海峡但最终折返",
+        "summary": "【多艘船只尝试通过霍尔木兹海峡但最终折返】船舶追踪数据显示，约10艘船只18日尝试通过霍尔木兹海峡，但最终折返。航运轨迹显示，多艘船只在行至伊朗拉腊克岛附近水域后折返。数据显示，这些船只中多为油轮，多艘船只在自动识别系统中的目的地为印度。",
+        "etf_list": []
       },
       {
-        "title": "印度内阁批准设立1298亿卢比海事保险基金",
-        "summary": "印度内阁批准设立1298亿卢比海事保险基金。"
-      },
-      {
-        "title": "俄罗斯发生一起交通事故 所涉车辆搭载中国游客",
-        "summary": "【俄罗斯发生一起交通事故 所涉车辆搭载中国游客】据俄罗斯紧急情况部门通报，当地时间4月18日，在连接后贝加尔斯克和赤塔的公路上发生一起大巴车翻车事故，导致1人死亡。该车辆搭载大约40名中国游客，其中12人不同程度受伤。"
-      },
-      {
-        "title": "印度内阁批准提高生活补贴标准",
-        "summary": "印度内阁批准提高生活补贴标准。"
-      },
-      {
-        "title": "投资圈沸腾了！DeepSeek首次启动外部融资？",
-        "summary": "【投资圈沸腾了！DeepSeek首次启动外部融资？】今天，一则重磅消息刷屏国内投资圈。外媒TheInformation报道称，深度求索（DeepSeek）正式启动成立以来的首次外部融资，目标估值不低于100亿美元，计划筹集至少3亿美元资金。"
-      },
-      {
-        "title": "伊朗表示尚未同意与美国举行下一轮谈判",
-        "summary": "【伊朗表示尚未同意与美国举行下一轮谈判】据伊朗塔斯尼姆通讯社18日报道，伊朗尚未同意与美国举行下一轮谈判。"
-      },
-      {
-        "title": "伊拉克将于近日恢复所有油田的石油出口业务",
-        "summary": "伊拉克将于近日恢复所有油田的石油出口业务。"
-      },
-      {
-        "title": "第九届进博会推介会在布拉格举行",
-        "summary": "【第九届进博会推介会在布拉格举行】当地时间15日，第九届中国国际进口博览会推介会在布拉格举行。本次推介会由中国驻捷克大使馆、中国国际进口博览局和捷克工贸部联合主办，来自中国、捷克的两国政商界人士超百人参会，共同探讨两国经贸合作新机遇。"
-      },
-      {
-        "title": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全",
-        "summary": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全。"
-      },
-      {
-        "title": "第六届消博会今天落幕 进场观众超30万人 发布新品386件",
-        "summary": "【第六届消博会今天落幕 进场观众超30万人 发布新品386件】第六届中国国际消费品博览会今天（4月18日）落幕，取得了丰硕成果。数据显示，本届消博会展览总面积达14.3万平方米，较上届增加1.3万平方米，共有来自67个国家和地区的3413个消费精品品牌参展，参展国际展品占比达65%，较上届提升20个百分点。"
-      },
-      {
-        "title": "外资密集调研新兴产业 看好中国经济韧性",
-        "summary": "【外资密集调研新兴产业 看好中国经济韧性】一季度我国高新技术产品出口额同比增长25.3%，以半导体、高端制造、AI硬件为代表的新兴产业成为出口增长的重要引擎。与此同时，外资机构密集调研新兴产业，普遍认为中国经济具备盈利增长、估值优势与产业升级等多重韧性，并对新兴产业带动的出口竞争力表示看好。"
-      },
-      {
-        "title": "伊朗重新开放6个机场",
-        "summary": "【伊朗重新开放6个机场】据伊朗媒体18日报道，伊朗重新开放6个机场，各航空公司正准备恢复国内和国际航班运营。"
-      },
-      {
-        "title": "伊朗清理与美以等国有勾连的组织",
-        "summary": "【伊朗清理与美以等国有勾连的组织】据伊朗光明通讯社18日报道，伊朗伊斯兰革命卫队情报部门近日在伊朗3个省份查明并清理了多个与美国、以色列和英国有勾连的组织。报道说，在近日开展的行动中，革命卫队情报部门在东阿塞拜疆省查明并逮捕7人，这些人被指为其指挥官提供武器、策划破坏行动、发送敏感地点坐标。"
-      },
-      {
-        "title": "国际海事组织：约有2万海员被困波斯湾",
-        "summary": "【国际海事组织：约有2万海员被困波斯湾】国际海事组织秘书长多明格斯17日说，目前约有2万名海员和近2000艘船舶被困在波斯湾，他呼吁各国加大外交努力，支持国际海事组织推动海湾地区被困海员疏散计划。"
-      },
-      {
-        "title": "老外抢着当张雪机车代理 张雪机车全球订单狂飙",
-        "summary": "【老外抢着当张雪机车代理 张雪机车全球订单狂飙】在第139届广交会的摩托车展区，围满了来自世界各地的采购商，很多人专程赶来，只为一睹半个月前在WSBK世界超级摩托车锦标赛上“一战封神”的中国品牌——张雪机车。张雪机车外贸部部长黄秦表示：这两天现场非常火爆，超过5000名客商直接冲着我们品牌来的，来了之后都要求成为当地的代理，要求直接下订单，我们收到了上千台的订单。"
-      },
-      {
-        "title": "新疆阿克苏地区库车市发生3.4级地震 震源深度19千米",
-        "summary": "【新疆阿克苏地区库车市发生3.4级地震 震源深度19千米】中国地震台网正式测定：4月18日16时07分在新疆阿克苏地区库车市（北纬41.27度，东经83.90度）发生3.4级地震，震源深度19千米。"
-      },
-      {
-        "title": "伊朗军方说已恢复控制霍尔木兹海峡",
-        "summary": "【伊朗军方说已恢复控制霍尔木兹海峡】据伊朗媒体18日报道，伊朗军方发言人称，因美国“屡次违背承诺”，伊朗对霍尔木兹海峡的控制已恢复到以前的状态，这一海峡目前处于伊朗武装部队的严格管理和控制之下。"
+        "title": "二十届中央第七轮巡视完成进驻",
+        "summary": "【二十届中央第七轮巡视完成进驻】根据党中央关于巡视工作的统一部署，近日，二十届中央第七轮巡视完成进驻工作。15个中央巡视组将对36家中央和国家机关开展常规巡视。",
+        "etf_list": []
       },
       {
         "title": "乌军方称袭击俄方多处石油设施",
-        "summary": "【乌军方称袭击俄方多处石油设施】乌克兰武装部队总参谋部4月18日通报称，当天凌晨，乌军对俄罗斯四个重要石油设施实施打击，并已记录到相关地点发生火灾。据乌方通报，被击中的目标包括位于俄罗斯萨马拉州的新古比雪夫炼油厂和瑟兹兰炼油厂，列宁格勒州的卢克石油油品装卸码头以及克拉斯诺达尔边疆区的季霍列茨克输油泵站。"
+        "summary": "【乌军方称袭击俄方多处石油设施】乌克兰武装部队总参谋部4月18日通报称，当天凌晨，乌军对俄罗斯四个重要石油设施实施打击，并已记录到相关地点发生火灾。据乌方通报，被击中的目标包括位于俄罗斯萨马拉州的新古比雪夫炼油厂和瑟兹兰炼油厂，列宁格勒州的卢克石油油品装卸码头以及克拉斯诺达尔边疆区的季霍列茨克输油泵站。",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
       },
       {
-        "title": "伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码",
-        "summary": "【伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码】伊朗最高领袖顾问、前副总统穆罕默德·穆赫贝尔17日在社交媒体上表示，伊朗内部的团结、政府与民众的联系、官员之间的凝聚力以及抵抗阵线的团结，是伊朗坚决抵抗带来的结果，这四个方面不能成为与外国谈判时进行讨价还价的筹码，也是保障伊朗未来独立、繁荣发展的基础。"
+        "title": "全球首个机器人勇士挑战赛冠军诞生",
+        "summary": "【全球首个机器人勇士挑战赛冠军诞生】首届北京亦庄机器人勇士挑战赛落幕。北京人形携具身天工3.0全尺寸通用人形机器人参赛，并以全自主方式完赛，通关摆锤穿越、开拓前行、破门清障几个基于现实高危场景设计的赛项，以最高积分获得全球首个全自主机器人勇士挑战赛冠军，并赢得勇士智行奖。继2025年斩获人形机器人马拉松冠军后，北京人形再度登顶。",
+        "etf_list": []
       },
       {
-        "title": "巴空军被曝伊美谈判后护航伊代表团",
-        "summary": "【巴空军被曝伊美谈判后护航伊代表团】在12日伊美谈判结束后，巴基斯坦空军执行护航任务，护送伊朗代表团回国。消息人士称，巴基斯坦出动了20多架战机，还动用了空中预警和控制系统进行空中侦察，以确保伊朗代表团的安全。据消息人士透露，伊朗并未正式提出护航请求，但考虑到“无法排除以色列进行袭击的可能性”，因此巴基斯坦提供了护航。"
+        "title": "胖东来否认所售“防切割手套”篡改日期",
+        "summary": "【胖东来否认所售“防切割手套”篡改日期】4月18日，胖东来发布《关于王海反馈胖东来销售星宇品牌“防切割手套”篡改日期指控的调查报告》。报告显示，经专项组重启调查，举报所称的篡改日期事实不成立，但该产品存在执行标准失效及日期标注不规范问题，不存在消费欺诈。胖东来决定给予投诉顾客1万元奖励。",
+        "etf_list": [
+          {
+            "code": "512690",
+            "name": "酒ETF"
+          }
+        ]
       },
       {
-        "title": "巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧",
-        "summary": "【巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧】巴基斯坦军方18日发表声明说，巴陆军参谋长穆尼尔近日在访问伊朗时表示，应通过持续外交接触推动对话、实现局势缓和，并以和平方式解决悬而未决的问题。声明说，由穆尼尔和巴内政部长纳克维率领的代表团当天结束了对伊朗为期3天的正式访问。"
+        "title": "美国至少5个州报告有超过10起龙卷风袭击",
+        "summary": "【美国至少5个州报告有超过10起龙卷风袭击】据美国媒体4月17日报道，美国中部地区在经历连续数日龙卷风和洪灾后，本周末再次迎来新一轮强对流天气，超过5100万人处于强风暴威胁之下。截至当地时间17日傍晚，美国至少5个州报告有超过10起龙卷风袭击。",
+        "etf_list": []
       },
       {
-        "title": "航运业“谨慎欢迎”霍尔木兹海峡重新开放",
-        "summary": "【航运业“谨慎欢迎”霍尔木兹海峡重新开放】伊朗外交部长阿拉格齐17日宣布有条件暂时开放霍尔木兹海峡。船运业对此表示“谨慎欢迎”，盼望结束大批船舶滞留波斯湾的困境，但又担心诸多不确定因素威胁航行安全。航运巨头德国赫伯罗特公司发言人尼尔斯·豪普特说，海峡重开“总体而言……是好消息”，但船商需要知道船舶具体可以走哪条航线以及通行次序，他们还担心有水雷。"
+        "title": "印度内阁批准设立1298亿卢比海事保险基金",
+        "summary": "印度内阁批准设立1298亿卢比海事保险基金。",
+        "etf_list": [
+          {
+            "code": "512070",
+            "name": "保险ETF"
+          }
+        ]
       },
       {
-        "title": "伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决",
-        "summary": "【伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决】当地时间18日，总台记者从伊朗方面获悉，伊朗外交部发言人巴加埃表示，将伊朗浓缩铀转移至国外的选项已被否决。"
+        "title": "俄罗斯发生一起交通事故 所涉车辆搭载中国游客",
+        "summary": "【俄罗斯发生一起交通事故 所涉车辆搭载中国游客】据俄罗斯紧急情况部门通报，当地时间4月18日，在连接后贝加尔斯克和赤塔的公路上发生一起大巴车翻车事故，导致1人死亡。该车辆搭载大约40名中国游客，其中12人不同程度受伤。",
+        "etf_list": []
+      },
+      {
+        "title": "印度内阁批准提高生活补贴标准",
+        "summary": "印度内阁批准提高生活补贴标准。",
+        "etf_list": []
+      },
+      {
+        "title": "投资圈沸腾了！DeepSeek首次启动外部融资？",
+        "summary": "【投资圈沸腾了！DeepSeek首次启动外部融资？】今天，一则重磅消息刷屏国内投资圈。外媒TheInformation报道称，深度求索（DeepSeek）正式启动成立以来的首次外部融资，目标估值不低于100亿美元，计划筹集至少3亿美元资金。",
+        "etf_list": []
+      },
+      {
+        "title": "伊朗表示尚未同意与美国举行下一轮谈判",
+        "summary": "【伊朗表示尚未同意与美国举行下一轮谈判】据伊朗塔斯尼姆通讯社18日报道，伊朗尚未同意与美国举行下一轮谈判。",
+        "etf_list": []
+      },
+      {
+        "title": "伊拉克将于近日恢复所有油田的石油出口业务",
+        "summary": "伊拉克将于近日恢复所有油田的石油出口业务。",
+        "etf_list": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ]
+      },
+      {
+        "title": "第九届进博会推介会在布拉格举行",
+        "summary": "【第九届进博会推介会在布拉格举行】当地时间15日，第九届中国国际进口博览会推介会在布拉格举行。本次推介会由中国驻捷克大使馆、中国国际进口博览局和捷克工贸部联合主办，来自中国、捷克的两国政商界人士超百人参会，共同探讨两国经贸合作新机遇。",
+        "etf_list": []
+      },
+      {
+        "title": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全",
+        "summary": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全。",
+        "etf_list": []
+      },
+      {
+        "title": "第六届消博会今天落幕 进场观众超30万人 发布新品386件",
+        "summary": "【第六届消博会今天落幕 进场观众超30万人 发布新品386件】第六届中国国际消费品博览会今天（4月18日）落幕，取得了丰硕成果。数据显示，本届消博会展览总面积达14.3万平方米，较上届增加1.3万平方米，共有来自67个国家和地区的3413个消费精品品牌参展，参展国际展品占比达65%，较上届提升20个百分点。",
+        "etf_list": [
+          {
+            "code": "512690",
+            "name": "酒ETF"
+          }
+        ]
+      },
+      {
+        "title": "伊朗宣布暂停机票销售 航班须逐一审批",
+        "summary": "【伊朗宣布暂停机票销售 航班须逐一审批】当地时间18日，伊朗航空公司协会秘书表示，在航空公司尚未从民航组织获得必要许可前，全国范围内机票销售将暂停。他同时指出，在当前情况下，机票销售不被允许，航空公司无论执行国内还是国际航班，均需为每一班次申请相关许可。机票签发须以获得民航组织批准为前提。",
+        "etf_list": []
+      },
+      {
+        "title": "伊朗清理与美以等国有勾连的组织",
+        "summary": "【伊朗清理与美以等国有勾连的组织】据伊朗光明通讯社18日报道，伊朗伊斯兰革命卫队情报部门近日在伊朗3个省份查明并清理了多个与美国、以色列和英国有勾连的组织。报道说，在近日开展的行动中，革命卫队情报部门在东阿塞拜疆省查明并逮捕7人，这些人被指为其指挥官提供武器、策划破坏行动、发送敏感地点坐标。",
+        "etf_list": []
+      },
+      {
+        "title": "伊朗军方说已恢复控制霍尔木兹海峡",
+        "summary": "【伊朗军方说已恢复控制霍尔木兹海峡】据伊朗媒体18日报道，伊朗军方发言人称，因美国“屡次违背承诺”，伊朗对霍尔木兹海峡的控制已恢复到以前的状态，这一海峡目前处于伊朗武装部队的严格管理和控制之下。",
+        "etf_list": []
       },
       {
         "title": "中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议",
-        "summary": "【中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议】2026年4月16日至17日，国际货币基金组织在美国华盛顿特区召开第53届国际货币与金融委员会（IMFC）会议，会议讨论了全球经济金融形势、基金组织工作等议题。中国人民银行行长潘功胜出席会议并发言。中国人民银行副行长宣昌能参加会议。"
+        "summary": "【中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议】2026年4月16日至17日，国际货币基金组织在美国华盛顿特区召开第53届国际货币与金融委员会（IMFC）会议，会议讨论了全球经济金融形势、基金组织工作等议题。中国人民银行行长潘功胜出席会议并发言。中国人民银行副行长宣昌能参加会议。",
+        "etf_list": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ]
       },
       {
         "title": "伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放",
-        "summary": "【伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放】伊朗伊斯兰革命卫队海军司令部17日晚在社交媒体发布船舶在霍尔木兹海峡通行的新规定。伊朗国防部发言人后续强调，霍尔木兹海峡是有条件开放、暂时开放。"
+        "summary": "【伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放】伊朗伊斯兰革命卫队海军司令部17日晚在社交媒体发布船舶在霍尔木兹海峡通行的新规定。伊朗国防部发言人后续强调，霍尔木兹海峡是有条件开放、暂时开放。",
+        "etf_list": []
       }
     ],
     "wukong_enhanced": {
-      "market_view": "偏空",
-      "confidence": 74,
+      "market_view": "震荡",
+      "confidence": 50,
       "key_factors": [
-        "地缘政治",
-        "货币政策",
+        "地缘政治（关联: 黄金ETF, 石油ETF）",
+        "货币政策（关联: 银行ETF, 证券ETF）",
         "经济数据",
-        "政策利好",
-        "业绩驱动"
+        "政策利好（关联: 电网ETF, 易方达新能源ETF）",
+        "业绩驱动",
+        "资金流向（关联: 证券ETF, 证券ETF华泰）"
       ],
       "active_patterns": [
         "地缘事件驱动",
         "政策博弈",
         "业绩行情",
-        "资金博弈"
+        "资金博弈",
+        "Trump喊话"
       ],
       "risk_alerts": [
         "地缘风险",
         "政策风险",
-        "流动性风险"
+        "流动性风险",
+        "业绩风险"
       ],
-      "_experiences_applied": [],
-      "_scene_tags": {
-        "has_geopolitical": false,
-        "trump_intensity": 0,
-        "has_earnings_news": false
-      }
+      "today_signals": [
+        {
+          "news_title": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+          "direction": "利好",
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "signal_text": "银行ETF(512800): 美国债市：国债走高 交易员上调对美联储年内降息押注...",
+          "source": "环球市场播报",
+          "confidence_bias": "偏高"
+        },
+        {
+          "news_title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "signal_text": "银行ETF(512800): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "俄军夜间袭击乌克兰港口及电力设施",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "signal_text": "电力ETF博时(561700): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "美国延长部分俄罗斯石油的销售许可证期限",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "signal_text": "AI算力ETF(512930): 观望为主",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "signal_text": "石油ETF(561360): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        },
+        {
+          "news_title": "贵金属全线收涨 白银本周涨幅居前",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "518880",
+              "name": "黄金ETF"
+            }
+          ],
+          "signal_text": "黄金ETF(518880): 消息面中性",
+          "source": "环球市场播报",
+          "confidence_bias": "中性"
+        }
+      ],
+      "news_analysis": [
+        {
+          "title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512800",
+              "name": "银行ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "俄军夜间袭击乌克兰港口及电力设施",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561700",
+              "name": "电力ETF博时"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "美国延长部分俄罗斯石油的销售许可证期限",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+          "doubt_comment": "➖ 消息面中性，等待更多催化剂。震荡行情中不宜频繁换仓。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "512930",
+              "name": "AI算力ETF"
+            },
+            {
+              "code": "515070",
+              "name": "人工智能ETF"
+            }
+          ],
+          "source": "新浪美股"
+        },
+        {
+          "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "direction": "中性",
+          "etfs": [
+            {
+              "code": "561360",
+              "name": "石油ETF"
+            }
+          ],
+          "source": "新浪美股"
+        }
+      ],
+      "market_narrative": "🟡 大盘情绪：震荡 50% | 关键驱动: 地缘政治 黄金ETF, 石油ETF、货币政策 银行ETF, 证券ETF、经济数据、政策利好 电网ETF, 易方达新能源ETF、业绩驱动 | 信号分布: 利好1条 / 利空0条 / 中性9条 | 活跃范式: Geopolitical event + · Foreign markets lead · Earnings validation  | ⚠️ 关注风险: 地缘风险、政策风险、流动性风险 | 操作思路: 结构性行情，精选个股，不追涨杀跌",
+      "signal_count": 10,
+      "paradigm_reference": [
+        "GEO-001",
+        "LEAD-001",
+        "EARN-001",
+        "TRUMP-001",
+        "TRUMP-002",
+        "TRUMP-003",
+        "ETF-001"
+      ]
     },
+    "bajie_conclusion": {
+      "optimal_action": "避险配置：30%仓位",
+      "optimal_etfs": "银行ETF(512800) > 电力ETF博时(561700) > 石油ETF(561360) > AI算力ETF(512930)",
+      "win_rate": "~49%",
+      "max_drawdown": "-8.0%",
+      "holding_period": "",
+      "overall": {
+        "best_action": "避险配置：30%仓位",
+        "best_etfs": "银行ETF(512800) > 电力ETF博时(561700) > 石油ETF(561360) > AI算力ETF(512930)",
+        "win_rate": "~49%",
+        "stop_loss": "-8.0%"
+      },
+      "沙僧信号": {
+        "情绪": "平稳",
+        "买入概率": 35,
+        "恐慌概率": 8
+      },
+      "白龙马信号": {
+        "主力状态": "拉升",
+        "风险等级": "normal"
+      },
+      "悟空信号": {},
+      "信号一致性": "",
+      "信号一致性得分": 2,
+      "融合说明": [],
+      "original_bajie": {}
+    },
+    "decision_matrix": [
+      {
+        "news_title": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+        "etfs": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ],
+        "direction": "利好",
+        "win_rate": 68,
+        "expected_return": "+-1.1%~+1.1%",
+        "risk_ratio": "1:1.5",
+        "suggestion": "✅ 定投布局 银行ETF",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "etfs": [
+          {
+            "code": "512800",
+            "name": "银行ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "俄军夜间袭击乌克兰港口及电力设施",
+        "etfs": [
+          {
+            "code": "561700",
+            "name": "电力ETF博时"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "etfs": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "etfs": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "美国延长部分俄罗斯石油的销售许可证期限",
+        "etfs": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "etfs": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "etfs": [
+          {
+            "code": "512930",
+            "name": "AI算力ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "etfs": [
+          {
+            "code": "515070",
+            "name": "人工智能ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "etfs": [
+          {
+            "code": "561360",
+            "name": "石油ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      },
+      {
+        "news_title": "贵金属全线收涨 白银本周涨幅居前",
+        "etfs": [
+          {
+            "code": "518880",
+            "name": "黄金ETF"
+          }
+        ],
+        "direction": "中性",
+        "win_rate": 48,
+        "expected_return": "-0.7%~0.7%",
+        "risk_ratio": "1:1",
+        "suggestion": "⚪ 持有观望",
+        "source": "环球市场播报"
+      }
+    ],
     "sangsha_module": {
       "overall_sentiment": "平稳",
       "advice": "震荡整理，观望为主",
-      "avg_buy_prob": 30,
+      "avg_buy_prob": 35,
       "avg_panic_prob": 8,
       "analysis_results": [
         {
@@ -4186,6 +9279,46 @@ const newsData = {
           "date": "2026-04-18",
           "decay": 1.0,
           "weighted_buy_prob": 50
+        },
+        {
+          "news": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+          "title": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+          "full_title": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+          "summary": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
+          "追高买入概率": 71,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 68,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 44,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 44
+        },
+        {
+          "news": "力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域",
+          "title": "力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域",
+          "full_title": "力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域",
+          "summary": "【力诺药包：将扩产中硼硅模制瓶与管制瓶并布局高端医药包材领域】力诺药包4月18日在互动平台表示，公司...",
+          "追高买入概率": 5,
+          "抄底买入概率": 75,
+          "恐慌卖出概率": 5,
+          "观望概率": 74,
+          "情绪标签": [
+            "抄底冲动"
+          ],
+          "韭菜行为总结": "散户想抄底，认为是机会",
+          "市场含义": "可能有反弹",
+          "买入概率": 33,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 33
         },
         {
           "news": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5...",
@@ -4250,10 +9383,10 @@ const newsData = {
           "weighted_buy_prob": 28
         },
         {
-          "news": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声...",
-          "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
-          "full_title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
-          "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续...",
+          "news": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长...",
+          "title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+          "full_title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+          "summary": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
           "追高买入概率": 20,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
@@ -4268,46 +9401,10 @@ const newsData = {
           "weighted_buy_prob": 14
         },
         {
-          "news": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-          "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-          "full_title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-          "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
-          "追高买入概率": 20,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 89,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 14,
-          "is_long_term": false,
-          "date": "2026-04-18",
-          "decay": 1.0,
-          "weighted_buy_prob": 14
-        },
-        {
-          "news": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-          "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-          "full_title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-          "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
-          "追高买入概率": 20,
-          "抄底买入概率": 5,
-          "恐慌卖出概率": 5,
-          "观望概率": 89,
-          "情绪标签": [],
-          "韭菜行为总结": "散户情绪平稳",
-          "市场含义": "中性",
-          "买入概率": 14,
-          "is_long_term": false,
-          "date": "2026-04-18",
-          "decay": 1.0,
-          "weighted_buy_prob": 14
-        },
-        {
-          "news": "贵金属全线收涨 白银本周涨幅居前",
-          "title": "贵金属全线收涨 白银本周涨幅居前",
-          "full_title": "贵金属全线收涨 白银本周涨幅居前",
-          "summary": "贵金属全线收涨 白银本周涨幅居前",
+          "news": "4月18日收盘：标普指数首次收在7100点之上，纳指录得19...",
+          "title": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+          "full_title": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+          "summary": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
           "追高买入概率": 20,
           "抄底买入概率": 5,
           "恐慌卖出概率": 5,
@@ -4322,7 +9419,7 @@ const newsData = {
           "weighted_buy_prob": 14
         }
       ],
-      "total_news_count": 35,
+      "total_news_count": 36,
       "time_window": "7天累积（长期新闻除外）"
     },
     "white_dragon": {
@@ -4333,11 +9430,11 @@ const newsData = {
       "可信度": 1.0,
       "矛盾ETF数": 0,
       "散户情绪": {
-        "平均买入概率": 43,
+        "平均买入概率": 46,
         "平均恐慌概率": 5
       },
       "悟空信号": "",
-      "八戒胜率": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+      "八戒胜率": "~49%",
       "各ETF分析": [
         {
           "code": "512760",
@@ -4357,7 +9454,7 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 43,
+          "sangsha_buy_prob": 46,
           "sangsha_panic_prob": 5,
           "单日量比": 0.92
         },
@@ -4379,7 +9476,7 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 43,
+          "sangsha_buy_prob": 46,
           "sangsha_panic_prob": 5,
           "单日量比": 0.9
         },
@@ -4401,7 +9498,7 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 43,
+          "sangsha_buy_prob": 46,
           "sangsha_panic_prob": 5,
           "单日量比": 0.95
         },
@@ -4423,158 +9520,12 @@ const newsData = {
           "是否利用散户": false,
           "可信度": 1.0,
           "矛盾信号": "",
-          "sangsha_buy_prob": 43,
+          "sangsha_buy_prob": 46,
           "sangsha_panic_prob": 5,
           "单日量比": 0.82
         }
       ],
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
-    },
-    "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
-      "max_drawdown": "-8.0%（止损线）",
-      "holding_period": "",
-      "沙僧信号": {
-        "情绪": "平稳",
-        "平均买入概率": 35,
-        "平均恐慌概率": 8,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
-      },
-      "白龙马信号": {
-        "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      },
-      "悟空信号": {
-        "市场情绪": "偏空"
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
-      "original_bajie": {},
-      "prior_calibration": {
-        "scene_type": "geopolitical_sudden",
-        "scene_desc": "地缘突发事件做多",
-        "original_prior": 50,
-        "calibrated_prior": 55,
-        "note": "方向对但时机难把握"
-      },
-      "signal_weights": {
-        "悟空深度分析": 1.0,
-        "沙僧情绪": 0.8,
-        "白龙马主力": 1.08,
-        "外盘先行指标": 1.1
-      },
-      "signal_weight_notes": [],
-      "geo_prior_check": {
-        "prior_type": "geopolitical",
-        "hours_since_last_update": 0.0,
-        "is_expired": false,
-        "needs_review": false,
-        "validity_hours": 12,
-        "review_interval_hours": 6
-      },
-      "_experiences_applied": [
-        "BJ-001",
-        "BJ-002",
-        "BJ-003"
-      ]
-    },
-    "tang_sanzang": {
-      "仓位": "40-60% 中性",
-      "最终行动": "",
-      "唐僧结论": "，胜率~50%（注意：1项高风险）",
-      "仲裁矛盾": [
-        "🙏 唐僧：四层信号无重大矛盾，各司其职"
-      ],
-      "仓位公式": "base(40-60% 中性) × 风控调整",
-      "风控触发": [
-        "Trump喊话强度=2: ⚠️ 反转风险 - 连续2天喊话，反转概率~50%",
-        "逻辑止损缺失（地缘事件场景）: ❌ 必须补充 - 地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
-      ],
-      "_raw": {
-        "final_action": "",
-        "final_win_rate": "~50%",
-        "optimal_etfs": "",
-        "max_drawdown": "-8.0%（止损线）",
-        "arbitration_notes": [
-          "🙏 唐僧：四层信号无重大矛盾，各司其职"
-        ],
-        "risk_checks": [
-          {
-            "item": "Trump喊话强度=2",
-            "status": "⚠️ 反转风险",
-            "reason": "连续2天喊话，反转概率~50%",
-            "adjust_win_rate": -5
-          },
-          {
-            "item": "逻辑止损缺失（地缘事件场景）",
-            "status": "❌ 必须补充",
-            "reason": "地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
-          }
-        ],
-        "conflict_count": 0,
-        "module_summary": {
-          "悟空": "情绪:?",
-          "沙僧": "情绪:平稳(买入35%) | 注入1条经验",
-          "白龙马": "主力:拉升(可信度1.0)",
-          "八戒": "行动: 胜率:~55%（BJ校准：地缘突发事件做多，基准先验55%） | 注入3条经验"
-        },
-        "experience_applied": {
-          "悟空": [],
-          "沙僧": [
-            "SS-003"
-          ],
-          "白龙马": [],
-          "八戒": [
-            "BJ-001",
-            "BJ-002",
-            "BJ-003"
-          ]
-        },
-        "original_bajie": {}
-      }
-    },
-    "evolution_v4": {
-      "version": "v4",
-      "date": "2026-04-18",
-      "scene_metadata": {
-        "date": "2026-04-18",
-        "has_geopolitical": true,
-        "has_earnings_beat": true,
-        "trump_intensity": 2,
-        "has_policy_benefit": true,
-        "has_tech_breakthrough": true,
-        "is_earnings_season": true,
-        "is_near_weekend": true,
-        "prior_type": "geopolitical",
-        "prior_updated_at": "2026-04-18T18:33:55.460382"
-      },
-      "wukong_experiences": [],
-      "sangsha_experiences": [
-        "SS-003"
-      ],
-      "white_dragon_experiences": [],
-      "bajie_experiences": [
-        "BJ-001",
-        "BJ-002",
-        "BJ-003"
-      ],
-      "tang_rules": [],
-      "arbitration_notes": [
-        "🙏 唐僧：四层信号无重大矛盾，各司其职"
-      ]
-    },
-    "market_tone": {
-      "早报": "",
-      "晚报": "【2026-04-18晚报】 | 胜率~50% | 40-60% 中性"
     }
   },
   "2026-04-17": {
@@ -18540,40 +23491,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 18,
-        "平均恐慌概率": 13,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 18,
+        "恐慌概率": 13
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -18946,40 +23887,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 20,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 20,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -19467,40 +24398,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 21,
-        "平均恐慌概率": 11,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 21,
+        "恐慌概率": 11
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -20026,40 +24947,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 35,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 35,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -20362,40 +25273,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 8,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 8,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -20786,40 +25687,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 17,
-        "平均恐慌概率": 12,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 17,
+        "恐慌概率": 12
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -21200,40 +26091,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 7,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 7,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -21614,40 +26495,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 20,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 20,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -22024,40 +26895,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 12,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 12,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -22444,40 +27305,30 @@ const newsData = {
       "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
     },
     "bajie_conclusion": {
-      "optimal_action": "",
-      "optimal_etfs": "",
-      "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "",
       "overall": {
-        "best_action": "",
-        "best_etfs": "",
-        "win_rate": "~50%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 28,
-        "平均恐慌概率": 5,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 28,
+        "恐慌概率": 5
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": ""
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
+      "融合说明": [],
       "original_bajie": {}
     }
   },
@@ -22517,47 +27368,31 @@ const newsData = {
       ]
     },
     "bajie_conclusion": {
-      "optimal_action": "节后首日重点配置加密货币概念股+AI芯片，回避油气/黄金避险资产",
-      "optimal_etfs": "512760芯片ETF(30%) + 515980云计算ETF(25%) + 加密货币概念股(15%) + 现金(30%)",
-      "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "1-2周",
       "overall": {
-        "best_action": "节后首日重点配置加密货币概念股+AI芯片，回避油气/黄金避险资产",
-        "best_etfs": "512760芯片ETF(30%) + 515980云计算ETF(25%) + 加密货币概念股(15%) + 现金(30%)",
-        "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 31,
-        "平均恐慌概率": 20,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 31,
+        "恐慌概率": 20
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": "偏多，修复性反弹为主"
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
-      "original_bajie": {
-        "optimal_action": "节后首日重点配置加密货币概念股+AI芯片，回避油气/黄金避险资产",
-        "optimal_etfs": "512760芯片ETF(30%) + 515980云计算ETF(25%) + 加密货币概念股(15%) + 现金(30%)",
-        "win_rate": "~70%（贝叶斯后验）",
-        "max_drawdown": "-6%（止损线）",
-        "holding_period": "1-2周"
-      }
+      "融合说明": [],
+      "original_bajie": {}
     },
     "s_level": [
       {
@@ -22896,47 +27731,31 @@ const newsData = {
       ]
     },
     "bajie_conclusion": {
-      "optimal_action": "重点配置AI芯片+人工智能ETF，科技成长股修复行情",
-      "optimal_etfs": "588890科创芯片ETF(40%) + 512930 AI人工智能ETF(30%) + 现金(30%)",
-      "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
-      "max_drawdown": "-8.0%（止损线）",
+      "optimal_action": "均衡观望：25-35%仓位",
+      "optimal_etfs": "待观察（无明确信号）",
+      "win_rate": "~52%",
+      "max_drawdown": "-8.0%",
       "holding_period": "1-2周",
       "overall": {
-        "best_action": "重点配置AI芯片+人工智能ETF，科技成长股修复行情",
-        "best_etfs": "588890科创芯片ETF(40%) + 512930 AI人工智能ETF(30%) + 现金(30%)",
-        "win_rate": "~70%（贝叶斯后验+沙僧白龙马融合）",
-        "stop_loss": "-8.0%（止损线）"
+        "best_action": "均衡观望：25-35%仓位",
+        "best_etfs": "待观察（无明确信号）",
+        "win_rate": "~52%",
+        "stop_loss": "-8.0%"
       },
       "沙僧信号": {
         "情绪": "平稳",
-        "平均买入概率": 23,
-        "平均恐慌概率": 20,
-        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "可信度级别": "normal"
+        "买入概率": 23,
+        "恐慌概率": 20
       },
       "白龙马信号": {
         "主力状态": "拉升",
-        "是否利用散户": false,
-        "可信度": 1.0,
-        "风险等级": "low",
-        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+        "风险等级": "normal"
       },
-      "悟空信号": {
-        "市场情绪": "震荡偏多，科技成长股修复反弹"
-      },
-      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "悟空信号": {},
+      "信号一致性": "",
       "信号一致性得分": 2,
-      "融合说明": [
-        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
-        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
-      ],
-      "original_bajie": {
-        "optimal_action": "重点配置AI芯片+人工智能ETF，科技成长股修复行情",
-        "optimal_etfs": "588890科创芯片ETF(40%) + 512930 AI人工智能ETF(30%) + 现金(30%)",
-        "win_rate": "~70%（贝叶斯后验）",
-        "max_drawdown": "-5%（止损线）",
-        "holding_period": "1-2周"
-      }
+      "融合说明": [],
+      "original_bajie": {}
     },
     "s_level": [
       {
