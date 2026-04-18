@@ -1165,6 +1165,3418 @@ const newsData = {
     "wukong_generated": true,
     "wukong_generated_time": "2026-04-16T09:21:17.833596"
   },
+  "2026-04-18": {
+    "date": "2026-04-18",
+    "all_news": [
+      {
+        "title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "summary": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuxche2431085.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776496561",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
+        "summary": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxcfy1457707.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776495141",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗消息人士：美伊双方已出现折中谈判迹象",
+        "summary": "伊朗消息人士：美伊双方已出现折中谈判迹象",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwya1571795.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776492192",
+        "category": "市场资讯"
+      },
+      {
+        "title": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
+        "summary": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwyk0353726.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776489342",
+        "category": "市场资讯"
+      },
+      {
+        "title": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
+        "summary": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
+        "source": "一财网",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-04-18/doc-inhuwwyk0355660.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776488745",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "summary": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwyh2523668.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776488393",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "summary": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwya1527208.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776485028",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国延长部分俄罗斯石油的销售许可证期限",
+        "summary": "美国延长部分俄罗斯石油的销售许可证期限",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1652846.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776484261",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
+        "summary": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1644361.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776483086",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
+        "summary": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1641175.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776482547",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普：若无法达成协议 或将不延长美伊临时停火",
+        "summary": "特朗普：若无法达成协议 或将不延长美伊临时停火",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1634777.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776481672",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "summary": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1609300.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776478375",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
+        "summary": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwssh5805028.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776477881",
+        "category": "市场资讯"
+      },
+      {
+        "title": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
+        "summary": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwnkq0463737.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776469213",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
+        "summary": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2770061.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776467150",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
+        "summary": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1781578.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466607",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "summary": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1780819.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466431",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5978102.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776463739",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "报道：伊朗官员否认特朗普有关铀问题的说法",
+        "summary": "报道：伊朗官员否认特朗普有关铀问题的说法",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0566983.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776463392",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+        "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2749840.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776462316",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
+        "summary": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2745717.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776461283",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+        "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5967358.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460967",
+        "category": "市场资讯"
+      },
+      {
+        "title": "贵金属全线收涨 白银本周涨幅居前",
+        "summary": "贵金属全线收涨 白银本周涨幅居前",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1760015.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460636",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
+        "summary": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0556303.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460161",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
+        "summary": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5962048.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776459921",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
+        "summary": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2867901.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776459523",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
+        "summary": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwhan5964367.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776459087",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+        "summary": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776458608",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+        "summary": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776458542",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+        "summary": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776457148",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+        "summary": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0559490.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460936",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
+        "summary": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865721.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776458675",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+        "summary": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879873.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776457452",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+        "summary": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0676612.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776456591",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
+        "summary": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1863536.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451704",
+        "category": "辅助决策（港股美股）"
+      }
+    ],
+    "raw_news": [
+      {
+        "title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "summary": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuxche2431085.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776496561",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
+        "summary": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxcfy1457707.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776495141",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗消息人士：美伊双方已出现折中谈判迹象",
+        "summary": "伊朗消息人士：美伊双方已出现折中谈判迹象",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwya1571795.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776492192",
+        "category": "市场资讯"
+      },
+      {
+        "title": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
+        "summary": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwyk0353726.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776489342",
+        "category": "市场资讯"
+      },
+      {
+        "title": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
+        "summary": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
+        "source": "一财网",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-04-18/doc-inhuwwyk0355660.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776488745",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "summary": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwyh2523668.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776488393",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "summary": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwya1527208.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776485028",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国延长部分俄罗斯石油的销售许可证期限",
+        "summary": "美国延长部分俄罗斯石油的销售许可证期限",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1652846.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776484261",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
+        "summary": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1644361.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776483086",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
+        "summary": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1641175.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776482547",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普：若无法达成协议 或将不延长美伊临时停火",
+        "summary": "特朗普：若无法达成协议 或将不延长美伊临时停火",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1634777.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776481672",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "summary": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1609300.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776478375",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
+        "summary": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwssh5805028.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776477881",
+        "category": "市场资讯"
+      },
+      {
+        "title": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
+        "summary": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwnkq0463737.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776469213",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
+        "summary": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2770061.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776467150",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
+        "summary": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1781578.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466607",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "summary": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1780819.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776466431",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5978102.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776463739",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "报道：伊朗官员否认特朗普有关铀问题的说法",
+        "summary": "报道：伊朗官员否认特朗普有关铀问题的说法",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0566983.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776463392",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+        "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2749840.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776462316",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
+        "summary": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2745717.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776461283",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+        "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5967358.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460967",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+        "summary": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0559490.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460936",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "贵金属全线收涨 白银本周涨幅居前",
+        "summary": "贵金属全线收涨 白银本周涨幅居前",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1760015.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460636",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
+        "summary": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0556303.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776460161",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
+        "summary": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5962048.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776459921",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
+        "summary": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2867901.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776459523",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
+        "summary": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwhan5964367.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776459087",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
+        "summary": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865721.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776458675",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+        "summary": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776458608",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+        "summary": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776458542",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+        "summary": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879873.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776457452",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+        "summary": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776457148",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+        "summary": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6083436.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776457107",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "知情人士称美伊下轮谈判最快可能于20日恢复",
+        "summary": "知情人士称美伊下轮谈判最快可能于20日恢复",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuvzun1880040.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776456938",
+        "category": "市场资讯"
+      },
+      {
+        "title": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+        "summary": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0676612.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776456591",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "旧金山联储行长戴利认为利率处于良好位置",
+        "summary": "旧金山联储行长戴利认为利率处于良好位置",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6080084.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776456018",
+        "category": "市场资讯"
+      },
+      {
+        "title": "数百个亲特朗普虚假头像涌现社交媒体，AI深度伪造或为幕后推手",
+        "summary": "数百个亲特朗普虚假头像涌现社交媒体，AI深度伪造或为幕后推手",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2852177.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454561",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特朗普寻求更多时间应对100亿美元税表泄露诉讼",
+        "summary": "特朗普寻求更多时间应对100亿美元税表泄露诉讼",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1871803.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454498",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧",
+        "summary": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1871538.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454393",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+        "summary": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2851517.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454362",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌",
+        "summary": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0669470.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454251",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆",
+        "summary": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1870356.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776454088",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府",
+        "summary": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6072861.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453933",
+        "category": "市场资讯"
+      },
+      {
+        "title": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具",
+        "summary": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0668479.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453840",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "空头回补引爆市场涨势，高风险股票领涨大盘",
+        "summary": "空头回补引爆市场涨势，高风险股票领涨大盘",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0668168.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453709",
+        "category": "市场资讯"
+      },
+      {
+        "title": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投",
+        "summary": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0668013.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453652",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗战争威胁燃油供应，欧盟拟推动航空燃油来源多元化",
+        "summary": "伊朗战争威胁燃油供应，欧盟拟推动航空燃油来源多元化",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2848956.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453570",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "燃油价格飙升，加航削减四条纽约航线",
+        "summary": "燃油价格飙升，加航削减四条纽约航线",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0667585.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453481",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元",
+        "summary": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2848459.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453393",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
+        "summary": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6071135.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453357",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓",
+        "summary": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1868514.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453303",
+        "category": "市场资讯"
+      },
+      {
+        "title": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%",
+        "summary": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1868334.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453247",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓",
+        "summary": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0666162.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776453045",
+        "category": "市场资讯"
+      },
+      {
+        "title": "顶级投行大幅调整苹果目标股价",
+        "summary": "顶级投行大幅调整苹果目标股价",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0665081.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452714",
+        "category": "市场资讯"
+      },
+      {
+        "title": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元",
+        "summary": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1866043.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452604",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌",
+        "summary": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1865569.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452517",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍",
+        "summary": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1865451.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452462",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "油价下跌叠加降息预期升温，美债收益率降至4.24%",
+        "summary": "油价下跌叠加降息预期升温，美债收益率降至4.24%",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1865270.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452371",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "受AI推动，IBM有望交出强劲季度财报",
+        "summary": "受AI推动，IBM有望交出强劲季度财报",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2844440.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452104",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "欧洲领导人提出军事援助保障霍尔木兹安全 尽管特朗普警告“离远点”",
+        "summary": "欧洲领导人提出军事援助保障霍尔木兹安全 尽管特朗普警告“离远点”",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzus2844290.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776452044",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元",
+        "summary": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0662942.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451929",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美联储理事沃勒对利率调整表示谨慎 警示长期冲突风险",
+        "summary": "美联储理事沃勒对利率调整表示谨慎 警示长期冲突风险",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6066717.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451919",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
+        "summary": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1863536.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451704",
+        "category": "辅助决策（港股美股）"
+      },
+      {
+        "title": "特朗普向CBS表示：美国和伊朗将于本周末举行会晤",
+        "summary": "特朗普向CBS表示：美国和伊朗将于本周末举行会晤",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6065851.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776451653",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "黎巴嫩总统：谈判不是软弱 寻求长期协议",
+        "summary": "黎巴嫩总统：谈判不是软弱 寻求长期协议",
+        "source": "央视",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuvzuu0674892.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776450900",
+        "category": "市场资讯"
+      },
+      {
+        "title": "特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结的资金",
+        "summary": "特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结的资金",
+        "source": "环球市场播报",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvres2088372.shtml",
+        "emoji": "📰",
+        "channel": "新浪美股",
+        "timestamp": "1776448847",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起",
+        "summary": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起",
+        "source": "新浪科技",
+        "date": "2026-04-18",
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-18/doc-inhuwssh5806406.shtml",
+        "emoji": "📰",
+        "channel": "新浪科技",
+        "timestamp": "1776478034",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "石化机械：公司在沙特、科威特、阿联酋等国家均有业务",
+        "summary": "石化机械4月18日在互动平台表示，公司在沙特、科威特、阿联酋等国家均有业务。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731917.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 18:11:17",
+        "category": "市场资讯"
+      },
+      {
+        "title": "礼来米吉珠单抗注射液在华正式上市",
+        "summary": "【礼来米吉珠单抗注射液在华正式上市】4月18日，礼来中国宣布，其用于治疗炎症性肠病（IBD）的创新药物安妥来利（米吉珠单抗注射液）和安妥来（米吉珠单抗注射液（皮下注射））在中国上市。安妥来利和安妥来（米吉珠单抗）作为靶向IL-23p19亚基的抑制剂，于2026年2月获中国国家药品监督管理局批准，用于治疗成人中重度活动性溃疡性结肠炎（UC）及成人中重度活动性克罗恩病（CD）。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731131.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 17:43:55",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "港股部分IPO包装过度？港交所回应：正推进上市机制改革 保密递交也会公开“点名”",
+        "summary": "【港股部分IPO包装过度？港交所回应：正推进上市机制改革 保密递交也会公开“点名”】香港新股市场火热，但部分拟上市公司上市资料质量不高、存在包装过度等问题。香港交易所上市科首次公开招股审查联席主管刘颖在接受采访时表示，拟上市公司若想加快审批进程，信息披露必须做到真实、准确、全面、简洁。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://hk.eastmoney.com/a/202604183709730747.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 17:36:55",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "高德动量机器人官宣将首次亮相亦庄机器人马拉松",
+        "summary": "【高德动量机器人官宣将首次亮相亦庄机器人马拉松】高德发布官方海报，首次曝光旗下首款具身机器人。据介绍，这款名叫“途途”的四足机器人，明天（19日）将在亦庄机器人马拉松大赛上首次亮相。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709727541.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 16:52:22",
+        "category": "市场资讯"
+      },
+      {
+        "title": "蔚来回应ES9仍用隐藏式门把手：完全合规",
+        "summary": "【蔚来回应ES9仍用隐藏式门把手：完全合规】4月18日，蔚来汽车发文回应了关于新国标实施后，ES9的隐藏式门把手是否合规等问题：目前蔚来全系在售车型，均可以正常使用隐藏式门把手，也完全合规。对于“禁止隐藏式把手”的条目，新国标的实施时间要求：2027年12月31日之前上公告的全新车型都可以使用隐藏式把手，2028年12月31日之前出厂的现款/改款车型都可以使用隐藏式把手。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709724058.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 16:12:53",
+        "category": "市场资讯"
+      },
+      {
+        "title": "捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成",
+        "summary": "【捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成】4月18日，咸阳清渭楼美术博物馆发布声明：我单位近日发现，视频号账号“捷途山海-咸阳捷盛昌店”于2026年4月17日发布题为《旅行者CDM挑战清渭楼楼梯》的商业宣传视频。该视频通过AI技术合成制作，虚构了捷途汽车攀爬清渭楼楼梯的场景，并配以“XWD智能四驱轻松拿捏任何路况”“封闭路段安全拍摄，请勿模仿”等误导性文字。该视频系账号运营方擅自利用AI技术合成的虚假内容，并非真实拍摄场景。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709722438.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:47:04",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？",
+        "summary": "【染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？】过去两年，新能源产业的叙事正在悄然发生变化。从“技术驱动”到“资源约束”，从“电池性能竞赛”到“上游矿产争夺”，产业链的权力重心正不断上移。曾经决定企业命运的是能量密度与成本曲线，而如今，更重要的似乎成了矿在哪里、谁能拿到、价格由谁说了算。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709721667.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:44:11",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
+        "summary": "【美联新材：正研究布局EX电子材料新产能，尽快扩大产能】4月17日下午，美联新材在业绩说明会上表示，公司EX电子材料已经通过了HBM堆叠封装工艺的验证，但目前不方便披露详细进展。这是一个全新的材料，目前下游客户应用主要是海外供应链，国内的几个客户应用在不同阶段的评价阶段。该产品具有国内唯一性。公司控股企业辉虹科技已投产的EX电子材料年产能为200吨。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709719556.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:31:10",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段",
+        "summary": "【幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段】4月17日，幸福蓝海副董事长兼总经理张烨镝在业绩说明会上表示，公司出品的重大历史题材电视剧《张謇》已处于审查阶段；《兵自风中来》已取得发行许可证；《共生》已拍摄完成，目前已处于审查阶段；公司还储备了《赛因察戈答》《磐石》《走过冬季》《南京谈判》等精品项目。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709719065.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:23:16",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "ST东时：2025年归母净亏损7.45亿元，亏损收窄",
+        "summary": "【ST东时：2025年归母净亏损7.45亿元，亏损收窄】4月18日，ST东时公告，2025年实现营业收入6.18亿元，同比下降23.47%；归属于上市公司股东的净利润亏损7.45亿元，上年同期亏损9.03亿元；基本每股收益-1.04元。鉴于公司2025年度末母公司期末未分配利润为负数，2025年公司不进行利润分配，也不进行资本公积转增股本和其他形式的分配。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709718580.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:17:16",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
+        "summary": "【龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨】4月16日晚，龙大美食的一则公告引发市场的关注。公司董事会决定将此前公告的不向下修正龙大转债转股价格的期限，由原定的“2026年4月2日至2026年5月1日”缩短调整为“2026年4月2日至2026年4月16日”。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709717258.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:09:04",
+        "category": "市场资讯"
+      },
+      {
+        "title": "濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域",
+        "summary": "【濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域】濮阳惠成4月18日在互动平台表示，公司产品广泛应用于电子元器件封装材料、电气设备绝缘材料、风电领域、复合材料、涂料等诸多领域。功能材料中间体主要用于有机光电材料等领域。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709716340.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:00:56",
+        "category": "市场资讯"
+      },
+      {
+        "title": "鹏华基金去年营收净利双增长",
+        "summary": "【鹏华基金去年营收净利双增长】国信证券2025年报显示，旗下鹏华基金去年实现营业收入40.28亿元，较去年同期的35.94亿元上升12.06%，净利润8.01亿元，较去年同期的7.51亿元上涨6.74%。截至去年末，鹏华基金资管总规模1.37万亿元（不含子公司），同比增长12%，其中公募基金规模1.05万亿元，同比增长15%。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://fund.eastmoney.com/a/202604183709716680.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 15:00:37",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任",
+        "summary": "【7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任】4月17日，市场监管总局依法对拼多多、美团、京东、饿了么、抖音、淘宝、天猫等7家电商平台“幽灵外卖”系列案作出行政处罚，责令7家电商平台改正违法行为，暂停新增蛋糕店铺3至9个月不等，并处以罚没款共计35.97亿元。同时，对7家平台企业法定代表人和食品安全总监合计处以罚款1968.74万元。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709714310.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 14:25:32",
+        "category": "市场资讯"
+      },
+      {
+        "title": "瑞士企业圆桌会在伯尔尼举行",
+        "summary": "【瑞士企业圆桌会在伯尔尼举行】4月17日，瑞士企业圆桌会在伯尔尼举行。商务部副部长兼国际贸易谈判副代表凌激主持，中国驻瑞士使馆大使钱敏坚致辞。艾曼斯、医沛生、瑞银、雀巢、诺华、嘉能可、索诺瓦等25家企业和瑞中经济协会代表参会。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709711329.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 13:34:08",
+        "category": "市场资讯"
+      },
+      {
+        "title": "一日三公司被监管严惩",
+        "summary": "【一日三公司被监管严惩】4月17日晚间，臻镭科技公告称，当天公司收到浙江证监局下发的《行政处罚事先告知书》。同日，*ST天喻公告称，公司收到湖北证监局下发的《行政处罚事先告知书》。此外，已经退市的恒立实业，也收到湖南证监局下发的《行政处罚决定书》。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709691510.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 11:59:00",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待",
+        "summary": "【特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待】美国电动汽车制造商特斯拉股价本周收高，结束了此前连续八周的下跌趋势。该公司将在4月22日发布财报，分析师目前对该公司的股价前景较为乐观。周四晚些时候，有报道指出特斯拉正在中国台湾地区招聘芯片工程师，这可能是该公司试图挖角台积电的一个信号。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709680528.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 11:43:41",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移",
+        "summary": "【上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移】4月16日，在2026涡轮技术大会暨民用航空发动机与燃气轮机展期间，上海电气燃气轮机副总经理唐健接受界面新闻采访时表示，全球燃气轮机产能正在向中国转移。 许多零部件供应商已接到大量国外订单，其中不乏直接来自GE、西门子、三菱等国际巨头的采购订单。 目前，上海电气燃气轮机的排产计划已经排到了2027年，产能基本排满。现在新接的订单，生产排期要安排到2028年。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709670958.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 11:24:50",
+        "category": "市场资讯"
+      },
+      {
+        "title": "时隔10年再现“增收不增利”！北方华创2025年净利润下滑1.77% 研发费用增长近50%",
+        "summary": "【时隔10年再现“增收不增利”！北方华创2025年净利润下滑1.77% 研发费用增长近50%】数据显示，这是北方华创自2014年以来首次出现“增收不增利”的情况。年报显示，导致北方华创2025年出现“增收不增利”的直接原因是新产品前期带来的毛利率下降。报告期内，公司毛利率由42.93%下降至40.1%。公司称，主要原因为公司新产品在客户端验证过程中，零部件迭代升级成本增加较多。加剧利润挤压的另一个关键因素是业务规模快速扩张。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709670369.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 11:10:02",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "单季获上市以来最好业绩 华丰科技高增长能持续吗？",
+        "summary": "【单季获上市以来最好业绩 华丰科技高增长能持续吗？】从2024年净亏损1775万元，到2025年实现营收净利双双大增，取得上市以来最好业绩。华丰科技（688629.SH）用一年时间完成了从亏损到“业绩巅峰”的反转。作为国内AI高速连接器核心供应商、防务连接器三强之一，华丰科技因业绩爆发被市场贴上“高速连接器国产替代龙头”标签。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709670035.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 11:09:00",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "马斯克：SpaceX和特斯拉将始终是台积电的重要客户",
+        "summary": "【马斯克：SpaceX和特斯拉将始终是台积电的重要客户】马斯克表示，SpaceX和特斯拉将始终是台积电的重要客户。但台积电无法生产所需数量的芯片。如果台积电能够生产足够多芯片，我们就无需“Terafab”芯片工厂项目了。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709666732.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 10:44:21",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "国网英大换帅",
+        "summary": "【国网英大换帅】近日，国网英大股份有限公司（以下简称“公司”）发布公告，杨东伟辞去国网英大董事长，俞华军已接任国网英大党委书记及其控股股东英大国际控股集团有限公司董事长、党委书记。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709665233.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 10:30:50",
+        "category": "市场资讯"
+      },
+      {
+        "title": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
+        "summary": "【这家浙江摩托车上市公司业绩创新高 七成收入来自海外】中国机车龙头春风动力（603129.SH）去年业绩再创新高。2025年，春风动力全年实现营业总收入197.46亿元，同比大增31.3%；归母净利润16.75亿元，同比增长13.83%。从业务结构来看，春风动力核心业务聚焦三大板块，分别为全地形车、燃油摩托车、电动两轮车，2025年三大业务营收占比依次为48.66%、32.77%、9.68%，全地形车是公司第一大收入来源。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709665741.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 10:30:03",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "FF：获4500万美元新融资",
+        "summary": "【FF：获4500万美元新融资】4月18日，FaradayFuture（简称“FF”）官微宣布，公司已获得美国某机构投资者4500万美元新融资，这是公司近年来达成的最低成本融资交易。截至4月12日，FF已累计出货34台机器人，2026年累计出货目标为超1000台。此外，FF计划于5月22日召开年度股东大会，审议一系列旨在支持公司全球EAI战略执行与长期增长的提案。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://stock.eastmoney.com/a/202604183709663475.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 10:21:09",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录",
+        "summary": "【暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录】2026年4月17日，北京——国家市场监督管理总局今日公布了对7家电商平台\"幽灵外卖\"系列案的行政处罚决定，其中拼多多（上海寻梦信息技术有限公司）以15.22亿元的罚没金额高居榜首，创下中国互联网平台经济领域史上最高罚单纪录。更引人注目的是，拼多多在调查过程中被认定存在\"暴力、软对抗\"等阻碍监管执法的行为，其法定代表人赵佳臻个人也被处以693.73万元罚款。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709651885.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 09:26:17",
+        "category": "市场资讯"
+      },
+      {
+        "title": "迈瑞医疗：2026年利润率预计会有小幅下降 但下降幅度将显著收窄",
+        "summary": "【迈瑞医疗：2026年利润率预计会有小幅下降 但下降幅度将显著收窄】迈瑞医疗4月17日在业绩说明会上表示，2026年，随着肿标甲功试剂集采开始执行，预计毛利率还会略受影响，同时根据各国立法的全球最低税规则，迈瑞的所得税有效税率须不得低于15%，以及潜在的美元贬值带来的汇兑损失。考虑到这几个因素，2026年利润率预计会有小幅下降，但下降幅度将显著收窄。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709640653.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 08:14:05",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "Meta据悉计划裁员10%",
+        "summary": "【Meta据悉计划裁员10%】4月18日消息，据报道，Meta计划于5月20日启动今年计划的第一轮大规模裁员，后续还将有更多裁员，首轮裁员将削减约10%的全球员工，即近8000人。Meta还计划在今年下半年进行进一步裁员，但裁员的具体细节，包括日期和规模，尚未确定。高管们可能会根据人工智能技术的发展情况调整裁员计划。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709523959.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 07:39:21",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "2万亿“宁王”大动作！第四大股东拟询价转让超250亿元股份！",
+        "summary": "【2万亿“宁王”大动作！第四大股东拟询价转让！】4月17日晚间，宁德时代公告称，持股6.23%的股东宁波联合创新新能源投资管理合伙企业（有限合伙）拟通过询价转让方式出让5800万股，占公司总股本的1.27%。根据宁德时代最新收盘价，本次询价转让的股份市值超250亿元。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709466690.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 07:30:00",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "迪士尼推出影院巨幕品牌",
+        "summary": "【迪士尼推出影院巨幕品牌】当地时间4月16日，华特迪士尼宣布推出“InfinityVision”认证，称这是一项针对高端巨幕影院的全新认证。目前，已有超过75家美国本土和300家全球影院获得该认证。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709465936.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 07:21:27",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论",
+        "summary": "【美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论】美国航空当地时间4月17日声明称，美国航空目前没有参与或有意参与任何与美国联合航空合并的讨论。尽管航空市场整体格局的变革或许势在必行，但与美国联合航空合并将对市场竞争和消费者造成不利影响。公司期待继续与政府合作，共同推进各项加强航空业发展的举措。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709464525.html",
+        "emoji": "📰",
+        "channel": "东方财富A股",
+        "timestamp": "2026-04-18 07:11:33",
+        "category": "市场资讯"
+      },
+      {
+        "title": "全球首个机器人勇士挑战赛冠军诞生",
+        "summary": "【全球首个机器人勇士挑战赛冠军诞生】首届北京亦庄机器人勇士挑战赛落幕。北京人形携具身天工3.0全尺寸通用人形机器人参赛，并以全自主方式完赛，通关摆锤穿越、开拓前行、破门清障几个基于现实高危场景设计的赛项，以最高积分获得全球首个全自主机器人勇士挑战赛冠军，并赢得勇士智行奖。继2025年斩获人形机器人马拉松冠军后，北京人形再度登顶。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709734276.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 18:18:16",
+        "category": "市场资讯"
+      },
+      {
+        "title": "胖东来否认所售“防切割手套”篡改日期",
+        "summary": "【胖东来否认所售“防切割手套”篡改日期】4月18日，胖东来发布《关于王海反馈胖东来销售星宇品牌“防切割手套”篡改日期指控的调查报告》。报告显示，经专项组重启调查，举报所称的篡改日期事实不成立，但该产品存在执行标准失效及日期标注不规范问题，不存在消费欺诈。胖东来决定给予投诉顾客1万元奖励。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709734359.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 18:17:09",
+        "category": "市场资讯"
+      },
+      {
+        "title": "IMF对菲债务风险及能源危机发出警示",
+        "summary": "【IMF对菲债务风险及能源危机发出警示】国际货币基金组织（IMF）近日对菲律宾政府债务风险发出警示，称当前菲律宾财政缓冲空间已十分有限，制约菲政府加大经济支持力度的能力，呼吁菲当局实施更具针对性的财政措施，以有效应对当前能源危机。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709732992.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 18:12:23",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "德国航空协会呼吁政府出手应对燃油危机",
+        "summary": "【德国航空协会呼吁政府出手应对燃油危机】据德国媒体17日报道，面对迫在眉睫的航空燃油短缺危机，德国航空协会日前呼吁联邦政府提供援助，并提出一揽子应对计划。如果联邦政府不尽快采取行动，从6月起，可能会出现大规模航班取消，进而威胁到暑期出行旺季。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731614.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 18:01:47",
+        "category": "市场资讯"
+      },
+      {
+        "title": "美国至少5个州报告有超过10起龙卷风袭击",
+        "summary": "【美国至少5个州报告有超过10起龙卷风袭击】据美国媒体4月17日报道，美国中部地区在经历连续数日龙卷风和洪灾后，本周末再次迎来新一轮强对流天气，超过5100万人处于强风暴威胁之下。截至当地时间17日傍晚，美国至少5个州报告有超过10起龙卷风袭击。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731325.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 18:00:13",
+        "category": "市场资讯"
+      },
+      {
+        "title": "本轮巴以冲突已致加沙地带72549人死亡",
+        "summary": "【本轮巴以冲突已致加沙地带72549人死亡】当地时间4月18日，加沙地带卫生部门公布最新统计报告称，自2023年10月7日新一轮巴以大规模冲突爆发以来，以色列对加沙地带的袭击已累计造成72549人死亡、172274人受伤。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731218.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:51:01",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "印度内阁批准设立1298亿卢比海事保险基金",
+        "summary": "印度内阁批准设立1298亿卢比海事保险基金。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709731049.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:41:37",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "俄罗斯发生一起交通事故 所涉车辆搭载中国游客",
+        "summary": "【俄罗斯发生一起交通事故 所涉车辆搭载中国游客】据俄罗斯紧急情况部门通报，当地时间4月18日，在连接后贝加尔斯克和赤塔的公路上发生一起大巴车翻车事故，导致1人死亡。该车辆搭载大约40名中国游客，其中12人不同程度受伤。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730851.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:40:22",
+        "category": "市场资讯"
+      },
+      {
+        "title": "印度内阁批准提高生活补贴标准",
+        "summary": "印度内阁批准提高生活补贴标准。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730949.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:38:16",
+        "category": "市场资讯"
+      },
+      {
+        "title": "以总理要求白宫澄清特朗普涉黎相关言论",
+        "summary": "【以总理要求白宫澄清特朗普涉黎相关言论】特朗普17日在社交媒体上称，以色列将不再轰炸黎巴嫩，美国已禁止以色列这样做。据美国方面17日援引知情人士的消息称，以色列总理内塔尼亚胡对此感到“震惊”，以方要求白宫就此作出澄清。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730479.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:28:17",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "投资圈沸腾了！DeepSeek首次启动外部融资？",
+        "summary": "【投资圈沸腾了！DeepSeek首次启动外部融资？】今天，一则重磅消息刷屏国内投资圈。外媒TheInformation报道称，深度求索（DeepSeek）正式启动成立以来的首次外部融资，目标估值不低于100亿美元，计划筹集至少3亿美元资金。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709730684.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:25:00",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗表示尚未同意与美国举行下一轮谈判",
+        "summary": "【伊朗表示尚未同意与美国举行下一轮谈判】据伊朗塔斯尼姆通讯社18日报道，伊朗尚未同意与美国举行下一轮谈判。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709729496.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:19:27",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊拉克将于近日恢复所有油田的石油出口业务",
+        "summary": "伊拉克将于近日恢复所有油田的石油出口业务。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709729133.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:14:49",
+        "category": "市场资讯"
+      },
+      {
+        "title": "第九届进博会推介会在布拉格举行",
+        "summary": "【第九届进博会推介会在布拉格举行】当地时间15日，第九届中国国际进口博览会推介会在布拉格举行。本次推介会由中国驻捷克大使馆、中国国际进口博览局和捷克工贸部联合主办，来自中国、捷克的两国政商界人士超百人参会，共同探讨两国经贸合作新机遇。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709728832.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:11:13",
+        "category": "市场资讯"
+      },
+      {
+        "title": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全",
+        "summary": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709728735.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:06:02",
+        "category": "市场资讯"
+      },
+      {
+        "title": "第六届消博会今天落幕 进场观众超30万人 发布新品386件",
+        "summary": "【第六届消博会今天落幕 进场观众超30万人 发布新品386件】第六届中国国际消费品博览会今天（4月18日）落幕，取得了丰硕成果。数据显示，本届消博会展览总面积达14.3万平方米，较上届增加1.3万平方米，共有来自67个国家和地区的3413个消费精品品牌参展，参展国际展品占比达65%，较上届提升20个百分点。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://biz.eastmoney.com/a/202604183709728615.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 17:04:00",
+        "category": "市场资讯"
+      },
+      {
+        "title": "外资密集调研新兴产业 看好中国经济韧性",
+        "summary": "【外资密集调研新兴产业 看好中国经济韧性】一季度我国高新技术产品出口额同比增长25.3%，以半导体、高端制造、AI硬件为代表的新兴产业成为出口增长的重要引擎。与此同时，外资机构密集调研新兴产业，普遍认为中国经济具备盈利增长、估值优势与产业升级等多重韧性，并对新兴产业带动的出口竞争力表示看好。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709728453.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:58:08",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗司法总监：敌人必须支付战争赔款",
+        "summary": "【伊朗司法总监：敌人必须支付战争赔款】据伊朗法尔斯通讯社18日报道，伊朗司法总监埃杰伊说敌人必须支付战争赔款。报道援引埃杰伊的话说，美国和以色列对伊朗人民发动战争和侵略，犯下各种战争罪行。相关国际机构必须对其进行起诉和审判，追究其战争罪行，要求其赔偿，对其进行惩罚。“绝不能让侵略者逍遥法外。”",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709727381.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:51:19",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗重新开放6个机场",
+        "summary": "【伊朗重新开放6个机场】据伊朗媒体18日报道，伊朗重新开放6个机场，各航空公司正准备恢复国内和国际航班运营。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709727239.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:48:04",
+        "category": "市场资讯"
+      },
+      {
+        "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
+        "summary": "【网传“环保新规推高养鸡成本致蛋价上涨”系谣言】“蛋鸡环保新规4月落地、粪便直排最高罚100万元”“成本大涨蛋价也涨，散户末日来了”。近日，一些对环保规定的流言，给群众造成了一定的恐慌情绪。记者从多方核实，相关部门并没有出台所谓的“新规”。业内人士认为，这些谣言是对若干法规的牵强拼凑。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709726724.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:43:31",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗清理与美以等国有勾连的组织",
+        "summary": "【伊朗清理与美以等国有勾连的组织】据伊朗光明通讯社18日报道，伊朗伊斯兰革命卫队情报部门近日在伊朗3个省份查明并清理了多个与美国、以色列和英国有勾连的组织。报道说，在近日开展的行动中，革命卫队情报部门在东阿塞拜疆省查明并逮捕7人，这些人被指为其指挥官提供武器、策划破坏行动、发送敏感地点坐标。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709726417.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:40:16",
+        "category": "市场资讯"
+      },
+      {
+        "title": "国际海事组织：约有2万海员被困波斯湾",
+        "summary": "【国际海事组织：约有2万海员被困波斯湾】国际海事组织秘书长多明格斯17日说，目前约有2万名海员和近2000艘船舶被困在波斯湾，他呼吁各国加大外交努力，支持国际海事组织推动海湾地区被困海员疏散计划。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709726580.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:39:25",
+        "category": "市场资讯"
+      },
+      {
+        "title": "老外抢着当张雪机车代理 张雪机车全球订单狂飙",
+        "summary": "【老外抢着当张雪机车代理 张雪机车全球订单狂飙】在第139届广交会的摩托车展区，围满了来自世界各地的采购商，很多人专程赶来，只为一睹半个月前在WSBK世界超级摩托车锦标赛上“一战封神”的中国品牌——张雪机车。张雪机车外贸部部长黄秦表示：这两天现场非常火爆，超过5000名客商直接冲着我们品牌来的，来了之后都要求成为当地的代理，要求直接下订单，我们收到了上千台的订单。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709726186.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:33:57",
+        "category": "市场资讯"
+      },
+      {
+        "title": "新疆阿克苏地区库车市发生3.4级地震 震源深度19千米",
+        "summary": "【新疆阿克苏地区库车市发生3.4级地震 震源深度19千米】中国地震台网正式测定：4月18日16时07分在新疆阿克苏地区库车市（北纬41.27度，东经83.90度）发生3.4级地震，震源深度19千米。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709725242.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:26:04",
+        "category": "市场资讯"
+      },
+      {
+        "title": "斯洛伐克将起诉欧盟的俄天然气进口禁令",
+        "summary": "【斯洛伐克将起诉欧盟的俄天然气进口禁令】斯洛伐克总理菲佐17日表示，斯洛伐克将在未来几天内就欧盟禁止进口俄罗斯天然气的决定向欧盟法院提起诉讼。菲佐表示，该决定“明确违反了欧盟条约所依据的所有原则”，有关制裁和外交政策问题的决定应由各方一致作出。1月26日，欧盟27个成员国正式通过关于逐步禁止从俄罗斯进口管道天然气和液化天然气的法规。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709725087.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:24:17",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗军方说已恢复控制霍尔木兹海峡",
+        "summary": "【伊朗军方说已恢复控制霍尔木兹海峡】据伊朗媒体18日报道，伊朗军方发言人称，因美国“屡次违背承诺”，伊朗对霍尔木兹海峡的控制已恢复到以前的状态，这一海峡目前处于伊朗武装部队的严格管理和控制之下。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709724191.html",
+        "emoji": "📰",
+        "channel": "东方财富全球7x24",
+        "timestamp": "2026-04-18 16:15:04",
+        "category": "市场资讯"
+      },
+      {
+        "title": "乌军方称袭击俄方多处石油设施",
+        "summary": "【乌军方称袭击俄方多处石油设施】乌克兰武装部队总参谋部4月18日通报称，当天凌晨，乌军对俄罗斯四个重要石油设施实施打击，并已记录到相关地点发生火灾。据乌方通报，被击中的目标包括位于俄罗斯萨马拉州的新古比雪夫炼油厂和瑟兹兰炼油厂，列宁格勒州的卢克石油油品装卸码头以及克拉斯诺达尔边疆区的季霍列茨克输油泵站。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709734939.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-18 18:30:58",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码",
+        "summary": "【伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码】伊朗最高领袖顾问、前副总统穆罕默德·穆赫贝尔17日在社交媒体上表示，伊朗内部的团结、政府与民众的联系、官员之间的凝聚力以及抵抗阵线的团结，是伊朗坚决抵抗带来的结果，这四个方面不能成为与外国谈判时进行讨价还价的筹码，也是保障伊朗未来独立、繁荣发展的基础。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://global.eastmoney.com/a/202604183709723978.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-18 16:11:41",
+        "category": "市场资讯"
+      },
+      {
+        "title": "巴空军被曝伊美谈判后护航伊代表团",
+        "summary": "【巴空军被曝伊美谈判后护航伊代表团】在12日伊美谈判结束后，巴基斯坦空军执行护航任务，护送伊朗代表团回国。消息人士称，巴基斯坦出动了20多架战机，还动用了空中预警和控制系统进行空中侦察，以确保伊朗代表团的安全。据消息人士透露，伊朗并未正式提出护航请求，但考虑到“无法排除以色列进行袭击的可能性”，因此巴基斯坦提供了护航。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709719775.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-18 15:37:22",
+        "category": "市场资讯"
+      },
+      {
+        "title": "巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧",
+        "summary": "【巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧】巴基斯坦军方18日发表声明说，巴陆军参谋长穆尼尔近日在访问伊朗时表示，应通过持续外交接触推动对话、实现局势缓和，并以和平方式解决悬而未决的问题。声明说，由穆尼尔和巴内政部长纳克维率领的代表团当天结束了对伊朗为期3天的正式访问。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709719493.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-18 15:33:08",
+        "category": "市场资讯"
+      },
+      {
+        "title": "航运业“谨慎欢迎”霍尔木兹海峡重新开放",
+        "summary": "【航运业“谨慎欢迎”霍尔木兹海峡重新开放】伊朗外交部长阿拉格齐17日宣布有条件暂时开放霍尔木兹海峡。船运业对此表示“谨慎欢迎”，盼望结束大批船舶滞留波斯湾的困境，但又担心诸多不确定因素威胁航行安全。航运巨头德国赫伯罗特公司发言人尼尔斯·豪普特说，海峡重开“总体而言……是好消息”，但船商需要知道船舶具体可以走哪条航线以及通行次序，他们还担心有水雷。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709717411.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-18 15:10:45",
+        "category": "市场资讯"
+      },
+      {
+        "title": "伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决",
+        "summary": "【伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决】当地时间18日，总台记者从伊朗方面获悉，伊朗外交部发言人巴加埃表示，将伊朗浓缩铀转移至国外的选项已被否决。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709716924.html",
+        "emoji": "📰",
+        "channel": "东方财富期货",
+        "timestamp": "2026-04-18 15:10:08",
+        "category": "市场资讯"
+      },
+      {
+        "title": "中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议",
+        "summary": "【中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议】2026年4月16日至17日，国际货币基金组织在美国华盛顿特区召开第53届国际货币与金融委员会（IMFC）会议，会议讨论了全球经济金融形势、基金组织工作等议题。中国人民银行行长潘功胜出席会议并发言。中国人民银行副行长宣昌能参加会议。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709644432.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-18 08:45:32",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "全球上演狂欢行情 战后交易模式开启？",
+        "summary": "【全球上演狂欢行情 战后交易模式开启？】周五，伊朗宣布开放霍尔木兹海峡，市场预期这有望缓解全球石油短缺担忧和经济不确定性。受此影响，能源期货价格应声跳水，风险资产全线走强，欧美股市大幅反弹，航空旅游板块复苏。与此同时，加息预期降温打压各国国债收益率，美元指数一度触及2月末战前水平。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709641882.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-18 08:38:01",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗议长：特朗普7项社媒声明“均不属实”",
+        "summary": "【伊朗议长：特朗普7项社媒声明“均不属实”】伊朗伊斯兰议会议长卡利巴夫18日凌晨在社交媒体发文称，美国总统特朗普此前在1小时内于社交媒体平台发布的7项声明“均不属实”。美方靠谎言没能赢得战争，在谈判中也将注定一无所获。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709605075.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-18 07:50:06",
+        "category": "A股直接相关"
+      },
+      {
+        "title": "伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放",
+        "summary": "【伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放】伊朗伊斯兰革命卫队海军司令部17日晚在社交媒体发布船舶在霍尔木兹海峡通行的新规定。伊朗国防部发言人后续强调，霍尔木兹海峡是有条件开放、暂时开放。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709595876.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-18 07:49:13",
+        "category": "市场资讯"
+      },
+      {
+        "title": "如果美债需求发生崩溃",
+        "summary": "【如果美债需求发生崩溃】近日，美国保尔森罕见发出警告：美国国债市场一旦崩溃，将远比2008年金融危机更具毁灭性——届时政府自身融资告急，无力充当救援者。他急呼提前备好“打破玻璃”应急预案，因为“当我们撞上那堵墙，将会非常猛烈”。",
+        "source": "东方财富",
+        "date": "2026-04-18",
+        "url": "http://finance.eastmoney.com/a/202604183709547376.html",
+        "emoji": "📰",
+        "channel": "东方财富外汇",
+        "timestamp": "2026-04-18 07:44:12",
+        "category": "市场资讯"
+      }
+    ],
+    "last_updated": "2026-04-18T18:33:52.899403",
+    "source_info": "东方财富快讯+新浪财经",
+    "total_count": 135,
+    "filtered_count": 35,
+    "wukong_judgment": {
+      "market_view": "偏空",
+      "confidence": 74,
+      "key_factors": [
+        "地缘政治",
+        "货币政策",
+        "经济数据",
+        "政策利好",
+        "业绩驱动"
+      ],
+      "active_patterns": [
+        "地缘事件驱动",
+        "政策博弈",
+        "业绩行情",
+        "资金博弈"
+      ],
+      "risk_alerts": [
+        "地缘风险",
+        "政策风险",
+        "流动性风险"
+      ]
+    },
+    "s_level": [
+      {
+        "title": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
+        "summary": "特朗普一再宣称对伊战事大获全胜，新民调却显示美国选民并不买账",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "summary": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
+        "summary": "特朗普否认伊朗将对霍尔木兹海峡征收通行费",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
+        "summary": "特朗普：若谈判无果，美国将以更具对抗性的方式掌控伊朗铀资源",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普：若无法达成协议 或将不延长美伊临时停火",
+        "summary": "特朗普：若无法达成协议 或将不延长美伊临时停火",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
+        "summary": "特朗普：美伊会晤周末举行 伊朗同意了一切 北约离远点",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
+        "summary": "伊朗议长否认特朗普有关德黑兰的评论 称此类虚假陈述无助于两国谈判",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "报道：伊朗官员否认特朗普有关铀问题的说法",
+        "summary": "报道：伊朗官员否认特朗普有关铀问题的说法",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
+        "summary": "特朗普：周末美国将继续与伊朗会谈 很多好事将发生",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
+        "summary": "美国总统特朗普：威特科夫和库什纳将参加伊朗谈判",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
+        "summary": "特朗普称移除浓缩铀行动不派美军 伊朗拒绝将浓缩铀运往国外",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+        "summary": "欧洲央行管委Kazaks：下一步利率行动未必会是加息",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+        "summary": "4月18日外盘头条：特朗普表示称伊朗已同意无限期暂停其核计划 伊朗将视美国继续实施海上封锁为违反停火协议",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+        "summary": "欧洲央行管委Kocher警告勿因不确定性提前采取利率行动",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+        "summary": "美国债市：国债走高 交易员上调对美联储年内降息押注",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "旧金山联储行长戴利认为利率处于良好位置",
+        "summary": "旧金山联储行长戴利认为利率处于良好位置",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "数百个亲特朗普虚假头像涌现社交媒体，AI深度伪造或为幕后推手",
+        "summary": "数百个亲特朗普虚假头像涌现社交媒体，AI深度伪造或为幕后推手",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普寻求更多时间应对100亿美元税表泄露诉讼",
+        "summary": "特朗普寻求更多时间应对100亿美元税表泄露诉讼",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+        "summary": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "伊朗战争威胁燃油供应，欧盟拟推动航空燃油来源多元化",
+        "summary": "伊朗战争威胁燃油供应，欧盟拟推动航空燃油来源多元化",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "油价下跌叠加降息预期升温，美债收益率降至4.24%",
+        "summary": "油价下跌叠加降息预期升温，美债收益率降至4.24%",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "欧洲领导人提出军事援助保障霍尔木兹安全 尽管特朗普警告“离远点”",
+        "summary": "欧洲领导人提出军事援助保障霍尔木兹安全 尽管特朗普警告“离远点”",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "美联储理事沃勒对利率调整表示谨慎 警示长期冲突风险",
+        "summary": "美联储理事沃勒对利率调整表示谨慎 警示长期冲突风险",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普向CBS表示：美国和伊朗将于本周末举行会晤",
+        "summary": "特朗普向CBS表示：美国和伊朗将于本周末举行会晤",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结的资金",
+        "summary": "特朗普称伊朗将无限期暂停核计划 德黑兰不会获得被冻结的资金",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "港股部分IPO包装过度？港交所回应：正推进上市机制改革 保密递交也会公开“点名”",
+        "summary": "【港股部分IPO包装过度？港交所回应：正推进上市机制改革 保密递交也会公开“点名”】香港新股市场火热，但部分拟上市公司上市资料质量不高、存在包装过度等问题。香港交易所上市科首次公开招股审查联席主管刘颖在接受采访时表示，拟上市公司若想加快审批进程，信息披露必须做到真实、准确、全面、简洁。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "时隔10年再现“增收不增利”！北方华创2025年净利润下滑1.77% 研发费用增长近50%",
+        "summary": "【时隔10年再现“增收不增利”！北方华创2025年净利润下滑1.77% 研发费用增长近50%】数据显示，这是北方华创自2014年以来首次出现“增收不增利”的情况。年报显示，导致北方华创2025年出现“增收不增利”的直接原因是新产品前期带来的毛利率下降。报告期内，公司毛利率由42.93%下降至40.1%。公司称，主要原因为公司新产品在客户端验证过程中，零部件迭代升级成本增加较多。加剧利润挤压的另一个",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "迈瑞医疗：2026年利润率预计会有小幅下降 但下降幅度将显著收窄",
+        "summary": "【迈瑞医疗：2026年利润率预计会有小幅下降 但下降幅度将显著收窄】迈瑞医疗4月17日在业绩说明会上表示，2026年，随着肿标甲功试剂集采开始执行，预计毛利率还会略受影响，同时根据各国立法的全球最低税规则，迈瑞的所得税有效税率须不得低于15%，以及潜在的美元贬值带来的汇兑损失。考虑到这几个因素，2026年利润率预计会有小幅下降，但下降幅度将显著收窄。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "IMF对菲债务风险及能源危机发出警示",
+        "summary": "【IMF对菲债务风险及能源危机发出警示】国际货币基金组织（IMF）近日对菲律宾政府债务风险发出警示，称当前菲律宾财政缓冲空间已十分有限，制约菲政府加大经济支持力度的能力，呼吁菲当局实施更具针对性的财政措施，以有效应对当前能源危机。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "德国航空协会呼吁政府出手应对燃油危机",
+        "summary": "【德国航空协会呼吁政府出手应对燃油危机】据德国媒体17日报道，面对迫在眉睫的航空燃油短缺危机，德国航空协会日前呼吁联邦政府提供援助，并提出一揽子应对计划。如果联邦政府不尽快采取行动，从6月起，可能会出现大规模航班取消，进而威胁到暑期出行旺季。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "本轮巴以冲突已致加沙地带72549人死亡",
+        "summary": "【本轮巴以冲突已致加沙地带72549人死亡】当地时间4月18日，加沙地带卫生部门公布最新统计报告称，自2023年10月7日新一轮巴以大规模冲突爆发以来，以色列对加沙地带的袭击已累计造成72549人死亡、172274人受伤。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "以总理要求白宫澄清特朗普涉黎相关言论",
+        "summary": "【以总理要求白宫澄清特朗普涉黎相关言论】特朗普17日在社交媒体上称，以色列将不再轰炸黎巴嫩，美国已禁止以色列这样做。据美国方面17日援引知情人士的消息称，以色列总理内塔尼亚胡对此感到“震惊”，以方要求白宫就此作出澄清。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "伊朗司法总监：敌人必须支付战争赔款",
+        "summary": "【伊朗司法总监：敌人必须支付战争赔款】据伊朗法尔斯通讯社18日报道，伊朗司法总监埃杰伊说敌人必须支付战争赔款。报道援引埃杰伊的话说，美国和以色列对伊朗人民发动战争和侵略，犯下各种战争罪行。相关国际机构必须对其进行起诉和审判，追究其战争罪行，要求其赔偿，对其进行惩罚。“绝不能让侵略者逍遥法外。”",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "斯洛伐克将起诉欧盟的俄天然气进口禁令",
+        "summary": "【斯洛伐克将起诉欧盟的俄天然气进口禁令】斯洛伐克总理菲佐17日表示，斯洛伐克将在未来几天内就欧盟禁止进口俄罗斯天然气的决定向欧盟法院提起诉讼。菲佐表示，该决定“明确违反了欧盟条约所依据的所有原则”，有关制裁和外交政策问题的决定应由各方一致作出。1月26日，欧盟27个成员国正式通过关于逐步禁止从俄罗斯进口管道天然气和液化天然气的法规。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "全球上演狂欢行情 战后交易模式开启？",
+        "summary": "【全球上演狂欢行情 战后交易模式开启？】周五，伊朗宣布开放霍尔木兹海峡，市场预期这有望缓解全球石油短缺担忧和经济不确定性。受此影响，能源期货价格应声跳水，风险资产全线走强，欧美股市大幅反弹，航空旅游板块复苏。与此同时，加息预期降温打压各国国债收益率，美元指数一度触及2月末战前水平。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "伊朗议长：特朗普7项社媒声明“均不属实”",
+        "summary": "【伊朗议长：特朗普7项社媒声明“均不属实”】伊朗伊斯兰议会议长卡利巴夫18日凌晨在社交媒体发文称，美国总统特朗普此前在1小时内于社交媒体平台发布的7项声明“均不属实”。美方靠谎言没能赢得战争，在谈判中也将注定一无所获。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      },
+      {
+        "title": "如果美债需求发生崩溃",
+        "summary": "【如果美债需求发生崩溃】近日，美国保尔森罕见发出警告：美国国债市场一旦崩溃，将远比2008年金融危机更具毁灭性——届时政府自身融资告急，无力充当救援者。他急呼提前备好“打破玻璃”应急预案，因为“当我们撞上那堵墙，将会非常猛烈”。",
+        "reason": "包含重大市场影响因素",
+        "etf_list": [],
+        "bayes_analysis": {
+          "prior": 0.5,
+          "likelihood": 0.7,
+          "posterior": 0.65,
+          "expected_return": "需结合其他指标判断",
+          "key_variables": [
+            "市场情绪",
+            "资金流向"
+          ]
+        }
+      }
+    ],
+    "a_level": [
+      {
+        "title": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
+        "summary": "原油：油气价格大跌 受霍尔木兹海峡开放和止战希望影响",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
+        "summary": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "受AI推动，IBM有望交出强劲季度财报",
+        "summary": "受AI推动，IBM有望交出强劲季度财报",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
+        "summary": "【美联新材：正研究布局EX电子材料新产能，尽快扩大产能】4月17日下午，美联新材在业绩说明会上表示，公司EX电子材料已经通过了HBM堆叠封装工艺的验证，但目前不方便披露详细进展。这是一个全新的材料，目前下游客户应用主要是海外供应链，国内的几个客户应用在不同阶段的评价阶段。该产品具有国内唯一性。公司控股企业辉虹科技已投产的EX电子材料年产能为200吨。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段",
+        "summary": "【幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段】4月17日，幸福蓝海副董事长兼总经理张烨镝在业绩说明会上表示，公司出品的重大历史题材电视剧《张謇》已处于审查阶段；《兵自风中来》已取得发行许可证；《共生》已拍摄完成，目前已处于审查阶段；公司还储备了《赛因察戈答》《磐石》《走过冬季》《南京谈判》等精品项目。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "ST东时：2025年归母净亏损7.45亿元，亏损收窄",
+        "summary": "【ST东时：2025年归母净亏损7.45亿元，亏损收窄】4月18日，ST东时公告，2025年实现营业收入6.18亿元，同比下降23.47%；归属于上市公司股东的净利润亏损7.45亿元，上年同期亏损9.03亿元；基本每股收益-1.04元。鉴于公司2025年度末母公司期末未分配利润为负数，2025年公司不进行利润分配，也不进行资本公积转增股本和其他形式的分配。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
+        "summary": "【龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨】4月16日晚，龙大美食的一则公告引发市场的关注。公司董事会决定将此前公告的不向下修正龙大转债转股价格的期限，由原定的“2026年4月2日至2026年5月1日”缩短调整为“2026年4月2日至2026年4月16日”。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "鹏华基金去年营收净利双增长",
+        "summary": "【鹏华基金去年营收净利双增长】国信证券2025年报显示，旗下鹏华基金去年实现营业收入40.28亿元，较去年同期的35.94亿元上升12.06%，净利润8.01亿元，较去年同期的7.51亿元上涨6.74%。截至去年末，鹏华基金资管总规模1.37万亿元（不含子公司），同比增长12%，其中公募基金规模1.05万亿元，同比增长15%。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待",
+        "summary": "【特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待】美国电动汽车制造商特斯拉股价本周收高，结束了此前连续八周的下跌趋势。该公司将在4月22日发布财报，分析师目前对该公司的股价前景较为乐观。周四晚些时候，有报道指出特斯拉正在中国台湾地区招聘芯片工程师，这可能是该公司试图挖角台积电的一个信号。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "单季获上市以来最好业绩 华丰科技高增长能持续吗？",
+        "summary": "【单季获上市以来最好业绩 华丰科技高增长能持续吗？】从2024年净亏损1775万元，到2025年实现营收净利双双大增，取得上市以来最好业绩。华丰科技（688629.SH）用一年时间完成了从亏损到“业绩巅峰”的反转。作为国内AI高速连接器核心供应商、防务连接器三强之一，华丰科技因业绩爆发被市场贴上“高速连接器国产替代龙头”标签。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
+        "summary": "【这家浙江摩托车上市公司业绩创新高 七成收入来自海外】中国机车龙头春风动力（603129.SH）去年业绩再创新高。2025年，春风动力全年实现营业总收入197.46亿元，同比大增31.3%；归母净利润16.75亿元，同比增长13.83%。从业务结构来看，春风动力核心业务聚焦三大板块，分别为全地形车、燃油摩托车、电动两轮车，2025年三大业务营收占比依次为48.66%、32.77%、9.68%，全地",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      },
+      {
+        "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
+        "summary": "【网传“环保新规推高养鸡成本致蛋价上涨”系谣言】“蛋鸡环保新规4月落地、粪便直排最高罚100万元”“成本大涨蛋价也涨，散户末日来了”。近日，一些对环保规定的流言，给群众造成了一定的恐慌情绪。记者从多方核实，相关部门并没有出台所谓的“新规”。业内人士认为，这些谣言是对若干法规的牵强拼凑。",
+        "reason": "包含重要市场信息",
+        "etf_list": []
+      }
+    ],
+    "b_level": [
+      {
+        "title": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲",
+        "summary": "亚洲开发银行行长：货币和财政纪律是抵御重大外部冲击的最佳缓冲"
+      },
+      {
+        "title": "伊朗消息人士：美伊双方已出现折中谈判迹象",
+        "summary": "伊朗消息人士：美伊双方已出现折中谈判迹象"
+      },
+      {
+        "title": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返",
+        "summary": "通航存疑 希腊、印度油轮驶近霍尔木兹海峡后集体折返"
+      },
+      {
+        "title": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议",
+        "summary": "220家申请涌入，港股IPO如何守住质量关？港交所回应“包装上市”争议"
+      },
+      {
+        "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
+        "summary": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮"
+      },
+      {
+        "title": "美国延长部分俄罗斯石油的销售许可证期限",
+        "summary": "美国延长部分俄罗斯石油的销售许可证期限"
+      },
+      {
+        "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
+        "summary": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏"
+      },
+      {
+        "title": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票",
+        "summary": "伯克希尔CEO阿贝尔出售前投资组合经理库姆斯管理的股票"
+      },
+      {
+        "title": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请",
+        "summary": "苹果在美国贸易法庭胜诉，驳回针对Apple Watch的新进口禁令申请"
+      },
+      {
+        "title": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos",
+        "summary": "白宫官员会晤Anthropic首席执行官 讨论使用人工智能模型Mythos"
+      },
+      {
+        "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+        "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观"
+      },
+      {
+        "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+        "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中"
+      },
+      {
+        "title": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨",
+        "summary": "美国股市：海峡重开提振美股 纳斯达克100指数创逾10年最长连涨"
+      },
+      {
+        "title": "贵金属全线收涨 白银本周涨幅居前",
+        "summary": "贵金属全线收涨 白银本周涨幅居前"
+      },
+      {
+        "title": "大宗商品综述：原油重挫 伦铝走低 金价上涨",
+        "summary": "大宗商品综述：原油重挫 伦铝走低 金价上涨"
+      },
+      {
+        "title": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元",
+        "summary": "4月18日美股成交额前20：法巴大幅上调苹果目标股价至300美元"
+      },
+      {
+        "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+        "summary": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%"
+      },
+      {
+        "title": "知情人士称美伊下轮谈判最快可能于20日恢复",
+        "summary": "知情人士称美伊下轮谈判最快可能于20日恢复"
+      },
+      {
+        "title": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录",
+        "summary": "4月18日收盘：标普指数首次收在7100点之上，纳指录得1992年以来最长连涨纪录"
+      },
+      {
+        "title": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧",
+        "summary": "Bridgepoint新基金首轮募资60亿欧元，欧洲中端市场受追捧"
+      },
+      {
+        "title": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌",
+        "summary": "伊朗宣布霍尔木兹海峡全面开放，铝价应声下跌"
+      },
+      {
+        "title": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆",
+        "summary": "AI电力需求激增，核能初创公司计划在南卡罗来纳州新建反应堆"
+      },
+      {
+        "title": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府",
+        "summary": "埃塞俄比亚债券持有人启动诉讼程序，就违约债务起诉政府"
+      },
+      {
+        "title": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具",
+        "summary": "Palantir、泰雷兹等公司竞标美国联邦航空管理局新型AI工具"
+      },
+      {
+        "title": "空头回补引爆市场涨势，高风险股票领涨大盘",
+        "summary": "空头回补引爆市场涨势，高风险股票领涨大盘"
+      },
+      {
+        "title": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投",
+        "summary": "AI编程明星Cursor正洽谈20亿美元融资，英伟达拟参投"
+      },
+      {
+        "title": "燃油价格飙升，加航削减四条纽约航线",
+        "summary": "燃油价格飙升，加航削减四条纽约航线"
+      },
+      {
+        "title": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元",
+        "summary": "人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元"
+      },
+      {
+        "title": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓",
+        "summary": "巴西国家石油公司与Ecopetrol：Copoazú-1深水井测试结果预计6月底揭晓"
+      },
+      {
+        "title": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%",
+        "summary": "减肥药赛道竞争白热化，Kailera上市首日飙涨超60%"
+      },
+      {
+        "title": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓",
+        "summary": "哥伦比亚国家石油公司：Copoazú-1井测试结果预计6月底揭晓"
+      },
+      {
+        "title": "顶级投行大幅调整苹果目标股价",
+        "summary": "顶级投行大幅调整苹果目标股价"
+      },
+      {
+        "title": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元",
+        "summary": "Lumina Metals目标IPO募资3.437亿加元，估值最高达14亿加元"
+      },
+      {
+        "title": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌",
+        "summary": "尽管Ryzen回归传闻四起，AMD股价仍小幅下跌"
+      },
+      {
+        "title": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍",
+        "summary": "伯恩斯坦对英伟达Vera Rubin芯片发出直白信号：新一代芯片性能或提升5倍"
+      },
+      {
+        "title": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元",
+        "summary": "霍尔木兹海峡开放缓解供应担忧，美油跌破84美元"
+      },
+      {
+        "title": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判",
+        "summary": "尾盘：美股维持涨势 传美国考虑恢复与伊朗谈判"
+      },
+      {
+        "title": "黎巴嫩总统：谈判不是软弱 寻求长期协议",
+        "summary": "黎巴嫩总统：谈判不是软弱 寻求长期协议"
+      },
+      {
+        "title": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起",
+        "summary": "极氪8X正式上市：首发舱驾融合超级智能体，限时售价32.98万元起"
+      },
+      {
+        "title": "石化机械：公司在沙特、科威特、阿联酋等国家均有业务",
+        "summary": "石化机械4月18日在互动平台表示，公司在沙特、科威特、阿联酋等国家均有业务。"
+      },
+      {
+        "title": "礼来米吉珠单抗注射液在华正式上市",
+        "summary": "【礼来米吉珠单抗注射液在华正式上市】4月18日，礼来中国宣布，其用于治疗炎症性肠病（IBD）的创新药物安妥来利（米吉珠单抗注射液）和安妥来（米吉珠单抗注射液（皮下注射））在中国上市。安妥来利和安妥来（米吉珠单抗）作为靶向IL-23p19亚基的抑制剂，于2026年2月获中国国家药品监督管理局批准，用于治疗成人中重度活动性溃疡性结肠炎（UC）及成人中重度活动性克罗恩病（CD）。"
+      },
+      {
+        "title": "高德动量机器人官宣将首次亮相亦庄机器人马拉松",
+        "summary": "【高德动量机器人官宣将首次亮相亦庄机器人马拉松】高德发布官方海报，首次曝光旗下首款具身机器人。据介绍，这款名叫“途途”的四足机器人，明天（19日）将在亦庄机器人马拉松大赛上首次亮相。"
+      },
+      {
+        "title": "蔚来回应ES9仍用隐藏式门把手：完全合规",
+        "summary": "【蔚来回应ES9仍用隐藏式门把手：完全合规】4月18日，蔚来汽车发文回应了关于新国标实施后，ES9的隐藏式门把手是否合规等问题：目前蔚来全系在售车型，均可以正常使用隐藏式门把手，也完全合规。对于“禁止隐藏式把手”的条目，新国标的实施时间要求：2027年12月31日之前上公告的全新车型都可以使用隐藏式把手，2028年12月31日之前出厂的现款/改款车型都可以使用隐藏式把手。"
+      },
+      {
+        "title": "捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成",
+        "summary": "【捷途汽车攀爬咸阳清渭楼楼梯？博物馆声明：系AI合成】4月18日，咸阳清渭楼美术博物馆发布声明：我单位近日发现，视频号账号“捷途山海-咸阳捷盛昌店”于2026年4月17日发布题为《旅行者CDM挑战清渭楼楼梯》的商业宣传视频。该视频通过AI技术合成制作，虚构了捷途汽车攀爬清渭楼楼梯的场景，并配以“XWD智能四驱轻松拿捏任何路况”“封闭路段安全拍摄，请勿模仿”等误导性文字。该视频系账号运营方擅自利用A"
+      },
+      {
+        "title": "染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？",
+        "summary": "【染指“白色石油” “家里有矿”才能治好宁德时代的焦虑？】过去两年，新能源产业的叙事正在悄然发生变化。从“技术驱动”到“资源约束”，从“电池性能竞赛”到“上游矿产争夺”，产业链的权力重心正不断上移。曾经决定企业命运的是能量密度与成本曲线，而如今，更重要的似乎成了矿在哪里、谁能拿到、价格由谁说了算。"
+      },
+      {
+        "title": "濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域",
+        "summary": "【濮阳惠成：公司功能材料中间体主要用于有机光电材料等领域】濮阳惠成4月18日在互动平台表示，公司产品广泛应用于电子元器件封装材料、电气设备绝缘材料、风电领域、复合材料、涂料等诸多领域。功能材料中间体主要用于有机光电材料等领域。"
+      },
+      {
+        "title": "7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任",
+        "summary": "【7家电商平台表示诚恳接受市场监管总局处罚，坚决落实食安责任】4月17日，市场监管总局依法对拼多多、美团、京东、饿了么、抖音、淘宝、天猫等7家电商平台“幽灵外卖”系列案作出行政处罚，责令7家电商平台改正违法行为，暂停新增蛋糕店铺3至9个月不等，并处以罚没款共计35.97亿元。同时，对7家平台企业法定代表人和食品安全总监合计处以罚款1968.74万元。"
+      },
+      {
+        "title": "瑞士企业圆桌会在伯尔尼举行",
+        "summary": "【瑞士企业圆桌会在伯尔尼举行】4月17日，瑞士企业圆桌会在伯尔尼举行。商务部副部长兼国际贸易谈判副代表凌激主持，中国驻瑞士使馆大使钱敏坚致辞。艾曼斯、医沛生、瑞银、雀巢、诺华、嘉能可、索诺瓦等25家企业和瑞中经济协会代表参会。"
+      },
+      {
+        "title": "一日三公司被监管严惩",
+        "summary": "【一日三公司被监管严惩】4月17日晚间，臻镭科技公告称，当天公司收到浙江证监局下发的《行政处罚事先告知书》。同日，*ST天喻公告称，公司收到湖北证监局下发的《行政处罚事先告知书》。此外，已经退市的恒立实业，也收到湖南证监局下发的《行政处罚决定书》。"
+      },
+      {
+        "title": "上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移",
+        "summary": "【上海电气燃气轮机唐健：全球燃气轮机产能正向中国转移】4月16日，在2026涡轮技术大会暨民用航空发动机与燃气轮机展期间，上海电气燃气轮机副总经理唐健接受界面新闻采访时表示，全球燃气轮机产能正在向中国转移。 许多零部件供应商已接到大量国外订单，其中不乏直接来自GE、西门子、三菱等国际巨头的采购订单。 目前，上海电气燃气轮机的排产计划已经排到了2027年，产能基本排满。现在新接的订单，生产排期要安排"
+      },
+      {
+        "title": "马斯克：SpaceX和特斯拉将始终是台积电的重要客户",
+        "summary": "【马斯克：SpaceX和特斯拉将始终是台积电的重要客户】马斯克表示，SpaceX和特斯拉将始终是台积电的重要客户。但台积电无法生产所需数量的芯片。如果台积电能够生产足够多芯片，我们就无需“Terafab”芯片工厂项目了。"
+      },
+      {
+        "title": "国网英大换帅",
+        "summary": "【国网英大换帅】近日，国网英大股份有限公司（以下简称“公司”）发布公告，杨东伟辞去国网英大董事长，俞华军已接任国网英大党委书记及其控股股东英大国际控股集团有限公司董事长、党委书记。"
+      },
+      {
+        "title": "FF：获4500万美元新融资",
+        "summary": "【FF：获4500万美元新融资】4月18日，FaradayFuture（简称“FF”）官微宣布，公司已获得美国某机构投资者4500万美元新融资，这是公司近年来达成的最低成本融资交易。截至4月12日，FF已累计出货34台机器人，2026年累计出货目标为超1000台。此外，FF计划于5月22日召开年度股东大会，审议一系列旨在支持公司全球EAI战略执行与长期增长的提案。"
+      },
+      {
+        "title": "暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录",
+        "summary": "【暴力抗法+食品安全失守，拼多多遭监管重罚15.2亿元创纪录】2026年4月17日，北京——国家市场监督管理总局今日公布了对7家电商平台\"幽灵外卖\"系列案的行政处罚决定，其中拼多多（上海寻梦信息技术有限公司）以15.22亿元的罚没金额高居榜首，创下中国互联网平台经济领域史上最高罚单纪录。更引人注目的是，拼多多在调查过程中被认定存在\"暴力、软对抗\"等阻碍监管执法的行为，其法定代表人赵佳臻个人也被处以"
+      },
+      {
+        "title": "Meta据悉计划裁员10%",
+        "summary": "【Meta据悉计划裁员10%】4月18日消息，据报道，Meta计划于5月20日启动今年计划的第一轮大规模裁员，后续还将有更多裁员，首轮裁员将削减约10%的全球员工，即近8000人。Meta还计划在今年下半年进行进一步裁员，但裁员的具体细节，包括日期和规模，尚未确定。高管们可能会根据人工智能技术的发展情况调整裁员计划。"
+      },
+      {
+        "title": "2万亿“宁王”大动作！第四大股东拟询价转让超250亿元股份！",
+        "summary": "【2万亿“宁王”大动作！第四大股东拟询价转让！】4月17日晚间，宁德时代公告称，持股6.23%的股东宁波联合创新新能源投资管理合伙企业（有限合伙）拟通过询价转让方式出让5800万股，占公司总股本的1.27%。根据宁德时代最新收盘价，本次询价转让的股份市值超250亿元。"
+      },
+      {
+        "title": "迪士尼推出影院巨幕品牌",
+        "summary": "【迪士尼推出影院巨幕品牌】当地时间4月16日，华特迪士尼宣布推出“InfinityVision”认证，称这是一项针对高端巨幕影院的全新认证。目前，已有超过75家美国本土和300家全球影院获得该认证。"
+      },
+      {
+        "title": "美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论",
+        "summary": "【美联航被曝欲与美国航空合并 美国航空：没有参与或有意参与该讨论】美国航空当地时间4月17日声明称，美国航空目前没有参与或有意参与任何与美国联合航空合并的讨论。尽管航空市场整体格局的变革或许势在必行，但与美国联合航空合并将对市场竞争和消费者造成不利影响。公司期待继续与政府合作，共同推进各项加强航空业发展的举措。"
+      },
+      {
+        "title": "全球首个机器人勇士挑战赛冠军诞生",
+        "summary": "【全球首个机器人勇士挑战赛冠军诞生】首届北京亦庄机器人勇士挑战赛落幕。北京人形携具身天工3.0全尺寸通用人形机器人参赛，并以全自主方式完赛，通关摆锤穿越、开拓前行、破门清障几个基于现实高危场景设计的赛项，以最高积分获得全球首个全自主机器人勇士挑战赛冠军，并赢得勇士智行奖。继2025年斩获人形机器人马拉松冠军后，北京人形再度登顶。"
+      },
+      {
+        "title": "胖东来否认所售“防切割手套”篡改日期",
+        "summary": "【胖东来否认所售“防切割手套”篡改日期】4月18日，胖东来发布《关于王海反馈胖东来销售星宇品牌“防切割手套”篡改日期指控的调查报告》。报告显示，经专项组重启调查，举报所称的篡改日期事实不成立，但该产品存在执行标准失效及日期标注不规范问题，不存在消费欺诈。胖东来决定给予投诉顾客1万元奖励。"
+      },
+      {
+        "title": "美国至少5个州报告有超过10起龙卷风袭击",
+        "summary": "【美国至少5个州报告有超过10起龙卷风袭击】据美国媒体4月17日报道，美国中部地区在经历连续数日龙卷风和洪灾后，本周末再次迎来新一轮强对流天气，超过5100万人处于强风暴威胁之下。截至当地时间17日傍晚，美国至少5个州报告有超过10起龙卷风袭击。"
+      },
+      {
+        "title": "印度内阁批准设立1298亿卢比海事保险基金",
+        "summary": "印度内阁批准设立1298亿卢比海事保险基金。"
+      },
+      {
+        "title": "俄罗斯发生一起交通事故 所涉车辆搭载中国游客",
+        "summary": "【俄罗斯发生一起交通事故 所涉车辆搭载中国游客】据俄罗斯紧急情况部门通报，当地时间4月18日，在连接后贝加尔斯克和赤塔的公路上发生一起大巴车翻车事故，导致1人死亡。该车辆搭载大约40名中国游客，其中12人不同程度受伤。"
+      },
+      {
+        "title": "印度内阁批准提高生活补贴标准",
+        "summary": "印度内阁批准提高生活补贴标准。"
+      },
+      {
+        "title": "投资圈沸腾了！DeepSeek首次启动外部融资？",
+        "summary": "【投资圈沸腾了！DeepSeek首次启动外部融资？】今天，一则重磅消息刷屏国内投资圈。外媒TheInformation报道称，深度求索（DeepSeek）正式启动成立以来的首次外部融资，目标估值不低于100亿美元，计划筹集至少3亿美元资金。"
+      },
+      {
+        "title": "伊朗表示尚未同意与美国举行下一轮谈判",
+        "summary": "【伊朗表示尚未同意与美国举行下一轮谈判】据伊朗塔斯尼姆通讯社18日报道，伊朗尚未同意与美国举行下一轮谈判。"
+      },
+      {
+        "title": "伊拉克将于近日恢复所有油田的石油出口业务",
+        "summary": "伊拉克将于近日恢复所有油田的石油出口业务。"
+      },
+      {
+        "title": "第九届进博会推介会在布拉格举行",
+        "summary": "【第九届进博会推介会在布拉格举行】当地时间15日，第九届中国国际进口博览会推介会在布拉格举行。本次推介会由中国驻捷克大使馆、中国国际进口博览局和捷克工贸部联合主办，来自中国、捷克的两国政商界人士超百人参会，共同探讨两国经贸合作新机遇。"
+      },
+      {
+        "title": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全",
+        "summary": "土耳其能源部长表示，土耳其需要伊朗天然气以确保供应安全。"
+      },
+      {
+        "title": "第六届消博会今天落幕 进场观众超30万人 发布新品386件",
+        "summary": "【第六届消博会今天落幕 进场观众超30万人 发布新品386件】第六届中国国际消费品博览会今天（4月18日）落幕，取得了丰硕成果。数据显示，本届消博会展览总面积达14.3万平方米，较上届增加1.3万平方米，共有来自67个国家和地区的3413个消费精品品牌参展，参展国际展品占比达65%，较上届提升20个百分点。"
+      },
+      {
+        "title": "外资密集调研新兴产业 看好中国经济韧性",
+        "summary": "【外资密集调研新兴产业 看好中国经济韧性】一季度我国高新技术产品出口额同比增长25.3%，以半导体、高端制造、AI硬件为代表的新兴产业成为出口增长的重要引擎。与此同时，外资机构密集调研新兴产业，普遍认为中国经济具备盈利增长、估值优势与产业升级等多重韧性，并对新兴产业带动的出口竞争力表示看好。"
+      },
+      {
+        "title": "伊朗重新开放6个机场",
+        "summary": "【伊朗重新开放6个机场】据伊朗媒体18日报道，伊朗重新开放6个机场，各航空公司正准备恢复国内和国际航班运营。"
+      },
+      {
+        "title": "伊朗清理与美以等国有勾连的组织",
+        "summary": "【伊朗清理与美以等国有勾连的组织】据伊朗光明通讯社18日报道，伊朗伊斯兰革命卫队情报部门近日在伊朗3个省份查明并清理了多个与美国、以色列和英国有勾连的组织。报道说，在近日开展的行动中，革命卫队情报部门在东阿塞拜疆省查明并逮捕7人，这些人被指为其指挥官提供武器、策划破坏行动、发送敏感地点坐标。"
+      },
+      {
+        "title": "国际海事组织：约有2万海员被困波斯湾",
+        "summary": "【国际海事组织：约有2万海员被困波斯湾】国际海事组织秘书长多明格斯17日说，目前约有2万名海员和近2000艘船舶被困在波斯湾，他呼吁各国加大外交努力，支持国际海事组织推动海湾地区被困海员疏散计划。"
+      },
+      {
+        "title": "老外抢着当张雪机车代理 张雪机车全球订单狂飙",
+        "summary": "【老外抢着当张雪机车代理 张雪机车全球订单狂飙】在第139届广交会的摩托车展区，围满了来自世界各地的采购商，很多人专程赶来，只为一睹半个月前在WSBK世界超级摩托车锦标赛上“一战封神”的中国品牌——张雪机车。张雪机车外贸部部长黄秦表示：这两天现场非常火爆，超过5000名客商直接冲着我们品牌来的，来了之后都要求成为当地的代理，要求直接下订单，我们收到了上千台的订单。"
+      },
+      {
+        "title": "新疆阿克苏地区库车市发生3.4级地震 震源深度19千米",
+        "summary": "【新疆阿克苏地区库车市发生3.4级地震 震源深度19千米】中国地震台网正式测定：4月18日16时07分在新疆阿克苏地区库车市（北纬41.27度，东经83.90度）发生3.4级地震，震源深度19千米。"
+      },
+      {
+        "title": "伊朗军方说已恢复控制霍尔木兹海峡",
+        "summary": "【伊朗军方说已恢复控制霍尔木兹海峡】据伊朗媒体18日报道，伊朗军方发言人称，因美国“屡次违背承诺”，伊朗对霍尔木兹海峡的控制已恢复到以前的状态，这一海峡目前处于伊朗武装部队的严格管理和控制之下。"
+      },
+      {
+        "title": "乌军方称袭击俄方多处石油设施",
+        "summary": "【乌军方称袭击俄方多处石油设施】乌克兰武装部队总参谋部4月18日通报称，当天凌晨，乌军对俄罗斯四个重要石油设施实施打击，并已记录到相关地点发生火灾。据乌方通报，被击中的目标包括位于俄罗斯萨马拉州的新古比雪夫炼油厂和瑟兹兰炼油厂，列宁格勒州的卢克石油油品装卸码头以及克拉斯诺达尔边疆区的季霍列茨克输油泵站。"
+      },
+      {
+        "title": "伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码",
+        "summary": "【伊朗最高领袖顾问：内部团结与抵抗阵线不能成为谈判筹码】伊朗最高领袖顾问、前副总统穆罕默德·穆赫贝尔17日在社交媒体上表示，伊朗内部的团结、政府与民众的联系、官员之间的凝聚力以及抵抗阵线的团结，是伊朗坚决抵抗带来的结果，这四个方面不能成为与外国谈判时进行讨价还价的筹码，也是保障伊朗未来独立、繁荣发展的基础。"
+      },
+      {
+        "title": "巴空军被曝伊美谈判后护航伊代表团",
+        "summary": "【巴空军被曝伊美谈判后护航伊代表团】在12日伊美谈判结束后，巴基斯坦空军执行护航任务，护送伊朗代表团回国。消息人士称，巴基斯坦出动了20多架战机，还动用了空中预警和控制系统进行空中侦察，以确保伊朗代表团的安全。据消息人士透露，伊朗并未正式提出护航请求，但考虑到“无法排除以色列进行袭击的可能性”，因此巴基斯坦提供了护航。"
+      },
+      {
+        "title": "巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧",
+        "summary": "【巴基斯坦陆军参谋长：应通过持续外交接触推动和平解决分歧】巴基斯坦军方18日发表声明说，巴陆军参谋长穆尼尔近日在访问伊朗时表示，应通过持续外交接触推动对话、实现局势缓和，并以和平方式解决悬而未决的问题。声明说，由穆尼尔和巴内政部长纳克维率领的代表团当天结束了对伊朗为期3天的正式访问。"
+      },
+      {
+        "title": "航运业“谨慎欢迎”霍尔木兹海峡重新开放",
+        "summary": "【航运业“谨慎欢迎”霍尔木兹海峡重新开放】伊朗外交部长阿拉格齐17日宣布有条件暂时开放霍尔木兹海峡。船运业对此表示“谨慎欢迎”，盼望结束大批船舶滞留波斯湾的困境，但又担心诸多不确定因素威胁航行安全。航运巨头德国赫伯罗特公司发言人尼尔斯·豪普特说，海峡重开“总体而言……是好消息”，但船商需要知道船舶具体可以走哪条航线以及通行次序，他们还担心有水雷。"
+      },
+      {
+        "title": "伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决",
+        "summary": "【伊朗外交部：将伊朗浓缩铀移至国外的选项已被否决】当地时间18日，总台记者从伊朗方面获悉，伊朗外交部发言人巴加埃表示，将伊朗浓缩铀转移至国外的选项已被否决。"
+      },
+      {
+        "title": "中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议",
+        "summary": "【中国人民银行行长潘功胜出席第53届国际货币与金融委员会会议】2026年4月16日至17日，国际货币基金组织在美国华盛顿特区召开第53届国际货币与金融委员会（IMFC）会议，会议讨论了全球经济金融形势、基金组织工作等议题。中国人民银行行长潘功胜出席会议并发言。中国人民银行副行长宣昌能参加会议。"
+      },
+      {
+        "title": "伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放",
+        "summary": "【伊朗发布船舶通行霍尔木兹海峡新规 强调有条件暂时开放】伊朗伊斯兰革命卫队海军司令部17日晚在社交媒体发布船舶在霍尔木兹海峡通行的新规定。伊朗国防部发言人后续强调，霍尔木兹海峡是有条件开放、暂时开放。"
+      }
+    ],
+    "wukong_enhanced": {
+      "market_view": "偏空",
+      "confidence": 74,
+      "key_factors": [
+        "地缘政治",
+        "货币政策",
+        "经济数据",
+        "政策利好",
+        "业绩驱动"
+      ],
+      "active_patterns": [
+        "地缘事件驱动",
+        "政策博弈",
+        "业绩行情",
+        "资金博弈"
+      ],
+      "risk_alerts": [
+        "地缘风险",
+        "政策风险",
+        "流动性风险"
+      ],
+      "_experiences_applied": [],
+      "_scene_tags": {
+        "has_geopolitical": false,
+        "trump_intensity": 0,
+        "has_earnings_news": false
+      }
+    },
+    "sangsha_module": {
+      "overall_sentiment": "平稳",
+      "advice": "震荡整理，观望为主",
+      "avg_buy_prob": 30,
+      "avg_panic_prob": 8,
+      "analysis_results": [
+        {
+          "news": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
+          "title": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
+          "full_title": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
+          "summary": "【这家浙江摩托车上市公司业绩创新高 七成收入来自海外】中国机车龙头春风动力（603129.SH）去年...",
+          "追高买入概率": 86,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 62,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 53,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 53
+        },
+        {
+          "news": "肥胖症药企Kailera Therapeutics募资6.2...",
+          "title": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+          "full_title": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+          "summary": "肥胖症药企Kailera Therapeutics募资6.25亿美元，上市首日暴涨63%",
+          "追高买入概率": 82,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 63,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 51,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 51
+        },
+        {
+          "news": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
+          "title": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
+          "full_title": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
+          "summary": "【龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨】4月16日晚，龙大美食的一则公告引发...",
+          "追高买入概率": 80,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 64,
+          "情绪标签": [
+            "FOMO"
+          ],
+          "韭菜行为总结": "散户疯了，都在追！",
+          "市场含义": "顶部风险",
+          "买入概率": 50,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 50
+        },
+        {
+          "news": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5...",
+          "title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+          "full_title": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+          "summary": "4月18日热门中概股涨跌不一 联电涨9.79%，禾赛科技跌5.26%",
+          "追高买入概率": 50,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 77,
+          "情绪标签": [
+            "FOMO",
+            "易懂"
+          ],
+          "韭菜行为总结": "散户开始眼红，想冲进去",
+          "市场含义": "分歧加大",
+          "买入概率": 32,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 32
+        },
+        {
+          "news": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
+          "title": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
+          "full_title": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
+          "summary": "【美联新材：正研究布局EX电子材料新产能，尽快扩大产能】4月17日下午，美联新材在业绩说明会上表示，...",
+          "追高买入概率": 5,
+          "抄底买入概率": 70,
+          "恐慌卖出概率": 5,
+          "观望概率": 75,
+          "情绪标签": [
+            "抄底冲动"
+          ],
+          "韭菜行为总结": "散户想抄底，认为是机会",
+          "市场含义": "可能有反弹",
+          "买入概率": 31,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 31
+        },
+        {
+          "news": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
+          "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
+          "full_title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
+          "summary": "【网传“环保新规推高养鸡成本致蛋价上涨”系谣言】“蛋鸡环保新规4月落地、粪便直排最高罚100万元”“...",
+          "追高买入概率": 43,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 36,
+          "观望概率": 69,
+          "情绪标签": [
+            "FOMO",
+            "恐慌"
+          ],
+          "韭菜行为总结": "散户开始眼红，想冲进去",
+          "市场含义": "分歧加大",
+          "买入概率": 28,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 28
+        },
+        {
+          "news": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声...",
+          "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+          "full_title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
+          "summary": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续...",
+          "追高买入概率": 20,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 89,
+          "情绪标签": [],
+          "韭菜行为总结": "散户情绪平稳",
+          "市场含义": "中性",
+          "买入概率": 14,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 14
+        },
+        {
+          "news": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+          "title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+          "full_title": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+          "summary": "纽约汇市：美元第三周下跌 市场对伊朗和平前景乐观",
+          "追高买入概率": 20,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 89,
+          "情绪标签": [],
+          "韭菜行为总结": "散户情绪平稳",
+          "市场含义": "中性",
+          "买入概率": 14,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 14
+        },
+        {
+          "news": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+          "title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+          "full_title": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+          "summary": "日本财相：日元在霍尔木兹海峡宣布解封后上涨是情理之中",
+          "追高买入概率": 20,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 89,
+          "情绪标签": [],
+          "韭菜行为总结": "散户情绪平稳",
+          "市场含义": "中性",
+          "买入概率": 14,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 14
+        },
+        {
+          "news": "贵金属全线收涨 白银本周涨幅居前",
+          "title": "贵金属全线收涨 白银本周涨幅居前",
+          "full_title": "贵金属全线收涨 白银本周涨幅居前",
+          "summary": "贵金属全线收涨 白银本周涨幅居前",
+          "追高买入概率": 20,
+          "抄底买入概率": 5,
+          "恐慌卖出概率": 5,
+          "观望概率": 89,
+          "情绪标签": [],
+          "韭菜行为总结": "散户情绪平稳",
+          "市场含义": "中性",
+          "买入概率": 14,
+          "is_long_term": false,
+          "date": "2026-04-18",
+          "decay": 1.0,
+          "weighted_buy_prob": 14
+        }
+      ],
+      "total_news_count": 35,
+      "time_window": "7天累积（长期新闻除外）"
+    },
+    "white_dragon": {
+      "主力状态": "拉升",
+      "阶段": "中期",
+      "行为解释": "主力拉升信号明确，多个ETF量价配合良好",
+      "是否利用散户": false,
+      "可信度": 1.0,
+      "矛盾ETF数": 0,
+      "散户情绪": {
+        "平均买入概率": 43,
+        "平均恐慌概率": 5
+      },
+      "悟空信号": "",
+      "八戒胜率": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+      "各ETF分析": [
+        {
+          "code": "512760",
+          "price_trend": {
+            "trend": "up",
+            "strength": 75,
+            "change_pct": 3.01
+          },
+          "volume_trend": {
+            "trend": "side",
+            "change_pct": -8.11,
+            "level": "normal"
+          },
+          "主力状态": "拉升",
+          "阶段": "初期",
+          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "是否利用散户": false,
+          "可信度": 1.0,
+          "矛盾信号": "",
+          "sangsha_buy_prob": 43,
+          "sangsha_panic_prob": 5,
+          "单日量比": 0.92
+        },
+        {
+          "code": "512930",
+          "price_trend": {
+            "trend": "up",
+            "strength": 75,
+            "change_pct": 4.58
+          },
+          "volume_trend": {
+            "trend": "side",
+            "change_pct": 4.51,
+            "level": "normal"
+          },
+          "主力状态": "拉升",
+          "阶段": "初期",
+          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "是否利用散户": false,
+          "可信度": 1.0,
+          "矛盾信号": "",
+          "sangsha_buy_prob": 43,
+          "sangsha_panic_prob": 5,
+          "单日量比": 0.9
+        },
+        {
+          "code": "518880",
+          "price_trend": {
+            "trend": "side",
+            "strength": 40,
+            "change_pct": 1.1
+          },
+          "volume_trend": {
+            "trend": "side",
+            "change_pct": -13.67,
+            "level": "normal"
+          },
+          "主力状态": "观望",
+          "阶段": "整理",
+          "行为解释": "价格横盘震荡，等待方向选择",
+          "是否利用散户": false,
+          "可信度": 1.0,
+          "矛盾信号": "",
+          "sangsha_buy_prob": 43,
+          "sangsha_panic_prob": 5,
+          "单日量比": 0.95
+        },
+        {
+          "code": "588890",
+          "price_trend": {
+            "trend": "up",
+            "strength": 75,
+            "change_pct": 3.62
+          },
+          "volume_trend": {
+            "trend": "side",
+            "change_pct": -3.7,
+            "level": "normal"
+          },
+          "主力状态": "拉升",
+          "阶段": "初期",
+          "行为解释": "价格温和上涨+量能收缩，主力控盘拉升中，无散户接盘",
+          "是否利用散户": false,
+          "可信度": 1.0,
+          "矛盾信号": "",
+          "sangsha_buy_prob": 43,
+          "sangsha_panic_prob": 5,
+          "单日量比": 0.82
+        }
+      ],
+      "综合建议": "✅ 积极信号：主力拉升明显，量价配合良好，无散户接盘，可跟进持仓"
+    },
+    "bajie_conclusion": {
+      "optimal_action": "",
+      "optimal_etfs": "",
+      "win_rate": "~55%（BJ校准：地缘突发事件做多，基准先验55%）",
+      "max_drawdown": "-8.0%（止损线）",
+      "holding_period": "",
+      "沙僧信号": {
+        "情绪": "平稳",
+        "平均买入概率": 35,
+        "平均恐慌概率": 8,
+        "调整结果": "✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+        "可信度级别": "normal"
+      },
+      "白龙马信号": {
+        "主力状态": "拉升",
+        "是否利用散户": false,
+        "可信度": 1.0,
+        "风险等级": "low",
+        "调整结果": "✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+      },
+      "悟空信号": {
+        "市场情绪": "偏空"
+      },
+      "信号一致性": "✅ 信号正常：沙僧/白龙马无明显矛盾",
+      "融合说明": [
+        "【沙僧融合】✅ 沙僧中性：散户情绪平稳，八戒信号可信",
+        "【白龙马融合】✅ 白龙马：主力拉升初期，无散户接盘，上涨空间仍在"
+      ],
+      "original_bajie": {},
+      "prior_calibration": {
+        "scene_type": "geopolitical_sudden",
+        "scene_desc": "地缘突发事件做多",
+        "original_prior": 50,
+        "calibrated_prior": 55,
+        "note": "方向对但时机难把握"
+      },
+      "signal_weights": {
+        "悟空深度分析": 1.0,
+        "沙僧情绪": 0.8,
+        "白龙马主力": 1.08,
+        "外盘先行指标": 1.1
+      },
+      "signal_weight_notes": [],
+      "geo_prior_check": {
+        "prior_type": "geopolitical",
+        "hours_since_last_update": 0.0,
+        "is_expired": false,
+        "needs_review": false,
+        "validity_hours": 12,
+        "review_interval_hours": 6
+      },
+      "_experiences_applied": [
+        "BJ-001",
+        "BJ-002",
+        "BJ-003"
+      ]
+    },
+    "tang_sanzang": {
+      "仓位": "40-60% 中性",
+      "最终行动": "",
+      "唐僧结论": "，胜率~50%（注意：1项高风险）",
+      "仲裁矛盾": [
+        "🙏 唐僧：四层信号无重大矛盾，各司其职"
+      ],
+      "仓位公式": "base(40-60% 中性) × 风控调整",
+      "风控触发": [
+        "Trump喊话强度=2: ⚠️ 反转风险 - 连续2天喊话，反转概率~50%",
+        "逻辑止损缺失（地缘事件场景）: ❌ 必须补充 - 地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
+      ],
+      "_raw": {
+        "final_action": "",
+        "final_win_rate": "~50%",
+        "optimal_etfs": "",
+        "max_drawdown": "-8.0%（止损线）",
+        "arbitration_notes": [
+          "🙏 唐僧：四层信号无重大矛盾，各司其职"
+        ],
+        "risk_checks": [
+          {
+            "item": "Trump喊话强度=2",
+            "status": "⚠️ 反转风险",
+            "reason": "连续2天喊话，反转概率~50%",
+            "adjust_win_rate": -5
+          },
+          {
+            "item": "逻辑止损缺失（地缘事件场景）",
+            "status": "❌ 必须补充",
+            "reason": "地缘事件必须设逻辑止损：停火/和平声明/海峡开放"
+          }
+        ],
+        "conflict_count": 0,
+        "module_summary": {
+          "悟空": "情绪:?",
+          "沙僧": "情绪:平稳(买入35%) | 注入1条经验",
+          "白龙马": "主力:拉升(可信度1.0)",
+          "八戒": "行动: 胜率:~55%（BJ校准：地缘突发事件做多，基准先验55%） | 注入3条经验"
+        },
+        "experience_applied": {
+          "悟空": [],
+          "沙僧": [
+            "SS-003"
+          ],
+          "白龙马": [],
+          "八戒": [
+            "BJ-001",
+            "BJ-002",
+            "BJ-003"
+          ]
+        },
+        "original_bajie": {}
+      }
+    },
+    "evolution_v4": {
+      "version": "v4",
+      "date": "2026-04-18",
+      "scene_metadata": {
+        "date": "2026-04-18",
+        "has_geopolitical": true,
+        "has_earnings_beat": true,
+        "trump_intensity": 2,
+        "has_policy_benefit": true,
+        "has_tech_breakthrough": true,
+        "is_earnings_season": true,
+        "is_near_weekend": true,
+        "prior_type": "geopolitical",
+        "prior_updated_at": "2026-04-18T18:33:55.460382"
+      },
+      "wukong_experiences": [],
+      "sangsha_experiences": [
+        "SS-003"
+      ],
+      "white_dragon_experiences": [],
+      "bajie_experiences": [
+        "BJ-001",
+        "BJ-002",
+        "BJ-003"
+      ],
+      "tang_rules": [],
+      "arbitration_notes": [
+        "🙏 唐僧：四层信号无重大矛盾，各司其职"
+      ]
+    },
+    "market_tone": {
+      "早报": "",
+      "晚报": "【2026-04-18晚报】 | 胜率~50% | 40-60% 中性"
+    }
+  },
   "2026-04-17": {
     "date": "2026-04-17",
     "all_news": [
@@ -19840,7 +23252,7 @@ const newsData = {
   }
 };
 
-const availableDates = ["2026-04-17", "2026-04-15", "2026-04-14", "2026-04-13", "2026-04-12", "2026-04-11", "2026-04-10", "2026-04-09", "2026-04-08", "2026-04-07", "2026-04-03", "2026-04-02", "2026-04-01", "2026-03-31", "2026-03-30", "2026-03-29", "2026-03-28", "2026-03-27", "2026-03-26", "2026-03-25"];
+const availableDates = ["2026-04-18", "2026-04-17", "2026-04-15", "2026-04-14", "2026-04-13", "2026-04-12", "2026-04-11", "2026-04-10", "2026-04-09", "2026-04-08", "2026-04-07", "2026-04-03", "2026-04-02", "2026-04-01", "2026-03-31", "2026-03-30", "2026-03-29", "2026-03-28", "2026-03-27", "2026-03-26", "2026-03-25"];
 
 function getNews(date) { return newsData[date] || null; }
 function getPreviousDate(date) { const idx = availableDates.indexOf(date); return idx < availableDates.length - 1 ? availableDates[idx + 1] : null; }
