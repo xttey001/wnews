@@ -518,7 +518,28 @@ function renderDayRow(ds){
     const day=newsData[ds]; if(!day) return `<tr><td class='col-date'>${ds.substring(5)}</td><td class='col-sentiment'>—</td><td class='col-accuracy acc-mid'>📌</td><td class='col-judgment'>暂无数据</td><td class='col-outcome'>—</td></tr>`;
     const wj=day.wukong_judgment||{}, bj=day.bajie_conclusion||{}, wd=day.white_dragon||{};
     const cred=wd['可信度']||1;
-    let ac,at; if(cred>=1.1){ac='acc-high';at='✅ 高'}else if(cred>=0.95){ac='acc-mid';at='⚠️ 低'}else{ac='acc-low';at='⚠️ 极低'}
+    // 【2026-04-18 修复】阈值校准：
+    // 白龙马可信度实际分布: 0.70(出货)=吸筹时0.85, 拉升时0.80, 观望时0.75
+    // 原阈值(1.1/0.95)过高导致几乎所有日期都显示"低"，系统性压低准确率
+    // 新阈值基于实际数据分布 + QClaw人工复盘标准对齐
+    let ac, at, reason;
+    if (cred >= 0.90) {
+        ac = 'acc-high'; at = '✅ 高'; reason = '主力信号明确';
+    } else if (cred >= 0.78) {
+        ac = 'acc-mid'; at = '⚠️ 中'; reason = '主力信号一般';
+    } else if (cred >= 0.65) {
+        ac = 'acc-low'; at = '⚠️ 低'; reason = '主力信号偏弱或矛盾';
+    } else {
+        ac = 'acc-low'; at = '⚠️ 极低'; reason = '主力信号极弱或缺失';
+    }
+    
+    // 【优先使用真实验证结果】如果存在 validation_result 则用真实验证分数替代白龙马可信度
+    const vr = day.evolution_v4 ? day.evolution_v4.validation_result : null;
+    if (vr && vr.is_correct !== undefined) {
+        if (vr.is_correct && vr.score >= 0.6) { ac = 'acc-high'; at = '✅ 高'; }
+        else if (!vr.is_correct && vr.score < 0.3) { ac = 'acc-low'; at = '❌ 误'; }
+        else if (vr.is_correct) { ac = 'acc-mid'; at = '⚠️ 中'; }
+    }
     const ops=(wj.operations||[]).slice(0,2).map(o=>o.content).join('、')||bj.optimal_action||'—';
     // 市场基调: 优先取 market_sentiment, 其次 market_view
     const sent=wj.market_sentiment||wj.market_view||'';

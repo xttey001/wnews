@@ -5969,7 +5969,7 @@ const newsData = {
         "category": "A股直接相关"
       }
     ],
-    "last_updated": "2026-04-18T19:31:30.722412",
+    "last_updated": "2026-04-18T19:43:51.671138",
     "source_info": "ProSearch: 新浪+东财+财联社+36氪(多引擎聚合)",
     "total_count": 247,
     "filtered_count": 36,
@@ -6017,7 +6017,7 @@ const newsData = {
               "name": "银行ETF"
             }
           ],
-          "signal_text": "银行ETF(512800): 美国债市：国债走高 交易员上调对美联储年内降息押注...",
+          "signal_text": "银行ETF(512800): 政策/业绩催化",
           "source": "环球市场播报",
           "confidence_bias": "偏高"
         },
@@ -6030,7 +6030,7 @@ const newsData = {
               "name": "银行ETF"
             }
           ],
-          "signal_text": "银行ETF(512800): 观望为主",
+          "signal_text": "银行ETF(512800): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -6043,7 +6043,7 @@ const newsData = {
               "name": "电力ETF博时"
             }
           ],
-          "signal_text": "电力ETF博时(561700): 消息面中性",
+          "signal_text": "电力ETF博时(561700): 观望为主",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -6082,7 +6082,7 @@ const newsData = {
               "name": "石油ETF"
             }
           ],
-          "signal_text": "石油ETF(561360): 观望为主",
+          "signal_text": "石油ETF(561360): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -6095,7 +6095,7 @@ const newsData = {
               "name": "石油ETF"
             }
           ],
-          "signal_text": "石油ETF(561360): 观望为主",
+          "signal_text": "石油ETF(561360): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -6112,7 +6112,7 @@ const newsData = {
               "name": "人工智能ETF"
             }
           ],
-          "signal_text": "AI算力ETF(512930): 观望为主",
+          "signal_text": "AI算力ETF(512930): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -6125,7 +6125,7 @@ const newsData = {
               "name": "石油ETF"
             }
           ],
-          "signal_text": "石油ETF(561360): 消息面中性",
+          "signal_text": "石油ETF(561360): 观望为主",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -6170,7 +6170,7 @@ const newsData = {
         },
         {
           "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
-          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
           "direction": "中性",
           "etfs": [
             {
@@ -6182,7 +6182,7 @@ const newsData = {
         },
         {
           "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
-          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
           "direction": "中性",
           "etfs": [
             {
@@ -6206,7 +6206,7 @@ const newsData = {
         },
         {
           "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
-          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
           "direction": "中性",
           "etfs": [
             {
@@ -6234,7 +6234,7 @@ const newsData = {
         },
         {
           "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
-          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
           "direction": "中性",
           "etfs": [
             {
@@ -6267,15 +6267,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuxcfy1457707.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6292,15 +6295,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwwya1527208.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "石油ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 50,
+          "posterior": 56,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "-0.7%~0.7%",
+          "confidence_interval": "±9%",
+          "key_variables": "石油ETF · 中性 · S级核心新闻",
+          "is_s_class": true,
+          "sector": "石油ETF"
         }
       },
       {
@@ -6312,15 +6318,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1644361.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6332,15 +6341,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1641175.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6352,15 +6364,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuwsse1634777.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6372,15 +6387,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2770061.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6392,15 +6410,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhak1781578.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6417,15 +6438,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5978102.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "石油ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 60,
+          "posterior": 70,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "-0.7%~0.7%",
+          "confidence_interval": "±5%",
+          "key_variables": "石油ETF · 中性 · S级核心新闻",
+          "is_s_class": true,
+          "sector": "石油ETF"
         }
       },
       {
@@ -6437,15 +6461,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0566983.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6457,15 +6484,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhaq2745717.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6477,15 +6507,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhas0556303.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6497,15 +6530,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/jjxw/2026-04-18/doc-inhuwhan5964367.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6522,15 +6558,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0680809.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "银行ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "银行ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "银行ETF"
         }
       },
       {
@@ -6542,15 +6581,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2865319.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6567,15 +6609,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1879235.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "银行ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "银行ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "银行ETF"
         }
       },
       {
@@ -6592,15 +6637,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6083436.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "银行ETF板块震荡环境，历史上行概率",
+          "prior_prob": 52,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 60,
+          "posterior": 72,
+          "posterior_direction": "高确信做多",
+          "direction": "利好",
+          "expected_return": "+-1.1%~+1.1%",
+          "confidence_interval": "±5%",
+          "key_variables": "银行ETF · 利好 · S级核心新闻",
+          "is_s_class": true,
+          "sector": "银行ETF"
         }
       },
       {
@@ -6612,15 +6660,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6080084.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6637,15 +6688,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2852177.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "AI算力ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "AI算力ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "AI算力ETF"
         }
       },
       {
@@ -6657,15 +6711,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1871803.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6682,15 +6739,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2851517.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "AI算力ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "中等强度信号：单维度验证通过",
+          "likelihood_prob": 63,
+          "posterior": 74,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±5%",
+          "key_variables": "AI算力ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "AI算力ETF"
         }
       },
       {
@@ -6702,15 +6762,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2848956.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6722,15 +6785,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuu0667462.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6751,15 +6817,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzun1865270.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "石油ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 50,
+          "posterior": 56,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "石油ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "石油ETF"
         }
       },
       {
@@ -6771,15 +6840,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzus2844290.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6791,15 +6863,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuu0663035.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6811,15 +6886,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6066717.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6831,15 +6909,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvzuq6065851.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6851,15 +6932,18 @@ const newsData = {
         "source": "新浪美股",
         "url": "https://finance.sina.com.cn/world/2026-04-18/doc-inhuvres2088372.shtml",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6880,15 +6964,18 @@ const newsData = {
         "source": "东财A股",
         "url": "http://finance.eastmoney.com/a/202604183709740455.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6905,15 +6992,18 @@ const newsData = {
         "source": "东财A股",
         "url": "http://hk.eastmoney.com/a/202604183709730747.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "科创信息ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "科创信息ETF · 中性 · 东财A股",
+          "is_s_class": false,
+          "sector": "科创信息ETF"
         }
       },
       {
@@ -6925,15 +7015,18 @@ const newsData = {
         "source": "东财A股",
         "url": "http://finance.eastmoney.com/a/202604183709670369.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 54,
+          "posterior": 61,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6945,15 +7038,18 @@ const newsData = {
         "source": "东财A股",
         "url": "http://finance.eastmoney.com/a/202604183709640653.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6965,15 +7061,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709737070.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -6985,15 +7084,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709735685.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "反向信号：与先验矛盾，需警惕",
+          "likelihood_prob": 45,
+          "posterior": 50,
+          "posterior_direction": "中性偏观望",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7005,15 +7107,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709734628.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7025,15 +7130,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709732992.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "反向信号：与先验矛盾，需警惕",
+          "likelihood_prob": 45,
+          "posterior": 50,
+          "posterior_direction": "中性偏观望",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7045,15 +7153,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709731614.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "反向信号：与先验矛盾，需警惕",
+          "likelihood_prob": 45,
+          "posterior": 50,
+          "posterior_direction": "中性偏观望",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7065,15 +7176,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709731218.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7085,15 +7199,18 @@ const newsData = {
         "source": "东财全球7x24",
         "url": "http://finance.eastmoney.com/a/202604183709730479.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财全球7x24",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7110,15 +7227,18 @@ const newsData = {
         "source": "东财期货",
         "url": "http://finance.eastmoney.com/a/202604183709727381.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "金融科技ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "金融科技ETF · 中性 · 东财期货",
+          "is_s_class": false,
+          "sector": "金融科技ETF"
         }
       },
       {
@@ -7130,15 +7250,18 @@ const newsData = {
         "source": "东财期货",
         "url": "http://finance.eastmoney.com/a/202604183709725087.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "反向信号：与先验矛盾，需警惕",
+          "likelihood_prob": 45,
+          "posterior": 50,
+          "posterior_direction": "中性偏观望",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "中性 · 东财期货",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7155,15 +7278,18 @@ const newsData = {
         "source": "东财外汇",
         "url": "http://finance.eastmoney.com/a/202604183709641882.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "石油ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 59,
+          "posterior": 68,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "石油ETF · 中性 · 东财外汇",
+          "is_s_class": false,
+          "sector": "石油ETF"
         }
       },
       {
@@ -7175,15 +7301,18 @@ const newsData = {
         "source": "东财外汇",
         "url": "http://finance.eastmoney.com/a/202604183709605075.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财外汇",
+          "is_s_class": false,
+          "sector": ""
         }
       },
       {
@@ -7195,15 +7324,18 @@ const newsData = {
         "source": "东财外汇",
         "url": "http://finance.eastmoney.com/a/202604183709547376.html",
         "bayes_analysis": {
-          "prior": 0.5,
-          "likelihood": 0.72,
-          "posterior": 0.55,
-          "expected_return": "-1%~+1%",
-          "key_variables": [
-            "地缘局势",
-            "资金流向",
-            "政策落地"
-          ]
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "反向信号：与先验矛盾，需警惕",
+          "likelihood_prob": 45,
+          "posterior": 50,
+          "posterior_direction": "中性偏观望",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "中性 · 东财外汇",
+          "is_s_class": false,
+          "sector": ""
         }
       }
     ],
@@ -7220,7 +7352,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "新浪美股",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5962048.shtml"
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuwhan5962048.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "石油ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "石油ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "石油ETF"
+        }
       },
       {
         "title": "霍尔木兹海峡开放后油价大跌，欧洲斯托克600指数涨逾1%",
@@ -7234,7 +7380,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "新浪美股",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6071135.shtml"
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzuq6071135.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "石油ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "石油ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "石油ETF"
+        }
       },
       {
         "title": "受AI推动，IBM有望交出强劲季度财报",
@@ -7248,7 +7408,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "新浪美股",
-        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2844440.shtml"
+        "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-18/doc-inhuvzus2844440.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "AI算力ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "AI算力ETF · 中性 · 新浪美股",
+          "is_s_class": false,
+          "sector": "AI算力ETF"
+        }
       },
       {
         "title": "比亚迪汽车在韩国的累计销量 已经突破了10000辆",
@@ -7257,7 +7431,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "新浪科技",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuvere0949654.shtml"
+        "url": "https://finance.sina.com.cn/tech/roll/2026-04-17/doc-inhuvere0949654.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪科技",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "智元董事长邓泰华：计划2027年营收100亿+，2030年超1000亿元",
@@ -7266,7 +7454,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "新浪科技",
-        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuptk3330604.shtml"
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuptk3330604.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪科技",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "智元董事长邓泰华：2025年营收10.5亿元，今年将数倍增长",
@@ -7275,7 +7477,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "新浪科技",
-        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimq1135225.shtml"
+        "url": "https://finance.sina.com.cn/tech/2026-04-17/doc-inhuuimq1135225.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 59,
+          "posterior": 68,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 新浪科技",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "营收净利润上市首次下滑，茅台开盘跌幅超4%，高管年薪近400万",
@@ -7289,7 +7505,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "新浪科技",
-        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-17/doc-inhuuimq1130620.shtml"
+        "url": "https://finance.sina.com.cn/tech/shenji/2026-04-17/doc-inhuuimq1130620.shtml",
+        "bayes_analysis": {
+          "prior_judgment": "酒ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 50,
+          "posterior": 56,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "酒ETF · 中性 · 新浪科技",
+          "is_s_class": false,
+          "sector": "酒ETF"
+        }
       },
       {
         "title": "美联新材：正研究布局EX电子材料新产能，尽快扩大产能",
@@ -7303,7 +7533,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709719556.html"
+        "url": "http://finance.eastmoney.com/a/202604183709719556.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "幸福蓝海：电影《融雪以后》正处于拍摄中，《澎湖海战》已进入后期制作阶段",
@@ -7312,7 +7556,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709719065.html"
+        "url": "http://finance.eastmoney.com/a/202604183709719065.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "ST东时：2025年归母净亏损7.45亿元，亏损收窄",
@@ -7321,7 +7579,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709718580.html"
+        "url": "http://finance.eastmoney.com/a/202604183709718580.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "龙大美食缩短可转债转股价“不下修”期限，公司股债提前蹊跷大涨",
@@ -7330,7 +7602,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709717258.html"
+        "url": "http://finance.eastmoney.com/a/202604183709717258.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "鹏华基金去年营收净利双增长",
@@ -7348,7 +7634,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://fund.eastmoney.com/a/202604183709716680.html"
+        "url": "http://fund.eastmoney.com/a/202604183709716680.html",
+        "bayes_analysis": {
+          "prior_judgment": "证券ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "中等强度信号：单维度验证通过",
+          "likelihood_prob": 63,
+          "posterior": 74,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±5%",
+          "key_variables": "证券ETF · 中性 · 东财A股",
+          "is_s_class": false,
+          "sector": "证券ETF"
+        }
       },
       {
         "title": "特斯拉摆脱连续八周的下跌趋势 分析师对下周Q1财报怀抱期待",
@@ -7366,7 +7666,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709680528.html"
+        "url": "http://finance.eastmoney.com/a/202604183709680528.html",
+        "bayes_analysis": {
+          "prior_judgment": "芯片ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 50,
+          "posterior": 56,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±9%",
+          "key_variables": "芯片ETF · 中性 · 东财A股",
+          "is_s_class": false,
+          "sector": "芯片ETF"
+        }
       },
       {
         "title": "单季获上市以来最好业绩 华丰科技高增长能持续吗？",
@@ -7380,7 +7694,21 @@ const newsData = {
         ],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709670035.html"
+        "url": "http://finance.eastmoney.com/a/202604183709670035.html",
+        "bayes_analysis": {
+          "prior_judgment": "AI算力ETF板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 59,
+          "posterior": 68,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "AI算力ETF · 中性 · 东财A股",
+          "is_s_class": false,
+          "sector": "AI算力ETF"
+        }
       },
       {
         "title": "这家浙江摩托车上市公司业绩创新高 七成收入来自海外",
@@ -7389,7 +7717,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "东财A股",
-        "url": "http://finance.eastmoney.com/a/202604183709665741.html"
+        "url": "http://finance.eastmoney.com/a/202604183709665741.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 59,
+          "posterior": 68,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财A股",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "网传“环保新规推高养鸡成本致蛋价上涨”系谣言",
@@ -7398,7 +7740,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "东财期货",
-        "url": "http://finance.eastmoney.com/a/202604183709726724.html"
+        "url": "http://finance.eastmoney.com/a/202604183709726724.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 59,
+          "posterior": 68,
+          "posterior_direction": "高确信做多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财期货",
+          "is_s_class": false,
+          "sector": ""
+        }
       },
       {
         "title": "公募基金经理薪酬考核量化指标出台 哪些基金经理直面降薪压力？",
@@ -7407,7 +7763,21 @@ const newsData = {
         "etf_list": [],
         "direction": "中性",
         "source": "东财ETF/债券",
-        "url": "http://finance.eastmoney.com/a/202604183709666570.html"
+        "url": "http://finance.eastmoney.com/a/202604183709666570.html",
+        "bayes_analysis": {
+          "prior_judgment": "板块震荡格局，无明确方向偏好",
+          "prior_prob": 49,
+          "likelihood_judgment": "弱信号：信息模糊需进一步观察",
+          "likelihood_prob": 55,
+          "posterior": 63,
+          "posterior_direction": "偏多",
+          "direction": "中性",
+          "expected_return": "待评估",
+          "confidence_interval": "±8%",
+          "key_variables": "中性 · 东财ETF/债券",
+          "is_s_class": false,
+          "sector": ""
+        }
       }
     ],
     "b_level": [
@@ -8780,7 +9150,7 @@ const newsData = {
               "name": "银行ETF"
             }
           ],
-          "signal_text": "银行ETF(512800): 美国债市：国债走高 交易员上调对美联储年内降息押注...",
+          "signal_text": "银行ETF(512800): 政策/业绩催化",
           "source": "环球市场播报",
           "confidence_bias": "偏高"
         },
@@ -8793,7 +9163,7 @@ const newsData = {
               "name": "银行ETF"
             }
           ],
-          "signal_text": "银行ETF(512800): 观望为主",
+          "signal_text": "银行ETF(512800): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -8806,7 +9176,7 @@ const newsData = {
               "name": "电力ETF博时"
             }
           ],
-          "signal_text": "电力ETF博时(561700): 消息面中性",
+          "signal_text": "电力ETF博时(561700): 观望为主",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -8845,7 +9215,7 @@ const newsData = {
               "name": "石油ETF"
             }
           ],
-          "signal_text": "石油ETF(561360): 观望为主",
+          "signal_text": "石油ETF(561360): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -8858,7 +9228,7 @@ const newsData = {
               "name": "石油ETF"
             }
           ],
-          "signal_text": "石油ETF(561360): 观望为主",
+          "signal_text": "石油ETF(561360): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -8875,7 +9245,7 @@ const newsData = {
               "name": "人工智能ETF"
             }
           ],
-          "signal_text": "AI算力ETF(512930): 观望为主",
+          "signal_text": "AI算力ETF(512930): 消息面中性",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -8888,7 +9258,7 @@ const newsData = {
               "name": "石油ETF"
             }
           ],
-          "signal_text": "石油ETF(561360): 消息面中性",
+          "signal_text": "石油ETF(561360): 观望为主",
           "source": "环球市场播报",
           "confidence_bias": "中性"
         },
@@ -8933,7 +9303,7 @@ const newsData = {
         },
         {
           "title": "美军封锁期间 驱逐舰尾随满载伊朗原油的油轮",
-          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
           "direction": "中性",
           "etfs": [
             {
@@ -8945,7 +9315,7 @@ const newsData = {
         },
         {
           "title": "美国民主党参议员舒默和沃伦谴责特朗普政府延长对俄罗斯石油的制裁豁免",
-          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
           "direction": "中性",
           "etfs": [
             {
@@ -8969,7 +9339,7 @@ const newsData = {
         },
         {
           "title": "卫星图像显示伊朗炼油厂发生火灾及原油泄漏",
-          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
+          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
           "direction": "中性",
           "etfs": [
             {
@@ -8997,7 +9367,7 @@ const newsData = {
         },
         {
           "title": "4月18日隔夜要闻：标普指数首次收在7100点之上 油价应声跌破每桶90美元 特朗普称周末美国将继续与伊朗会谈",
-          "doubt_comment": "✅ 地缘缓和信号，但需确认是否为口头安抚。若伴随实质性停火/谈判进展，则可视为真利好。",
+          "doubt_comment": "🤔 表面利好，需警惕后续反复。地缘博弈非线性，一条负面新闻可能推翻当前乐观预期。",
           "direction": "中性",
           "etfs": [
             {
