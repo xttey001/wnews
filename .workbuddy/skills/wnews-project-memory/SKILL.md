@@ -160,6 +160,7 @@ node --check news-data.js
 
 ## 七、前端设计规范速查
 
+### 全局样式
 | 元素 | 规范值 |
 |------|--------|
 | 背景 | 深色渐变 `#0d1117 → #161b22`（GitHub Dark） |
@@ -167,12 +168,54 @@ node --check news-data.js
 | 成功/正确 | 绿色 `#3fb950` |
 | 错误/风险 | 红色 `#f85149` |
 | 中性/信息 | 蓝色 `#58a6ff` |
+| 紫色 | `#a78bfa`（唐僧模块辅助色） |
 | 卡片背景 | `rgba(255,255,255,0.04)` |
 | 最大宽度 | `960px` 居中 |
 | 字体栈 | `-apple-system, "PingFang SC", "Microsoft YaHei", sans-serif` |
 
-### 模块渲染顺序
+### 模块渲染顺序与配色
 1. 悟空判断（蓝色）→ 2. 八戒融合（绿色）→ 3. 沙僧情绪（橙色）→ 4. 白龙马主力（紫色）→ 5. 唐僧仲裁（金色，最高优先级）
+
+### 各模块CSS规范（2026-04-22确认版）
+
+#### 🐷 八戒融合结论（绿色背景）
+```css
+.bajie-conclusion {
+    background: linear-gradient(135deg, rgba(63,185,80,0.15), rgba(63,185,80,0.08));
+    border: 1px solid rgba(63,185,80,0.4);
+}
+```
+
+#### 🙏 唐僧仲裁模块（金色主题）
+```css
+/* 整体容器 */
+.tang-sanzang-section {
+    background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(218,165,32,0.08));
+    border: 2px solid rgba(255,215,0,0.5);
+    box-shadow: 0 0 20px rgba(218,165,32,0.2);
+}
+/* 仓位标签 - 紫色 */
+.ts-position {
+    color: #a78bfa;
+    background: rgba(167,139,250,0.15);
+}
+/* 仲裁矛盾 - 白色字体 */
+.ts-conflict-item {
+    color: #ffffff;
+    border-left: 2px solid rgba(255,255,255,0.3);
+}
+/* 仓位公式 - 紫色 */
+.ts-formula {
+    background: rgba(167,139,250,0.1);
+    color: #a78bfa;
+}
+/* 唐僧结论标题 */
+.ts-title { color: #B8860B; }
+```
+
+### 导航栏规范
+- 财经首页按钮：`📅 新闻时间线`
+- 复盘报告按钮：`📊 复盘报告`（不要加天数前缀）
 
 ---
 
