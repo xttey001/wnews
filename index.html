@@ -1333,10 +1333,10 @@
             if (ts) {
                 const tsAction = ts.最终行动 || ts.action || '';
                 const tsPosition = ts.仓位 || '';
-                const tsNote = ts.唐憎结论 || ts.conclusion || '';
+                const tsNote = ts.唐僧结论 || ts.conclusion || '';
                 const conflicts = Array.isArray(ts.仲裁矛盾) ? ts.仲裁矛盾 : [];
                 const riskTriggers = Array.isArray(ts.风控触发) ? ts.风控触发 : [];
-                const formulas = ts.仓位公式 || {};
+                const formulaStr = typeof ts.仓位公式 === 'string' ? ts.仓位公式 : '';
 
                 html += `
                 <div class="section tang-sanzang-section">
@@ -1350,11 +1350,11 @@
                 conflicts.forEach(c => {
                     const cType = typeof c === 'object' ? (c.类型 || c.type || '') : '';
                     const cDesc = typeof c === 'object' ? (c.描述 || c.desc || String(c)) : String(c);
-                    const cCoef = typeof c === 'object' ? (c.唐憎系数 || c.coef || '') : '';
+                    const cCoef = typeof c === 'object' ? (c.唐僧系数 || c.coef || '') : '';
                     html += `<div class="ts-conflict-item">⚠️ ${cType ? cType + '：' : ''}${cDesc}${cCoef ? '（' + cCoef + '）' : ''}</div>`;
                 });
                 html += `
-                        <div class="ts-formula">仓位公式：${formulas.基础仓位 || ''} × ${formulas.唐憎系数 || ''} × ${formulas.风控系数 || '1.0'} = ${formulas.结果 || tsPosition}</div>`;
+                        <div class="ts-formula">${formulaStr ? '仓位公式：' + formulaStr : ''}</div>`;
                 if (riskTriggers.length > 0) {
                     html += `<div class="ts-subtitle">🚨 风控触发：</div>`;
                     riskTriggers.forEach(r => {
@@ -1362,7 +1362,7 @@
                     });
                 }
                 html += `
-                        <div class="ts-conclusion">✅ 唐憎结论：${tsNote}</div>
+                        <div class="ts-conclusion">✅ 唐僧结论：${tsNote}</div>
                     </div>
                 </div>`;
             }

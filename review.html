@@ -430,7 +430,7 @@ function calcSummary(dates){
     const wdEnt=Object.entries(wdStates).sort((a,b)=>b[1]-a[1]);
     return {daysCount:dates.length,totalNews,wukongCoverage:Math.round(hasWukong/dates.length*100),
         dominantSentiment:dsEnt[0]?dsEnt[0][0]:'无',topEtfs,topEvents:events.slice(0,8),riskWarnings:risks,
-        whiteDragonDominant:wdEnt[0]?wdEnt[0][0]:'无数据',accuracyEstimate:Math.round(60+Math.random()*35)};
+        whiteDragonDominant:wdEnt[0]?wdEnt[0][0]:'无数据',accuracyEstimate:0};
 }
 
 let currentPeriod=null, allPeriods=[], currentMode='weekly';
@@ -485,13 +485,13 @@ function renderReport(p){
         <div class='report-title'>📊 ${p.type==='weekly'?p.label+' 复盘报告':p.label+' 月度回顾'}</div>
         <div class='report-date-range'>${p.fullRange||p.range} | 共 ${s.daysCount} 个交易日</div>
         <div class='badge-row'>
-            <span class='badge badge-green'>✅ 准确率 ~${s.accuracyEstimate}%</span>
+            <span class='badge badge-gold'>✅ 准确率待验证</span>
             <span class='badge badge-gold'>📈 覆盖率 ${s.wukongCoverage}%</span>
             <span class='badge badge-blue'>📰 新闻 ${s.totalNews} 条</span>
             <span class='badge ${s.riskWarnings.length?'badge-red':'badge-green'}'>${s.riskWarnings.length?'⚠️ 风险 '+s.riskWarnings.length:'✨ 无重大风险'}</span>
         </div></div>
     <div class='score-grid'>
-        <div class='score-card highlight'><div class='number'>${s.accuracyEstimate}%</div><div class='label'>主要准确率</div></div>
+        <div class='score-card highlight'><div class='number'>--</div><div class='label'>准确率(待验证)</div></div>
         <div class='score-card'><div class='number'>${s.daysCount}<small style='font-size:16px;color:var(--text-dim)'>天</small></div><div class='label'>覆盖交易日</div></div>
         <div class='score-card'><div class='number'>${s.riskWarnings.length}<small style='font-size:16px;color:var(--text-dim)'>次</small></div><div class='label'>风险预警</div></div>
         <div class='score-card'><div class='number'>${s.topEvents.length}<small style='font-size:16px;color:var(--text-dim)'>条</small></div><div class='label'>核心事件</div></div></div>
@@ -716,7 +716,7 @@ function renderParadigmPurification(){
 <tr>
 <td><strong style='color:var(--gold)'>📈 财报季</strong></td>
 <td class='paradigm-success'>业绩龙头 + 行业周期拐点确认<br>+ 季报/年报窗口期集中火力<br>+ 持续性验证后再加仓</td>
-<td class='paradigm-fail'>跟风炒作无基本面支撑的个股<br>+ 听消息买入不验证数据<br+ 一字涨停后追高入场</td>
+<td class='paradigm-fail'>跟风炒作无基本面支撑的个股<br>+ 听消息买入不验证数据<br>+ 一字涨停后追高入场</td>
 </tr>
 <tr>
 <td><strong style='color:var(--gold)'>🗣️ Trump喊话</strong></td>
@@ -726,7 +726,7 @@ function renderParadigmPurification(){
 <tr>
 <td><strong style='color:var(--gold)'>📡 先行指标</strong></td>
 <td class='paradigm-success'>节假日前一天监控外盘<br>+ 纳指期货 + BTC + 日经三重验证<br>+ 外盘一致偏多 → A股开盘做多</td>
-<td class='paradigm-fail'>忽略外盘信号闭门造车<br>+ 只看国内新闻不看全球联动<br+ 节假日前不预研直接开盘再反应</td>
+<td class='paradigm-fail'>忽略外盘信号闭门造车<br>+ 只看国内新闻不看全球联动<br>+ 节假日前不预研直接开盘再反应</td>
 </tr>
 <tr>
 <td><strong style='color:var(--gold)'>🎲 贝叶斯判断</strong></td>
@@ -743,7 +743,7 @@ function renderParadigmPurification(){
 <div class='dec-3'><span class='score'>3分</span><span class='label'>四层信号全部共振</span><br><strong style='color:var(--green);font-size:14px'>✅ 坚定执行</strong></div>
 <div class='dec-2'><span class='score'>2分</span><span class='label'>三层信号一致</span><br><strong style='color:var(--blue);font-size:14px'>✅ 控仓执行</strong></div>
 <div class='dec-1'><span class='score'>1分</span><span class='label'>两层信号一致</span><br><strong style='color:var(--gold);font-size:14px'>⚠️ 减半或不做</strong></div>
-<div class='dec-0'><span class='score'>0分</span><span class='label'>全部矛盾</span><br><strong style='#f87171';font-size:14px'>❌ 完全回避</strong></div>
+<div class='dec-0'><span class='score'>0分</span><span class='label'>全部矛盾</span><br><strong style='color:#f87171;font-size:14px'>❌ 完全回避</strong></div>
 </div>
 </div>
 
@@ -934,12 +934,12 @@ function renderAllOverview(){
         html+=`<div class='summary-card' style='margin-bottom:24px'>
 <h3 style='font-size:15px;color:var(--gold);margin-bottom:12px'>📅 周度复盘 (${weeks.length} 周)</h3>
 <div class='accuracy-table-wrap'><table class='accuracy-table'><thead><tr><th>周期</th><th>日期范围</th><th>天数</th><th>准确率</th><th>新闻数</th><th>风险</th><th>主导情绪</th></tr></thead><tbody>
-${weeks.map(w=>`<tr><td><a href='#' onclick="showPeriod('${w.key}')" style='color:var(--blue)'>${w.label}</a></td><td style='color:var(--text-dim)'>${w.range}</td><td>${w.summary.daysCount}</td><td class='${w.summary.accuracyEstimate>=80?"acc-high":"acc-mid"}'>${w.summary.accuracyEstimate}%</td><td>${w.summary.totalNews}</td><td class='${w.summary.riskWarnings.length?"acc-low":"acc-high"}'>${w.summary.riskWarnings.length}</td><td>${w.summary.dominantSentiment}</td></tr>`).join('')}
+${weeks.map(w=>`<tr><td><a href='#' onclick="showPeriod('${w.key}')" style='color:var(--blue)'>${w.label}</a></td><td style='color:var(--text-dim)'>${w.range}</td><td>${w.summary.daysCount}</td><td style='color:var(--text-dim)'>待验证</td><td>${w.summary.totalNews}</td><td class='${w.summary.riskWarnings.length?"acc-low":"acc-high"}'>${w.summary.riskWarnings.length}</td><td>${w.summary.dominantSentiment}</td></tr>`).join('')}
 </tbody></table></div></div>`;}
     if(months.length){
         html+=`<div class='summary-card'><h3 style='font-size:15px;color:var(--gold);margin-bottom:12px'>📆 月度回顾 (${months.length} 月)</h3>
 <div class='accuracy-table-wrap'><table class='accuracy-table'><thead><tr><th>月份</th><th>天数</th><th>准确率</th><th>新闻数</th><th>主导情绪</th></tr></thead><tbody>
-${months.map(m=>`<tr><td><a href='#' onclick="showPeriod('${m.key}')" style='color:var(--blue)'>${m.label}</a></td><td>${m.summary.daysCount}</td><td class='${m.summary.accuracyEstimate>=80?"acc-high":"acc-mid"}'>${m.summary.accuracyEstimate}%</td><td>${m.summary.totalNews}</td><td>${m.summary.dominantSentiment}</td></tr>`).join('')}
+${months.map(m=>`<tr><td><a href='#' onclick="showPeriod('${m.key}')" style='color:var(--blue)'>${m.label}</a></td><td>${m.summary.daysCount}</td><td style='color:var(--text-dim)'>待验证</td><td>${m.summary.totalNews}</td><td>${m.summary.dominantSentiment}</td></tr>`).join('')}
 </tbody></table></div></div>`;}
     return html;
 }
